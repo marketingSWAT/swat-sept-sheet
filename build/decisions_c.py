@@ -685,97 +685,148 @@ ALL.append(dec(
 
 ALL.append(dec(
     36,
-    'The title, the price panel, and a review bar',
-    [('Every tour page', ''), ('Crow', 'who'), ('1 day', ''),
-     ('34px of slack', 'big')],
-    [quote(['You see the photo on the left-hand side, then you have the title '
-            'and then the reserve a place. I think we should make the reserve '
-            'a place a little bit smaller and the title a little bit smaller, '
-            'so then we can fit like a small bar for reviews there that slowly '
-            'kind of moves to the right — instead of where it currently is.'],
-           'Crow, 16 September, on the Great Salt Lake and Antelope Island '
-           'tour')],
+    'The reviews, as three cards you can read',
+    [('Every tour page', ''), ('Crow &mdash; redrawn', 'who'), ('1&frac12; days', ''),
+     ('C sent back', 'big')],
+    [quote(['I don&rsquo;t think you understood what I was asking. You&rsquo;re '
+            'on the right direction, but I want to make those reviews like '
+            'squares, so you can at least read some of the review &mdash; and '
+            'there&rsquo;s like three side by side that&rsquo;s slowly '
+            'rotating, versus this weird rectangle bar you have.',
+            'I like how you have the review number, that looks great. But '
+            'these should be little cards, so you can read part of the review '
+            'and see the rating at the top, and it&rsquo;s slowly rotating '
+            'through the different reviews.'],
+           'Crow, 16 September, on the drawing of 36C'),
+     quote(['We should make the reserve a place a little bit smaller and the '
+            'title a little bit smaller, so then we can fit a small bar for '
+            'reviews there.'], 'Crow, earlier the same evening &mdash; what 36C was drawn from')],
     [
         opt('Title, price, and reviews 1,700px down',
             ['Gallery <b>672&times;380</b>. Title column <b>395px</b> beside '
              'it.',
              'The h1 is <b>34px and 75px tall</b> on this trip; the price '
              'panel is <b>184px</b>.',
-             'The column ends at <b>y=601</b> against a gallery bottom of '
-             '<b>y=635</b> — there are already <b>34px</b> of unused paper '
-             'there.',
-             'Reviews are a full band at <b>y=1,764</b>, three cards, 326px '
-             'tall.'],
-            '<p>The band is where decision 26 put it and it is doing a '
-            'different job — it is where somebody <i>reads</i> reviews. What '
-            'is missing is the thing that makes the price panel believable at '
-            'the moment somebody looks at the price.</p>',
+             'Reviews are a full band at <b>y=1,764</b> — three cards, 326px '
+             'tall, and they do not move.',
+             'Nothing beside the price says anybody has ever been on this '
+             'trip.'],
+            '<p>Unchanged: <b>36C was never built.</b> It was answered and sent '
+            'back in the same message, so what ships is still this.</p>'
+            '<p>The band at the bottom is already three cards. What it is not '
+            'is <i>near the price</i>, and what it does not do is rotate — a '
+            'trip with nine reviews shows three of them and hides six.</p>',
             cost='&mdash;', risk='No proof beside the price', cls='now',
             mockup=m.mock(m.header() + m.backbar() +
                           c.tourtop('now') + m.ring(1, '.m-pricebox'),
                           640)),
-        opt('A rating chip above the title',
-            ['A small <b>&#9733; 4.9 &middot; 38 reviews</b> pill sits between '
-             'the badges and the title.',
-             'Nothing moves. Nothing shrinks. Two hours.',
-             'Links down to the band.',
-             'No quote, no movement — a number, not a voice.'],
-            '<p>The cheap version, and it puts the score where the decision is '
-            'made. What it does not do is what you described: there is no bar '
-            'and nothing moves.</p>',
-            cost='2 hours', risk='A score is not a review',
-            mockup=m.mock(m.header() + m.backbar() +
-                          c.tourtop('chip') + m.ring(1, '.m-revchip'), 640)),
-        opt('A moving bar under the price panel',
-            ['Title drops <b>34px &rarr; 25px</b>; on this trip that is two '
-             'lines instead of two taller lines, saving <b>18px</b>.',
-             'Price panel tightens from <b>184px to about 150px</b> — same '
-             'price, same button, less padding.',
-             'A <b>52px review bar</b> takes the freed space and sits '
-             '<b>flush with the bottom of the gallery</b>.',
-             'Quotes drift right slowly and pause on hover; the score and '
-             'count stay fixed at the left.'],
-            '<p>This is the shape you described, and it costs the page no '
-            'height at all — the 34px already sitting empty plus the 52px '
-            'freed by shrinking two things pays for the whole bar.</p>'
-            '<p>Two rules I would hold it to. It stops on hover and on focus, '
-            'and it respects <i>reduce motion</i> — this audience skews older '
-            'and a crawling line of text is the kind of thing that gets read '
-            'twice and then resented.</p>',
-            cost='1 day', risk='Motion beside the buy button',
+        opt('Three cards under the gallery',
+            ['Three <b>208px squares</b> in the gallery&rsquo;s own 672px '
+             'track, directly under the photographs.',
+             'Each one holds the <b>stars at the top</b>, about <b>30 words</b> '
+             'of the review, and the name and month at the foot.',
+             'The score and the count sit above them as a line — '
+             '<b>&#9733; 4.9 from 38 reviews</b> — which is the part you said '
+             'already works.',
+             'The set <b>changes every eight seconds</b> and pauses on hover, '
+             'so nine reviews all get shown.',
+             'Costs the page <b>about 270px</b>. The title and the price panel '
+             'do not change size.'],
+            '<p>This is the shape you described, in the only track on the page '
+            'where three squares are big enough to read: 208px holds about '
+            'thirty words at 13px, which is a sentence and a half of a real '
+            'review.</p>'
+            '<p>Why not in the right-hand column, which is where you first '
+            'pointed: that column is <b>395px</b> wide. Three squares in it '
+            'are 120px each, which is four words and a name. The column can '
+            'hold one card or a bar; it cannot hold three cards.</p>',
+            cost='1&frac12; days', risk='270px added above the fold',
             cls='rec',
             mockup=m.mock(m.header() + m.backbar() +
-                          c.tourtop('under') + m.ring(1, '.m-revbar'), 640)),
-        opt('The bar spans both columns',
-            ['Same bar, but the <b>full 1,100px</b> under the gallery and the '
-             'price panel together.',
-             'Room for a whole sentence rather than a clause.',
+                          c.tourtop('cards') + m.ring(1, '.m-revcards'),
+                          760)),
+        opt('Three cards across both columns',
+            ['Same three cards, in the <b>full 1,100px</b> under the gallery '
+             '<i>and</i> the price panel.',
+             'Each square is <b>355px</b> — room for the <b>whole review</b> '
+             'rather than a sentence and a half.',
              'Reads as a shelf under the first screen, which is a stronger '
-             'visual break.',
-             'Pushes everything below it down by about <b>68px</b>, on a page '
-             'that is already 9,697px.'],
-            '<p>Better typography, worse economy. The wide bar is genuinely '
-            'nicer to read and it is the only one of these that costs the page '
-            'real height — and this page is already the longest on the '
-            'site.</p>',
-            cost='1 day', risk='68px added to a 9,697px page',
+             'visual break than a block under one column.',
+             'Costs the page <b>about 420px</b>, and this page is already '
+             '9,697px.',
+             'The band at y=1,764 <b>stays</b>, so the same three reviews are '
+             'on the page twice.'],
+            '<p>The best-looking of the three and the most expensive in height. '
+            'A 355px card holds a review whole, which is the difference between '
+            'reading one and being shown that one exists.</p>'
+            '<p>The duplication is the real objection rather than the pixels: '
+            'with the band left in place, a visitor scrolls past the same three '
+            'quotes twice in fourteen hundred pixels.</p>',
+            cost='1&frac12; days', risk='420px, and the same reviews twice',
             mockup=m.mock(m.header() + m.backbar() +
-                          c.tourtop('wide') + m.ring(1, '.m-revbar'), 720)),
+                          c.tourtop('band') + m.ring(1, '.m-revcards'),
+                          820)),
+        opt('The cards come up and the band goes',
+            ['C&rsquo;s full-width cards, and the <b>326px band at y=1,764 is '
+             'removed</b> — these are that band, moved up.',
+             'Net effect on the page: <b>about +90px</b>, not +420.',
+             'One place on the page where reviews live, not two.',
+             'The subnav&rsquo;s <b>Reviews</b> link and the rail&rsquo;s '
+             'rating both point here instead.',
+             'Loses the thing decision 26C chose the band for: a quiet place '
+             'to <i>read</i> three reviews, away from the price.'],
+            '<p>The honest version of C. If the cards are worth putting on the '
+            'first screen then they are the reviews section, and keeping a '
+            'second copy 1,400px further down is duplication rather than '
+            'depth.</p>'
+            '<p>What it costs is the argument decision 26 won on: the band was '
+            'chosen over three cards in the booking rail because it is where '
+            'somebody reads rather than where somebody buys. Moving it up puts '
+            'the reviews next to the money again, which is exactly where a '
+            'sceptical reader discounts them.</p>',
+            cost='1&frac12; days', risk='Reviews sit beside the price again',
+            mockup=m.mock(m.header() + m.backbar() +
+                          c.tourtop('bandonly') + m.ring(1, '.m-revcards'),
+                          820)),
+        opt('One card at a time, beside the price',
+            ['A <b>single card</b> in the 395px column under the price panel, '
+             'rotating through the reviews.',
+             'Costs the page <b>nothing</b> — it uses the 34px of slack in that '
+             'column plus about 120px.',
+             'It is beside the price, which is where proof is worth most.',
+             '<b>It is not three side by side</b>, which is what you asked '
+             'for.'],
+            '<p>Drawn because it is the only version that fits where you first '
+            'pointed, and because it is the cheapest thing on this page that '
+            'puts a review next to the money.</p>'
+            '<p>I would not ship it on its own. One review at a time reads as '
+            'the one review they liked; three together read as a body of '
+            'them.</p>',
+            cost='1 day', risk='One review reads as the only review',
+            mockup=m.mock(m.header() + m.backbar() +
+                          c.tourtop('rail') + m.ring(1, '.m-revrail'),
+                          640)),
     ],
     verdict([
-        '<b>C</b> — it is what you described, and the measurement says it is '
-        'free: 34px of that column is already empty, and shrinking the title '
-        'and the panel finds the other 52px.',
-        'The band at y=1,764 <b>stays</b>. The bar and the band are not the '
-        'same thing: the bar is proof beside the price, the band is where '
-        'somebody actually reads three reviews. Losing the band to gain the '
-        'bar would be a downgrade.',
-        'One honest flag: <b>every word in both is placeholder.</b> There are '
-        'zero real reviews in the record — the band renders sample text and '
-        'says so. Matt owes the picks, per tour, and until they arrive this '
-        'ships as a working bar full of example text.',
+        '<b>E</b> — three 208px squares under the gallery, the score and count '
+        'above them, rotating every eight seconds. It is what you described, '
+        'at the only width on that page where three squares can be read.',
+        'If the 270px matters more than the width of the cards, <b>G</b> is '
+        'the one to take instead: the same three cards, full width, and the '
+        'band at the bottom goes away so the page grows by about 90px rather '
+        'than 420. Say <b>&ldquo;36 goes to G&rdquo;</b> and that is what '
+        'ships.',
+        '<b>On the rotation.</b> Three cards cross-fading to the next three, '
+        'not a marquee sliding sideways. A card that moves while you are '
+        'reading it is the thing you did not like about the bar, and the same '
+        'objection applies to a card.',
+        'One honest flag, unchanged from the first drawing: <b>every word in '
+        'these is placeholder.</b> There are zero real reviews in the record. '
+        'Matt owes the picks, per tour, and until they arrive this ships as '
+        'working cards full of example text — on staging only, behind the '
+        'preview flag, never in front of a customer.',
     ]),
-    since=NEW, cols=2))
+    since=('Redrawn', '16 Sep &middot; round 2'), cols=3))
 
 
 # =====================================================================

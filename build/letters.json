@@ -90,7 +90,11 @@
     "A": "Title, price, and reviews 1,700px down",
     "B": "A rating chip above the title",
     "C": "A moving bar under the price panel",
-    "D": "The bar spans both columns"
+    "D": "The bar spans both columns",
+    "E": "Three cards under the gallery",
+    "F": "Three cards across both columns",
+    "G": "The cards come up and the band goes",
+    "H": "One card at a time, beside the price"
   },
   "37": {
     "A": "Under the facts, as now",

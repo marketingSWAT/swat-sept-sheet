@@ -114,6 +114,30 @@ ANSWERS = {
     28: ('D', 'all recommended picks &mdash; shipped and signed off'),
     29: ('B', 'all recommended picks &mdash; shipped. &ldquo;I like the bars, '
               'that looks good.&rdquo;'),
+
+    # Round two, answered decision by decision on the evening of 16 September.
+    # Nine of the ten went to the recommendation; 36 was sent back and is
+    # redrawn above rather than folded, which is why it is not in here.
+    30: ('C', 'built and on staging &mdash; the form starts at y=740, against '
+              'y=1,344'),
+    31: ('B', 'built and on staging &mdash; fifty codes, eight led out to the '
+              'margin'),
+    32: ('C', 'built and on staging &mdash; every question has one right edge '
+              'now'),
+    33: ('B', 'built and on staging &mdash; the map is 1,112px wide. It did '
+              'not shorten the page, as measured'),
+    34: ('C', 'built and on staging. <b>C only</b> &mdash; the &ldquo;14 trips '
+              'already go to Utah&rdquo; line (B) was not asked for and is not '
+              'built'),
+    35: ('A', 'left as it is &mdash; &ldquo;maybe just leave it as is, I think '
+              'that&rsquo;s fine.&rdquo; The 42 missing levels (D) stay on the '
+              'waiting list'),
+    37: ('C', 'built and on staging &mdash; a 44px line up top, the panel at '
+              'y=3,631. Operations should be told it moved'),
+    38: ('C', 'built and on staging &mdash; fifteen photo tiles, and the door '
+              'you chose stays'),
+    39: ('B', 'built and on staging, behind the film flag &mdash; there is '
+              'still no cut'),
 }
 
 

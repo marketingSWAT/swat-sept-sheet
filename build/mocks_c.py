@@ -462,6 +462,16 @@ def tourtop(kind='now'):
     pbcls = ' sm' if small else ''
     chip = revbar('chip') if kind == 'chip' else ''
     bar = revbar('marquee') if kind == 'under' else ''
+    # The redraw: three square cards, at the two tracks they can sit in.
+    rail = revrail() if kind == 'rail' else ''
+    under = (f'<div class="m-revunder">{revhead()}{revcards(672)}</div>'
+             if kind == 'cards' else '')
+
+    # One grid child, not two: `.m-tourtop` is a two-column grid, so a
+    # sibling here takes the title column's slot and pushes the title and the
+    # price panel onto a second row.
+    if under:
+        gal = f'<div class="m-galcol">{gal}{under}</div>'
 
     right = (
         '<div class="m-tt">'
@@ -471,12 +481,17 @@ def tourtop(kind='now'):
         f'<div class="m-pricebox{pbcls}"><span class="l">FROM</span>'
         '<b>$110</b><span class="s">per person, 2026</span>'
         '<span class="m-cta">Reserve a place</span></div>'
-        f'{bar}</div>')
+        f'{bar}{rail}</div>')
+
+    tail = ''
+    if kind == 'wide':
+        tail = f'<div class="m-revwrap">{revbar("marquee", wide=True)}</div>'
+    elif kind in ('band', 'bandonly'):
+        tail = (f'<div class="m-revwrap">{revhead(wide=True)}'
+                f'{revcards(1100)}</div>')
 
     top = (f'<div class="m-shell"><div class="m-tourtop">{gal}{right}</div>'
-           + (f'<div class="m-revwrap">{revbar("marquee", wide=True)}</div>'
-              if kind == 'wide' else '')
-           + '</div>')
+           + tail + '</div>')
     return top
 
 
@@ -628,3 +643,62 @@ def withswat(mode='now'):
                 '&mdash; usually between 7 and 13 passengers.</p>'
                 '<i class="m-play big">&#9654;</i></div></div>')
     return f'<div class="m-shell" style="padding-top:34px">{inner}</div>'
+
+# ---------------------------------------------- decision 36, redrawn
+#: Three of them, and the text has to be readable at the size it renders —
+#: the whole point of the redraw is that a clause crawling past in a 52px bar
+#: is not a review anybody reads.
+REVIEWS = [
+    ('&ldquo;Placeholder review &mdash; this is where a real guest review will '
+     'sit once operations has picked them out by tour. It is long enough to '
+     'show what a real one looks like in this box.&rdquo;', 'Example', 'Sample data'),
+    ('&ldquo;Placeholder review &mdash; three render at a time and the set '
+     'changes every eight seconds, so a trip with nine reviews shows all nine '
+     'without anybody scrolling.&rdquo;', 'Example', 'Sample data'),
+    ('&ldquo;Placeholder review &mdash; the rating and the count above come '
+     'from the same record, so they can never disagree with the cards under '
+     'them.&rdquo;', 'Example', 'Sample data'),
+]
+
+
+def revhead(wide=False):
+    """The score and the count — the part Crow said already works."""
+    cls = 'm-revhead' + (' wide' if wide else '')
+    return (f'<div class="{cls}"><b>What guests said</b>'
+            '<span class="st">&#9733;&#9733;&#9733;&#9733;&#9733;</span>'
+            '<span class="sc">4.9</span>'
+            '<span class="n">from 38 reviews</span></div>')
+
+
+def revcards(w=672, n=3, dots=True):
+    """Three square cards, side by side, rotating.
+
+    `w` is the track they sit in — 672 under the gallery, 1,100 across both
+    columns — because the argument is whether a card is wide enough to read a
+    sentence in, and that is decided by the track.
+    """
+    gap = 16
+    card = (w - gap * (n - 1)) // n
+    cards = ''
+    for i in range(n):
+        q, who, when = REVIEWS[i % len(REVIEWS)]
+        cards += (f'<div class="m-revcard" style="width:{card}px;height:{card}px">'
+                  '<span class="st">&#9733;&#9733;&#9733;&#9733;&#9733;</span>'
+                  f'<p>{q}</p><span class="who">{who} &middot; {when}</span>'
+                  '</div>')
+    d = ''
+    if dots:
+        d = ('<div class="m-revdots"><i class="on"></i><i></i><i></i>'
+             '<span>rotates every 8 seconds &middot; pauses on hover</span></div>')
+    return f'<div class="m-revcards" style="width:{w}px">{cards}{d}</div>'
+
+
+def revrail():
+    """One card at a time, in the 395px column beside the price."""
+    q, who, when = REVIEWS[0]
+    return ('<div class="m-revrail">'
+            '<span class="st">&#9733;&#9733;&#9733;&#9733;&#9733;</span>'
+            f'<p>{q}</p><span class="who">{who} &middot; {when}</span>'
+            '<div class="m-revdots one"><i class="on"></i><i></i><i></i></div>'
+            '</div>')
+

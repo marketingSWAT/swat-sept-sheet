@@ -1109,6 +1109,34 @@ body.noscroll{overflow:hidden}
 .m-revbar.wide{height:56px;margin-top:16px}
 .m-revwrap{padding-bottom:4px}
 
+/* --- three square review cards (decision 36, redrawn) ------------- */
+.m-revhead{display:flex;align-items:baseline;gap:10px;margin-top:18px}
+.m-revhead b{font-size:19px;font-weight:700;color:var(--ink900)}
+.m-revhead .st{color:var(--gold);letter-spacing:-1.5px;font-size:13px}
+.m-revhead .sc{font-size:15px;font-weight:800;color:var(--ink900)}
+.m-revhead .n{font-size:12px;color:var(--ink300)}
+.m-revcards{display:flex;flex-wrap:wrap;gap:16px;margin-top:12px}
+.m-revcard{display:flex;flex-direction:column;box-sizing:border-box;
+  border:1px solid var(--sand300);border-radius:3px;background:#fff;
+  padding:14px 15px}
+.m-revcard .st{color:var(--gold);letter-spacing:-1.5px;font-size:13px}
+.m-revcard p{flex:1;margin:8px 0 0;font-size:13px;line-height:1.5;
+  color:var(--ink700)}
+.m-revcard .who{font-size:11.5px;color:var(--ink300);margin-top:8px}
+.m-revdots{flex-basis:100%;display:flex;align-items:center;gap:6px;
+  margin-top:2px}
+.m-revdots i{width:6px;height:6px;border-radius:50%;background:var(--sand300)}
+.m-revdots i.on{background:var(--rust600)}
+.m-revdots span{margin-left:6px;font-size:11px;color:var(--ink300)}
+.m-revdots.one{margin-top:10px}
+.m-revunder{margin-top:2px}
+.m-galcol{min-width:0}
+.m-revrail{margin-top:12px;border:1px solid var(--sand300);border-radius:3px;
+  background:#fff;padding:14px 15px}
+.m-revrail .st{color:var(--gold);letter-spacing:-1.5px;font-size:13px}
+.m-revrail p{margin:8px 0 0;font-size:13px;line-height:1.5;color:var(--ink700)}
+.m-revrail .who{font-size:11.5px;color:var(--ink300);display:block;margin-top:8px}
+
 /* --- "Is this trip right for you?" (decision 37) ------------------ */
 .m-rfy{border:1px solid var(--sand300);border-left:3px solid var(--rust600);
   border-radius:3px;background:var(--sand100);padding:20px 24px 22px}
