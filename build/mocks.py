@@ -210,8 +210,12 @@ def mock(inner, h, label=None, tone='', aw=1200):
     # through CSS, so `.mockwrap.phone .mock{width:390px}` can still win — an
     # inline width here silently renders the phone view at desktop width and
     # the canvas overflows with no error.
+    # `aw{aw}` lets a decision author at a width other than 1200 and still get
+    # the right shell: decision 40 is drawn at 1440 because the complaint is
+    # that the map pushes the answers off a 1440x900 window, and a drawing
+    # 240px narrower than the screen being complained about proves nothing.
     return (f'{cap}<div class="mockwrap {tone}" style="--mh:{h};--aw:{aw}">'
-            f'<div class="mock">{inner}</div></div>')
+            f'<div class="mock aw{aw}">{inner}</div></div>')
 
 
 def ring(n, selector):

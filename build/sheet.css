@@ -1262,3 +1262,100 @@ body.noscroll{overflow:hidden}
 .m-tt{min-width:0}
 .m-tourtop>*{min-width:0}
 .m-revbar{min-width:0}
+
+/* ===================================================== round three, 40-41 */
+
+/* Decision 40 is authored at 1440, not 1200: the whole argument is that the
+   map pushes the sixteen places off the bottom of Crow's own window, and a
+   canvas 240px narrower than that window would draw a different page. The
+   live gutter is 52px against a 15px scrollbar, so 60px here lands the shell
+   on 1,320 — the 1,321 that was measured. */
+.mock.aw1440 .m-shell{max-width:1440px;padding:0 60px}
+
+/* The bottom edge of a 1440x900 window, with the question scrolled to sit
+   directly under the 73px sticky header. Everything below the dashes is on
+   the page and not on the screen — which is the complaint, drawn. */
+.m-fold{position:absolute;left:0;right:0;z-index:41;pointer-events:none;
+  border-top:2px dashed #e0533a}
+.m-fold span{position:absolute;right:16px;top:-13px;background:#e0533a;
+  color:#fff;font-size:13px;font-weight:800;letter-spacing:.02em;
+  padding:4px 10px;border-radius:3px;white-space:nowrap}
+/* The wash over everything below the fold is its OWN element anchored to the
+   bottom of the canvas, not a tall `::after` on the line. A pseudo-element
+   with a typed height inflates `scrollHeight`, and the sheet measures every
+   canvas by setting height:auto and reading scrollHeight — so a 2,600px wash
+   silently made a 900px drawing measure 3,502 and every panel in the decision
+   was equalised to it. `top:Npx;bottom:0` collapses to nothing during that
+   measure and fills the real box afterwards. */
+.m-dim{position:absolute;left:0;right:0;bottom:0;z-index:40;pointer-events:none;
+  background:rgba(12,22,34,.34)}
+.mockwrap.phone .m-fold,.mockwrap.phone .m-dim{display:none}
+
+/* Question one split across two columns — the map keeps the left and the
+   sixteen places take the right, which is what Crow proposed out loud. */
+.m-q2{display:grid;gap:28px;align-items:start;margin-top:12px}
+.m-q2 .m-map{margin-top:0}
+.m-q2 .m-cells{margin-top:0}
+.m-qside{font-size:12.5px;color:var(--ink300);font-weight:700;margin:0 0 9px}
+
+/* A review card living in the 395px title column rather than in a band. */
+.m-revslot{margin-top:18px}
+.m-revslot .m-revhead{margin-top:0}
+.m-revone{margin-top:10px;border:1px solid var(--sand300);border-radius:4px;
+  background:#fff;padding:14px 15px 13px}
+.m-revone .st{color:var(--gold);letter-spacing:-1.5px;font-size:13px}
+.m-revone p{margin:7px 0 0;font-size:13.5px;line-height:1.5;color:var(--ink700)}
+.m-revone .who{display:block;margin-top:9px;font-size:11.5px;color:var(--ink300)}
+.m-revone .more{display:inline-block;margin-top:9px;font-size:12.5px;
+  font-weight:700;color:var(--rust600);border-bottom:1px solid var(--rust600)}
+.m-revfoot{display:flex;align-items:center;gap:7px;margin-top:10px}
+.m-revfoot i{width:6px;height:6px;border-radius:50%;background:var(--sand300)}
+.m-revfoot i.on{background:var(--rust600)}
+.m-revfoot span{font-size:11px;color:var(--ink300);margin-left:4px}
+
+/* The creeping rail: the same cards on a track that drifts right, so the edge
+   of the next one is always showing. */
+.m-revcreep{margin-top:10px;position:relative;overflow:hidden}
+.m-revcreep .track{display:flex;gap:12px;margin-left:-52px}
+.m-revcreep .m-revone{flex:none;width:330px;margin-top:0}
+.m-revcreep::after{content:'';position:absolute;right:0;top:0;bottom:0;width:46px;
+  background:linear-gradient(90deg,rgba(255,255,255,0),#fff)}
+
+/* The intro paragraph, once it is in the title column instead of under the
+   fact strip. */
+.m-ttdesc{margin-top:13px;font-size:14.5px;line-height:1.55;color:var(--ink500)}
+
+/* The price panel as a wide bar under the gallery, for the one option that
+   takes it out of the title column. */
+.m-pricebar{display:flex;align-items:center;gap:18px;margin-top:14px;
+  border:1px solid var(--sand300);border-radius:3px;background:#fff;
+  padding:13px 16px;box-shadow:0 2px 10px -6px rgba(8,23,38,.4)}
+.m-pricebar .l{font-size:10px;font-weight:800;letter-spacing:.1em;
+  color:var(--ink300);display:block}
+.m-pricebar b{font-size:25px;font-weight:800;color:var(--ink900);display:block;
+  line-height:1.05}
+.m-pricebar .s{font-size:12px;color:var(--ink300)}
+.m-pricebar .nx{font-size:13px;font-weight:700;color:#2f6b4f}
+.m-pricebar .m-cta{margin-left:auto}
+.mockwrap.phone .m-pricebar{flex-wrap:wrap;gap:10px}
+.mockwrap.phone .m-revcreep .m-revone{width:250px}
+
+/* The subtitle under the h1 — "1-Day Tour". It is on the live page and the
+   sheet's earlier tour drawings left it out. */
+.m-ttsub{margin:9px 0 0;font-size:13px;font-weight:700;letter-spacing:.06em;
+  text-transform:uppercase;color:var(--rust600)}
+
+/* Option 40B: the map is capped by HEIGHT, and because its ratio is fixed at
+   960/500 that caps the width with it. 998 is what 520px tall comes to. */
+.m-mapcap{max-width:998px}
+
+/* Phone view for round three. An inline `grid-template-columns` on `.m-q2`
+   and an inline `width` on `.m-revcards` both beat any phone rule that is not
+   `!important` — the 390px canvas measured 949, 866 and 1,116 wide before
+   these three lines, with nothing erroring. Same trap as the two-card pair in
+   round two. */
+.mockwrap.phone .m-q2{grid-template-columns:minmax(0,1fr)!important}
+.mockwrap.phone .m-revcards{width:100%!important}
+.mockwrap.phone .m-revcard{width:100%!important;height:auto!important;
+  min-height:150px}
+.mockwrap.phone .m-mapcap{max-width:100%}

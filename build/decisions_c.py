@@ -687,7 +687,7 @@ ALL.append(dec(
     36,
     'The reviews, as three cards you can read',
     [('Every tour page', ''), ('Crow &mdash; redrawn', 'who'), ('1&frac12; days', ''),
-     ('C sent back', 'big')],
+     ('replaced by <a href="#d41">41</a>', 'big')],
     [quote(['I don&rsquo;t think you understood what I was asking. You&rsquo;re '
             'on the right direction, but I want to make those reviews like '
             'squares, so you can at least read some of the review &mdash; and '
@@ -826,7 +826,7 @@ ALL.append(dec(
         'working cards full of example text — on staging only, behind the '
         'preview flag, never in front of a customer.',
     ]),
-    since=('Redrawn', '16 Sep &middot; round 2'), cols=3))
+    since=('Superseded', '16 Sep &middot; see 41'), cols=3))
 
 
 # =====================================================================

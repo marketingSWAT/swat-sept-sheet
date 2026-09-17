@@ -28,6 +28,7 @@ from sheetkit import ANSWERS      # noqa: E402
 import decisions_a as A           # noqa: E402
 import decisions_b as B           # noqa: E402
 import decisions_c as C           # noqa: E402
+import decisions_d as D           # noqa: E402
 
 OUT = os.path.join(HERE, '..', 'site', 'index.html')
 
@@ -44,6 +45,11 @@ RAIL = [
     (37, 'Is this trip right for you?'),
     (38, 'Start where you are'),
     (39, 'The film slot'),
+]
+
+RAIL3 = [
+    (40, 'The map, and one screen'),
+    (41, 'Where the reviews go'),
 ]
 
 ROUND1 = [
@@ -67,7 +73,9 @@ def rail_html():
             f'<b>{n}</b>{t}</a>' for n, t in group)
     return (
         '<nav class="rail">'
-        '<div class="rt">This round &mdash; 30 to 39</div>'
+        '<div class="rt">This round &mdash; 40 to 41</div>'
+        f'{rows(RAIL3)}'
+        '<div class="rt">Round two &mdash; 30 to 39</div>'
         f'{rows(RAIL)}'
         '<div class="rt">Answered &mdash; built and on staging</div>'
         f'{rows(ROUND1)}'
@@ -84,18 +92,24 @@ MAST = """
 <header class="mast">
   <div class="kick">Southwest Adventure Tours &middot; storefront rebuild</div>
   <h1>The staging walkthrough, drawn</h1>
-  <p>Ten more shapes to pick, numbered <b>30 to 39</b>, from your walk through
-  the staging build. Six of them are the <b>Build Your Own</b> page, which you
-  asked for first; the rest are the home page&rsquo;s activity level, the top of
-  a tour page, the qualifying panel, and the film slot. Each shows what the site
-  does <b>today</b> beside two to four alternatives drawn at full size. Click any
-  drawing to enlarge it, and pull the others in beside it from the chip row.</p>
-  <p style="margin-top:12px"><b>Answer with letters.</b> &ldquo;Thirty-two goes
-  to C, thirty-seven stays as it is.&rdquo; A voice note is fine &mdash; every
-  option has a letter printed on it, and the letters never move.</p>
-  <div class="who"><span>Crow</span><span>Walkthrough of staging</span>
-  <span>16 Sep 2026</span><span>Round one, 20&ndash;29, is answered and folded
-  below</span></div>
+  <p><b>Round three is at the top: decisions 40 and 41.</b> Those are the two
+  things you stopped on when you walked the built round-two work &mdash; the
+  <b>Build Your Own map</b> being too tall to see the answers under it, and
+  <b>where the reviews go</b> on a tour page. Decision 40 is drawn at
+  1440&times;900, your own window, with a line across each drawing showing
+  where the screen stops. Decision <a href="#d41">41</a> replaces
+  <a href="#d36">36</a>, which never got a letter because none of its options
+  put the cards where you meant.</p>
+  <p style="margin-top:12px">Round two &mdash; <b>30 to 39</b> &mdash; is below
+  it. Nine of those are answered and built; open any one to see what was
+  picked. Each decision shows what the site does <b>today</b> beside two to
+  four alternatives drawn at full size. Click any drawing to enlarge it, and
+  pull the others in beside it from the chip row.</p>
+  <p style="margin-top:12px"><b>Answer with letters.</b> &ldquo;Forty goes to
+  C, forty-one goes to B.&rdquo; A voice note is fine &mdash; every option has
+  a letter printed on it, and the letters never move.</p>
+  <div class="who"><span>Crow</span><span>Walkthrough of the built round</span>
+  <span>16 Sep 2026</span><span>Rounds one and two are folded below</span></div>
 </header>
 """
 
@@ -116,6 +130,14 @@ LEDE = """
   <p>One thing said out loud that needs no decision: <i>&ldquo;I love the
   interactive map, I think that looks great.&rdquo;</i> Decisions 31 to 33 make
   it bigger and readable. None of them takes it away.</p>
+  <p><b>And one thing from round three that needed no decision either, so it is
+  already built and on staging:</b> the photograph on the chosen door in
+  &ldquo;Start where you are&rdquo; was stretching to the full height of the
+  fifteen answers beside it &mdash; it rendered <b>208&times;539</b> where its
+  own ratio asks for 208&times;156, which is the &ldquo;super compressed and
+  bad&rdquo; you saw. It now measures 208&times;156, the same as the tiles
+  beside it, and the answers pop up rather than the picture growing to meet
+  them.</p>
 </div>
 """
 
@@ -275,10 +297,27 @@ R5 = register(
     '<li><b>These rotate &mdash; re-derive them.</b> The eight featured trips '
     '(under the 60-day floor, so they change monthly), the live deals and '
     'their promo codes, and the departure dates.</li>'
+    '<li><b>Round three (40 and 41) was measured after 30&ndash;39 shipped, '
+    'at 1440&times;900</b> &mdash; your window, because decision 40 is about '
+    'what fits in it. On /custom-tours/ question one is <b>955px</b>: the map '
+    '1,319&times;687, then sixteen places four across in four 48px rows from '
+    'y=1,622 to y=1,838. The sticky header is 73px, so the screen holds 827px '
+    'and ends at y=1,711. On the tour page the title column is 478px at x=896 '
+    'and ends at y=601 against a gallery bottom of y=635; the description is '
+    '772&times;122 at y=701, under the fact strip; the reviews band is 281px '
+    'at y=1,539.</li>'
     '<li><b>The map is real.</b> State outlines projected from us-atlas '
     'through an Albers equal-area conic, Alaska and Hawaii as the usual '
     'insets. The label positions in decision 31 are that projection&rsquo;s '
     'own anchors.</li>'
+    '<li><b>One known difference between the drawn map and the live one.</b> '
+    'This sheet&rsquo;s projection is 1.45 wide-to-tall; the live map&rsquo;s '
+    'is <b>1.87</b>, and its outline fills its box edge to edge where the '
+    'drawings leave a margin inside theirs. The <i>box</i> is the live '
+    'geometry in every panel &mdash; which is what decision 40 is about &mdash; '
+    'but the outline inside it is drawn a little narrow. It has been that way '
+    'since the map first appeared on this sheet, so the panels stay comparable '
+    'with each other.</li>'
     '<li><b>Phone view is derived, not photographed.</b> The same markup '
     're-laid at 390px through the storefront&rsquo;s own breakpoints, then '
     'measured.</li>'
@@ -657,25 +696,27 @@ SCRIPT = r"""<script>
 
 def build():
     css = open(os.path.join(HERE, 'sheet.css')).read()
-    decisions = C.ALL + A.ALL + B.ALL
+    decisions = D.ALL + C.ALL + A.ALL + B.ALL
     body = (MAST + LEDE +
-            sec('This round', 'Ten more shapes to pick',
-                'Green ring is what ships today. Amber ring is the one I would '
-                'build, and it says so in words as well. Decisions 20 to 29 '
-                'are answered and folded further down &mdash; open any of them '
-                'to see what was picked.') +
+            sec('This round', 'Two shapes to pick, then last round below',
+                'Decisions <b>40</b> and <b>41</b> are new and open. Round two '
+                '(30&ndash;39) follows, nine of them answered and folded, and '
+                'round one (20&ndash;29) after that. Green ring is what ships '
+                'today. Amber ring is the one I would build, and it says so in '
+                'words as well.') +
             ''.join(decisions) + R1 + R2 + R3 + R4 + R5)
 
     foot = (
-        '<div class="foot">Round two, built 16 September 2026 from '
-        'Crow&rsquo;s walkthrough of the staging build. Quotes are verbatim. '
-        'Current-build panels were read off '
-        '<code>swat-website-storefront-git-staging-swat2.vercel.app</code> at '
-        'a 1200px viewport on 16 September, after decisions 20&ndash;29 '
-        'shipped &mdash; see register five for every number quoted on this '
-        'page. Decisions 20&ndash;29 and their answers are folded below this '
-        'round. This page quotes people candidly and is <code>noindex</code>; '
-        'the URL is the only thing keeping it private.</div>')
+        '<div class="foot">Rounds one to three, built 16 September 2026 '
+        'from Crow&rsquo;s walkthroughs of the staging build. Quotes are '
+        'verbatim. Current-build panels were read off '
+        '<code>swat-website-storefront-git-staging-swat2.vercel.app</code> on '
+        '16 September &mdash; rounds one and two at a 1200px viewport before '
+        'decisions 30&ndash;39 shipped, round three at <b>1440&times;900</b> '
+        'after they did, which is why decision 40 draws a wider page than the '
+        'ones above it. See register five for every number quoted here. This '
+        'page quotes people candidly and is <code>noindex</code>; the URL is '
+        'the only thing keeping it private.</div>')
 
     html = f"""<!doctype html>
 <html lang="en"><head>

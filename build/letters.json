@@ -113,5 +113,17 @@
     "B": "Copy left, film right",
     "C": "Film left, copy right",
     "D": "A full-width film band"
+  },
+  "40": {
+    "A": "The map at full width, as now",
+    "B": "The map gets shorter",
+    "C": "The map keeps the left, the places take the right",
+    "D": "The map keeps the left, every question takes the right"
+  },
+  "41": {
+    "A": "A band below the Overview, as now",
+    "B": "One review at a time, under the price",
+    "C": "A rail that drifts right",
+    "D": "The description comes up, and the reviews follow it"
   }
 }

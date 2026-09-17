@@ -125,7 +125,9 @@ ANSWERS = {
     32: ('C', 'built and on staging &mdash; every question has one right edge '
               'now'),
     33: ('B', 'built and on staging &mdash; the map is 1,112px wide. It did '
-              'not shorten the page, as measured'),
+              'not shorten the page, as measured. Reopened as decision '
+              '<a href="#d40">40</a>: at 1440 the map is 687px tall and the '
+              'answers under it fall off the screen'),
     34: ('C', 'built and on staging. <b>C only</b> &mdash; the &ldquo;14 trips '
               'already go to Utah&rdquo; line (B) was not asked for and is not '
               'built'),

@@ -120,3 +120,71 @@ lower; SWAT operations asked for it, high up, because *"we have people who will
 book a hiking trip when they use a walker."* The sheet recommends C — one line
 high, the full panel low — and says plainly that B (remove it) is available and
 that Jason or operations should be copied if it ships.
+
+---
+
+## Round three — decisions 40 and 41, open
+
+Crow walked the **built** round-two work on the evening of 16 September. Most
+of it passed out loud — *"looks fine, looks good, looks good"*, *"go to please
+notes great, that's great"*, *"the film slot looks good… yeah that's sick"*,
+and on the home flow *"clicking moderate, boom, okay that works great"*. Two
+things he stopped on, and one he simply dictated.
+
+| # | Decision | Status |
+|---|---|---|
+| 40 | The Build Your Own map, and what fits on one screen | **Open.** A / B / C / D — recommending **C** |
+| 41 | Where the reviews go on a tour page | **Open.** A / B / C / D — recommending **B**, with **D** if the description should move up too |
+
+**36 is superseded by 41 and its head says so.** E–H never got a letter and
+none of them put the cards where he has now described twice:
+
+> *"You have the hero images that you can click through, and then on the right
+> hand side you have the title and the description of what this is — and then
+> right below it I wanted to have those reviews. In these card shaped boxes
+> like you have now, that's slightly rotating to the right, and if you hover
+> over it it stops and you can click read more."*
+
+**40 reopens 33, which is answered and shipped.** 33B did exactly what it was
+drawn to do and the cost is what he is now looking at.
+
+### Done without a letter, already on staging
+
+- **The chosen door in "Start where you are" no longer stretches.** *"The I
+  know the place image like stretches the size of the selections… the image
+  just looks like super compressed and bad. I don't think we should expand the
+  image like that. I think the where do you want to go boxes should just pop
+  up."* Measured at 1440: the figure rendered **208×539** where its own 4:3
+  frame asks for 208×156 — it is a grid child and it was stretching to the
+  height of the fifteen answer tiles beside it, and `object-cover` then cropped
+  a landscape photograph into a 1:2.6 slot. `self-start` from `sm`. It now
+  measures 208×156, the same as the tile beside it. No error was ever raised;
+  the only signal was the picture.
+
+### The measurement decision 40 hangs off
+
+At **1440×900**, `/custom-tours/` question one is **955px** tall: the map is
+1,319×687 and the sixteen places are four across in four 48px rows ending at
+y=1,838. The sticky header is 73px, so the screen holds 827px and ends at
+y=1,711 — **two of the four rows are below it** and the second is cut in half.
+
+**This is his window, not a standard one.** At 1920×1080 the fold falls at
+y=1,891 and everything fits today; at 1440×750 three of the four rows are lost.
+The sheet says so in the verdict and asks him to say if his screen is taller.
+
+### What decision 40 costs that is easy to miss
+
+The map is a fixed **960×500** viewBox whose outline fills it (906×485
+measured), so **height cannot be taken off it without width coming too**. The
+first draft of option B drew a 380px-tall map at full width, which the live
+element cannot do. Redrawn at 998×520 — the tallest that still leaves the
+question inside an 827px screen.
+
+### Still waiting, unchanged
+
+- **`data/tour-reviews.json` is empty.** Every word in decision 41's drawings
+  is placeholder and the slot renders nothing on all 93 tours until Matt sends
+  reviews with a tour name against each. Whichever letter comes back, the
+  build is invisible until then.
+- 42 tours with no activity level, one film cut, and the placeholder review
+  text — all still on SWAT.
