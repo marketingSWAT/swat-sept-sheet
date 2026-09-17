@@ -17,6 +17,7 @@ Every "Now" panel is the deployed staging build measured at **1440x900** on
 import mocks as m
 import mocks_c as c
 import mocks_d as d
+import mocks_e as e
 from sheetkit import opt, quote, verdict, dec
 
 ALL = []
@@ -166,137 +167,199 @@ ALL.append(dec(
 
 
 # =====================================================================
-# 41 — where the reviews go
+# 41 — where the reviews go  (REDRAWN, round four)
 # =====================================================================
 #
-# Authored at 1200, so it can be read against decision 36's drawings, which
-# Crow has already been through.
+# Crow looked at B on this sheet and did not answer it. What he said instead
+# opened a slot none of A-D used: the review block under the price panel runs
+# the 478px title column down past the bottom of the gallery, and the paper it
+# leaves beside it is the thing he objected to — and then proposed filling.
+#
+# So C and D come off the table (C was the drift beside the CTA, D moved the
+# price panel) and E, F and G go on it, all three of them in that white space.
+# A and B keep their drawings so the comparison still works, redrawn at 1440
+# with the live hero geometry: an 812px gallery against a 478px column.
 
 ALL.append(dec(
     41,
     'Where the reviews go on a tour page',
     [('a tour page', ''), ('Crow', 'who'), ('1&ndash;2 days', ''),
-     ('third time asked', 'big')],
-    [quote(['The reviews thing I told you about specifically was not where I '
-            'wanted it placed. I told you that when you&rsquo;re looking at '
-            'one of the actual tours, you have the hero images that you can '
-            'click through, and then on the right hand side you have the '
-            'title and the description of what this is &mdash; and then right '
-            'below it I wanted to have those reviews.',
-            'In these card shaped boxes like you have now, that&rsquo;s '
-            'slightly rotating to the right, and if you hover over it it stops '
-            'and you can click read more to actually read the whole review. '
-            'Because right now it&rsquo;s below the overview.'],
-           'Crow, 16 September, walking the built page')],
+     ('redrawn', 'big')],
+    [quote(['Look how the review box looks when it loads &mdash; it then '
+            'extends down, there&rsquo;s a shit little white space below the '
+            'photo and that just looks like shit.',
+            'But it kind of gave me another idea. Instead of putting it on the '
+            'right-hand side, maybe you use that white space to just put the '
+            'different reviews below &mdash; I think that could make sense or '
+            'look good.',
+            'Let&rsquo;s go with my first idea of having them kind of below '
+            'the hero image. You could have up to three, I believe. So kind of '
+            'building off option B, but just move it down to where that blank '
+            'white space is right now.'],
+           'Crow, 16 September, on option B of this decision'),
+     quote(['If you look at D, the description comes up and the review follows '
+            'it &mdash; I kind of like that, but it&rsquo;s not super clean.'],
+           'Crow, in the same note &mdash; which is why D is off the table '
+           'rather than recommended')],
     [
         opt('A band below the Overview, as now',
-            ['Three cards <b>side by side across the 913px content column</b>, '
+            ['Three cards side by side across the <b>913px</b> content column, '
              'under the Overview.',
-             'They sit at <b>y=1,539</b> &mdash; 1,284px below the top of the '
-             'gallery, and about two screens down.',
-             'The title column beside the gallery holds four things: the '
-             'badge, the title, &ldquo;1-Day Tour&rdquo; and the price panel. '
-             'It ends at y=601 against a gallery bottom of y=635, so there are '
-             '<b>34px of slack</b> in it.',
-             'Nothing rotates. Three cards render, and a tour with nine '
-             'reviews shows three of them.'],
-            '<p>This is decision <a href="#d26">26C</a>, shipped &mdash; and '
-            'decision <a href="#d36">36</a> was drawn to move it and never got '
-            'an answer, because none of E, F, G or H put it where you meant.</p>'
-            '<p>One correction worth having: <b>the description is not in the '
-            'right-hand column.</b> It is 772px wide at y=701, under the fact '
-            'strip, below the fold of the first screen. So &ldquo;right below '
-            'the description&rdquo; is not a slot that exists on the page '
-            'today &mdash; option D is the one that creates it.</p>',
-            cost='&mdash;', risk='Two screens from the title',
+             'They sit at <b>y=1,539</b>. The first screen ends at y=900, so '
+             'they are <b>a full screen and a half below</b> the photograph.',
+             'The title column holds a badge, the title, &ldquo;1-Day '
+             'Tour&rdquo; and the price panel. It ends at <b>y=600</b> against '
+             'a gallery bottom of <b>y=635</b> &mdash; <b>35px of slack</b>.',
+             'Nothing rotates. Three render, and a tour with nine reviews '
+             'shows three of them.'],
+            '<p>Decision <a href="#d26">26C</a>, shipped. Every panel below '
+            'removes this band &mdash; the reviews end up in one place, not '
+            'two.</p>'
+            '<p>The 35px of slack is the whole geometric problem: the column '
+            'beside the photograph has <b>no room left in it</b>. Anything '
+            'added there runs past the bottom of the picture, which is exactly '
+            'what you saw in B.</p>',
+            cost='&mdash;', risk='A screen and a half from the title',
             cls='now',
-            mockup=m.mock(d.tourtop('now') + d.belowtop(reviews=True)
-                          + m.ring(1, '.m-revcards') + m.ring(3, '.m-tt'),
-                          1810)),
+            mockup=m.mock(e.page('now', band=True), 1900, aw=1440)),
         opt('One review at a time, under the price',
-            ['A review block goes <b>into the title column, directly under the '
-             'price panel</b> &mdash; the score, the count, then one card.',
-             'The next review <b>slides in from the right every eight '
-             'seconds</b>. Pointing at the card stops it, and it stays '
-             'stopped.',
-             '<b>Read the full review</b> opens the whole thing; the card '
-             'shows about forty words.',
-             'The band below the Overview <b>goes</b>. The reviews exist in '
-             'one place instead of two.'],
-            '<p>The column has 34px of slack in it today, so this grows the '
-            'first block by about 190px &mdash; and takes 337px off further '
-            'down, which makes the page slightly shorter overall.</p>'
-            '<p>One card at a time is what makes a 478px column work: three '
-            'across in that width is 150px each, which is a fragment of a '
-            'sentence rather than a review.</p>',
-            cost='1 day', risk='One review visible instead of three',
+            ['A review block goes into the title column, <b>under the price '
+             'panel</b> &mdash; score, count, then one card at a time.',
+             'The next slides in from the right every eight seconds; pointing '
+             'at it stops it.',
+             'The column then runs <b>172px past the bottom of the '
+             'photograph</b>, which leaves <b>812&times;158 of white paper</b> '
+             'beside it. <b>That is the hatched box in the drawing</b>, and it '
+             'is stretched to the gap rather than typed in.',
+             'The band below the Overview goes.'],
+            '<p>This was my recommendation and it is the one you stopped on. '
+            'The drawing now shows the cost you spotted rather than hiding it: '
+            'a 478px column cannot take a review block without outrunning the '
+            'picture beside it.</p>'
+            '<p>It is still the option that puts a review <b>highest</b> on '
+            'the page &mdash; level with the price, in the eye line of the '
+            'Reserve button. Left on the table for that reason alone.</p>',
+            cost='1 day', risk='Leaves 158px of paper under the photograph',
+            mockup=m.mock(e.page('one') + m.ring(1, '.m-revslot')
+                          + m.ring(2, '.m-white'), 1900, aw=1440)),
+        opt('Three cards in that white space',
+            ['The cards go <b>under the photograph</b>, in the left column: '
+             'the score line, then <b>three cards across 812px</b> &mdash; '
+             '<b>260px each</b>, 262px of strip in total.',
+             'The title column is <b>untouched</b>. Badge, title, subtitle, '
+             'price panel &mdash; nothing added, nothing moved.',
+             'Each card carries about forty words in six lines, then <b>Read '
+             'the full review</b>. Three is the ceiling, as you said.',
+             'The first block grows from <b>402px to 710px</b>, and the 281px '
+             'band below the Overview <b>goes</b> &mdash; so the page ends up '
+             'shorter, not longer.',
+             'On a phone the strip drops <b>below the price panel</b>: '
+             'photograph, name, price, reviews. A review never comes between '
+             'the picture and the name of the trip.'],
+            '<p>Your own idea, drawn. It is the only slot on this page where '
+            'three cards fit side by side above the fold &mdash; 260px a card '
+            'holds two sentences; the 150px the title column could offer holds '
+            'a fragment.</p>'
+            '<p>It fixes what you objected to by construction: there is no '
+            'white space under the photograph, because the reviews are in it. '
+            'Measured on the drawing, the strip ends <b>42px past the bottom '
+            'edge</b> of a 1440&times;900 window &mdash; so you get the '
+            'photograph, the price, the score line and most of all three cards '
+            'before you touch the wheel.</p>'
+            '<p>Two honest costs. At <b>260px a card is narrower than the '
+            '293px</b> the band gives it today, so a review runs further down '
+            'the card. And the strip is <b>262px</b> where the paper it fills '
+            'is only <b>158</b> &mdash; so this block ends <b>135px lower</b> '
+            'than B&rsquo;s, not level with the photograph.</p>',
+            cost='1 day', risk='260px a card &mdash; the narrowest of the three',
             cls='rec',
-            mockup=m.mock(d.tourtop('one') + d.belowtop(reviews=False)
-                          + m.ring(1, '.m-revslot'), 1560)),
-        opt('A rail that drifts right',
-            ['The same slot under the price panel, but the cards sit on '
-             '<b>one track that creeps to the right continuously</b>.',
-             'You always see one card and <b>the edge of the next</b>, so the '
-             'track never looks finished.',
-             'Hovering stops the drift. <b>Read the full review</b> works the '
-             'same way.',
-             'The band below the Overview <b>goes</b>.'],
-            '<p>The literal reading of &ldquo;slightly rotating to the '
-            'right&rdquo;: not a swap, a drift. It signals &ldquo;there are '
-            'more of these&rdquo; without a control.</p>'
-            '<p>What it costs: something is moving continuously, 30px from '
-            'the <b>Reserve a place</b> button, on the most important column '
-            'of the page. That is the argument decision 36 already lost once '
-            '&mdash; a review crawling past is not a review anyone reads. '
-            'Here the cards are full cards rather than a 52px bar, so it is a '
-            'much better version of it, but the objection is the same '
-            'one.</p>',
-            cost='1 day', risk='Constant motion beside the CTA',
-            mockup=m.mock(d.tourtop('creep') + d.belowtop(reviews=False)
-                          + m.ring(1, '.m-revcreep'), 1560)),
-        opt('The description comes up, and the reviews follow it',
-            ['The <b>description moves into the title column</b>, under the '
-             'title &mdash; which is where you remembered it being.',
-             'The reviews go <b>directly under the description</b>, exactly as '
-             'described. Same card, same eight seconds, same hover.',
-             'The <b>price panel moves out</b>, to a wide bar directly under '
-             'the gallery: from, per person, Reserve a place.',
-             'The fact strip keeps its five facts and <b>loses the paragraph</b> '
-             '&mdash; it is not printed twice.'],
-            '<p>The only option that matches the sentence word for word: '
-            'title, description, reviews, in that order, in the right-hand '
-            'column.</p>'
-            '<p>What it costs: the price panel is the most valuable object on '
-            'this page and this moves it. Under the gallery it is <b>wider and '
-            'still above the fold</b> &mdash; arguably more prominent, not '
-            'less &mdash; but it is a change you did not ask for, made to fit '
-            'in one you did.</p>',
-            cost='2 days', risk='Moves the price panel and the CTA',
-            mockup=m.mock(d.tourtop('desc') + d.belowtop(reviews=False, desc=False)
-                          + m.ring(1, '.m-ttdesc') + m.ring(2, '.m-revslot')
-                          + m.ring(3, '.m-pricebar'), 1600)),
+            mockup=m.mock(e.page('under') + m.ring(1, '.m-revstrip')
+                          + m.ring(2, '.m-tt'), 1900, aw=1440)),
+        opt('The same three, drifting right',
+            ['Same slot, same three cards, but on <b>one track that creeps to '
+             'the right</b> &mdash; the &ldquo;slightly rotating&rdquo; you '
+             'asked for, moved down here.',
+             'You always see the <b>edge of a fourth card</b>, so the track '
+             'never looks finished and says &ldquo;there are more&rdquo; '
+             'without a control.',
+             'Hovering stops it. It does not animate at all for anyone whose '
+             'device asks for reduced motion.',
+             '<b>At exactly three reviews it stands still</b> &mdash; there is '
+             'nothing to drift to, so it renders as E until a fourth arrives. '
+             'The strip is 288px against E&rsquo;s 262, for the row of '
+             'dots.'],
+            '<p>E plus an animation, and that is the honest description of it. '
+            'If operations only ever sends three per tour, this <i>is</i> E '
+            'and the extra day buys nothing.</p>'
+            '<p>Where it earns its keep is a trip with nine reviews: a static '
+            'row of three says &ldquo;here are three reviews&rdquo;, and a '
+            'drifting one says &ldquo;here are the first three of many&rdquo;. '
+            'Worth knowing that this audience skews older and a crawling line '
+            'of text is the kind of thing that gets resented &mdash; it is a '
+            'long way from the Reserve button here, which is what made me '
+            'argue against the old C.</p>',
+            cost='1&frac12; days', risk='Motion that only pays off above three reviews',
+            mockup=m.mock(e.page('drift') + m.ring(1, '.m-revdrift'),
+                          1900, aw=1440)),
+        opt('A strip across the whole row',
+            ['The cards go <b>under both columns</b> instead of only the '
+             'photograph &mdash; three across <b>1,320px</b>, <b>429px '
+             'each</b>.',
+             'The <b>same review prints in four lines instead of six</b>, '
+             'because the card is 65% wider. A long one is far less likely to '
+             'be cut off at <b>Read the full review</b>.',
+             'The hero row keeps its shape exactly: gallery and price panel '
+             'end level, as they do today, and the strip is a band under '
+             'them.',
+             'The strip is <b>222px</b> against E&rsquo;s 262, and the whole '
+             'block ends <b>9px inside</b> a 1440&times;900 window where '
+             'E&rsquo;s runs 42px past it.'],
+            '<p>The tidiest geometry of the three, and the one that scales: it '
+            'is the only slot where a long review can be printed rather than '
+            'truncated.</p>'
+            '<p>What it is not: &ldquo;below the hero image&rdquo;. It is a '
+            'band under the <i>whole</i> first block, so it reads as a new '
+            'section rather than as part of the picture. It leaves the 35px '
+            'under the price panel exactly as it is &mdash; which is fine, '
+            'because 35px of paper is not what anybody notices.</p>'
+            '<p>Where each option&rsquo;s first block ends, measured on these '
+            'drawings, with the screen ending at y=859: <b>A y=594</b> (and a '
+            'band at y=1,129), <b>B y=766</b>, <b>G y=850</b>, <b>E y=901</b>, '
+            '<b>F y=928</b>.</p>',
+            cost='1 day', risk='Reads as a band, not as part of the hero',
+            mockup=m.mock(e.page('wide') + m.ring(1, '.m-revstrip'),
+                          1900, aw=1440)),
     ],
     verdict([
-        '<b>B</b>, unless the description being up there is the point &mdash; '
-        'then <b>D</b>.',
-        'B puts the cards where you pointed, in the shape you described, with '
-        'the rotation and the hover-stop and the read-more, and changes '
-        'nothing else on a page you have otherwise signed off. It is the '
-        'smallest change that answers the note.',
-        '<b>Say D if what you want is the description up there too.</b> I have '
-        'drawn it rather than argued about it, because you have described that '
-        'column twice now as holding the description and it does not. D is the '
-        'only one that makes the page match the sentence &mdash; and the '
-        'reason it is not my pick is that it moves the price panel to do it, '
-        'which is a bigger decision than the one you asked me to make.',
-        '<b>C is not wrong, it is just noisy.</b> Continuous motion beside the '
-        'Reserve button is the one thing I would not put there. If you want '
-        'the drift, say C and I will build it &mdash; the difference between '
-        'B and C is one CSS animation.',
+        '<b>E</b> &mdash; your own idea, and the one that answers the '
+        'objection by construction. The cards are in the white space, so there '
+        'is none.',
+        '<b>The one number worth having before you answer:</b> the paper B '
+        'leaves is <b>812&times;158</b> and E&rsquo;s strip is <b>262px</b> '
+        'tall. So &ldquo;move it down into the white space&rdquo; does not '
+        'come free &mdash; the strip is two-thirds taller than the paper it '
+        'fills, and the block ends <b>135px lower</b> than B&rsquo;s rather '
+        'than level with the photograph. Every option here still makes the '
+        'page shorter overall, because all of them delete the 281px band below '
+        'the Overview.',
+        '<b>G is the one to say if the reviews turn out to be long.</b> '
+        '429px a card against 260 prints the same review in <b>four lines '
+        'instead of six</b>, and E&rsquo;s 260px is actually <i>narrower</i> '
+        'than the 293px a card gets in the band today. If operations sends '
+        'paragraphs rather than lines, E cuts most of every one of them at '
+        'Read the full review. That is the whole argument between E and G, and '
+        'it turns on content nobody has seen yet.',
+        '<b>F only pays off above three reviews.</b> At three it is E with a '
+        'stopped animation. Say F if you want the drift built now so it is '
+        'there when the picks arrive; say E if you would rather add it later, '
+        'because it is half a day either way.',
+        '<b>C and D are off the table</b> &mdash; C put continuous motion 30px '
+        'from the Reserve button, and you have said D is &ldquo;not super '
+        'clean&rdquo;. Their letters are spent and will not be reused.',
         '<b>None of this renders anything yet.</b> '
         '<code>data/tour-reviews.json</code> is empty and every word in these '
         'drawings is placeholder. The slot stays invisible on all 93 tours '
-        'until Matt sends reviews with a tour name against each. That is item '
-        'one on the waiting list and it has not moved since the 16th.',
+        'until Matt sends reviews with a tour name against each. It has not '
+        'moved since the 16th.',
     ]),
-    since=NEW, cols=2))
+    since=('Redrawn', '16 Sep &middot; round 4'), cols=2))

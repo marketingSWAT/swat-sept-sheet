@@ -48,8 +48,8 @@ RAIL = [
 ]
 
 RAIL3 = [
-    (40, 'The map, and one screen'),
     (41, 'Where the reviews go'),
+    (40, 'The map, and one screen'),
 ]
 
 ROUND1 = [
@@ -73,7 +73,7 @@ def rail_html():
             f'<b>{n}</b>{t}</a>' for n, t in group)
     return (
         '<nav class="rail">'
-        '<div class="rt">This round &mdash; 40 to 41</div>'
+        '<div class="rt">This round &mdash; 41, redrawn</div>'
         f'{rows(RAIL3)}'
         '<div class="rt">Round two &mdash; 30 to 39</div>'
         f'{rows(RAIL)}'
@@ -92,14 +92,17 @@ MAST = """
 <header class="mast">
   <div class="kick">Southwest Adventure Tours &middot; storefront rebuild</div>
   <h1>The staging walkthrough, drawn</h1>
-  <p><b>Round three is at the top: decisions 40 and 41.</b> Those are the two
-  things you stopped on when you walked the built round-two work &mdash; the
-  <b>Build Your Own map</b> being too tall to see the answers under it, and
-  <b>where the reviews go</b> on a tour page. Decision 40 is drawn at
-  1440&times;900, your own window, with a line across each drawing showing
-  where the screen stops. Decision <a href="#d41">41</a> replaces
-  <a href="#d36">36</a>, which never got a letter because none of its options
-  put the cards where you meant.</p>
+  <p><b>One decision is open: <a href="#d41">41</a>, redrawn.</b> You looked at
+  its option B and found the thing it costs &mdash; the review block runs the
+  title column past the bottom of the photograph and leaves white paper beside
+  it &mdash; and then said to use that paper. So <b>E</b>, <b>F</b> and
+  <b>G</b> all put the cards in it, and the drawing of B now has the white
+  space hatched so you can see what is being filled. <b>C and D are off the
+  table</b> and their letters are spent.</p>
+  <p style="margin-top:12px"><b>Decision <a href="#d40">40</a> is answered and
+  built</b> &mdash; you said C, and the builder&rsquo;s question one is on
+  staging with the map holding the left and the sixteen places two across
+  beside it. It is folded below with the measurement on its front.</p>
   <p style="margin-top:12px">Round two &mdash; <b>30 to 39</b> &mdash; is below
   it. Nine of those are answered and built; open any one to see what was
   picked. Each decision shows what the site does <b>today</b> beside two to
@@ -297,6 +300,15 @@ R5 = register(
     '<li><b>These rotate &mdash; re-derive them.</b> The eight featured trips '
     '(under the 60-day floor, so they change monthly), the live deals and '
     'their promo codes, and the departure dates.</li>'
+    '<li><b>Round four (41 redrawn) was measured on the Great Salt Lake tour '
+    'at 1440&times;900</b>, after round three shipped. The hero row starts at '
+    'y=255: the gallery is <b>812&times;380</b>, the title column <b>478px</b> '
+    'at x=896 ending at <b>y=600</b> &mdash; 35px above the gallery&rsquo;s '
+    'bottom edge at y=635. The reviews band is <b>913&times;281 at y=1,539</b> '
+    'and the page is 9,517px. The card widths quoted in that decision are '
+    'measured off the drawings, not estimated: <b>260px</b> across the '
+    'photograph, <b>429px</b> across the whole row, <b>293px</b> in the band '
+    'as it ships today.</li>'
     '<li><b>Round three (40 and 41) was measured after 30&ndash;39 shipped, '
     'at 1440&times;900</b> &mdash; your window, because decision 40 is about '
     'what fits in it. On /custom-tours/ question one is <b>955px</b>: the map '
@@ -698,12 +710,14 @@ def build():
     css = open(os.path.join(HERE, 'sheet.css')).read()
     decisions = D.ALL + C.ALL + A.ALL + B.ALL
     body = (MAST + LEDE +
-            sec('This round', 'Two shapes to pick, then last round below',
-                'Decisions <b>40</b> and <b>41</b> are new and open. Round two '
-                '(30&ndash;39) follows, nine of them answered and folded, and '
-                'round one (20&ndash;29) after that. Green ring is what ships '
-                'today. Amber ring is the one I would build, and it says so in '
-                'words as well.') +
+            sec('This round', 'One shape to pick, then everything answered',
+                'Decision <b>41</b> is open and redrawn &mdash; <b>A</b> and '
+                '<b>B</b> are the two you have already seen, <b>E</b>, '
+                '<b>F</b> and <b>G</b> are new. Decision <b>40</b> is answered '
+                'and folded under it, then round two (30&ndash;39) and round '
+                'one (20&ndash;29). Green ring is what ships today. Amber ring '
+                'is the one I would build, and it says so in words as '
+                'well.') +
             ''.join(decisions) + R1 + R2 + R3 + R4 + R5)
 
     foot = (

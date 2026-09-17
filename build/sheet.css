@@ -1359,3 +1359,76 @@ body.noscroll{overflow:hidden}
 .mockwrap.phone .m-revcard{width:100%!important;height:auto!important;
   min-height:150px}
 .mockwrap.phone .m-mapcap{max-width:100%}
+
+/* ===================================================================
+   ROUND FOUR — decision 41 redrawn: the reviews under the photograph
+   ===================================================================
+   Crow, looking at 41B on this sheet: "look how the review box looks when it
+   loads — it then extends down, there's a shit little white space below the
+   photo … maybe you use that white space to just put the different reviews
+   below". So the white space is drawn as a thing, and E, F and G fill it. */
+
+.m-revstrip{margin-top:16px;box-sizing:border-box}
+
+/* Two rows, so the strip under the photograph is a sibling of the title
+   column rather than a child of it. Scoped to `.rows` because `.m-tourtop`
+   is also the round-two and round-three drawings, which are one row. */
+.m-tourtop.rows{align-items:start}
+.m-tourtop.rows>.m-gal{grid-column:1;grid-row:1}
+.m-tourtop.rows>.m-tt{grid-column:2;grid-row:1}
+.m-tourtop.rows>.m-revstrip{grid-column:1;grid-row:2}
+
+/* B only: the gallery and the hatched box share column one and stretch to the
+   height of the title column beside them, so the box is always exactly the
+   paper the option leaves — never a number typed in and left to go stale. */
+.m-tourtop.one{align-items:stretch}
+.m-tourtop.one>.m-galcol{display:flex;flex-direction:column}
+.m-tourtop.one>.m-galcol>.m-gal{flex:none}
+.m-tourtop.one>.m-galcol>.m-white{flex:1;min-height:60px}
+.m-revhead.tight{margin-top:0}
+.m-revhead.tight b{font-size:16px}
+
+/* The row of cards. The width is set inline from the track being argued
+   about — 812 under the photograph, 1,320 across the whole row — because the
+   card width is the argument. */
+.m-revrow{display:flex;align-items:stretch;margin-top:10px}
+.m-revrow>.m-revcard{margin-top:0}
+
+/* F — the track that creeps right. One card more than fits, so the edge of
+   the next is always in view and the track never looks finished. */
+.m-revdrift{position:relative;overflow:hidden;margin-top:10px}
+.m-revdrift .track{display:flex;align-items:stretch;margin-left:-44px}
+.m-revdrift .track>.m-revcard{flex:none}
+/* Faded at BOTH edges, so a card cut off on the left reads as a track passing
+   under a window rather than as a card that failed to render. */
+.m-revdrift::after,.m-revdrift::before{content:'';position:absolute;top:0;
+  bottom:0;width:48px;pointer-events:none}
+.m-revdrift::before{left:0;background:linear-gradient(90deg,#fff,rgba(255,255,255,0))}
+.m-revdrift::after{right:0;background:linear-gradient(90deg,rgba(255,255,255,0),#fff)}
+
+.m-revcard .more{display:inline-block;margin-top:9px;font-size:12.5px;
+  font-weight:700;color:var(--rust600)}
+
+/* The complaint itself, drawn. A hatched box the size of the paper option B
+   leaves under the photograph once the title column runs past it. */
+.m-white{margin-top:14px;border:1px dashed var(--sand300);border-radius:3px;
+  display:grid;place-items:center;
+  background:repeating-linear-gradient(45deg,#fff,#fff 9px,
+    var(--sand100) 9px,var(--sand100) 18px)}
+.m-white span{font-size:12px;font-weight:700;letter-spacing:.05em;
+  text-transform:uppercase;color:var(--ink300);background:#fff;
+  padding:4px 10px;border-radius:3px}
+
+/* An inline width beats every phone rule that is not `!important` — the trap
+   this sheet has now hit three times. */
+.mockwrap.phone .m-revstrip,
+.mockwrap.phone .m-revrow,
+.mockwrap.phone .m-revdrift{width:100%!important}
+.mockwrap.phone .m-revrow{flex-wrap:wrap;gap:10px!important}
+.mockwrap.phone .m-revdrift .track{margin-left:0}
+.mockwrap.phone .m-revdrift .track>.m-revcard{width:230px!important}
+.mockwrap.phone .m-tourtop.rows>*{grid-column:1!important;grid-row:auto!important}
+/* The hatched box is an artefact of the two-column row. On a phone the column
+   is the page, so there is no paper beside anything and drawing some would be
+   a lie about the option. */
+.mockwrap.phone .m-white{display:none}

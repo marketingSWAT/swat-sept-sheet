@@ -140,6 +140,16 @@ ANSWERS = {
               'you chose stays'),
     39: ('B', 'built and on staging, behind the film flag &mdash; there is '
               'still no cut'),
+
+    # Round three. 40 was answered on the evening of 16 September — "let's
+    # honestly, fuck it, let's just do your recommendation, which is C" — and
+    # built the same night. 41 was NOT answered: the note about it opened a
+    # slot none of A-D used, so it is redrawn above with E, F and G.
+    40: ('C', 'built and on staging &mdash; the map holds the left at '
+              '818&times;426 and the sixteen places sit two across beside it. '
+              'Question one falls from <b>955px to 504</b>, and to 612 with a '
+              'destination panel open, so all sixteen are on the screen with '
+              'the map. The page comes down from 5,439px to 4,989'),
 }
 
 
