@@ -1,0 +1,942 @@
+/* ------------------------------------------------------------------ tokens
+   The sheet is dark, always. Not a preference toggle — Crow reads it on a phone
+   and asked for one state, so there is one state and nothing to get wrong.
+
+   The MOCKUPS stay light, because the storefront is light. The sheet's job is
+   to show the site as it is; re-colouring a mockup to match the paper around it
+   would make every option a lie. So the canvas keeps the real tokens and the
+   paper is dark around it — which has the useful side effect of making each
+   mockup read as a screen rather than as part of the document. */
+:root{
+  --paper:#0d1219; --card:#141b24; --card2:#1a222d;
+  --line:#26313d; --line2:#1e2833;
+  --tx:#e8edf2; --tx2:#a8b6c4; --tx3:#7a8b9b;
+  --rust:#f07a45; --rust7:#e4622a; --navy:#05121f; --navy8:#0b2136;
+  --pine:#3fa885; --pine1:#122b23; --pineb:#1f5a45;
+  --gold:#d3a94e; --gold1:#2b2415; --goldb:#5c4a1e;
+  --red:#e8756c; --red1:#2c1614; --redb:#66302b;
+  --sans:'Inter',ui-sans-serif,system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;background:var(--paper);color-scheme:dark}
+body{margin:0;background:var(--paper);color:var(--tx);font-family:var(--sans);
+  font-size:15px;line-height:1.6;-webkit-font-smoothing:antialiased}
+a{color:var(--rust)}
+h1,h2,h3,h4{margin:0;font-weight:700;letter-spacing:-.02em;line-height:1.2}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:.92em}
+
+/* ------------------------------------------------------------------- layout */
+.wrap{display:grid;grid-template-columns:228px minmax(0,1fr);gap:40px;
+  max-width:1780px;margin:0 auto;padding:0 30px}
+.rail{position:sticky;top:0;align-self:start;height:100vh;overflow-y:auto;
+  padding:28px 0 40px;font-size:13px}
+.rail .rt{font-size:11px;text-transform:uppercase;letter-spacing:.09em;
+  color:var(--tx3);font-weight:700;margin:20px 0 8px}
+.rail a{display:block;padding:5px 10px;color:var(--tx2);text-decoration:none;
+  border-left:2px solid transparent;line-height:1.35}
+.rail a:hover{color:var(--tx);background:#1b232e;border-left-color:var(--rust)}
+.rail a b{color:var(--tx3);font-weight:600;margin-right:6px}
+.rail a.done b{color:var(--pine)}
+.main{padding:28px 0 120px;min-width:0}
+@media(max-width:1080px){.wrap{grid-template-columns:1fr;gap:0}
+  .rail{position:static;height:auto;border-bottom:1px solid var(--line);
+    margin-bottom:24px}}
+
+/* --------------------------------------------------------------- masthead */
+.mast{background:linear-gradient(160deg,#0b2136,#05121f 60%);color:#fff;
+  border:1px solid #1c344f;border-radius:14px;
+  padding:34px 38px;margin-bottom:14px}
+.mast .kick{font-size:11px;letter-spacing:.14em;text-transform:uppercase;
+  color:#7fa8c8;font-weight:700}
+.mast h1{font-size:34px;margin:10px 0 12px;color:#fff}
+.mast p{margin:0;color:#b9d0e2;max-width:70ch;font-size:15px}
+.mast .who{display:flex;flex-wrap:wrap;gap:8px;margin-top:20px}
+.mast .who span{background:#143352;border-radius:999px;padding:5px 13px;
+  font-size:12.5px;color:#dbe8f2}
+
+/* ----------------------------------------------------------------- blocks */
+.lede{background:var(--card);border:1px solid var(--line);border-radius:14px;
+  padding:26px 30px;margin-bottom:34px}
+.lede h2{font-size:19px;margin-bottom:10px}
+.lede p{margin:0 0 12px;color:var(--tx2)}
+.lede p:last-child{margin-bottom:0}
+.lede b{color:var(--tx)}
+
+.sec{margin:52px 0 22px}
+.sec .st{font-size:11px;text-transform:uppercase;letter-spacing:.11em;
+  color:var(--rust);font-weight:800}
+.sec h2{font-size:25px;margin-top:6px}
+.sec p{color:var(--tx2);margin:9px 0 0;max-width:80ch}
+
+.d{background:var(--card);border:1px solid var(--line);border-radius:14px;
+  margin-bottom:26px;overflow:hidden;scroll-margin-top:16px}
+.d-hd{padding:22px 28px 18px;border-bottom:1px solid var(--line2);
+  display:flex;gap:16px;align-items:flex-start}
+.d-no{flex:none;width:38px;height:38px;border-radius:10px;background:#1d2b3a;
+  color:#fff;font-weight:800;font-size:14px;display:flex;align-items:center;
+  justify-content:center;margin-top:1px}
+.d.answered .d-no{background:var(--pineb);color:#d6f0e5}
+.d-hd h3{font-size:19px}
+.d-hd .sub{color:var(--tx2);font-size:14px;margin-top:5px}
+.d-body{padding:22px 28px 26px}
+
+.tags{display:flex;flex-wrap:wrap;gap:6px;margin-top:9px}
+.tag{font-size:11px;font-weight:700;letter-spacing:.03em;padding:3px 9px;
+  border-radius:999px;border:1px solid var(--line);color:var(--tx2);
+  background:#1a222d;text-transform:uppercase}
+.tag.who{background:var(--pine1);border-color:var(--pineb);color:#8fd8bd}
+.tag.new{background:var(--rust7);border-color:var(--rust7);color:#fff}
+.tag.big{background:var(--red1);border-color:var(--redb);color:var(--red)}
+.tag.blocked{background:var(--gold1);border-color:var(--goldb);color:var(--gold)}
+/* A decision that has been answered, and one that was sent back. Both states
+   read from the rail as well, so the sheet says what is still open at a
+   glance rather than only inside each block. */
+.tag.done{background:var(--pine1);border-color:var(--pine);color:#7fe0b8;
+  text-transform:none;letter-spacing:0;font-size:11.5px}
+.tag.redo{background:var(--gold1);border-color:var(--gold);color:var(--gold);
+  text-transform:none;letter-spacing:0;font-size:11.5px}
+.d.done{opacity:.62}
+.d.done:hover,.d.done:focus-within{opacity:1}
+.d.done .d-hd{background:linear-gradient(90deg,var(--pine1),transparent 55%)}
+.d.redo .d-hd{background:linear-gradient(90deg,var(--gold1),transparent 55%)}
+.rail a .st{float:right;font-size:11px;font-weight:700}
+.rail a .st.ok{color:var(--pine)}
+.rail a .st.re{color:var(--gold)}
+
+/* quote */
+.q{border-left:3px solid var(--rust7);background:#1c1a19;
+  border-radius:0 8px 8px 0;padding:13px 18px;margin:0 0 20px}
+.q p{margin:0 0 7px;color:var(--tx);font-size:14.5px}
+.q p:last-child{margin-bottom:0}
+.q cite{display:block;font-style:normal;font-size:12px;color:var(--tx3);
+  font-weight:700;margin-top:8px;text-transform:uppercase;letter-spacing:.05em}
+
+/* option grid — column count follows the number of options drawn */
+.opts{display:grid;gap:16px;margin-top:4px}
+.opts.c2{grid-template-columns:repeat(2,minmax(0,1fr))}
+.opts.c3{grid-template-columns:repeat(3,minmax(0,1fr))}
+.opts.c4{grid-template-columns:repeat(4,minmax(0,1fr))}
+@media(max-width:1240px){.opts.c3,.opts.c4{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:760px){.opts.c2,.opts.c3,.opts.c4{grid-template-columns:1fr}}
+.opt{border:1px solid var(--line);border-radius:11px;overflow:hidden;
+  background:var(--card2);display:flex;flex-direction:column;position:relative}
+.opt.now{background:#171d25;border-style:dashed}
+.opt.rec{border-color:var(--pineb);border-width:2px;background:#141f1b}
+.opt-hd{padding:11px 14px 10px;border-bottom:1px solid var(--line2);
+  display:flex;align-items:center;gap:8px;flex-wrap:wrap;min-height:46px}
+.opt-hd .k{font-size:10.5px;font-weight:800;letter-spacing:.08em;
+  text-transform:uppercase;padding:2px 8px;border-radius:999px;
+  background:#26313d;color:var(--tx2)}
+.opt.now .opt-hd .k{background:#2a3340;color:var(--tx3)}
+.opt.rec .opt-hd .k{background:var(--pineb);color:#d6f0e5}
+.opt-hd .n{font-weight:700;font-size:14.5px}
+.opt-b{padding:12px 14px 15px;font-size:13.5px;color:var(--tx2);flex:1}
+.opt-b p{margin:0 0 8px}
+.opt-b p:last-child{margin-bottom:0}
+.opt-b b{color:var(--tx)}
+.opt-b .cost{margin-top:10px;padding-top:9px;border-top:1px dotted var(--line);
+  font-size:12px;color:var(--tx3);display:flex;gap:14px;flex-wrap:wrap}
+.opt-b .cost b{color:var(--tx2)}
+
+/* verdict */
+.verdict{margin-top:20px;border:1px solid var(--pineb);background:var(--pine1);
+  border-radius:11px;padding:15px 18px}
+.verdict .vt{font-size:11px;font-weight:800;letter-spacing:.09em;color:#7fd0b0;
+  text-transform:uppercase;margin-bottom:6px}
+.verdict p{margin:0 0 8px;font-size:14px;color:#bfe3d5}
+.verdict p:last-child{margin-bottom:0}
+.verdict b{color:#eafaf3}
+.verdict.warn{background:var(--gold1);border-color:var(--goldb)}
+.verdict.warn .vt{color:var(--gold)}
+.verdict.warn p{color:#e0cd9c}
+.verdict.warn b{color:#f7ecd0}
+
+/* ----------------------------------------------------------- the tick row
+   Was a printed square you ticked in your head. It is now a real control: the
+   pick is stored per browser and "Copy my picks" writes every decision out as
+   text, so the round trip back to me is a paste rather than a re-typing. */
+.decide{margin-top:14px;border:1px dashed var(--line);border-radius:9px;
+  padding:11px 15px;font-size:13px;color:var(--tx3);display:flex;gap:10px;
+  flex-wrap:wrap;align-items:center}
+.decide b{color:var(--tx2);font-weight:700;margin-right:4px}
+.decide .box{display:inline-flex;align-items:center;gap:7px;cursor:pointer;
+  border:1px solid var(--line);background:#131a22;border-radius:999px;
+  padding:5px 13px 5px 10px;color:var(--tx2);font-size:12.5px;
+  transition:border-color .12s,background .12s,color .12s;user-select:none}
+.decide .box:hover{border-color:#3a4a5b;color:var(--tx)}
+.decide .sq{width:13px;height:13px;border:1.5px solid var(--tx3);
+  border-radius:3px;display:inline-block;position:relative;flex:none}
+.decide .box.on{background:var(--pine1);border-color:var(--pine);
+  color:#cdeade;font-weight:700}
+.decide .box.on .sq{background:var(--pine);border-color:var(--pine)}
+.decide .box.on .sq::after{content:'';position:absolute;left:3.5px;top:.5px;
+  width:4px;height:8px;border:solid #0d1219;border-width:0 2px 2px 0;
+  transform:rotate(45deg)}
+.decide .note{flex:1;min-width:190px;background:#101720;border:1px solid var(--line);
+  border-radius:8px;padding:7px 11px;color:var(--tx);font-family:inherit;
+  font-size:12.5px;resize:vertical;min-height:34px}
+.decide .note::placeholder{color:#5f6f7e}
+
+/* the floating picks bar */
+.picks{position:fixed;right:20px;bottom:20px;z-index:60;display:flex;gap:9px;
+  align-items:center;background:#0b2136;border:1px solid #1c344f;
+  border-radius:999px;padding:8px 9px 8px 17px;
+  box-shadow:0 16px 40px rgba(0,0,0,.55);font-size:13px;color:#b9d0e2}
+.picks .c{font-weight:800;color:#fff}
+.picks button{background:var(--rust7);color:#fff;border:0;border-radius:999px;
+  padding:8px 15px;font-weight:800;font-size:12.5px;cursor:pointer;
+  font-family:inherit}
+.picks button.ghost{background:#173250;color:#cfe0ee}
+.picks button:hover{filter:brightness(1.08)}
+@media(max-width:700px){.picks{right:10px;left:10px;bottom:10px;justify-content:space-between}}
+
+/* ------------------------------------------------------------- the mockups */
+.mock-cap{font-size:11px;font-weight:700;letter-spacing:.06em;
+  text-transform:uppercase;color:var(--tx3);padding:0 14px 7px}
+.mockwrap{position:relative;overflow:hidden;aspect-ratio:var(--aw,1200)/var(--mh);
+  background:#fff;border-top:1px solid var(--line);
+  border-bottom:1px solid var(--line);cursor:zoom-in}
+.mockwrap.phone{aspect-ratio:390/var(--ph,844);background:#0d1219}
+.mockwrap::after{content:'Click to enlarge';position:absolute;right:8px;bottom:8px;
+  background:rgba(5,18,31,.82);color:#fff;font-size:10.5px;font-weight:700;
+  letter-spacing:.05em;text-transform:uppercase;padding:4px 9px;border-radius:6px;
+  opacity:0;transition:opacity .14s;z-index:9;pointer-events:none}
+.mockwrap:hover::after{opacity:1}
+/* `--s` is written by the inline script from the wrapper's measured width.
+   CSS cannot divide a length by a length to get a scale factor in every engine
+   we care about, and a mockup that silently renders at 1200px inside a 380px
+   column is a sheet that cannot be read — so this one value is measured. */
+.mock{width:calc(var(--aw,1200) * 1px);height:calc(var(--mh) * 1px);transform-origin:0 0;
+  transform:scale(var(--s,.3));background:#fff;position:absolute;top:0;left:0;
+  font-size:14px;color:#2c4356;line-height:1.5}
+.mockwrap.phone .mock{width:390px;height:calc(var(--ph,844) * 1px)}
+
+/* the mockup toolbar — width toggle and the compare pin */
+.mock-bar{display:flex;align-items:center;gap:6px;padding:8px 12px 9px;
+  border-bottom:1px solid var(--line2)}
+.mock-bar .seg{display:inline-flex;border:1px solid var(--line);border-radius:7px;
+  overflow:hidden}
+.mock-bar .seg button{background:#131a22;border:0;color:var(--tx3);
+  font-family:inherit;font-size:11px;font-weight:800;letter-spacing:.05em;
+  text-transform:uppercase;padding:4px 9px;cursor:pointer}
+.mock-bar .seg button.on{background:#26313d;color:var(--tx)}
+.mock-bar .pin{margin-left:auto;background:#131a22;border:1px solid var(--line);
+  color:var(--tx3);border-radius:7px;font-family:inherit;font-size:11px;
+  font-weight:800;letter-spacing:.05em;text-transform:uppercase;padding:4px 10px;
+  cursor:pointer}
+.mock-bar .pin:hover{color:var(--tx);border-color:#3a4a5b}
+.mock-bar .pin.on{background:var(--rust7);border-color:var(--rust7);color:#fff}
+
+/* storefront tokens, inside the canvas only */
+.mock{--sand50:#fff;--sand100:#eef4f8;--sand200:#dce8f0;--sand300:#d6e1e9;
+  --ink900:#12212e;--ink700:#2c4356;--ink500:#42596c;--ink300:#7d93a3;
+  --navy900:#05121f;--navy800:#0b2136;--navy700:#143352;--navy300:#7fa8c8;
+  --navy100:#b9d0e2;--rust600:#e4622a;--rust700:#c24c18;--rust100:#fdece4;
+  --pine700:#1d6d51;--pine100:#e3f1ec}
+.mock .m-shell{max-width:1200px;margin:0 auto;padding:0 50px}
+.mockwrap.phone .m-shell{padding:0 16px}
+
+/* --- real chrome, measured off production: 36px strip, 73px header */
+.m-strip{background:var(--navy900);color:var(--navy100);font-size:12.5px;
+  height:36px;display:flex;align-items:center;justify-content:center}
+.m-strip b{color:#fff;font-weight:600;text-decoration:underline;
+  text-underline-offset:2px;margin-left:6px}
+.m-strip .m-shell{display:flex;justify-content:center;gap:2px}
+.m-hd{background:var(--navy800);color:#fff;height:73px;display:flex;
+  align-items:center;border-bottom:1px solid var(--navy700)}
+.m-hd .m-shell{display:flex;align-items:center;gap:24px;width:100%}
+.m-logo{height:40px;width:auto;flex:none}
+.m-nav{display:flex;gap:22px;font-size:14.5px;color:rgba(255,255,255,.85);
+  font-weight:600;margin-left:auto}
+.m-nav .on{color:#fff;box-shadow:inset 0 -2px 0 var(--rust600)}
+.m-phone{font-size:14px;font-weight:600;color:rgba(255,255,255,.9)}
+.m-hd-cta{background:var(--rust600);color:#fff;font-weight:600;font-size:13px;
+  padding:8px 16px;border-radius:999px;flex:none}
+.m-back{background:var(--sand100);border-bottom:1px solid var(--sand300);
+  height:44px;display:flex;align-items:center;font-size:13.5px;
+  color:var(--ink500);font-weight:600}
+.m-crumbs{padding:10px 0;font-size:12.5px;color:var(--ink300)}
+.m-crumbs .sep{margin:0 7px;color:var(--sand300)}
+
+.m-tick{background:var(--navy800);overflow:hidden;height:48px;display:flex;
+  align-items:center;white-space:nowrap}
+.m-tick.compact{height:40px}
+.m-tick-track{display:inline-flex;gap:34px;padding-left:40px;font-size:13px;
+  color:var(--navy100);align-items:center}
+.m-tick-track b{color:#fff}
+.m-tick-track code{background:rgba(255,255,255,.11);color:#fff;padding:1px 6px;
+  border-radius:4px;font-size:11.5px;font-weight:700}
+.m-tick-track .all{color:var(--rust600);font-weight:800}
+
+.m-band{padding:44px 0}
+.m-band.sand{background:var(--sand100);border-block:1px solid var(--sand300)}
+.m-band.navy{background:var(--navy900);color:#fff}
+.m-band.tight{padding:26px 0}
+
+.m-h2row{display:flex;align-items:baseline;justify-content:space-between;gap:16px}
+.m-h2{font-size:24px;font-weight:700;color:var(--ink900);letter-spacing:-.02em}
+.m-band.navy .m-h2{color:#fff}
+.m-more{font-size:14px;color:var(--rust600);font-weight:600}
+.m-sub{margin-top:8px;color:var(--ink500);font-size:15px;max-width:640px}
+
+.m-row{display:flex;margin-top:26px;align-items:stretch}
+
+/* --- TripCard, as built: 16/10 frame, two badges, fixed two-line title,
+       reserved route line, three spec rows, price, two actions. */
+.m-card{border:1px solid var(--sand300);border-radius:3px;overflow:hidden;
+  background:#fff;flex:none;display:flex;flex-direction:column}
+.m-card.hover{border-color:var(--ink300);
+  box-shadow:0 16px 40px -22px rgba(8,23,38,.5)}
+.m-card-ph{position:relative;overflow:hidden;background:var(--sand200)}
+.m-card-ph img{width:100%;height:100%;object-fit:cover;display:block}
+.m-badge{position:absolute;left:12px;top:12px;background:var(--rust600);color:#fff;
+  font-size:12px;font-weight:700;padding:4px 8px;border-radius:3px;
+  letter-spacing:.05em;text-transform:uppercase}
+.m-dur{position:absolute;right:12px;top:12px;background:rgba(255,255,255,.94);
+  color:var(--ink900);font-size:12px;font-weight:700;padding:4px 8px;
+  border-radius:3px}
+.m-deal{position:absolute;left:12px;bottom:12px;background:var(--navy800);
+  color:#fff;font-size:12px;font-weight:700;padding:4px 8px;border-radius:3px;
+  letter-spacing:.05em;text-transform:uppercase}
+.m-card-b{padding:16px 16px 4px;display:flex;flex-direction:column;flex:1}
+.m-card-t{font-weight:700;color:var(--ink900);font-size:17px;line-height:1.25;
+  min-height:42px}
+.m-card-r{font-size:13px;color:var(--ink300);margin-top:6px;min-height:19px}
+.m-card-s{display:flex;flex-direction:column;gap:4px;margin-top:10px;
+  font-size:13.5px;color:var(--ink500)}
+.m-card-s .s b{color:var(--ink700);font-weight:600}
+.m-card-p{margin-top:14px;padding-top:12px;border-top:1px solid var(--sand200);
+  display:flex;align-items:baseline;gap:7px}
+.m-card-p b{font-size:21px;font-weight:800;color:var(--ink900)}
+.m-card-p span{font-size:12.5px;color:var(--ink300)}
+.m-card-go{margin-top:auto;display:flex;gap:18px;padding:12px 0 12px;
+  font-size:14px;font-weight:700;color:var(--rust600)}
+.m-card-go span:last-child{color:var(--ink500)}
+
+.m-tile{flex:none}
+.m-tile-ph{aspect-ratio:16/10;border-radius:3px;overflow:hidden;
+  background:var(--sand200)}
+.m-tile-ph img{width:100%;height:100%;object-fit:cover;display:block}
+.m-tile-l{margin-top:9px;font-weight:700;color:var(--ink900);font-size:15px}
+.m-tile-sub{font-size:13px;color:var(--ink500);margin-top:3px;line-height:1.45}
+.m-chev{color:var(--rust600);font-weight:800;margin-left:5px}
+
+.m-hero{position:relative;overflow:hidden}
+.m-hero img{width:100%;height:100%;object-fit:cover;display:block}
+.m-hero-tx{position:absolute;left:0;right:0;bottom:0;padding:36px 40px;color:#fff;
+  background:linear-gradient(transparent,rgba(5,18,31,.82))}
+.m-hero-tx .k{font-size:12.5px;letter-spacing:.1em;text-transform:uppercase;
+  color:#cfe0ee;font-weight:700}
+.m-hero-tx h1{font-size:38px;font-weight:700;margin:9px 0 0;letter-spacing:-.02em}
+.m-hero-tx p{margin:10px 0 0;font-size:15px;color:#dbe8f2;max-width:640px}
+
+.m-search{background:#fff;border:1px solid var(--sand300);border-radius:8px;
+  box-shadow:0 12px 30px rgba(11,33,54,.13);padding:14px;display:flex;gap:10px;
+  align-items:center}
+.m-search .f{flex:1;border:1px solid var(--sand300);border-radius:6px;
+  padding:12px 13px;color:var(--ink300);font-size:14px;background:#fff}
+.m-search .go{background:var(--rust600);color:#fff;font-weight:700;font-size:14px;
+  padding:13px 24px;border-radius:999px;white-space:nowrap}
+
+.m-btn{display:inline-block;background:var(--rust600);color:#fff;font-weight:700;
+  font-size:14px;padding:11px 22px;border-radius:999px}
+.m-btn.ghost{background:transparent;color:var(--navy800);
+  box-shadow:inset 0 0 0 1.5px var(--navy800)}
+
+.m-pills{display:flex;gap:8px;flex-wrap:wrap}
+.m-pill{background:var(--sand100);border:1px solid var(--sand300);border-radius:3px;
+  padding:4px 10px;font-size:12.5px;color:var(--ink700);font-weight:600}
+.m-pill.rust{background:var(--rust600);border-color:var(--rust600);color:#fff;
+  text-transform:uppercase;letter-spacing:.05em}
+
+.m-toggle{display:inline-flex;background:var(--sand100);border:1px solid var(--sand300);
+  border-radius:999px;padding:3px;font-size:13px}
+.m-toggle span{padding:6px 15px;border-radius:999px;color:var(--ink500);font-weight:600}
+.m-toggle span.on{background:#fff;color:var(--ink900);
+  box-shadow:0 1px 3px rgba(0,0,0,.12)}
+
+.m-map{position:relative;background:var(--sand100);border:1px solid var(--sand300);
+  border-radius:6px;overflow:hidden}
+.m-dep{border:1px solid var(--sand300);border-radius:4px;padding:11px 13px;
+  font-size:13.5px;background:#fff}
+.m-rev{border:1px solid var(--sand300);border-radius:4px;padding:15px 16px;
+  background:#fff;font-size:13.5px;color:var(--ink500)}
+.m-tabs{display:flex;gap:24px;border-bottom:1px solid var(--sand300);
+  font-size:15px;color:var(--ink500);padding-bottom:12px;font-weight:600}
+.m-tabs .on{color:var(--ink900);box-shadow:inset 0 -2px 0 var(--rust600);
+  padding-bottom:12px;margin-bottom:-13px}
+.m-fact{display:flex;border:1px solid var(--sand300);border-radius:4px;
+  overflow:hidden;background:#fff}
+.m-fact>div{flex:1;padding:12px 15px;border-right:1px solid var(--sand200)}
+.m-fact>div:last-child{border-right:0}
+.m-fact .k{font-size:12px;text-transform:uppercase;letter-spacing:.06em;
+  color:var(--ink300);font-weight:700}
+.m-fact .v{font-size:15px;color:var(--ink900);font-weight:700;margin-top:3px}
+.m-book{border:1px solid var(--sand300);border-radius:6px;padding:18px 19px;
+  background:#fff;box-shadow:0 10px 26px rgba(11,33,54,.1)}
+.m-book .p{font-size:26px;font-weight:800;color:var(--ink900)}
+.m-book .pl{font-size:12px;color:var(--ink300);text-transform:uppercase;
+  letter-spacing:.06em;font-weight:800}
+
+.m-sticky{position:absolute;left:0;right:0;background:rgba(5,18,31,.96);
+  padding:0;height:66px;display:flex;align-items:center;color:#fff}
+.m-sticky .m-shell{display:flex;align-items:center;gap:22px;width:100%}
+.m-sticky .t{font-weight:600;font-size:14px;color:#cfe0ee}
+.m-sticky .t.on{color:#fff;box-shadow:inset 0 -2px 0 var(--rust600)}
+
+/* call-outs pinned onto a mockup */
+.m-note{position:absolute;background:#fdeceb;border:1.5px solid #a32020;
+  color:#a32020;font-size:12px;font-weight:700;padding:5px 11px;
+  border-radius:7px;line-height:1.35;max-width:280px;z-index:5;
+  box-shadow:0 4px 14px rgba(0,0,0,.13)}
+.m-flag{position:absolute;background:#e3f1ec;border:1.5px solid #1d6d51;
+  color:#14513c;font-size:12px;font-weight:700;padding:5px 11px;border-radius:7px;
+  line-height:1.35;max-width:290px;z-index:5;box-shadow:0 4px 14px rgba(0,0,0,.13)}
+.m-ruler{position:absolute;left:14px;width:0;border-left:2px dashed #a32020;
+  z-index:4}
+.m-ruler span{position:absolute;left:8px;top:50%;transform:translateY(-50%);
+  background:#a32020;color:#fff;font-size:11px;font-weight:800;padding:2px 7px;
+  border-radius:4px;white-space:nowrap}
+
+/* ------------------------------------------------------------------ tables */
+.tbl{width:100%;border-collapse:collapse;margin-top:6px;font-size:13.5px}
+.tbl th{text-align:left;font-size:10.5px;text-transform:uppercase;
+  letter-spacing:.08em;color:var(--tx3);font-weight:800;padding:0 12px 8px;
+  border-bottom:1px solid var(--line)}
+.tbl td{padding:11px 12px;border-bottom:1px solid var(--line2);
+  vertical-align:top;color:var(--tx2)}
+.tbl td b{color:var(--tx)}
+.tbl tr:last-child td{border-bottom:0}
+.tbl td.n{white-space:nowrap;color:var(--tx3);font-weight:700}
+
+.ul{margin:10px 0 0;padding-left:19px;color:var(--tx2)}
+.ul li{margin-bottom:7px}
+.ul li b{color:var(--tx)}
+
+.foot{margin-top:60px;padding-top:22px;border-top:1px solid var(--line);
+  font-size:12.5px;color:var(--tx3)}
+.foot code{background:#1a222d;padding:1px 5px;border-radius:4px;color:var(--tx2)}
+
+/* ---------------------------------------------------------- enlarged view
+   Three or four options across a content column puts each mockup at roughly
+   250-330px, which is enough to compare shapes and not enough to read one. The
+   overlay re-renders the same node at up to 1200px so a layout can be judged —
+   and the chip row in its bar brings the sibling options in beside it, because
+   the real work of a four-option decision is holding two of them side by side
+   at a readable size, which a scroll cannot do. */
+.zoom{position:fixed;inset:0;background:rgba(4,8,12,.94);z-index:99;
+  display:none;padding:22px;overflow:auto}
+.zoom.on{display:block}
+body.noscroll{overflow:hidden}
+
+.zoom-bar{display:flex;align-items:center;flex-wrap:wrap;gap:10px 14px;
+  max-width:2400px;margin:0 auto 14px;color:#fff}
+.zoom-bar .t{font-size:14px;font-weight:700;max-width:330px;overflow:hidden;
+  text-overflow:ellipsis;white-space:nowrap}
+.zoom-bar .chips{display:flex;flex-wrap:wrap;align-items:center;gap:7px;flex:1}
+.zoom-bar .grp{display:flex;flex-wrap:wrap;align-items:center;gap:7px}
+.zoom-bar .grp em{font-style:normal;font-size:10.5px;font-weight:800;
+  letter-spacing:.05em;text-transform:uppercase;color:#7f9ab1}
+.zoom-bar .chips button{background:#132537;border:1px solid #24405c;color:#b9d0e2;
+  border-radius:999px;padding:6px 13px;font-family:inherit;font-size:12px;
+  font-weight:800;cursor:pointer}
+.zoom-bar .chips button:hover{border-color:#3d668f;color:#fff}
+.zoom-bar .chips button.on{background:var(--rust7);border-color:var(--rust7);
+  color:#fff}
+.zoom-bar .chips button b{display:inline-block;margin-right:7px;padding:1px 7px;
+  border-radius:999px;background:#24405c;color:#dceaf5;font-size:10.5px;
+  letter-spacing:.05em;text-transform:uppercase}
+.zoom-bar .chips button.on b{background:rgba(255,255,255,.22);color:#fff}
+.zoom-bar .seg{display:inline-flex;border:1px solid #24405c;border-radius:8px;
+  overflow:hidden}
+.zoom-bar .seg button{background:#132537;border:0;color:#8fa8bd;
+  font-family:inherit;font-size:11px;font-weight:800;letter-spacing:.05em;
+  text-transform:uppercase;padding:6px 11px;cursor:pointer}
+.zoom-bar .seg button.on{background:#26415c;color:#fff}
+.zoom-bar .x{background:#fff;color:#16202a;font-weight:800;font-size:12.5px;
+  padding:8px 16px;border-radius:999px;cursor:pointer;border:0;font-family:inherit}
+
+/* The stage. Column count follows the number of panes on it, and the outer
+   width grows with it so two mockups are not squeezed into one's box. */
+.zoom-in{display:grid;gap:14px;margin:0 auto;align-items:start;max-width:1200px}
+.zoom-in.n2{grid-template-columns:repeat(2,minmax(0,1fr));max-width:2000px}
+.zoom-in.n3{grid-template-columns:repeat(3,minmax(0,1fr));max-width:2400px}
+.zoom-in.n4{grid-template-columns:repeat(4,minmax(0,1fr));max-width:2400px}
+@media(max-width:1100px){
+  .zoom-in.n3,.zoom-in.n4{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:720px){
+  .zoom-in.n2,.zoom-in.n3,.zoom-in.n4{grid-template-columns:1fr}}
+.zoom-in .pane{background:#fff;border-radius:11px;overflow:hidden;
+  box-shadow:0 22px 60px rgba(0,0,0,.55)}
+.zoom-in .cap{display:flex;align-items:center;gap:10px;background:#0b2136;
+  color:#fff;font-size:12px;font-weight:700;letter-spacing:.04em;
+  padding:8px 10px 8px 13px}
+.zoom-in .cap span{flex:1;overflow:hidden;text-overflow:ellipsis;
+  white-space:nowrap}
+.zoom-in .cap .rm{background:#173250;border:0;color:#cfe0ee;border-radius:7px;
+  font-family:inherit;font-size:11px;font-weight:800;letter-spacing:.05em;
+  text-transform:uppercase;padding:4px 9px;cursor:pointer}
+.zoom-in .cap .rm:hover{background:var(--rust7);color:#fff}
+.zoom-in .mockwrap{cursor:default;border:0}
+.zoom-in .mockwrap::after{display:none}
+/* a phone layout is capped at its own 390px and centred — scaling it up to
+   pane width would show a phone pretending to be a tablet */
+.zoom-in .mockwrap.phone{max-width:390px;margin:0 auto}
+
+/* the compare tray, shown once something is pinned */
+.tray{position:fixed;left:20px;bottom:20px;z-index:60;display:none;gap:9px;
+  align-items:center;background:#0b2136;border:1px solid #1c344f;
+  border-radius:999px;padding:8px 9px 8px 17px;
+  box-shadow:0 16px 40px rgba(0,0,0,.55);font-size:13px;color:#b9d0e2}
+.tray.on{display:flex}
+.tray button{background:var(--rust7);color:#fff;border:0;border-radius:999px;
+  padding:8px 15px;font-weight:800;font-size:12.5px;cursor:pointer;
+  font-family:inherit}
+.tray button.ghost{background:#173250;color:#cfe0ee}
+.tray button[disabled]{opacity:.45;cursor:default}
+@media(max-width:700px){.tray{left:10px;right:10px;bottom:66px}}
+
+/* a toast for "copied" */
+.toast{position:fixed;left:50%;bottom:26px;transform:translateX(-50%) translateY(14px);
+  background:#e3f1ec;color:#14513c;font-weight:700;font-size:13.5px;
+  padding:11px 20px;border-radius:999px;z-index:120;opacity:0;
+  transition:opacity .18s,transform .18s;pointer-events:none}
+.toast.on{opacity:1;transform:translateX(-50%) translateY(0)}
+
+/* --------------------------------------------------------------- phone mode
+   The same markup, re-laid at 390px through the storefront's own breakpoints:
+   the promo strip and the nav are `hidden sm:block` / `lg:flex` on the real
+   site, the grids are one column below 640px, and the fact strip stacks. This
+   is an approximation of the phone layout from the build's own rules — it is
+   not a screenshot of a phone, and it is labelled that way in the sheet. */
+.mockwrap.phone .m-strip,
+.mockwrap.phone .m-nav,
+.mockwrap.phone .m-phone{display:none}
+.mockwrap.phone .m-hd{height:66px}
+.mockwrap.phone .m-hd .m-shell{gap:12px}
+.mockwrap.phone .m-logo{height:34px}
+.mockwrap.phone .m-hd .m-shell::after{content:'\2261';margin-left:auto;
+  font-size:26px;line-height:1;color:#fff;font-weight:400}
+.mockwrap.phone .m-hd-cta{order:2;font-size:12.5px;padding:7px 13px}
+.mockwrap.phone .m-band{padding:26px 0}
+.mockwrap.phone .m-row{flex-direction:column;gap:16px!important;margin-top:18px}
+.mockwrap.phone .m-card,
+.mockwrap.phone .m-tile,
+.mockwrap.phone .m-rev{width:100%!important}
+.mockwrap.phone .m-card-ph{height:auto!important;aspect-ratio:16/10}
+.mockwrap.phone .m-h2{font-size:21px}
+.mockwrap.phone .m-hero{height:300px!important}
+.mockwrap.phone .m-hero-tx{padding:20px 16px}
+.mockwrap.phone .m-hero-tx h1{font-size:26px!important}
+.mockwrap.phone .m-fact{flex-direction:column}
+.mockwrap.phone .m-fact>div{border-right:0;border-bottom:1px solid var(--sand200)}
+.mockwrap.phone .m-fact>div:last-child{border-bottom:0}
+.mockwrap.phone .m-tabs,
+.mockwrap.phone .m-sticky .m-shell{overflow:hidden;white-space:nowrap}
+.mockwrap.phone .m-search{flex-direction:column;align-items:stretch}
+.mockwrap.phone .m-tick-track{gap:20px;font-size:12px}
+/* A call-out pinned by absolute pixel coordinates is pinned to the DESKTOP
+   canvas. In phone mode those coordinates point at nothing, so they are
+   suppressed rather than left floating over the wrong element. */
+.mockwrap.phone .m-note,
+.mockwrap.phone .m-flag,
+.mockwrap.phone .m-ruler{display:none}
+
+/* ------------------------------------------------------- the map animation
+   Decision 8 asks for a route that draws itself dot by dot. That is not a
+   thing a still picture can be judged on, so the mockups animate.
+
+   `pathLength="100"` is what makes one rule work for six routes of six
+   different lengths: it normalises the dash arithmetic to a declared length,
+   so the same dasharray/dashoffset pair draws any path from 0 to 100% without
+   anyone measuring it.
+
+   It runs ONCE and holds its finished state — an infinite loop halfway down a
+   fourteen-screen document is a distraction, not a demo. The enlarge overlay
+   clones the mockup node rather than moving it, and a cloned element restarts
+   its CSS animations, so opening a map full size replays the draw. That is the
+   whole replay mechanism; there is no script behind it. */
+.m-route {
+  stroke-dasharray: 100;
+  stroke-dashoffset: 100;
+  animation: m-draw 2.2s cubic-bezier(.4, 0, .2, 1) .25s 1 forwards;
+}
+@keyframes m-draw { to { stroke-dashoffset: 0; } }
+
+.m-pin {
+  opacity: 0;
+  animation: m-pop .5s cubic-bezier(.2, .9, .3, 1.3) 1 forwards;
+}
+@keyframes m-pop {
+  from { opacity: 0; transform: scale(.3); }
+  to   { opacity: 1; transform: scale(1); }
+}
+
+/* Someone who has asked not to be moved gets the finished map, not a jump:
+   both animations are removed outright rather than shortened, because a
+   0.01ms `forwards` animation still samples an arbitrary frame on some
+   engines. */
+@media (prefers-reduced-motion: reduce) {
+  .m-route { animation: none; stroke-dashoffset: 0; }
+  .m-pin   { animation: none; opacity: 1; }
+}
+
+/* The link that replaces a tick row on a decision that was sent back. */
+.decide .jump{display:inline-flex;align-items:center;gap:6px;padding:6px 13px;
+  border-radius:999px;border:1px dashed var(--gold);background:var(--gold1);
+  color:var(--gold);font-size:13px;font-weight:600;text-decoration:none}
+.decide .jump:hover{background:var(--gold);color:#1a1408}
+
+/* ------------------------------------------------- round two, on a phone
+   The map panels and the two-column rows in decisions 5 and 8 carry explicit
+   pixel widths, because a map has to be drawn at a real size to be judged.
+   Phone mode takes the width to 100% and lets the frame's own aspect ratio —
+   1.207, from `geo.py` — set the height, and stacks every split row. Without
+   these two rules an 800px map renders inside a 390px canvas and overflows
+   silently, which is exactly the failure the phone toggle exists to catch. */
+.mockwrap.phone .m-map{width:100%!important;height:auto!important;
+  aspect-ratio:1.207}
+.mockwrap.phone .m-split{flex-direction:column!important;gap:14px!important}
+/* `min-width:0` is what makes the scroller inside actually scroll: a flex
+   item refuses to shrink below its content by default, so the row of stop
+   cards pushed the whole 390px canvas out to 925 and `overflow-x:auto`
+   never engaged. */
+.mockwrap.phone .m-split > *{width:100%!important;flex:none!important;
+  min-width:0;max-width:100%}
+/* The stop cards beside the map become a scroller rather than a stack: six
+   full-width cards under a map is four screens of scrolling for a band. */
+.mockwrap.phone .m-stops{flex-direction:row!important;overflow-x:auto;
+  padding-bottom:6px}
+/* Chip rows scroll sideways on a phone rather than wrapping into four lines
+   of pills or pushing the canvas out. `min-width:0` again: without it the row
+   is as wide as its chips and the scroll never engages. */
+.mockwrap.phone .m-chips{overflow-x:auto;flex-wrap:nowrap!important;
+  min-width:0;max-width:100%;padding-bottom:4px}
+
+/* --- round three: register state chips and in-table cross-links ------------ */
+.tbl b.yes{color:#1c7c53}
+.tbl b.no{color:#b4541f}
+.tbl a.jump,.d-body p a.jump{color:var(--gold);text-decoration:underline;
+  text-underline-offset:3px;font-weight:600}
+.tbl a.jump:hover,.d-body p a.jump:hover{color:#fff}
+
+/* =====================================================================
+   16 SEPTEMBER ROUND
+   ===================================================================== */
+
+/* ------------------------------------------------- two rings, two meanings
+   Green is what ships today. Amber is the one I would build. They never
+   collide, because before this a single colour meant both and a two-pane
+   compare of "Now" against the recommendation was two identical frames.
+
+   Both are box-shadows, never borders. A 1px border on one panel makes its
+   column 2px narrower than its neighbours, and with four near-identical
+   drawings in a row that reads as a design opinion rather than as paper. */
+.opt{border:0;box-shadow:0 0 0 1px var(--line);background:var(--card2)}
+.opt.now{background:#131c19;box-shadow:0 0 0 2px var(--pine);border-style:solid}
+.opt.rec{background:#1d1a12;box-shadow:0 0 0 2px var(--gold)}
+.opt.now .opt-hd .k{background:var(--pineb);color:#d6f0e5}
+.opt.rec .opt-hd .k{background:var(--gold);color:#241d0a}
+.opt-hd .pick{margin-left:auto;font-size:10.5px;font-weight:800;
+  letter-spacing:.07em;text-transform:uppercase;color:var(--gold);
+  white-space:nowrap}
+.opt-hd .pick .star{font-size:12px}
+
+/* ------------------------------------------------ what changed, numbered
+   Every option leads with this. The reader is comparing three drawings of the
+   same screen: the difference has to be named before the argument for it. */
+.changes{margin:0;padding:12px 15px 4px;list-style:none;counter-reset:c}
+.changes li{position:relative;padding-left:27px;margin:0 0 7px;font-size:13px;
+  color:var(--tx2);line-height:1.45}
+.changes li b{color:var(--tx)}
+.changes li::before{counter-increment:c;content:counter(c);position:absolute;
+  left:0;top:1px;width:19px;height:19px;border-radius:50%;
+  background:var(--gold);color:#241d0a;font-size:11px;font-weight:800;
+  display:grid;place-items:center}
+.opt.now .changes li::before{background:var(--pineb);color:#d6f0e5}
+
+/* -------------------------------------------------------- numbered rings
+   Positioned after layout from the element's own box — see `ring()`. A ring
+   whose selector matches nothing hides rather than pointing at the wrong
+   thing, and every ring re-measures on resize and on the enlarged view. */
+.ring{position:absolute;border-radius:9px;box-shadow:0 0 0 2px var(--gold),
+  0 0 0 5px rgba(211,169,78,.22);pointer-events:none;z-index:8;display:none}
+.ring[data-on]{display:block}
+.ring b{position:absolute;top:-12px;left:-12px;width:23px;height:23px;
+  border-radius:50%;background:var(--gold);color:#241d0a;font-size:12px;
+  font-weight:800;display:grid;place-items:center;font-family:var(--sans)}
+.opt.now .ring{box-shadow:0 0 0 2px var(--pine),0 0 0 5px rgba(63,168,133,.2)}
+.opt.now .ring b{background:var(--pine);color:#08211a}
+.mockwrap.phone .ring{display:none!important}
+
+/* ------------------------------------------------------- the decision head
+   The biggest thing on the page: it is what someone navigates a long sheet by
+   on a phone, and what they read out loud when they answer. */
+.d-hd .no{flex:none;font-size:33px;font-weight:800;color:var(--gold);
+  line-height:1;width:auto;height:auto;background:none;margin-top:-2px}
+.d.done .d-hd .no{color:var(--pine)}
+.d-hd h3{font-size:23px;line-height:1.22}
+.d-since{display:inline-block;font-size:10.5px;font-weight:800;
+  text-transform:uppercase;letter-spacing:.07em;padding:3px 9px;
+  border-radius:6px;background:var(--gold);color:#241d0a;margin-left:10px;
+  vertical-align:4px}
+.d-since.redraw{background:#2c3a49;color:#cfe0ee}
+
+/* an answered decision folds — reopened by a click, a rail link or Prev/Next,
+   never by a scroll */
+.d.done .opts,.d.done .verdict,.d.done .q{display:none}
+.d.done.open .opts,.d.done.open .verdict,.d.done.open .q{display:block}
+.d.done.open .opts{display:grid}
+.d-locked{margin-top:10px;font-size:14px;color:var(--pine)}
+.d-locked b{color:#9fe8c9}
+.d-show{margin-top:14px;background:#17212c;border:1px solid var(--line);
+  color:var(--tx2);border-radius:9px;font-family:inherit;font-size:12.5px;
+  font-weight:700;padding:8px 15px;cursor:pointer}
+.d-show:hover{color:var(--tx);border-color:#3a4a5b}
+
+/* ---------------------------------------- the cloned prose in the stage
+   Without it the reader has four drawings of one screen and nothing to tell
+   them apart, and the sentence that would explain the difference is on the
+   sheet behind an overlay they cannot scroll. */
+.zoom-in .pane-body{background:#0d1620;color:#dbe6ef;font-size:13px}
+.zoom-in .pane-body .changes{padding:12px 15px 2px}
+.zoom-in .pane-body .opt-b{padding:4px 15px 14px;color:#9fb2c4}
+.zoom-in .cap .star{color:var(--gold);margin-left:6px}
+.zoom-bar .chips button .star{color:var(--gold);margin-left:5px}
+.zoom-bar .chips button.on .star{color:#fff}
+.zoom-bar .nav{display:inline-flex;gap:6px}
+.zoom-bar .nav button{background:#132537;border:1px solid #24405c;color:#cfe0ee;
+  border-radius:8px;font-family:inherit;font-size:11px;font-weight:800;
+  letter-spacing:.05em;text-transform:uppercase;padding:6px 11px;cursor:pointer}
+.zoom-bar .nav button:hover{border-color:#3d668f;color:#fff}
+
+/* ===================================================================
+   MOCK FURNITURE — the September surfaces
+   =================================================================== */
+
+/* --- tour page top: 672x380 gallery against a 395px title column --------- */
+.m-tourtop{display:grid;grid-template-columns:672px 1fr;gap:32px;
+  padding-top:22px}
+.m-gal{position:relative;border-radius:3px;overflow:hidden;height:380px;
+  background:var(--sand200)}
+.m-gal>img{width:100%;height:100%;object-fit:cover;display:block}
+.m-thumbs{position:absolute;left:14px;bottom:14px;display:flex;gap:12px}
+.m-th{width:76px;height:52px;border-radius:2px;overflow:hidden;display:block;
+  box-shadow:0 0 0 2px rgba(255,255,255,.85);position:relative;background:#000}
+.m-th img{width:100%;height:100%;object-fit:cover;display:block}
+.m-th-vid img{opacity:.66}
+.m-th-vid i{position:absolute;inset:0;display:grid;place-items:center;
+  color:#fff;font-size:15px;font-style:normal;padding-bottom:9px}
+.m-th-vid em{position:absolute;left:0;right:0;bottom:0;background:rgba(5,18,31,.8);
+  color:#fff;font-style:normal;font-size:8px;font-weight:800;
+  letter-spacing:.04em;text-align:center;padding:2px 0;text-transform:uppercase}
+.m-badges{display:flex;flex-wrap:wrap;gap:7px}
+.m-badges span{font-size:10.5px;font-weight:800;letter-spacing:.07em;
+  text-transform:uppercase;color:var(--ink500);background:var(--sand100);
+  border:1px solid var(--sand300);border-radius:3px;padding:3px 8px}
+.m-h1{font-size:31px;font-weight:800;color:var(--ink900);line-height:1.12;
+  margin:14px 0 0;letter-spacing:-.02em}
+.m-pricebox{margin-top:20px;border:1px solid var(--sand300);border-radius:3px;
+  background:var(--sand100);padding:14px 18px 16px}
+.m-pricebox .l{font-size:10px;font-weight:800;letter-spacing:.1em;
+  color:var(--ink300);display:block}
+.m-pricebox b{font-size:27px;font-weight:800;color:var(--ink900);display:block;
+  line-height:1.2}
+.m-pricebox .s{font-size:12.5px;color:var(--ink300);display:block;margin-top:2px}
+.m-cta{display:block;margin-top:12px;background:var(--rust600);color:#fff;
+  text-align:center;font-weight:800;font-size:14px;padding:13px 0;
+  border-radius:3px;letter-spacing:.01em}
+.m-cta.wide{margin-top:16px}
+
+/* --- the fact strip, full bleed --------------------------------------- */
+.m-facts{background:var(--sand100);border-top:1px solid var(--sand300);
+  border-bottom:1px solid var(--sand300);margin-top:24px;padding:16px 0 20px}
+.m-factrow{display:flex;flex-wrap:wrap;gap:8px 30px;align-items:center}
+.m-factrow .f{font-size:13.5px;color:var(--ink500)}
+.m-factrow .f em{font-style:normal;color:var(--ink300)}
+.m-factrow .f b{color:var(--ink900);font-weight:700}
+.m-lede{margin:12px 0 0;font-size:16px;line-height:1.6;color:var(--ink700);
+  max-width:800px}
+
+/* --- sticky subnav ----------------------------------------------------- */
+.m-subnav{background:#fff;border-bottom:1px solid var(--sand300);height:64px;
+  display:flex;align-items:center}
+.m-subnav .m-shell{display:flex;gap:26px;align-items:center;height:100%}
+.m-subnav span{font-size:14px;color:var(--ink500);font-weight:600}
+.m-subnav span.on{color:var(--ink900);box-shadow:inset 0 -2px 0 var(--rust600)}
+
+/* --- change notice (shipped in round one) ------------------------------ */
+.m-notice{background:var(--navy800);color:#fff;border-radius:3px;
+  padding:14px 20px 16px;margin-top:24px}
+.m-notice .l{font-size:10px;font-weight:800;letter-spacing:.12em;
+  color:var(--navy300)}
+.m-notice p{margin:6px 0 0;font-size:14.5px;line-height:1.55;color:#cfe0ee}
+
+/* --- two-column body + booking rail ------------------------------------ */
+.m-2col{display:grid;margin-top:24px;align-items:start}
+.m-rail{border:1px solid var(--sand300);border-radius:3px;overflow:hidden;
+  background:#fff}
+.m-r-top{background:var(--navy800);color:#fff;padding:14px 18px 15px}
+.m-r-top .l{font-size:10px;font-weight:800;letter-spacing:.1em;
+  color:var(--navy300);display:block}
+.m-r-top b{font-size:26px;font-weight:800;display:block;line-height:1.25}
+.m-r-top .s{font-size:12px;color:var(--navy100);display:block}
+.m-r-body{padding:18px}
+.m-r-body .l{font-size:10px;font-weight:800;letter-spacing:.1em;
+  color:var(--ink300);display:block}
+.m-r-dates{list-style:none;margin:8px 0 0;padding:0;display:grid;gap:6px}
+.m-r-dates li{font-size:14.5px;color:var(--ink900);font-weight:600}
+.m-r-body>.s{display:block;font-size:12.5px;color:var(--ink300);margin-top:8px}
+.m-r-spec{display:flex;align-items:baseline;gap:8px;margin-top:11px;
+  padding-top:10px;border-top:1px solid var(--sand200);font-size:13.5px;
+  color:var(--ink300);flex-wrap:wrap}
+.m-r-spec b{color:var(--ink900);font-weight:700;margin-left:auto}
+.m-r-more{display:block;width:100%;font-size:12.5px;color:var(--rust600);
+  font-weight:700;margin-top:4px}
+.m-r-dl{margin-top:16px;padding-top:13px;border-top:1px solid var(--sand200)}
+.m-r-dl .l{margin-bottom:5px}
+.m-r-dl .b{display:block;border:1px solid var(--sand300);border-radius:3px;
+  text-align:center;font-size:13.5px;font-weight:700;color:var(--ink700);
+  padding:10px 0}
+.m-r-q{margin:14px 0 0;font-size:12.5px;color:var(--ink300)}
+.m-r-rev{margin-top:16px;padding-top:14px;border-top:1px solid var(--sand200)}
+.m-rev{margin-top:9px;background:var(--sand100);border-radius:3px;
+  padding:10px 12px}
+.m-rev .st{color:#d39a2e;font-size:12px;letter-spacing:1px}
+.m-rev p{margin:4px 0 0;font-size:13px;line-height:1.45;color:var(--ink700)}
+.m-rev cite{display:block;font-style:normal;font-size:11.5px;
+  color:var(--ink300);margin-top:5px}
+
+/* --- activity marks ----------------------------------------------------- */
+.m-plain{font-size:13px;color:var(--ink500)}
+.m-meter{display:inline-flex;align-items:center;gap:7px;font-size:13px;
+  color:var(--ink500)}
+.m-meter i{width:13px;height:5px;border-radius:2px;background:var(--sand300);
+  display:block}
+.m-meter i.on{background:var(--pine700)}
+.m-meter[data-n="2"] i.on{background:#c98a24}
+.m-meter[data-n="3"] i.on{background:var(--rust700)}
+.m-meter em{font-style:normal;font-weight:700;color:var(--ink700);
+  margin-left:1px}
+.m-slope{display:inline-flex;align-items:center;gap:7px;font-size:13px;
+  color:var(--pine700)}
+.m-slope[data-n="2"]{color:#c98a24}
+.m-slope[data-n="3"]{color:var(--rust700)}
+.m-slope[data-n="0"]{color:var(--ink300)}
+.m-slope em{font-style:normal;font-weight:700;color:var(--ink700)}
+.m-hover{position:absolute;z-index:7;width:268px;background:#fff;
+  border:1px solid var(--sand300);border-radius:4px;padding:12px 14px 13px;
+  box-shadow:0 18px 40px rgba(12,33,54,.22)}
+.m-hover b{display:block;font-size:13px;color:var(--ink900)}
+.m-hover p{margin:5px 0 0;font-size:12.5px;line-height:1.45;color:var(--ink500)}
+.m-hover a{display:block;margin-top:8px;font-size:12.5px;font-weight:700;
+  color:var(--rust600)}
+
+/* --- the national map --------------------------------------------------- */
+.m-mapdefs{position:absolute;width:0;height:0;overflow:hidden}
+.m-map{width:100%;background:var(--sand100);border-radius:3px;
+  border:1px solid var(--sand300);overflow:hidden}
+.m-map svg{width:100%;height:100%;display:block}
+.m-map use{fill:#c7d8e6;stroke:#fff;stroke-width:1.8;transition:fill .12s}
+.m-map use.lit{fill:#aec6da}
+.m-map use.sel{fill:var(--rust600)}
+/* Labels are sized in USER UNITS, not pixels — the map is an 830-unit
+   viewBox scaled into whatever box it lands in, so 13 would render at seven
+   pixels and disappear. */
+.m-map text{font-size:34px;font-weight:800;fill:#fff;text-anchor:middle;
+  font-family:var(--sans);letter-spacing:.5px}
+
+/* --- builder pieces ----------------------------------------------------- */
+.m-step{padding:18px 0 4px;border-top:1px solid var(--sand200)}
+.m-step:first-child{border-top:0}
+.m-step-h{display:flex;align-items:baseline;gap:9px;flex-wrap:wrap}
+.m-step-h b{font-size:15px;color:var(--rust600);font-weight:800}
+.m-step-h span{font-size:17px;font-weight:700;color:var(--ink900)}
+.m-step-h em{font-style:normal;font-size:12.5px;color:var(--ink300)}
+.m-chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:11px}
+.m-chip{border:1px solid var(--sand300);border-radius:999px;padding:9px 15px;
+  font-size:13.5px;color:var(--ink700);background:#fff;line-height:1.1}
+.m-chip.on{background:var(--rust600);border-color:var(--rust600);color:#fff;
+  font-weight:700}
+.m-sofar{border:1px solid var(--sand300);border-radius:3px;background:#fff;
+  padding:16px 18px 18px}
+.m-sofar .l{font-size:10px;font-weight:800;letter-spacing:.1em;
+  color:var(--ink300);display:block;margin-bottom:6px}
+.m-sf-r{display:flex;gap:10px;align-items:baseline;padding:8px 0;
+  border-bottom:1px solid var(--sand200);font-size:13px;color:var(--ink300)}
+.m-sf-r b{margin-left:auto;color:var(--ink900);font-weight:700;text-align:right}
+
+/* --- seasons ------------------------------------------------------------ */
+.m-seasontabs{position:absolute;left:14px;top:14px;display:flex;gap:6px}
+.m-seasontabs span{background:rgba(5,18,31,.62);color:#e4eef6;font-size:11.5px;
+  font-weight:700;padding:5px 12px;border-radius:999px;backdrop-filter:blur(3px)}
+.m-seasontabs span.on{background:#fff;color:var(--ink900)}
+.m-seasons{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px;
+  margin-top:16px}
+.m-season-ph{aspect-ratio:16/10;border-radius:3px;overflow:hidden;
+  background:var(--sand200)}
+.m-season-ph img{width:100%;height:100%;object-fit:cover;display:block}
+.m-season b{display:block;margin-top:9px;font-size:15px;color:var(--ink900)}
+.m-season p{margin:3px 0 0;font-size:13px;color:var(--ink500);line-height:1.45}
+.m-season.on .m-season-ph{box-shadow:0 0 0 2px var(--rust600)}
+
+/* --- campaign strip ----------------------------------------------------- */
+.m-strip-camp{background:#1b1410;color:#f2dcc9}
+.m-strip-camp b{color:#fff;text-decoration:none}
+.m-strip-camp b.u{color:#ffb185;text-decoration:underline}
+.m-strip-camp code{background:rgba(255,255,255,.14);color:#fff;padding:1px 6px;
+  border-radius:3px}
+.m-camp-ic{font-size:13px}
+.m-strip-split .m-shell{justify-content:space-between;gap:18px}
+.m-strip-split .camp{color:#ffd9bd}
+.m-strip-split .camp b{color:#fff}
+.m-strip-split .camp code{background:rgba(255,255,255,.14);color:#fff;
+  padding:1px 6px;border-radius:3px}
+.m-strip-split .pos{color:var(--navy100)}
+
+/* --- phone rules for the new furniture ---------------------------------- */
+.mockwrap.phone .m-tourtop{grid-template-columns:1fr;gap:18px}
+.mockwrap.phone .m-gal{height:230px}
+.mockwrap.phone .m-2col{grid-template-columns:1fr!important;gap:20px!important}
+.mockwrap.phone .m-seasons{grid-template-columns:repeat(2,minmax(0,1fr))}
+.mockwrap.phone .m-h1{font-size:25px}
+.mockwrap.phone .m-map{height:auto!important;aspect-ratio:1.55}
+.mockwrap.phone .m-hover{position:static;width:auto;margin-top:10px}
+.mockwrap.phone .m-subnav .m-shell{overflow:hidden;white-space:nowrap}
+.mockwrap.phone .m-factrow{flex-direction:column;align-items:flex-start;gap:5px}
+
+/* the one-line rating in the booking rail — 24px, and it links to the band */
+.m-r-rate{display:flex;align-items:center;gap:8px;margin-top:12px;
+  padding-top:11px;border-top:1px solid var(--sand200);font-size:13px;
+  color:var(--ink300)}
+.m-r-rate .st{color:#d39a2e;font-size:13px;letter-spacing:1px}
+.m-r-rate b{color:var(--ink900);font-weight:800;font-size:14px}
+.m-r-rate .n{margin-left:auto;color:var(--rust600);font-weight:700}
+
+/* Any grid a mockup declares inline collapses to one column on a phone.
+   `!important` is load-bearing: these are inline styles on the element, and
+   without it the canvas renders 1,200px wide inside a 390px box and clips. */
+.mockwrap.phone .m-2col,
+.mockwrap.phone .m-grid3,
+.mockwrap.phone .m-grid2{grid-template-columns:minmax(0,1fr)!important;
+  gap:16px!important}
+.mockwrap.phone .m-filterbar{grid-template-columns:minmax(0,1fr)!important;
+  gap:10px!important}
+/* `minmax(0,1fr)` rather than `1fr`: a 1fr track's floor is min-content, and
+   the sideways-scrolling chip row inside it has no min-content, so the track
+   grew to 1,393px and took the canvas with it. Every grid child needs the
+   same floor for the same reason. */
+.mockwrap.phone .m-2col > *,
+.mockwrap.phone .m-grid3 > *,
+.mockwrap.phone .m-grid2 > *,
+.mockwrap.phone .m-filterbar > *{min-width:0;max-width:100%}
+/* The pair of cards in decision 20 is a flex row at full size. */
+.mockwrap.phone .m-cardpair{flex-direction:column!important;gap:16px!important}
+.mockwrap.phone .m-tourtop{grid-template-columns:1fr!important}
+.mockwrap.phone .m-thumbs{gap:8px}
+.mockwrap.phone .m-hover{left:auto!important;top:auto!important}
+.mockwrap.phone .m-leave{position:static!important;transform:none!important;
+  width:auto!important;margin:12px 16px}
+.mockwrap.phone .m-card{width:100%!important}
+.mockwrap.phone .m-subnav .m-shell,
+.mockwrap.phone .m-nav{overflow:hidden}
