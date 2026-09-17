@@ -50,5 +50,64 @@
     "A": "One fixed sentence",
     "B": "The campaign takes the strip",
     "C": "Campaign left, positioning right"
+  },
+  "30": {
+    "A": "Keep it, as now",
+    "B": "Cut it, form first",
+    "C": "One line up, the four promises below",
+    "D": "The four promises become the hero"
+  },
+  "31": {
+    "A": "Nothing until you pick, as now",
+    "B": "Every state, two letters",
+    "C": "Only the states we sell"
+  },
+  "32": {
+    "A": "Pills, as now",
+    "B": "Square the corners",
+    "C": "An even grid",
+    "D": "A labelled row per question"
+  },
+  "33": {
+    "A": "One long column, as now",
+    "B": "The map goes wide, the questions go under it",
+    "C": "The map pins itself to the left",
+    "D": "A board of cards"
+  },
+  "34": {
+    "A": "It says nothing back, as now",
+    "B": "It tells you what it already knows",
+    "C": "The map answers with the place",
+    "D": "A draft itinerary assembles itself"
+  },
+  "35": {
+    "A": "Empty track, as now",
+    "B": "The row disappears",
+    "C": "The slot carries something we do know",
+    "D": "Publish the levels"
+  },
+  "36": {
+    "A": "Title, price, and reviews 1,700px down",
+    "B": "A rating chip above the title",
+    "C": "A moving bar under the price panel",
+    "D": "The bar spans both columns"
+  },
+  "37": {
+    "A": "Under the facts, as now",
+    "B": "Remove it",
+    "C": "One line up top, the panel down low",
+    "D": "Fold it"
+  },
+  "38": {
+    "A": "The photos are replaced, as now",
+    "B": "The door you chose stays",
+    "C": "The answers are photographs too",
+    "D": "All four doors stay, answers open underneath"
+  },
+  "39": {
+    "A": "Full-width paragraph, as now",
+    "B": "Copy left, film right",
+    "C": "Film left, copy right",
+    "D": "A full-width film band"
   }
 }

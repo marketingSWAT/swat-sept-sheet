@@ -57,3 +57,67 @@ dates on the Mighty 5.
   references and the geometry is emitted once into a hidden `<defs>`.
 
 Source transcript: `/mnt/c/Users/james/clawd-inbound/swat-meeting-2026-09-16-transcript.txt`
+
+---
+
+## Round two — decisions 30-39 (16 September, evening)
+
+Built from Crow's walkthrough of the staging build after round one shipped.
+`build/decisions_c.py` and `build/mocks_c.py`; decisions 20-29 are folded via
+`ANSWERS` in `build/sheetkit.py`.
+
+Six of the ten are the Build Your Own page: the block above the form (30),
+state labels on the map (31), the pill buttons (32), the page's shape (33),
+what it does while you answer it (34). The rest are the "Activity level on
+request" state (35), the tour page's title/price/review bar (36), the
+qualifying panel (37), the home band's vanishing photographs (38), and the film
+slot beside SWAT's own paragraph (39).
+
+### What round two measured
+
+Read off the deployed staging build at a 1200px viewport on 16 September 2026,
+**after** round one shipped:
+
+- `/custom-tours/` 4,936px. "What a custom trip means here" is 570px and puts
+  the builder heading at y=1,344. **40 pill buttons**, radius 999px, 44px tall,
+  57-163px wide, in **8 rows with 8 different right edges** — 695, 763, 280,
+  611, 443, 544, 694, 497 — inside a 739px column. Builder band 1,523px. The
+  map renders 737x384 from a 960x500 viewBox and is unlabelled until a state is
+  picked.
+- Home: **4 of 8** shelf cards say "Activity level on request" (42 of 74
+  sitewide). "Start where you are" is 540px with four 263x197 photographs, and
+  answering its first question leaves the section with **zero images** and 15
+  pills in 3 rows ending at 1137, 414, 94. SWAT's paragraph is 359px at y=4,580.
+- `/tours/1-day-great-salt-lake-and-antelope-island-tour/` 9,697px. Gallery
+  672x380 at y=255; title column 395px at x=747; h1 34px and 75px tall; price
+  panel 184px ending **34px short** of the gallery's bottom edge. "Is this trip
+  right for you?" 267px at y=1,185; reviews band 326px at y=1,764, all
+  placeholder.
+
+### What measuring overturned this round
+
+**Decision 33 claimed the reorganised layouts would take the page from 4,936px
+to about 2,900px. Measured on the drawings, they do not.** The builder band is
+1,287px as drawn today, 1,359px in B, 1,339px in C and 1,271px in D — the
+bigger map costs back everything the two-across questions save. The claim was
+rewritten and the correction is printed in the verdict. The page height comes
+off in decision 30, and nowhere else.
+
+### Traps this round cost time on
+
+- **`swat-browser resize` does not stick**; the daemon re-pins the viewport per
+  command. `--w 1200` on every `eval` is what actually holds it.
+- **SVG labels again.** Two-letter codes at the live map's 15 user units are
+  ~7px inside a sheet panel. Fixed properly: a code needs less room than a name,
+  so it ships at 18 units, and the canvas map's height was raised to 470 so the
+  drawing is scaled by its width rather than letterboxed by its height. The
+  thumbnail is still small — the enlarged view is where this decision is judged.
+- **An inline `display:flex` beats every `.mockwrap.phone` rule.** The two-card
+  pair in decision 35 overflowed a 390px phone canvas to 726px. It needs a
+  class.
+- **`min-width:0` on the grid child, not just the flex item.** The review bar
+  holds a `white-space:nowrap` track, so the `1fr` column holding it floored at
+  its min-content width and the phone canvas scrolled to 1,433px.
+- **A "Now" panel drawn short is the worst possible error.** The inline map was
+  drawn at 300px against the live 384px, which made the current build look more
+  compact than it is — in the one decision about page length.

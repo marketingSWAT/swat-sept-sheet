@@ -27,12 +27,26 @@ import mocks as M                 # noqa: E402
 from sheetkit import ANSWERS      # noqa: E402
 import decisions_a as A           # noqa: E402
 import decisions_b as B           # noqa: E402
+import decisions_c as C           # noqa: E402
 
 OUT = os.path.join(HERE, '..', 'site', 'index.html')
 
 
 # ------------------------------------------------------------------ the page
 RAIL = [
+    (30, 'The words above the builder'),
+    (31, 'State names on the map'),
+    (32, 'The buttons'),
+    (33, 'The shape of the page'),
+    (34, 'What the page does back'),
+    (35, '&ldquo;Activity level on request&rdquo;'),
+    (36, 'Title, price, review bar'),
+    (37, 'Is this trip right for you?'),
+    (38, 'Start where you are'),
+    (39, 'The film slot'),
+]
+
+ROUND1 = [
     (20, 'Activity level on a card'),
     (21, 'The activity section'),
     (22, 'Seasons on a tour page'),
@@ -47,13 +61,16 @@ RAIL = [
 
 
 def rail_html():
-    items = ''.join(
-        f'<a href="#d{n}" class="{"done" if n in ANSWERS else ""}">'
-        f'<b>{n}</b>{t}</a>' for n, t in RAIL)
+    def rows(group):
+        return ''.join(
+            f'<a href="#d{n}" class="{"done" if n in ANSWERS else ""}">'
+            f'<b>{n}</b>{t}</a>' for n, t in group)
     return (
         '<nav class="rail">'
-        '<div class="rt">The decisions</div>'
-        f'{items}'
+        '<div class="rt">This round &mdash; 30 to 39</div>'
+        f'{rows(RAIL)}'
+        '<div class="rt">Answered &mdash; built and on staging</div>'
+        f'{rows(ROUND1)}'
         '<div class="rt">After the decisions</div>'
         '<a href="#r1">Doing without asking</a>'
         '<a href="#r2">Waiting on SWAT</a>'
@@ -66,37 +83,39 @@ def rail_html():
 MAST = """
 <header class="mast">
   <div class="kick">Southwest Adventure Tours &middot; storefront rebuild</div>
-  <h1>The 16 September review, drawn</h1>
-  <p>Ten things from Tuesday&rsquo;s call that cannot be built until somebody
-  picks a shape. Each one shows what the site does <b>today</b>, beside two to
-  four alternatives drawn at full size. Click any drawing to enlarge it, and
-  pull the others in beside it from the chip row.</p>
-  <p style="margin-top:12px"><b>Answer with letters.</b> &ldquo;Twenty-three
-  goes to B, twenty-six stays as it is.&rdquo; A voice note is fine &mdash;
-  every option has a letter printed on it, and the letters never move.</p>
-  <div class="who"><span>Matt Warren</span><span>Lance Card</span>
-  <span>SWAT operations</span><span>Recorded 16 Sep 2026, 1h09m</span>
-  <span>1,103 lines</span></div>
+  <h1>The staging walkthrough, drawn</h1>
+  <p>Ten more shapes to pick, numbered <b>30 to 39</b>, from your walk through
+  the staging build. Six of them are the <b>Build Your Own</b> page, which you
+  asked for first; the rest are the home page&rsquo;s activity level, the top of
+  a tour page, the qualifying panel, and the film slot. Each shows what the site
+  does <b>today</b> beside two to four alternatives drawn at full size. Click any
+  drawing to enlarge it, and pull the others in beside it from the chip row.</p>
+  <p style="margin-top:12px"><b>Answer with letters.</b> &ldquo;Thirty-two goes
+  to C, thirty-seven stays as it is.&rdquo; A voice note is fine &mdash; every
+  option has a letter printed on it, and the letters never move.</p>
+  <div class="who"><span>Crow</span><span>Walkthrough of staging</span>
+  <span>16 Sep 2026</span><span>Round one, 20&ndash;29, is answered and folded
+  below</span></div>
 </header>
 """
 
 LEDE = """
 <div class="lede">
-  <h2>What is already built, and therefore not here</h2>
-  <p>Round one of these notes shipped to staging on Tuesday night and is not up
-  for discussion: the <b>star on the route start</b>, the <b>ticker at half
-  speed</b>, the map band leading with <b>nationwide</b>, the <b>60-day floor</b>
-  under the home shelf, <b>eight cards</b>, day rows naming the <b>town rather
-  than the hotel</b>, the <b>change notice</b> in navy on every tour page, the
-  <b>flame and promo code</b> on a discounted departure, the <b>About film
-  slot</b>, and <b>/review/build/</b> for the sales team.</p>
-  <p>Two things the room raised that need nothing from anyone: the map&rsquo;s
-  size and image are settled &mdash; <i>&ldquo;the size is perfect, I even
-  don&rsquo;t mind the image the way that it is&rdquo;</i> &mdash; and the
-  numbered stops are <b>not broken</b>. They render when a tour is selected;
-  Matt was clicking a place dot.</p>
-  <p>What is below is the rest of the meeting: the parts where the answer is a
-  layout, not a line of code.</p>
+  <h2>What you already signed off, and therefore is not here</h2>
+  <p>All ten decisions from the first sheet are built and live on staging, and
+  your walkthrough confirmed seven of them outright: <b>the partner pages</b>,
+  <b>hot deals</b>, <b>the images</b>, <b>the itinerary</b>, <b>the video
+  slot</b>, <b>the archives, by-state and destination pages</b>, and <b>the
+  bars on the home page</b>. Those are folded at the bottom of the rail with
+  their letters recorded, and I am not reopening them.</p>
+  <p>Three came back: <b>the activity mark</b> where a trip has no level
+  (decision <a href="#d35">35</a>), <b>where the reviews sit</b> on a tour page
+  (<a href="#d36">36</a>), and <b>&ldquo;Is this trip right for you?&rdquo;</b>
+  (<a href="#d37">37</a>). Each of those is drawn again here rather than argued
+  about, and the original decision links through to its replacement.</p>
+  <p>One thing said out loud that needs no decision: <i>&ldquo;I love the
+  interactive map, I think that looks great.&rdquo;</i> Decisions 31 to 33 make
+  it bigger and readable. None of them takes it away.</p>
 </div>
 """
 
@@ -113,116 +132,119 @@ def register(anchor, kicker, title, intro, body):
 
 R1 = register(
     'r1', 'Register one', 'Doing without asking',
-    'Dictated in the room, or praised and therefore protected through the '
-    'rework. No decision needed &mdash; listed so it is visible.',
-    '<table class="tbl"><tr><th>What</th><th>Their words</th><th>State</th></tr>'
-    '<tr><td><b>Delete &ldquo;Email me the day-by-day&rdquo;</b> from every '
-    'tour page</td><td>&ldquo;that feature itself should probably be '
-    'removed&rdquo; &mdash; travel agents copy the itineraries, so only booked '
-    'guests get them</td><td>Still live. Half a day, no design needed</td></tr>'
-    '<tr><td><b>Keep the long itinerary</b></td><td>&ldquo;is this itinerary '
-    'too detailed, do we need to just do bullet points&rdquo; &rarr; '
-    '&ldquo;I say we keep it the way that it is&rdquo;</td><td>Settled. '
-    'Written for SEO and AEO, and they agreed</td></tr>'
-    '<tr><td><b>Never remove the hot deals ticker</b></td>'
-    '<td>&ldquo;I don&rsquo;t ever want to lose the hot deals ticker&rdquo;'
-    '</td><td>Protected. Decision 29 is the strip <i>above</i> it</td></tr>'
-    '<tr><td><b>Fix the hero search line</b></td><td>&mdash;</td>'
-    '<td>It still says &ldquo;Anywhere in the Southwest&rdquo;, one screen '
-    'above &ldquo;We&rsquo;re nationwide, not just the Southwest&rdquo;. '
-    'Changing it on sight</td></tr>'
-    '<tr><td><b>Large group grows from 3 itineraries to 8+</b></td>'
-    '<td>&ldquo;this one only shows three of them, we should have eight at '
-    'least&rdquo;</td><td>Page is built; it needs the five itineraries, not a '
-    'layout</td></tr>'
+    'Either you dictated it, or you praised it and it now needs protecting '
+    'through the rework. No decision needed &mdash; listed so it is visible.',
+    '<table class="tbl"><tr><th>What</th><th>Why</th><th>State</th></tr>'
+    '<tr><td><b>The nav wraps onto two lines</b></td>'
+    '<td>Nine items at 1200px. It is visible in every mockup on this page, '
+    'because the mockups draw the real header. &ldquo;For Partners&rdquo; from '
+    'decision 25 made it worse</td><td>Fixing on sight. It is a defect, not a '
+    'choice</td></tr>'
+    '<tr><td><b>The floating &ldquo;Search trips&rdquo; pill sits on top of '
+    'the builder</b></td><td>On /custom-tours/ it lands in the bottom-right '
+    'corner, next to the form&rsquo;s own Send button. Two competing actions, '
+    'one of them irrelevant on that page</td><td>Standing it down below '
+    '<code>lg</code> on the pages that own that corner</td></tr>'
+    '<tr><td><b>Keep the interactive map</b></td>'
+    '<td>&ldquo;I love the interactive map, I think that looks great&rdquo;'
+    '</td><td>Protected. Decisions 31-33 only ever make it bigger</td></tr>'
+    '<tr><td><b>Keep the partner pages, hot deals, archives, by-state and '
+    'destination pages as they are</b></td><td>&ldquo;looks good&rdquo; on '
+    'each, unprompted</td><td>Frozen. Nothing in this round touches them'
+    '</td></tr>'
+    '<tr><td><b>Delete &ldquo;Email me the day-by-day&rdquo;</b></td>'
+    '<td>Carried over and still live: travel agents copy the itineraries, so '
+    'only booked guests should get them</td><td>Half a day, no design needed'
+    '</td></tr>'
     '</table>')
 
 R2 = register(
     'r2', 'Register two', 'Waiting on SWAT',
-    'What I need, from whom, and what each piece blocks. Sending it as one '
-    'list beats asking in pieces.',
+    'What I need, from whom, and what each piece blocks. Two of these decide '
+    'whether decisions in this round can ever be more than a frame.',
     '<table class="tbl">'
     '<tr><th>Who</th><th>What</th><th>Blocks</th></tr>'
-    '<tr><td class="n">Matt</td><td>The three-minute film; About page copy; '
-    'correct imagery and the largest originals; testimonials broken out by '
-    'location; reviews picked per tour; a Black Friday icon</td>'
-    '<td>Decisions 26 and 27 cannot go live without the reviews and the cut, '
-    'though both can be built empty</td></tr>'
-    '<tr><td class="n">Sean, via ops</td><td>Industry-professionals copy, five '
-    'more large-group itineraries, and the name for that page</td>'
-    '<td>Decision 25 &mdash; the shape can be chosen now, the words cannot be '
-    'written here</td></tr>'
+    '<tr><td class="n">Operations</td><td><b>Activity levels for the 42 trips '
+    'that have none</b> &mdash; four options each, an afternoon for somebody '
+    'who knows the trips. Plus sign-off on the four guidance paragraphs</td>'
+    '<td>Decision <a href="#d35">35</a>. Until they exist, half the home shelf '
+    'says &ldquo;on request&rdquo; and C is a workaround</td></tr>'
+    '<tr><td class="n">Matt</td><td><b>Reviews picked per tour</b>, and '
+    '<b>the highlights film</b></td>'
+    '<td>Decisions <a href="#d36">36</a> and <a href="#d39">39</a>. Both are '
+    'built as frames that render nothing until the content lands &mdash; every '
+    'word in the review band today is placeholder, and there is no film '
+    'anywhere on the site</td></tr>'
+    '<tr><td class="n">Marketing</td><td><b>Fifteen state photographs</b>, or '
+    'a yes to picking them from the library and verifying each one</td>'
+    '<td>Decision <a href="#d38">38</a>, option C</td></tr>'
+    '<tr><td class="n">Sean, via ops</td><td>Industry-professionals copy and '
+    'five more large-group itineraries</td>'
+    '<td>Decision 25 shipped as a shell; the words are still missing</td></tr>'
     '<tr><td class="n">Ashley</td><td>The forward deals calendar</td>'
-    '<td>Decision 29 &mdash; campaigns can only be pre-scheduled if the dates '
-    'exist</td></tr>'
+    '<td>Decision 29 shipped. The strip cannot pre-schedule anything without '
+    'dates</td></tr>'
     '<tr><td class="n">Operations</td><td>This year&rsquo;s CUA once approved, '
-    'plus the timing docs &mdash; and an owner for re-reading it every '
-    'year</td><td>Decision 21. Any trail named on the site has to be on the '
-    'permit: &ldquo;it can change year by year&rdquo;</td></tr>'
-    '<tr><td class="n">Softrip</td><td>Their own data. Asked whether the '
-    'bookings and tour codes are current, the answer in the room was '
-    '&ldquo;No.&rdquo;</td><td>Live booking, and nothing else</td></tr>'
-    '<tr><td class="n">Monica &amp; Robin</td><td>Their pass on Build Your '
-    'Own</td><td>Nothing &mdash; but decision 24 is the thing they will be '
-    'looking at</td></tr>'
+    'and an owner for re-reading it annually</td>'
+    '<td>Decision <a href="#d37">37</a>. Whatever we do with the panel, a '
+    'trail named on the site has to be on the permit</td></tr>'
     '</table>')
 
 R3 = register(
-    'r3', 'Register three', 'Said in the room, but not built',
-    'Things described on the call as though they already exist, or that were '
-    'agreed to without anyone pricing them. This is the register that keeps me '
-    'honest.',
+    'r3', 'Register three', 'Said, but not built',
+    'Things that read on the staging build as though they are finished, and '
+    'are not. This is the register that keeps me honest.',
     '<ul class="ul">'
-    '<li><b>&ldquo;It&rsquo;s all in the system&rdquo; &mdash; Softrip.</b> '
-    'The poll API can return departures, and I have the key. But asked '
-    'directly whether every booking and tour code is up to date in Softrip, '
-    'the answer was no. Live booking is gated on their data, not on my '
-    'integration.</li>'
-    '<li><b>Connecting the Google reviews.</b> Google&rsquo;s own API returns '
-    'the five most recent reviews for a business and nothing more &mdash; you '
-    'cannot pull 300 of them, you cannot filter them by tour, and you cannot '
-    'choose which five. Every &ldquo;all our Google reviews on the site&rdquo; '
-    'widget is a paid third party. Decision 26 draws what is actually '
-    'reachable.</li>'
-    '<li><b>Abandoned-form email.</b> Sending &ldquo;you never finished&rdquo; '
-    'mail needs the email address captured <i>before</i> the form is '
-    'abandoned, which is a change to step one, not a bolt-on. That is half of '
-    'decision 28.</li>'
-    '<li><b>Reading each CUA and updating the site.</b> Agreed on the call as '
-    'though it were free. It is a recurring annual job for a named person, and '
-    'if nobody owns it the trail lists go stale silently &mdash; which is '
-    'worse than not listing them.</li>'
-    '<li><b>&ldquo;Ingest it straight into the CRM.&rdquo;</b> Leads write to '
-    'our own database and email out today. The audit found Zoho Forms, Zoho '
-    'CRM, Pipedrive and a Satis.fi widget all in use on the old site. Somebody '
-    'has to say which one is the CRM.</li>'
-    '<li><b>A/B testing which of these wins.</b> Not available. There is no '
-    'experiment framework on the build and no traffic to run one on yet, so '
-    'every choice on this sheet is a judgement, not a measurement.</li>'
+    '<li><b>Every review on the site is placeholder.</b> The band on a tour '
+    'page renders sample text and labels itself as sample. There are zero real '
+    'reviews in the record. Decision <a href="#d36">36</a> builds a working '
+    'bar; it will be full of example text until Matt sends picks per '
+    'tour.</li>'
+    '<li><b>There is no film.</b> Not for the home page, not for About, not '
+    'for any tour. Decision <a href="#d39">39</a> and decision 27 are both '
+    'slots behind a flag that render <i>nothing</i> rather than an empty '
+    'frame.</li>'
+    '<li><b>Half the catalogue has no activity level.</b> 42 of 74 published '
+    'trips. That is not a display bug and no option in decision '
+    '<a href="#d35">35</a> except D actually fixes it.</li>'
+    '<li><b>&ldquo;Slowly moves to the right&rdquo; is motion, and motion has '
+    'rules.</b> The review bar will stop on hover and on focus, and will not '
+    'animate at all for anyone whose device asks for reduced motion. This '
+    'audience skews older and a crawling line of text is the kind of thing '
+    'that gets resented.</li>'
+    '<li><b>No A/B test can settle any of this.</b> There is no experiment '
+    'framework on the build and not enough traffic to run one. Every '
+    'recommendation on this page is a judgement, not a measurement &mdash; the '
+    'measurements here are all of the <i>current</i> build, not of which '
+    'option wins.</li>'
+    '<li><b>Nothing automated reaches the visitor.</b> Leads reach SWAT by '
+    'email and that is verified. A person who fills in Build Your Own gets no '
+    'confirmation of any kind.</li>'
     '</ul>')
 
 R4 = register(
     'r4', 'Register four', 'What I would build first',
-    'Lance asked twice for a date. This is the order I would work in, and the '
-    'reason the answer is not one number.',
+    'Assuming you answer with letters and nothing else changes.',
     '<ul class="ul">'
-    '<li><b>This week, needing nothing from anyone:</b> delete the itinerary '
-    'email, fix the hero search line, the campaign strip (29), the activity '
-    'mark on cards (20). All four are days, not weeks.</li>'
-    '<li><b>Next, once the letters come back:</b> the activity section (21), '
-    'reviews and video wired as empty frames (26, 27), the unfinished-form '
-    'catch (28). Empty frames matter: the moment Matt&rsquo;s reviews and cut '
-    'land they drop in, rather than starting a build.</li>'
-    '<li><b>The two big ones:</b> seasons (22, 23) and the state picker (24). '
-    'These are the only items on the sheet measured in weeks rather than days, '
-    'and 22 needs four photographs per tour that nobody has counted yet.</li>'
-    '<li><b>Industry professionals (25)</b> sits outside that order because it '
-    'is blocked on Sean&rsquo;s copy, not on effort. The shell is a day.</li>'
-    '<li><b>Launch does not wait for live booking.</b> Softrip&rsquo;s data is '
-    'not current, by their own answer, so a launch with enquiry-led booking and '
-    'checkout wired afterwards is the only version of &ldquo;live&rdquo; that '
-    'has a date on it. That also matches what you told them: a site that keeps '
-    'evolving.</li>'
+    '<li><b>Same day, needing nothing from anyone:</b> the nav wrap, the '
+    'floating pill on the builder page, decision <a href="#d30">30</a> '
+    '(whichever letter) and decision <a href="#d35">35</a>. All four are '
+    'hours.</li>'
+    '<li><b>This week:</b> decision <a href="#d32">32</a> &mdash; the buttons. '
+    'It is one control used in three places, so it fixes the builder, the home '
+    'band and the filter bar at once, and decision <a href="#d38">38</a> and '
+    'decision <a href="#d33">33</a> both assume it has landed.</li>'
+    '<li><b>Then the Build Your Own rebuild:</b> decisions '
+    '<a href="#d31">31</a>, <a href="#d33">33</a> and <a href="#d34">34</a> '
+    'are one piece of work, not three. Roughly a week together, against '
+    'two-and-a-half weeks if they are done separately.</li>'
+    '<li><b>Then the tour page:</b> <a href="#d36">36</a> and '
+    '<a href="#d37">37</a>, a day and a half between them, and they touch the '
+    'same two files.</li>'
+    '<li><b>Last, because they wait on somebody else:</b> '
+    '<a href="#d38">38</a>&rsquo;s fifteen photographs and '
+    '<a href="#d39">39</a>&rsquo;s film slot. The slot itself is half a day '
+    'and can ship empty today.</li>'
     '</ul>')
 
 R5 = register(
@@ -230,23 +252,36 @@ R5 = register(
     'So the next round re-derives instead of trusting this page.',
     '<ul class="ul">'
     '<li><b>Every &ldquo;Now&rdquo; panel is the deployed staging build</b>, '
-    'read at a 1200px viewport on 16 September 2026, after round one of these '
-    'notes shipped &mdash; not from source and not from memory.</li>'
-    '<li><b>Measured, not estimated:</b> the trip shelf is 3-across at 350.2px '
-    'with 515px cards; the tour page runs a 672&times;380 gallery against a '
-    '395px title column; the fact strip is at y=659, the sticky subnav at '
-    'y=847, the change notice at y=961 and the 360px booking rail beside it. '
-    'The tour page is 11,468px tall.</li>'
+    'read at a 1200px viewport on 16 September 2026 &mdash; after round one of '
+    'these notes shipped, so it is the build you walked through, not the one '
+    'the first sheet drew.</li>'
+    '<li><b>/custom-tours/ is 4,936px tall.</b> &ldquo;What a custom trip '
+    'means here&rdquo; is 570px and puts the builder heading at y=1,344. The '
+    'form holds <b>40 pill buttons</b>, 999px radius, 44px tall, 57&ndash;163px '
+    'wide, wrapping into <b>8 rows with 8 different right edges</b> &mdash; '
+    '695, 763, 280, 611, 443, 544, 694 and 497 &mdash; inside a 739px '
+    'column.</li>'
+    '<li><b>The home page.</b> 4 of the 8 cards on the shelf print '
+    '&ldquo;Activity level on request&rdquo;; sitewide it is 42 of 74. '
+    '&ldquo;Start where you are&rdquo; is 540px with four 263&times;197 '
+    'photographs, and answering its first question leaves the section with '
+    '<b>zero images</b> and 15 pills in 3 rows ending at 1137, 414 and 94. '
+    'SWAT&rsquo;s own paragraph is 359px of full-width prose at y=4,580.</li>'
+    '<li><b>The tour page</b> (Great Salt Lake and Antelope Island) is 9,697px. '
+    'Gallery 672&times;380 at y=255; title column 395px at x=747; the h1 is '
+    '34px and 75px tall; the price panel is 184px and ends 34px short of the '
+    'gallery&rsquo;s bottom edge. &ldquo;Is this trip right for you?&rdquo; is '
+    '267px at y=1,185; the reviews band is 326px at y=1,764.</li>'
     '<li><b>These rotate &mdash; re-derive them.</b> The eight featured trips '
-    '(November&rsquo;s, under the 60-day floor), the four live deals and their '
-    'promo codes, and the 61 departure dates on the Mighty 5.</li>'
-    '<li><b>The map is real.</b> State outlines are projected from us-atlas '
-    'through an Albers equal-area conic with Alaska and Hawaii as the usual '
-    'insets &mdash; not a drawing of a country.</li>'
+    '(under the 60-day floor, so they change monthly), the live deals and '
+    'their promo codes, and the departure dates.</li>'
+    '<li><b>The map is real.</b> State outlines projected from us-atlas '
+    'through an Albers equal-area conic, Alaska and Hawaii as the usual '
+    'insets. The label positions in decision 31 are that projection&rsquo;s '
+    'own anchors.</li>'
     '<li><b>Phone view is derived, not photographed.</b> The same markup '
     're-laid at 390px through the storefront&rsquo;s own breakpoints, then '
-    'measured. It is an approximation of the phone layout from the build&rsquo;s '
-    'rules.</li>'
+    'measured.</li>'
     '</ul>')
 
 
@@ -622,22 +657,24 @@ SCRIPT = r"""<script>
 
 def build():
     css = open(os.path.join(HERE, 'sheet.css')).read()
-    decisions = A.ALL + B.ALL
+    decisions = C.ALL + A.ALL + B.ALL
     body = (MAST + LEDE +
-            sec('The decisions', 'Ten shapes to pick',
+            sec('This round', 'Ten more shapes to pick',
                 'Green ring is what ships today. Amber ring is the one I would '
-                'build, and it says so in words as well.') +
+                'build, and it says so in words as well. Decisions 20 to 29 '
+                'are answered and folded further down &mdash; open any of them '
+                'to see what was picked.') +
             ''.join(decisions) + R1 + R2 + R3 + R4 + R5)
 
     foot = (
-        '<div class="foot">Built 16 September 2026 from the full 1,103-line '
-        'transcript of that day&rsquo;s review. Quotes are verbatim; the '
-        '&ldquo;Other Participants&rdquo; track has no speaker labels, so '
-        'anything not said by Matt or addressed by name is attributed to '
-        '<code>[ops]</code> rather than guessed. Current-build panels were '
-        'read off <code>swat-website-storefront-git-staging-swat2.vercel.app</code> '
-        'at a 1200px viewport on 16 September, after round one of these notes '
-        'shipped. This page quotes people candidly and is <code>noindex</code>; '
+        '<div class="foot">Round two, built 16 September 2026 from '
+        'Crow&rsquo;s walkthrough of the staging build. Quotes are verbatim. '
+        'Current-build panels were read off '
+        '<code>swat-website-storefront-git-staging-swat2.vercel.app</code> at '
+        'a 1200px viewport on 16 September, after decisions 20&ndash;29 '
+        'shipped &mdash; see register five for every number quoted on this '
+        'page. Decisions 20&ndash;29 and their answers are folded below this '
+        'round. This page quotes people candidly and is <code>noindex</code>; '
         'the URL is the only thing keeping it private.</div>')
 
     html = f"""<!doctype html>
@@ -645,7 +682,7 @@ def build():
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="robots" content="noindex,nofollow">
-<title>SWAT — the 16 September review, drawn</title>
+<title>SWAT — the staging walkthrough, drawn</title>
 <style>{css}</style>
 </head><body>
 {M.mapdefs()}

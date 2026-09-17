@@ -87,7 +87,34 @@ def verdict(text, warn=False, title='My recommendation'):
 
 #: Answers, as they come back. `dec()` folds an answered decision and prints
 #: the pick on its front, so the link holds the record rather than a voice note.
-ANSWERS = {}
+#:
+#: Round one (20-29) was answered in one sentence on 16 September — "let's go
+#: ahead and do all of your recommended picks and build that out and push it to
+#: staging" — so every one of them went to the option marked MY PICK. All ten
+#: are built and live on staging, and Crow has now walked the built versions:
+#: "most of this looks really good". Three of them were reopened by that
+#: walkthrough and their replacements are decisions 35, 36 and 37.
+ANSWERS = {
+    20: ('C', 'all recommended picks &mdash; shipped, then reopened as '
+              'decision <a href="#d35">35</a>'),
+    21: ('C', 'all recommended picks &mdash; shipped, then reopened as '
+              'decision <a href="#d37">37</a>'),
+    22: ('C', 'all recommended picks &mdash; shipped and signed off'),
+    23: ('C', 'all recommended picks &mdash; shipped and signed off'),
+    24: ('C', 'all recommended picks &mdash; shipped. &ldquo;I love the '
+              'interactive map, I think that looks great.&rdquo; Refined by '
+              'decisions <a href="#d31">31</a>-<a href="#d33">33</a>'),
+    25: ('B', 'all recommended picks &mdash; shipped. &ldquo;The partner '
+              'pages looks good.&rdquo;'),
+    26: ('C', 'all recommended picks &mdash; shipped, then reopened as '
+              'decision <a href="#d36">36</a>'),
+    27: ('C', 'all recommended picks &mdash; shipped. &ldquo;The slot for a '
+              'video looks good.&rdquo; Extended by decision '
+              '<a href="#d39">39</a>'),
+    28: ('D', 'all recommended picks &mdash; shipped and signed off'),
+    29: ('B', 'all recommended picks &mdash; shipped. &ldquo;I like the bars, '
+              'that looks good.&rdquo;'),
+}
 
 
 def dec(no, title, tags, quotes, opts, verd, since=None, cols=None):
