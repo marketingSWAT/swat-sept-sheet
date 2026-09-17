@@ -229,8 +229,12 @@ def ring(n, selector):
 #: `NAV_ITEMS` from src/components/PrimaryNav.tsx, in order. The sheet was
 #: drawing "Tours · Destinations · Departing from · Deals · About", which is
 #: neither the live nav nor the old site's.
+#: Round two: `For Partners` shipped with decision 25 and the mocks were still
+#: drawing the eight-item nav. Nine items is also what makes the row wrap at
+#: 1200px, which is the defect named in register one — so a mockup missing it
+#: was hiding the very thing it is evidence for.
 NAV = ['Home', 'Destinations', 'Trip Styles', 'Departing From', 'Hot Deals',
-       'Build Your Own', 'Journal', 'About']
+       'Build Your Own', 'Journal', 'About', 'For Partners']
 
 #: The number in the header on the deployed build. The sheet's first round
 #: printed the old St George line.
