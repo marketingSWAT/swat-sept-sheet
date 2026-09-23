@@ -150,6 +150,24 @@ ANSWERS = {
               'Question one falls from <b>955px to 504</b>, and to 612 with a '
               'destination panel open, so all sixteen are on the screen with '
               'the map. The page comes down from 5,439px to 4,989'),
+
+    # Round five plus the still-open 41, answered in one voice note on
+    # 23 September: "42 ... we can do D", the calendar "looks great ... see if
+    # we can make that calendar look a little bit nicer and more clean", 44
+    # "the panel beside you ... I like how you include the image", and 41 "I
+    # like E" with a follow-up about the white space beside the reviews.
+    41: ('E', 'built and on staging &mdash; three reviews under the photograph, '
+              'and the column beside them is now the trip at a glance, '
+              'stretched so both columns end on the same line. Still renders '
+              'nothing on a live tour until the reviews file has real ones'),
+    42: ('D', 'built and on staging &mdash; no site menu or big footer on the '
+              'booking page; the page is about 1,390px against 1,897'),
+    43: ('B', 'built and on staging, cleaned up as asked &mdash; each departure '
+              'is one bar across the days away, carrying the price, on a grid '
+              'of hairlines'),
+    44: ('B', 'built and on staging &mdash; the tour&rsquo;s photograph, the '
+              'money, then the five days with a frame each and the town you '
+              'sleep in'),
 }
 
 
