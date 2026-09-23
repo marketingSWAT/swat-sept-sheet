@@ -128,5 +128,22 @@
     "E": "Three cards in that white space",
     "F": "The same three, drifting right",
     "G": "A strip across the whole row"
+  },
+  "42": {
+    "A": "The site, with a form inside it",
+    "B": "A photograph across the top",
+    "C": "A checkout of its own, one column",
+    "D": "A checkout of its own, with the trip beside it"
+  },
+  "43": {
+    "A": "Twelve months, then a list",
+    "B": "A calendar, with the five days drawn on it",
+    "C": "One list, months stuck to the top",
+    "D": "Fewer rows, more on each"
+  },
+  "44": {
+    "A": "Folded away under the questions",
+    "B": "In the panel beside you",
+    "C": "Open, underneath, as a band"
   }
 }

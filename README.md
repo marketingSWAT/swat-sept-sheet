@@ -121,3 +121,64 @@ off in decision 30, and nowhere else.
 - **A "Now" panel drawn short is the worst possible error.** The inline map was
   drawn at 300px against the live 384px, which made the current build look more
   compact than it is — in the one decision about page length.
+
+---
+
+## Round five — decisions 42-44, the checkout (23 September)
+
+Built from one sentence: *"for the check out on the tours, I am still not sure
+I am loving how it looks and feels right now. Could you make me up a couple re
+designs on how we can change this and make it look and feel better."* No second
+sentence naming what is wrong, so the round starts by counting.
+
+`build/decisions_e.py` and `build/mocks_f.py`. Authored at **1440**, Crow's own
+window, because the emptiness the round is about only exists at that width.
+
+### What round five measured
+
+Read off the **DEPLOYED PRODUCTION** build at 1440x900 on 23 September 2026 —
+`swat-website-storefront.vercel.app/book/mighty-5-utah-from-las-vegas/`, gate
+6666 — not staging, because the checkout was promoted to production that
+afternoon and production is the thing being complained about.
+
+- Promo strip 36px, sticky header 73px, `main` at **y=159**. Eyebrow y=207, h1
+  48px at y=233, a 77px lede at y=293.
+- One grid at **y=461**, 1,248 wide: an **880px** question column, a **320px**
+  rail, gap 48. **The whole flow is 556px.**
+- At rest, question 1 is 372px — 90px of explanation, **twelve 44px month
+  chips** in one row, four 49px date rows two across — and questions 2, 3 and 4
+  are 60px bars at y=834, 895, 956.
+- Picking Mon 11 Jan folds question 1 to **76px** and opens question 2 at
+  y=539. The rail then carries both dates, the party, $1,999, "$3,998 for 2
+  travellers", "10 SEATS LEFT" and the published-price comparison.
+- Footer **736px**, y=1,161 to 1,897. Page **1,897px**.
+- **Zero photographs inside `main`.** The six images on the page are the
+  wordmark and the footer marks.
+
+The two numbers the round hangs off: the booking is **556px of a 1,897px
+page**, and the **footer is the tallest thing on it**.
+
+### Traps this round cost time on
+
+- **A Now panel drawn short, again.** The first cut of decision 42's current
+  build came out 1,479px against the real 1,897 — the footer was drawn at 405px
+  instead of 736 and the head was 54px shallow. In a decision whose whole
+  argument is *the footer is bigger than the checkout*, that understates the
+  case by a third. The footer is now built to its measured parts: 56px of
+  padding, a 344px grid, 48px, a 123px legal row, 165px of tail.
+- **`.m-dim` under the fold line reads as more page.** Every panel in a
+  decision is boxed to the tallest of them, so a 900px option leaves paper
+  under it — and a grey wash over that paper looks like content rather than
+  like the end of the page. The wash is gone; `pageend()` prints where each
+  page stops instead, which is the number being argued about.
+- **A fixed `width` beats every phone rule that is not `!important`** — the
+  fifth time this sheet has hit it. `.b-qshell{width:880px}` rendered decision
+  43's phone canvas at 882px inside a 390px box.
+- **1440 in a four-column row scales to 0.175.** A 96px calendar cell draws at
+  17px, which is not a thing anyone can judge. Decision 43 is authored at
+  **980** — the question column at its real 880px and nothing else — so the
+  cells survive the shrink.
+
+**Re-derive before the next round:** the 52 scanned departures
+(`data/softrip-calendar.json`, generated 22 September) and the seat counts on
+them, which are re-asked live and move.

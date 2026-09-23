@@ -1432,3 +1432,308 @@ body.noscroll{overflow:hidden}
    is the page, so there is no paper beside anything and drawing some would be
    a lie about the option. */
 .mockwrap.phone .m-white{display:none}
+
+/* =====================================================================
+   Round five — the checkout (decisions 42-44), authored at 1440.
+
+   Every measurement in here is off the deployed production build on
+   23 September 2026: an 880px question column and a 320px rail inside a
+   1,248px container, a 556px flow, a 736px footer and a 1,897px page.
+   ===================================================================== */
+.mock .b-shell{max-width:1248px;margin:0 auto}
+.mock .b-coshell{max-width:1040px;margin:0 auto}
+.mock .b-qshell{width:880px;margin:0 auto}
+
+/* main opens at y=159 on the real page and the flow at y=461, so the
+   head is 50px of gap and 252px of content. Drawn short, the Now panel
+   understates the page in the one decision that is about page length. */
+.mock .b-head{background:#fff;padding:50px 0 54px}
+.mock .b-eyebrow{font-size:12px;font-weight:800;letter-spacing:.11em;
+  text-transform:uppercase;color:var(--rust600)}
+.mock .b-eyebrow.light{color:#ffd9c6}
+.mock .b-h1{font-size:38px;line-height:1.12;font-weight:700;color:var(--ink900);
+  margin:8px 0 0;letter-spacing:-.01em}
+.mock .b-h1.light{color:#fff;text-shadow:0 2px 24px rgba(0,0,0,.45)}
+.mock .b-lede{max-width:70ch;font-size:17px;line-height:1.5;color:var(--ink500);
+  margin:14px 0 0}
+.mock .b-meta{display:flex;align-items:baseline;gap:18px;margin:22px 0 0;
+  padding:0 0 4px;font-size:14px;color:var(--ink500)}
+.mock .b-meta a{color:var(--rust600);font-weight:700;white-space:nowrap}
+
+/* --- the photograph band (option A of decision 42) */
+.mock .b-band{position:relative;overflow:hidden;background:var(--navy900)}
+.mock .b-bandimg{position:absolute;inset:0;width:100%;height:100%;
+  object-fit:cover}
+.mock .b-bandtint{position:absolute;inset:0;
+  background:linear-gradient(180deg,rgba(5,18,31,.15),rgba(5,18,31,.82))}
+.mock .b-bandtext{position:absolute;left:0;right:0;bottom:30px}
+.mock .b-bandfacts{display:flex;gap:10px;margin-top:16px;flex-wrap:wrap}
+.mock .b-bandfacts span{font-size:13px;font-weight:700;color:#fff;
+  background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.28);
+  border-radius:999px;padding:7px 14px}
+
+/* --- the page body */
+/* The real gap between the bottom of the flow (y=1,017) and the top of
+   the footer (y=1,161) is 144px. */
+.mock .b-page{background:#fff;padding:44px 0 145px}
+.mock .b-page.up{padding-top:34px}
+.mock .b-page.co{background:var(--sand100);padding:40px 0 56px;min-height:640px}
+.mock .b-flow{display:grid;grid-template-columns:880px 320px;gap:48px;
+  align-items:start}
+.mock .b-flow.solo{grid-template-columns:minmax(0,720px);justify-content:center}
+.mock .b-qcol{min-width:0}
+.mock .b-railcol{min-width:0}
+
+/* --- one question */
+.mock .b-step{border-top:1px solid var(--sand300)}
+.mock .b-step:last-child{border-bottom:1px solid var(--sand300)}
+.mock .b-shd{display:flex;align-items:center;gap:14px;height:60px;
+  font-size:19px;font-weight:700;color:var(--ink900)}
+.mock .b-step.shut .b-shd{color:var(--ink300)}
+.mock .b-sno{width:26px;height:26px;border-radius:50%;flex:none;
+  display:grid;place-items:center;font-size:13px;font-weight:800;
+  background:var(--sand200);color:var(--ink500);font-style:normal}
+.mock .b-step.open .b-sno,.mock .b-step.done .b-sno{background:var(--rust600);
+  color:#fff}
+.mock .b-schev{margin-left:auto;width:9px;height:9px;border-right:2px solid var(--ink300);
+  border-bottom:2px solid var(--ink300);transform:rotate(45deg);
+  margin-bottom:5px}
+.mock .b-sans{display:flex;align-items:center;gap:12px;padding:0 0 16px 40px;
+  font-size:16px;color:var(--ink900);font-weight:600}
+.mock .b-sans a{color:var(--rust600);font-size:14px;font-weight:700}
+.mock .b-sbody{padding:0 0 28px 0}
+/* 568px on the deployed page, which is what makes it four lines. */
+.mock .b-help{max-width:568px;font-size:15px;line-height:1.5;color:var(--ink500);
+  margin:0 0 20px}
+
+/* --- month chips */
+.mock .b-chips{display:flex;gap:8px;flex-wrap:wrap}
+.mock .b-chip{height:44px;display:inline-flex;align-items:center;padding:0 16px;
+  border:1px solid var(--sand300);border-radius:999px;font-size:14px;
+  font-weight:700;color:var(--ink700);background:#fff}
+.mock .b-chip.on{background:var(--navy800);border-color:var(--navy800);color:#fff}
+
+/* --- the date list as it ships */
+.mock .b-drows{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:8px;margin-top:20px}
+.mock .b-drow{display:flex;align-items:center;justify-content:space-between;
+  height:49px;padding:0 16px;border:1px solid var(--sand300);border-radius:4px;
+  font-size:15px;color:var(--ink900)}
+.mock .b-drow em{font-style:normal;font-weight:700}
+
+/* --- the calendar */
+.mock .b-cal{margin-top:20px;border:1px solid var(--sand300);border-radius:6px;
+  overflow:hidden;background:#fff}
+.mock .b-cal-hd{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));
+  background:var(--sand100);border-bottom:1px solid var(--sand300)}
+.mock .b-cal-hd i{font-style:normal;text-align:center;padding:10px 0;
+  font-size:12px;font-weight:800;letter-spacing:.08em;color:var(--ink300)}
+.mock .b-cal-g{display:grid;grid-template-columns:repeat(7,minmax(0,1fr))}
+.mock .b-cal-d,.mock .b-cal-e{position:relative;height:96px;
+  border-right:1px solid var(--sand200);border-bottom:1px solid var(--sand200);
+  padding:8px 10px;min-width:0}
+.mock .b-cal-e{background:var(--sand100)}
+.mock .b-cal-d b{font-size:15px;font-weight:600;color:var(--ink300);
+  position:relative;z-index:2}
+.mock .b-cal-d.go{cursor:pointer}
+.mock .b-cal-d.go b{color:var(--ink900);font-weight:800}
+.mock .b-cal-d.go em{position:relative;z-index:2;display:block;margin-top:34px;
+  font-style:normal;font-size:13px;font-weight:800;color:var(--rust600)}
+.mock .b-cal-bar{position:absolute;left:4px;top:30px;height:22px;
+  background:var(--rust100);border:1px solid #f7c3a8;border-radius:4px;z-index:1}
+.mock .b-cal-dot{position:absolute;left:10px;top:34px;width:8px;height:8px;
+  border-radius:50%;background:var(--rust600);z-index:2}
+.mock .b-cal-key{display:flex;gap:22px;margin-top:12px;font-size:13px;
+  color:var(--ink500)}
+.mock .b-cal-key span{display:inline-flex;align-items:center;gap:8px}
+.mock .b-cal-key u{width:14px;height:14px;border-radius:3px;text-decoration:none}
+.mock .b-cal-key u.go{background:var(--rust600)}
+.mock .b-cal-key u.bar{background:var(--rust100);border:1px solid #f7c3a8}
+
+/* --- one long list */
+.mock .b-list{position:relative;margin-top:20px;max-height:330px;
+  overflow:hidden;border:1px solid var(--sand300);border-radius:6px;
+  background:#fff}
+.mock .b-lblock h6{margin:0;padding:10px 16px;font-size:12px;font-weight:800;
+  letter-spacing:.09em;text-transform:uppercase;color:var(--ink500);
+  background:var(--sand100);border-bottom:1px solid var(--sand200)}
+.mock .b-lrow{display:grid;grid-template-columns:minmax(0,1fr) 90px 90px;
+  align-items:center;gap:12px;height:52px;padding:0 16px;
+  border-bottom:1px solid var(--sand200);font-size:15px;color:var(--ink900)}
+.mock .b-lrow em{font-style:normal;font-weight:700;text-align:right}
+.mock .b-lrow i{font-style:normal;font-size:13px;color:var(--ink300);
+  text-align:right}
+.mock .b-lfade{position:absolute;left:0;right:0;bottom:0;height:64px;
+  background:linear-gradient(180deg,rgba(255,255,255,0),#fff)}
+.mock .b-lnote{margin-top:10px;font-size:13px;color:var(--ink300)}
+
+/* --- the fatter row */
+.mock .b-frows{display:grid;gap:8px;margin-top:20px}
+.mock .b-frow{display:grid;grid-template-columns:minmax(0,1fr) 130px 190px 104px;
+  align-items:center;gap:16px;padding:14px 18px;border:1px solid var(--sand300);
+  border-radius:5px;background:#fff}
+.mock .b-fdate b{display:block;font-size:16px;font-weight:700;color:var(--ink900)}
+.mock .b-fdate em{font-style:normal;font-size:13px;color:var(--ink300)}
+.mock .b-fprice b{display:block;font-size:17px;font-weight:800;color:var(--ink900)}
+.mock .b-fprice em{font-style:normal;font-size:12px;color:var(--ink300)}
+.mock .b-tag{font-style:normal;font-size:12px;font-weight:700;padding:5px 10px;
+  border-radius:999px;background:var(--sand100);color:var(--ink500)}
+.mock .b-tag.warm{background:#fdece4;color:var(--rust700)}
+.mock .b-fgo{text-decoration:none;text-align:center;font-size:14px;
+  font-weight:700;color:#fff;background:var(--rust600);border-radius:999px;
+  padding:11px 0}
+
+/* --- the summary rail */
+.mock .b-rail{border:1px solid var(--sand300);border-radius:6px;background:#fff;
+  padding:20px}
+.mock .b-rhd{font-size:11px;font-weight:800;letter-spacing:.1em;
+  text-transform:uppercase;color:var(--ink300)}
+.mock .b-rtrip{margin-top:6px;font-size:17px;font-weight:700;line-height:1.25;
+  color:var(--ink900)}
+.mock .b-rdl{display:grid;grid-template-columns:auto 1fr;gap:6px 12px;
+  margin:18px 0 0}
+.mock .b-rdl dt{font-size:12px;font-weight:800;letter-spacing:.07em;
+  text-transform:uppercase;color:var(--ink300)}
+.mock .b-rdl dd{margin:0;text-align:right;font-size:15px;font-weight:600;
+  color:var(--ink900)}
+.mock .b-rnote{margin:16px 0 0;font-size:13px;line-height:1.45;color:var(--ink300)}
+.mock .b-rprice{margin-top:18px;padding-top:16px;border-top:1px solid var(--sand200);
+  display:flex;align-items:baseline;gap:8px}
+.mock .b-rprice b{font-size:26px;font-weight:800;color:var(--ink900)}
+.mock .b-rprice.big b{font-size:30px}
+.mock .b-rprice em{font-style:normal;font-size:13px;color:var(--ink300)}
+.mock .b-rtot{font-size:14px;color:var(--ink500);margin-top:2px}
+.mock .b-rseats{margin-top:12px;display:inline-block;font-size:11px;
+  font-weight:800;letter-spacing:.08em;text-transform:uppercase;
+  color:var(--pine700);background:var(--pine100);border-radius:999px;
+  padding:6px 12px}
+
+/* --- the rail as a trip panel */
+.mock .b-rail.trip{padding:0;overflow:hidden}
+.mock .b-rpic{position:relative;height:190px}
+.mock .b-rpicimg{width:100%;height:100%;object-fit:cover;display:block}
+.mock .b-rpicname{position:absolute;left:16px;right:16px;bottom:14px;
+  font-size:17px;font-weight:700;color:#fff;line-height:1.2;
+  text-shadow:0 2px 14px rgba(0,0,0,.6)}
+.mock .b-rbody{padding:18px 20px 20px}
+.mock .b-rdays{border-top:1px solid var(--sand200);padding:16px 20px 20px;
+  background:var(--sand100)}
+.mock .b-rdays h6{margin:0 0 12px;font-size:11px;font-weight:800;
+  letter-spacing:.1em;text-transform:uppercase;color:var(--ink300)}
+.mock .b-drday{display:flex;gap:10px;align-items:center;margin-bottom:10px}
+.mock .b-drpic{width:46px;height:31px;object-fit:cover;border-radius:3px;
+  flex:none}
+.mock .b-drday span{min-width:0;font-size:13px;line-height:1.3;color:var(--ink700)}
+.mock .b-drday span b{display:block;font-size:11px;font-weight:800;
+  letter-spacing:.06em;text-transform:uppercase;color:var(--ink300)}
+.mock .b-rhot{margin-top:12px;font-size:12px;color:var(--ink300)}
+
+/* --- the checkout's own shell */
+.mock .b-cohd{background:var(--navy900);height:64px;display:flex;
+  align-items:center}
+.mock .b-cohd .m-logo{height:26px}
+.mock .b-cohd .b-coshell{display:flex;align-items:center;gap:24px;width:100%}
+.mock .b-costeps{margin-left:auto;display:flex;align-items:center;gap:8px;
+  font-size:13px;color:#b9d0e2}
+.mock .b-costeps i{width:22px;height:4px;border-radius:2px;
+  background:rgba(255,255,255,.2)}
+.mock .b-costeps i.on{background:var(--rust600)}
+.mock .b-cophone{font-size:13px;color:#b9d0e2}
+.mock .b-cophone b{color:#fff}
+.mock .b-cofoot{background:var(--navy900);height:52px;display:flex;
+  align-items:center}
+.mock .b-cofoot .b-coshell{display:flex;gap:26px;font-size:12px;
+  color:rgba(255,255,255,.55)}
+.mock .b-cotitle{margin-bottom:22px}
+.mock .b-cotitle h1{margin:0;font-size:27px;font-weight:700;color:var(--ink900)}
+.mock .b-cotitle span{font-size:15px;color:var(--ink500)}
+.mock .b-page.co .b-flow{background:#fff;border:1px solid var(--sand300);
+  border-radius:8px;padding:26px 30px;grid-template-columns:minmax(0,1fr) 320px}
+.mock .b-page.co.solo .b-flow{grid-template-columns:minmax(0,1fr)}
+.mock .b-page.co .b-rail{border:0;padding:0}
+.mock .b-page.co .b-rail.trip{border:1px solid var(--sand300)}
+
+/* --- the real footer, 736px of it */
+/* The real thing: 56px of padding, a 344px grid, 48px, a 123px legal
+   row, then 165px of tail — 736px in total. */
+.mock .b-foot{background:var(--navy900);color:#b9d0e2;padding:56px 0 165px}
+.mock .b-fgrid{display:grid;grid-template-columns:1.6fr 1fr 1fr 1fr 1fr;
+  gap:32px;min-height:344px;align-content:start}
+.mock .b-fcol h6{margin:0 0 14px;font-size:11px;font-weight:800;
+  letter-spacing:.11em;text-transform:uppercase;color:#7fa8c8}
+.mock .b-fcol span{display:block;font-size:14px;line-height:2.2;color:#cfe0ed}
+.mock .b-fblurb{font-size:15px;line-height:1.5;color:#cfe0ed;max-width:34ch}
+.mock .b-fcon{margin-top:16px;font-size:14px;line-height:1.6;color:#cfe0ed}
+.mock .b-fcon b{color:#fff;font-size:17px}
+.mock .b-fsoc{display:flex;gap:10px;margin-top:16px}
+.mock .b-fsoc i{width:30px;height:30px;border-radius:50%;
+  background:rgba(255,255,255,.1)}
+.mock .b-fadd{margin-top:16px;font-size:13px;line-height:1.6;color:#8fabc2}
+.mock .b-facc{display:flex;gap:10px}
+.mock .b-facc i{width:54px;height:34px;border-radius:4px;
+  background:rgba(255,255,255,.12)}
+.mock .b-flegal{margin-top:48px;padding-top:26px;min-height:123px;
+  border-top:1px solid rgba(255,255,255,.15);display:flex;gap:26px;
+  align-items:baseline;font-size:13px;color:#8fabc2}
+.mock .b-flegal em{margin-left:auto;font-style:normal}
+
+/* Where the page stops. Panels are boxed to the tallest of them, so this is
+   the only thing distinguishing a 900px page from a 1,897px one once both are
+   in the same box. */
+.mock .b-end{background:#0d1219;padding:9px 0;text-align:center}
+.mock .b-end span{font-size:13px;font-weight:800;letter-spacing:.08em;
+  text-transform:uppercase;color:#8fa6b8}
+
+/* --- the crop used by decisions 43 and 44 */
+.mock .b-crop{background:#fff;padding:26px 0 30px}
+.mock .b-croptop{margin-bottom:20px}
+.mock .b-croptop b{display:block;font-size:24px;font-weight:700;
+  color:var(--ink900);margin-top:4px}
+
+/* --- phone. A 1fr track floors at min-content, so every grid needs a base
+   column and every child needs min-width:0, or the 390px canvas drags
+   sideways — the trap this sheet has now hit four times. */
+/* A fixed width beats every phone rule that is not !important — the trap
+   this sheet has now hit five times. */
+.mockwrap.phone .b-qshell{width:100%!important}
+.mockwrap.phone .b-flow,
+.mockwrap.phone .b-flow.solo{grid-template-columns:minmax(0,1fr)!important}
+.mockwrap.phone .b-page.co .b-flow{padding:16px}
+.mockwrap.phone .b-drows{grid-template-columns:minmax(0,1fr)}
+.mockwrap.phone .b-frow{grid-template-columns:minmax(0,1fr);gap:8px}
+.mockwrap.phone .b-lrow{grid-template-columns:minmax(0,1fr) 70px}
+.mockwrap.phone .b-lrow i{display:none}
+.mockwrap.phone .b-fgrid{grid-template-columns:minmax(0,1fr);gap:26px}
+.mockwrap.phone .b-flegal{flex-wrap:wrap;gap:10px}
+.mockwrap.phone .b-cal-d,.mockwrap.phone .b-cal-e{height:52px;padding:4px}
+.mockwrap.phone .b-cal-d em{display:none!important}
+.mockwrap.phone .b-cal-bar{display:none}
+.mockwrap.phone .b-h1{font-size:26px}
+.mockwrap.phone .b-band{height:230px!important}
+.mockwrap.phone .b-railcol{grid-row:auto}
+.mockwrap.phone .b-costeps span,.mockwrap.phone .b-cophone{display:none}
+
+/* --- question two, and the disclosure the itinerary lives behind today */
+.mock .b-parties{display:flex;gap:10px;flex-wrap:wrap}
+.mock .b-party{height:48px;display:inline-flex;align-items:center;padding:0 20px;
+  border:1px solid var(--sand300);border-radius:999px;font-size:15px;
+  font-weight:700;color:var(--ink700);background:#fff}
+.mock .b-party.on{background:var(--navy800);border-color:var(--navy800);color:#fff}
+.mock .b-cont{margin-top:20px;display:inline-block;background:var(--rust600);
+  color:#fff;font-size:16px;font-weight:700;border-radius:999px;padding:13px 30px}
+.mock .b-holds{margin-top:24px;border:1px solid var(--sand300);border-radius:8px;
+  background:#fff;padding:18px 20px}
+.mock .b-holdshd{display:flex;align-items:center;justify-content:space-between;
+  font-size:16px;font-weight:700;color:var(--ink900)}
+.mock .b-holdshd u{width:9px;height:9px;border-right:2px solid var(--ink500);
+  border-bottom:2px solid var(--ink500);transform:rotate(45deg);
+  margin-bottom:5px;text-decoration:none}
+.mock .b-holds.open .b-holdshd u{transform:rotate(-135deg);margin-bottom:0}
+.mock .b-holdsbody{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:28px;margin-top:20px}
+.mock .b-holdscol h6{margin:0 0 10px;font-size:11px;font-weight:800;
+  letter-spacing:.1em;text-transform:uppercase;color:var(--ink300)}
+.mock .b-holdscol span{display:block;font-size:14px;line-height:1.9;
+  color:var(--ink700)}
+.mockwrap.phone .b-holdsbody{grid-template-columns:minmax(0,1fr)}
+.mockwrap.phone .b-parties{flex-direction:column;align-items:stretch}

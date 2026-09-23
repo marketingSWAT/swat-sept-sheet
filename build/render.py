@@ -29,6 +29,7 @@ import decisions_a as A           # noqa: E402
 import decisions_b as B           # noqa: E402
 import decisions_c as C           # noqa: E402
 import decisions_d as D           # noqa: E402
+import decisions_e as E           # noqa: E402
 
 OUT = os.path.join(HERE, '..', 'site', 'index.html')
 
@@ -45,6 +46,12 @@ RAIL = [
     (37, 'Is this trip right for you?'),
     (38, 'Start where you are'),
     (39, 'The film slot'),
+]
+
+RAIL5 = [
+    (42, 'What a checkout looks like'),
+    (43, 'Picking your dates'),
+    (44, 'The trip, while you book'),
 ]
 
 RAIL3 = [
@@ -73,7 +80,9 @@ def rail_html():
             f'<b>{n}</b>{t}</a>' for n, t in group)
     return (
         '<nav class="rail">'
-        '<div class="rt">This round &mdash; 41, redrawn</div>'
+        '<div class="rt">This round &mdash; the checkout</div>'
+        f'{rows(RAIL5)}'
+        '<div class="rt">Still open &mdash; 41, redrawn</div>'
         f'{rows(RAIL3)}'
         '<div class="rt">Round two &mdash; 30 to 39</div>'
         f'{rows(RAIL)}'
@@ -91,28 +100,27 @@ def rail_html():
 MAST = """
 <header class="mast">
   <div class="kick">Southwest Adventure Tours &middot; storefront rebuild</div>
-  <h1>The staging walkthrough, drawn</h1>
-  <p><b>One decision is open: <a href="#d41">41</a>, redrawn.</b> You looked at
-  its option B and found the thing it costs &mdash; the review block runs the
-  title column past the bottom of the photograph and leaves white paper beside
-  it &mdash; and then said to use that paper. So <b>E</b>, <b>F</b> and
-  <b>G</b> all put the cards in it, and the drawing of B now has the white
-  space hatched so you can see what is being filled. <b>C and D are off the
-  table</b> and their letters are spent.</p>
-  <p style="margin-top:12px"><b>Decision <a href="#d40">40</a> is answered and
-  built</b> &mdash; you said C, and the builder&rsquo;s question one is on
-  staging with the map holding the left and the sixteen places two across
-  beside it. It is folded below with the measurement on its front.</p>
-  <p style="margin-top:12px">Round two &mdash; <b>30 to 39</b> &mdash; is below
-  it. Nine of those are answered and built; open any one to see what was
-  picked. Each decision shows what the site does <b>today</b> beside two to
-  four alternatives drawn at full size. Click any drawing to enlarge it, and
-  pull the others in beside it from the chip row.</p>
-  <p style="margin-top:12px"><b>Answer with letters.</b> &ldquo;Forty goes to
-  C, forty-one goes to B.&rdquo; A voice note is fine &mdash; every option has
-  a letter printed on it, and the letters never move.</p>
-  <div class="who"><span>Crow</span><span>Walkthrough of the built round</span>
-  <span>16 Sep 2026</span><span>Rounds one and two are folded below</span></div>
+  <h1>The checkout, drawn three ways</h1>
+  <p><b>Three decisions are open: <a href="#d42">42</a>, <a href="#d43">43</a>
+  and <a href="#d44">44</a>.</b> They are all the booking page you looked at
+  this afternoon &mdash; the shell it sits in, the one question that fills the
+  screen, and what a customer can see of the trip while they are buying it.</p>
+  <p style="margin-top:12px">You said you were not loving how it looks and
+  feels, and did not say which part, so the round starts by counting. On your
+  own 1440&times;900 window the booking itself is <b>556px of a 1,897px
+  page</b>, the <b>footer under it is 736px</b> &mdash; the tallest thing on
+  the page &mdash; and there is <b>not one photograph</b> in the page body.
+  That is what the feeling measures out to.</p>
+  <p style="margin-top:12px">Everything below the three is where it was:
+  decision <a href="#d41">41</a> is still open and redrawn, <b>40</b> is
+  answered and built, and rounds one and two are folded with their letters on
+  the front. Click any drawing to enlarge it, and pull the others in beside it
+  from the chip row.</p>
+  <p style="margin-top:12px"><b>Answer with letters.</b> &ldquo;Forty-two goes
+  to D, forty-three goes to F.&rdquo; A voice note is fine &mdash; every
+  option has a letter printed on it, and the letters never move.</p>
+  <div class="who"><span>Crow</span><span>The booking walk-through</span>
+  <span>23 Sep 2026</span><span>Earlier rounds are folded below</span></div>
 </header>
 """
 
@@ -708,20 +716,31 @@ SCRIPT = r"""<script>
 
 def build():
     css = open(os.path.join(HERE, 'sheet.css')).read()
-    decisions = D.ALL + C.ALL + A.ALL + B.ALL
+    decisions = E.ALL + D.ALL + C.ALL + A.ALL + B.ALL
     body = (MAST + LEDE +
-            sec('This round', 'One shape to pick, then everything answered',
-                'Decision <b>41</b> is open and redrawn &mdash; <b>A</b> and '
-                '<b>B</b> are the two you have already seen, <b>E</b>, '
-                '<b>F</b> and <b>G</b> are new. Decision <b>40</b> is answered '
-                'and folded under it, then round two (30&ndash;39) and round '
-                'one (20&ndash;29). Green ring is what ships today. Amber ring '
-                'is the one I would build, and it says so in words as '
+            sec('This round', 'The checkout &mdash; 42, 43 and 44',
+                'Three decisions about the booking page, drawn at '
+                '<b>1440&times;900</b> because that is the window the '
+                'complaint is about. <b>42</b> is the shape of the page, '
+                '<b>43</b> is how you pick your dates, <b>44</b> is what you '
+                'can see of the trip while you book it. Under them, decision '
+                '<b>41</b> is still open and redrawn, and everything else is '
+                'answered and folded. Green ring is what ships today. Amber '
+                'ring is the one I would build, and it says so in words as '
                 'well.') +
             ''.join(decisions) + R1 + R2 + R3 + R4 + R5)
 
     foot = (
-        '<div class="foot">Rounds one to three, built 16 September 2026 '
+        '<div class="foot">Rounds one to five. Rounds one to three were '
+        'built 16 September 2026 from Crow&rsquo;s walkthroughs of the '
+        'staging build; <b>round five &mdash; decisions 42 to 44 &mdash; was '
+        'built 23 September 2026</b> and its current-build panels were read '
+        'off the DEPLOYED PRODUCTION build at '
+        '<code>swat-website-storefront.vercel.app/book/'
+        'mighty-5-utah-from-las-vegas/</code> at <b>1440&times;900</b>: an '
+        '880px question column beside a 320px rail inside a 1,248px '
+        'container, a 556px flow, a 736px footer, a 1,897px page and zero '
+        'photographs in the body. Earlier rounds, built 16 September 2026 '
         'from Crow&rsquo;s walkthroughs of the staging build. Quotes are '
         'verbatim. Current-build panels were read off '
         '<code>swat-website-storefront-git-staging-swat2.vercel.app</code> on '

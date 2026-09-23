@@ -123,7 +123,30 @@ that Jason or operations should be copied if it ships.
 
 ---
 
-## Round three — decisions 40 and 41, open
+## Round five — decisions 42 to 44, the checkout, open
+
+Built 23 September from *"for the check out on the tours, I am still not sure
+I am loving how it looks and feels right now."*
+
+| # | Decision | Options | Recommending |
+|---|---|---|---|
+| 42 | What a checkout page looks like | A now / B a photograph across the top / C its own shell, one column / D its own shell, with the trip beside it | **D** |
+| 43 | Picking your dates | A now / B a calendar with the five days drawn / C one list, months stuck / D fewer rows, more on each | **B**, paired with **D** |
+| 44 | What you can see of the trip while you book | A folded away / B in the panel beside you / C open, underneath | **B** |
+
+44B depends on 42. If 42 goes to B rather than D, 44 goes to C.
+
+---
+
+## Round three — decisions 40 and 41
+
+**40 is answered: C.** *"Let's honestly, fuck it, let's just do your
+recommendation, which is C."* Built the same night — the map holds the left at
+818x426 and the sixteen places sit two across beside it. Question one falls
+from 955px to 504.
+
+**41 is open**, redrawn with E, F and G after the note about the white space
+under the photograph.
 
 Crow walked the **built** round-two work on the evening of 16 September. Most
 of it passed out loud — *"looks fine, looks good, looks good"*, *"go to please
