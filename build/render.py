@@ -116,11 +116,11 @@ MAST = """
 <header class="mast">
   <div class="kick">Southwest Adventure Tours &middot; storefront rebuild</div>
   <h1>Lance&rsquo;s two notes, drawn</h1>
-  <p><b>Two decisions are open: <a href="#d52">52</a> and
-  <a href="#d53">53</a>.</b> Both come from Lance&rsquo;s email of
-  28 September: whether day tours should have their own place on the
-  &ldquo;Bookable now&rdquo; row, and what the home page is asking people to
-  do.</p>
+  <p><b>One decision is open: <a href="#d53">53</a>, redrawn.</b> You
+  turned down the first four versions of what the home page asks people to
+  do, so it now has four new ones, E to H, each a different shape of first
+  screen rather than different words on the same one. <a href="#d52">52</a>
+  is answered (B) and being built.</p>
   <p style="margin-top:12px">Counted on production at 1440&times;900 before
   drawing anything. On the row, only <b>2 of the 8 cards</b> are trips that
   actually leave in the window; the other six are the cheapest things in the
@@ -131,8 +131,8 @@ MAST = """
   sheet already uses 46 to 51. Everything else on this link is answered and
   folded, with its letter on the front. Click any drawing to enlarge it, and
   pull the others in beside it from the chip row.</p>
-  <p style="margin-top:12px"><b>Answer with a letter.</b> &ldquo;Fifty-two
-  goes to B, fifty-three goes to C.&rdquo; A voice note is fine.</p>
+  <p style="margin-top:12px"><b>Answer with a letter.</b> &ldquo;Fifty-three
+  goes to E.&rdquo; A voice note is fine.</p>
   <div class="who"><span>Crow</span><span>Lance</span>
   <span>28 Sep 2026</span><span>Earlier rounds are folded below</span></div>
 </header>

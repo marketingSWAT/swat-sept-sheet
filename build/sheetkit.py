@@ -173,6 +173,12 @@ ANSWERS = {
     # push it live". Built and on production the same day.
     45: ('C', 'built and on production 28 September &mdash; current reviews, '
               'one row per trip, the old archive folded at the bottom'),
+
+    # Round seven, 28 September: "for 52 you can do your recommendation, 53
+    # I still dont like, so mock some more ideas". 53 is redrawn, not folded.
+    52: ('B', 'chosen 28 September &mdash; being built on staging: multi-day '
+              'trips two to four months out, and day tours from Salt Lake City '
+              'as a row of their own'),
 }
 
 

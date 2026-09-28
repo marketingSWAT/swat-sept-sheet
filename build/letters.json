@@ -162,6 +162,10 @@
     "A": "Welcome line and a search bar, as now",
     "B": "One big button on the photo",
     "C": "The search bar is the call to action",
-    "D": "Two buttons: find a tour, or build your own"
+    "D": "Two buttons: find a tour, or build your own",
+    "E": "Point at a place",
+    "F": "Photo on the right, questions on the left",
+    "G": "The next three departures, on the photo",
+    "H": "One box in the middle, and nothing else orange"
   }
 }

@@ -302,3 +302,118 @@ def screen(kind='now'):
     pill = kind != 'search'
     return ('<div class="l-screen">' + chrome(cta) + hero(kind) + mapband()
             + floats(show_pill=pill) + fold() + '</div>')
+
+
+# ------------------------------------------------- decision 53, round two
+#
+# Crow, 28 September: "53 I still dont like, so mock some more ideas and
+# designs for this." B, C and D were all the same picture with different
+# words on it: a dark wash, a white headline top-left, and something orange
+# under it. So the four below change the SHAPE of the first screen, not the
+# copy on it, and each one is a different answer to "what do we ask a
+# visitor to do first":
+#
+#   E  point at a place        (photographs are the call to action)
+#   F  answer three questions  (the photo moves right, the form gets a panel)
+#   G  pick a real departure   (the next three trips with seats, on the photo)
+#   H  type anything           (one box, centred, nothing else orange)
+#
+# Counts read off production /find/ on 28 September at 1440x900:
+# Utah 28, Arizona 12, California 11, Wyoming 8, Alaska 2, day tours 12,
+# 74 in the catalogue. Departures read off the tour pages the same day, first
+# date on or after the two-month floor (27 November): Mighty 5 from Salt Lake
+# City 29 Nov, Mighty 5 from Las Vegas 30 Nov, Alaska's Northern Lights 14 Dec.
+
+H1_PLACE = 'Where do you want to go?'
+P_PLACE = ('74 small-group tours from 10 cities. Pick a place and we will show '
+           'you every trip that goes there.')
+
+PLACES = [
+    ('arches', 'Utah', 28),
+    ('arizona', 'Arizona', 12),
+    ('yosemite', 'California', 11),
+    ('prismatic', 'Wyoming &amp; Yellowstone', 8),
+    ('auroras', 'Alaska', 2),
+    ('antelope', 'Day tours from Salt Lake City', 12),
+]
+
+SOON = [
+    ('m5slc', 'Mighty 5 Utah From Salt Lake City', 'Sun 29 Nov', '8 days', '$3,499'),
+    ('zion', 'Mighty 5 Utah Tour From Las Vegas', 'Mon 30 Nov', '5 days', '$1,999'),
+    ('auroras', 'Alaska&rsquo;s Northern Lights Adventure Tour', 'Mon 14 Dec',
+     '6 days', '$3,429'),
+]
+
+
+def _placetiles():
+    ts = ''.join(
+        f'<div class="q-pt">{m.img(p, 360, 300)}<div class="q-ptx"><b>{n}</b>'
+        f'<span>{c} trip{"s" if c != 1 else ""}</span></div></div>'
+        for p, n, c in PLACES)
+    return (f'<div class="q-places">{ts}'
+            '<div class="q-pt all"><b>All 74 tours</b><span>Find your tour '
+            '&rarr;</span></div></div>')
+
+
+def _stack():
+    """The three questions of today's search bar, stacked in a panel."""
+    f = [('WHERE', 'Anywhere in the Southwest'), ('LEAVING FROM', 'Any departure city'),
+         ('HOW LONG', 'Any length')]
+    cells = ''.join(f'<div class="q-sf"><small>{a}</small><b>{b}</b><i>&#8964;</i></div>'
+                    for a, b in f)
+    return (f'<div class="q-stack">{cells}'
+            '<span class="q-go">Find your tour</span></div>')
+
+
+def _soon():
+    rows = ''.join(
+        f'<div class="q-srow">{m.img(p, 160, 120)}<div><b>{t}</b>'
+        f'<span>{d} &middot; {n} &middot; from {pr}</span></div><i>&rarr;</i></div>'
+        for p, t, d, n, pr in SOON)
+    return ('<div class="q-soon"><div class="q-sh">Next departures with seats'
+            '</div>' + rows + '<div class="q-sall">Every date, every trip &rarr;</div></div>')
+
+
+def hero2(kind):
+    img = m.img('hero', 2400, 930)
+    if kind == 'places':
+        tx = (f'<span class="l-eye">{EYEBROW}</span><h1>{H1_PLACE}</h1>'
+              f'<p class="l-p">{P_PLACE}</p>')
+        return (f'<div class="l-hero q-tall">{img}<div class="l-tint q-down"></div>'
+                f'<div class="l-htx q-top">{tx}</div>{_placetiles()}</div>')
+    if kind == 'split':
+        tx = (f'<span class="q-eye">{EYEBROW}</span><h1>{H1_NEW}</h1>'
+              f'<p>{P_NEW}</p>{_stack()}'
+              f'<span class="q-call">Rather talk it through? Call {m.PHONE}</span>')
+        return (f'<div class="l-hero q-split"><div class="q-pan">{tx}</div>'
+                f'<div class="q-ph">{m.img("hero", 1800, 1116)}</div></div>')
+    if kind == 'soon':
+        tx = (f'<span class="l-eye">{EYEBROW}</span><h1>{H1_NEW}</h1>'
+              f'<p class="l-p">{P_NEW}</p>'
+              '<div class="l-ctas"><span class="l-big">Find your tour</span>'
+              f'<span class="l-call">or call {m.PHONE}</span></div>')
+        return (f'<div class="l-hero">{img}<div class="l-tint"></div>'
+                f'<div class="l-htx q-narrow">{tx}</div>{_soon()}</div>')
+    if kind == 'onebox':
+        pops = ' &middot; '.join(['Zion', 'Grand Canyon', 'Yellowstone',
+                                  'Leaving from Las Vegas', 'Day tours'])
+        tx = (f'<span class="l-eye">{EYEBROW}</span><h1>{H1_NEW}</h1>'
+              '<div class="q-box"><span class="q-in">&#9906;&ensp;Try Zion, '
+              'Yellowstone, Las Vegas or &ldquo;3 days&rdquo;</span>'
+              '<span class="q-go">Find your tour</span></div>'
+              f'<div class="q-pop">Popular: {pops}</div>'
+              f'<div class="q-pop dim">Rather talk it through? Call {m.PHONE}</div>')
+        return (f'<div class="l-hero">{img}<div class="l-tint q-even"></div>'
+                f'<div class="q-mid">{tx}</div></div>')
+    raise ValueError(kind)
+
+
+def screen2(kind):
+    """The first screen for E-H. None of them keeps the floating
+    'Search trips' pill at rest; it comes back once the page has scrolled
+    past the hero, so it is not drawn here."""
+    head = chrome('Find your tour')
+    if kind == 'onebox':
+        head = head.replace('m-hd-cta l-hdcta', 'm-hd-cta l-hdcta q-quiet')
+    return ('<div class="l-screen">' + head + hero2(kind) + mapband()
+            + floats(show_pill=False) + fold() + '</div>')
