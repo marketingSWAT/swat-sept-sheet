@@ -176,9 +176,10 @@ ANSWERS = {
 
     # Round seven, 28 September: "for 52 you can do your recommendation, 53
     # I still dont like, so mock some more ideas". 53 is redrawn, not folded.
-    52: ('B', 'chosen 28 September &mdash; being built on staging: multi-day '
-              'trips two to four months out, and day tours from Salt Lake City '
-              'as a row of their own'),
+    52: ('B', 'built and on staging 28 September &mdash; six dated multi-day '
+              'trips two to four months out (six, not the seven the drawing '
+              'claimed), then four day tours from Salt Lake City as a row of '
+              'their own'),
 }
 
 

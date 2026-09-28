@@ -120,7 +120,7 @@ MAST = """
   turned down the first four versions of what the home page asks people to
   do, so it now has four new ones, E to H, each a different shape of first
   screen rather than different words on the same one. <a href="#d52">52</a>
-  is answered (B) and being built.</p>
+  is answered (B) and built on staging.</p>
   <p style="margin-top:12px">Counted on production at 1440&times;900 before
   drawing anything. On the row, only <b>2 of the 8 cards</b> are trips that
   actually leave in the window; the other six are the cheapest things in the
