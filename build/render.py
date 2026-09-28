@@ -30,6 +30,7 @@ import decisions_b as B           # noqa: E402
 import decisions_c as C           # noqa: E402
 import decisions_d as D           # noqa: E402
 import decisions_e as E           # noqa: E402
+import decisions_f as F           # noqa: E402
 
 OUT = os.path.join(HERE, '..', 'site', 'index.html')
 
@@ -46,6 +47,10 @@ RAIL = [
     (37, 'Is this trip right for you?'),
     (38, 'Start where you are'),
     (39, 'The film slot'),
+]
+
+RAIL6 = [
+    (45, 'The reviews page'),
 ]
 
 RAIL5 = [
@@ -80,9 +85,11 @@ def rail_html():
             f'<b>{n}</b>{t}</a>' for n, t in group)
     return (
         '<nav class="rail">'
-        '<div class="rt">This round &mdash; the checkout</div>'
+        '<div class="rt">This round &mdash; the reviews page</div>'
+        f'{rows(RAIL6)}'
+        '<div class="rt">Answered &mdash; the checkout</div>'
         f'{rows(RAIL5)}'
-        '<div class="rt">Still open &mdash; 41, redrawn</div>'
+        '<div class="rt">Answered &mdash; 40 and 41</div>'
         f'{rows(RAIL3)}'
         '<div class="rt">Round two &mdash; 30 to 39</div>'
         f'{rows(RAIL)}'
@@ -100,27 +107,22 @@ def rail_html():
 MAST = """
 <header class="mast">
   <div class="kick">Southwest Adventure Tours &middot; storefront rebuild</div>
-  <h1>The checkout, drawn three ways</h1>
-  <p><b>Three decisions are open: <a href="#d42">42</a>, <a href="#d43">43</a>
-  and <a href="#d44">44</a>.</b> They are all the booking page you looked at
-  this afternoon &mdash; the shell it sits in, the one question that fills the
-  screen, and what a customer can see of the trip while they are buying it.</p>
-  <p style="margin-top:12px">You said you were not loving how it looks and
-  feels, and did not say which part, so the round starts by counting. On your
-  own 1440&times;900 window the booking itself is <b>556px of a 1,897px
-  page</b>, the <b>footer under it is 736px</b> &mdash; the tallest thing on
-  the page &mdash; and there is <b>not one photograph</b> in the page body.
-  That is what the feeling measures out to.</p>
-  <p style="margin-top:12px">Everything below the three is where it was:
-  decision <a href="#d41">41</a> is still open and redrawn, <b>40</b> is
-  answered and built, and rounds one and two are folded with their letters on
-  the front. Click any drawing to enlarge it, and pull the others in beside it
-  from the chip row.</p>
-  <p style="margin-top:12px"><b>Answer with letters.</b> &ldquo;Forty-two goes
-  to D, forty-three goes to F.&rdquo; A voice note is fine &mdash; every
-  option has a letter printed on it, and the letters never move.</p>
-  <div class="who"><span>Crow</span><span>The booking walk-through</span>
-  <span>23 Sep 2026</span><span>Earlier rounds are folded below</span></div>
+  <h1>The reviews page, drawn three ways</h1>
+  <p><b>One decision is open: <a href="#d45">45</a>.</b> It is the page the
+  home page&rsquo;s &ldquo;Read all 118 reviews&rdquo; link opens.</p>
+  <p style="margin-top:12px">Counted on your own 1440&times;900 window, on
+  production: the page is <b>19,664px</b> tall, about <b>22 screens</b>, and
+  it is <b>151 paragraphs</b> in one column. Its photos are thumbnails blown
+  up three to five times, which is why they look smeared. And it is the
+  <b>old archive</b>: none of the 42 current reviews Matt picked are on it,
+  and the third paragraph praises Glenn.</p>
+  <p style="margin-top:12px">Everything else on this link is answered and
+  folded, with its letter on the front. Click any drawing to enlarge it, and
+  pull the others in beside it from the chip row.</p>
+  <p style="margin-top:12px"><b>Answer with a letter.</b> &ldquo;Forty-five
+  goes to C.&rdquo; A voice note is fine.</p>
+  <div class="who"><span>Crow</span><span>The reviews page</span>
+  <span>28 Sep 2026</span><span>Earlier rounds are folded below</span></div>
 </header>
 """
 
@@ -718,7 +720,13 @@ def build():
     css = open(os.path.join(HERE, 'sheet.css')).read()
     decisions = E.ALL + D.ALL + C.ALL + A.ALL + B.ALL
     body = (MAST + LEDE +
-            sec('This round', 'The checkout &mdash; 42, 43 and 44',
+            sec('This round', 'The reviews page &mdash; 45',
+                'Drawn at <b>1440&times;900</b>, the top two screens of each '
+                'page, with where each page ends printed under it. Green ring '
+                'is what ships today. Amber ring is the one I would build, and '
+                'it says so in words as well.') +
+            ''.join(F.ALL) +
+            sec('Answered', 'The checkout &mdash; 42, 43 and 44',
                 'Three decisions about the booking page, drawn at '
                 '<b>1440&times;900</b> because that is the window the '
                 'complaint is about. <b>42</b> is the shape of the page, '
@@ -731,7 +739,12 @@ def build():
             ''.join(decisions) + R1 + R2 + R3 + R4 + R5)
 
     foot = (
-        '<div class="foot">Rounds one to five. Rounds one to three were '
+        '<div class="foot">Round six &mdash; decision 45 &mdash; was built '
+        '28 September 2026; its current-build panel was read off the DEPLOYED '
+        'PRODUCTION build at <code>swat-website-storefront.vercel.app/guides/'
+        'testimonials-and-reviews/</code> at <b>1440&times;900</b>: a 19,664px '
+        'page, one 686px column of 151 paragraphs, a 270px hero original drawn '
+        '1,425px wide, and none of the 42 current reviews. Rounds one to five. Rounds one to three were '
         'built 16 September 2026 from Crow&rsquo;s walkthroughs of the '
         'staging build; <b>round five &mdash; decisions 42 to 44 &mdash; was '
         'built 23 September 2026</b> and its current-build panels were read '
@@ -756,7 +769,7 @@ def build():
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="robots" content="noindex,nofollow">
-<title>SWAT — the checkout, drawn</title>
+<title>SWAT — the reviews page, drawn</title>
 <style>{css}</style>
 </head><body>
 {M.mapdefs()}

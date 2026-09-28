@@ -145,5 +145,11 @@
     "A": "Folded away under the questions",
     "B": "In the panel beside you",
     "C": "Open, underneath, as a band"
+  },
+  "45": {
+    "A": "One long column of text, as now",
+    "B": "The same reviews, as cards",
+    "C": "Current reviews, one row per trip",
+    "D": "A wall of photos and quotes"
   }
 }
