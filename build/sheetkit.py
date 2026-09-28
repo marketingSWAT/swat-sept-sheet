@@ -168,6 +168,11 @@ ANSWERS = {
     44: ('B', 'built and on staging &mdash; the tour&rsquo;s photograph, the '
               'money, then the five days with a frame each and the town you '
               'sleep in'),
+
+    # Round six, answered 28 September: "Lets go with C ... build this and
+    # push it live". Built and on production the same day.
+    45: ('C', 'built and on production 28 September &mdash; current reviews, '
+              'one row per trip, the old archive folded at the bottom'),
 }
 
 

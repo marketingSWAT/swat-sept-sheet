@@ -151,5 +151,17 @@
     "B": "The same reviews, as cards",
     "C": "Current reviews, one row per trip",
     "D": "A wall of photos and quotes"
+  },
+  "52": {
+    "A": "One row for everything, as now",
+    "B": "Two rows: multi-day, then day tours",
+    "C": "One row with two tabs",
+    "D": "Multi-day row, plus one strip for day tours"
+  },
+  "53": {
+    "A": "Welcome line and a search bar, as now",
+    "B": "One big button on the photo",
+    "C": "The search bar is the call to action",
+    "D": "Two buttons: find a tour, or build your own"
   }
 }

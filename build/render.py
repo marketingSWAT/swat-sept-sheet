@@ -31,6 +31,7 @@ import decisions_c as C           # noqa: E402
 import decisions_d as D           # noqa: E402
 import decisions_e as E           # noqa: E402
 import decisions_f as F           # noqa: E402
+import decisions_g as G           # noqa: E402
 
 OUT = os.path.join(HERE, '..', 'site', 'index.html')
 
@@ -47,6 +48,11 @@ RAIL = [
     (37, 'Is this trip right for you?'),
     (38, 'Start where you are'),
     (39, 'The film slot'),
+]
+
+RAIL7 = [
+    (52, 'Day tours on the row'),
+    (53, 'The home page&rsquo;s ask'),
 ]
 
 RAIL6 = [
@@ -85,7 +91,9 @@ def rail_html():
             f'<b>{n}</b>{t}</a>' for n, t in group)
     return (
         '<nav class="rail">'
-        '<div class="rt">This round &mdash; the reviews page</div>'
+        '<div class="rt">This round &mdash; Lance&rsquo;s two notes</div>'
+        f'{rows(RAIL7)}'
+        '<div class="rt">Answered &mdash; the reviews page</div>'
         f'{rows(RAIL6)}'
         '<div class="rt">Answered &mdash; the checkout</div>'
         f'{rows(RAIL5)}'
@@ -107,21 +115,25 @@ def rail_html():
 MAST = """
 <header class="mast">
   <div class="kick">Southwest Adventure Tours &middot; storefront rebuild</div>
-  <h1>The reviews page, drawn three ways</h1>
-  <p><b>One decision is open: <a href="#d45">45</a>.</b> It is the page the
-  home page&rsquo;s &ldquo;Read all 118 reviews&rdquo; link opens.</p>
-  <p style="margin-top:12px">Counted on your own 1440&times;900 window, on
-  production: the page is <b>19,664px</b> tall, about <b>22 screens</b>, and
-  it is <b>151 paragraphs</b> in one column. Its photos are thumbnails blown
-  up three to five times, which is why they look smeared. And it is the
-  <b>old archive</b>: none of the 42 current reviews Matt picked are on it,
-  and the third paragraph praises Glenn.</p>
-  <p style="margin-top:12px">Everything else on this link is answered and
+  <h1>Lance&rsquo;s two notes, drawn</h1>
+  <p><b>Two decisions are open: <a href="#d52">52</a> and
+  <a href="#d53">53</a>.</b> Both come from Lance&rsquo;s email of
+  28 September: whether day tours should have their own place on the
+  &ldquo;Bookable now&rdquo; row, and what the home page is asking people to
+  do.</p>
+  <p style="margin-top:12px">Counted on production at 1440&times;900 before
+  drawing anything. On the row, only <b>2 of the 8 cards</b> are trips that
+  actually leave in the window; the other six are the cheapest things in the
+  catalogue, five of them day tours. On the first screen there are <b>30
+  things to click</b> and <b>three orange buttons with three different
+  names</b>, all opening the same tour finder.</p>
+  <p style="margin-top:12px">They are numbered 52 and 53 because the dashboard
+  sheet already uses 46 to 51. Everything else on this link is answered and
   folded, with its letter on the front. Click any drawing to enlarge it, and
   pull the others in beside it from the chip row.</p>
-  <p style="margin-top:12px"><b>Answer with a letter.</b> &ldquo;Forty-five
-  goes to C.&rdquo; A voice note is fine.</p>
-  <div class="who"><span>Crow</span><span>The reviews page</span>
+  <p style="margin-top:12px"><b>Answer with a letter.</b> &ldquo;Fifty-two
+  goes to B, fifty-three goes to C.&rdquo; A voice note is fine.</p>
+  <div class="who"><span>Crow</span><span>Lance</span>
   <span>28 Sep 2026</span><span>Earlier rounds are folded below</span></div>
 </header>
 """
@@ -720,11 +732,16 @@ def build():
     css = open(os.path.join(HERE, 'sheet.css')).read()
     decisions = E.ALL + D.ALL + C.ALL + A.ALL + B.ALL
     body = (MAST + LEDE +
-            sec('This round', 'The reviews page &mdash; 45',
-                'Drawn at <b>1440&times;900</b>, the top two screens of each '
-                'page, with where each page ends printed under it. Green ring '
-                'is what ships today. Amber ring is the one I would build, and '
-                'it says so in words as well.') +
+            sec('This round', 'Lance&rsquo;s two notes &mdash; 52 and 53',
+                'Both drawn at <b>1440</b> wide off the live home page. '
+                '<b>52</b> is the &ldquo;Bookable now&rdquo; row on its own; '
+                '<b>53</b> is the first screen of a 1440&times;900 window, '
+                'with the bottom edge of the window drawn across it. Green '
+                'ring is what ships today. Amber ring is the one I would '
+                'build, and it says so in words as well.') +
+            ''.join(G.ALL) +
+            sec('Answered', 'The reviews page &mdash; 45',
+                'Built and on production 28 September.') +
             ''.join(F.ALL) +
             sec('Answered', 'The checkout &mdash; 42, 43 and 44',
                 'Three decisions about the booking page, drawn at '
@@ -739,7 +756,16 @@ def build():
             ''.join(decisions) + R1 + R2 + R3 + R4 + R5)
 
     foot = (
-        '<div class="foot">Round six &mdash; decision 45 &mdash; was built '
+        '<div class="foot">Round seven &mdash; decisions 52 and 53 &mdash; was '
+        'built 28 September 2026 from Lance Card&rsquo;s email of the same '
+        'day. Its current-build panels were read off the DEPLOYED PRODUCTION '
+        'home page at <code>swat-website-storefront.vercel.app/</code> at '
+        '<b>1440&times;900</b>: a 558px hero at y=159, the search bar at '
+        'y=653, 30 clickable elements on the first screen, and a '
+        '&ldquo;Bookable now in November&rdquo; row of eight cards, two of '
+        'them dated. Departure dates were read from the site&rsquo;s own '
+        'calendar the same day; the row rotates daily, so re-derive before '
+        'the next round. Round six &mdash; decision 45 &mdash; was built '
         '28 September 2026; its current-build panel was read off the DEPLOYED '
         'PRODUCTION build at <code>swat-website-storefront.vercel.app/guides/'
         'testimonials-and-reviews/</code> at <b>1440&times;900</b>: a 19,664px '
@@ -769,7 +795,7 @@ def build():
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="robots" content="noindex,nofollow">
-<title>SWAT — the reviews page, drawn</title>
+<title>SWAT — Lance&rsquo;s notes, drawn</title>
 <style>{css}</style>
 </head><body>
 {M.mapdefs()}
