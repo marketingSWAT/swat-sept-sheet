@@ -1,0 +1,217 @@
+/* ---- decision 74: the About page, drawn three ways at 1920 (mocks_about.py) */
+.mock .ab-now img{display:block;width:100%;height:auto}
+.mock .ab-now .p{display:none}
+.mockwrap.phone .ab-now .d{display:none}
+.mockwrap.phone .ab-now .p{display:block}
+
+.mock .ab-crumbs{padding-top:22px!important;padding-bottom:6px!important;font-size:12.5px;color:var(--ink300)}
+.mock .ab-crumbs span{margin:0 6px;color:var(--sand300)}
+.mock .ab-crumbs b{color:var(--ink700);font-weight:500}
+
+.mock .ab-kick{display:block;font-size:13px;font-weight:700;letter-spacing:.08em;
+  text-transform:uppercase;color:var(--rust700);margin-bottom:12px}
+.mock [class^="ab-"] h1,.mock [class*=" ab-"] h1{font-size:54px;line-height:1.05;font-weight:800;
+  letter-spacing:-.02em;color:var(--ink900);margin:0 0 20px}
+.mock [class^="ab-"] h2{font-size:36px;line-height:1.12;font-weight:800;letter-spacing:-.015em;
+  color:var(--ink900);margin:0 0 16px}
+.mock [class^="ab-"] h3{font-size:21px;font-weight:700;color:var(--ink900);margin:28px 0 8px}
+.mock [class^="ab-"] p{font-size:18px;line-height:1.6;color:var(--ink700);margin:0 0 14px}
+.mock [class^="ab-"] p.lead{font-size:22px;line-height:1.5;color:var(--ink900)}
+.mock .ab-btns{display:flex;gap:12px;flex-wrap:wrap;margin-top:26px}
+.mock .ab-btn{display:inline-flex;align-items:center;height:54px;padding:0 26px;border-radius:10px;
+  background:var(--rust600);color:#fff;font-weight:700;font-size:17px}
+.mock .ab-btn.ghost{background:#fff;color:var(--navy800);box-shadow:inset 0 0 0 2px var(--navy800)}
+
+.mock .ab-row{padding:96px 0}
+.mock .ab-row.tight{padding:64px 0}
+.mock .ab-row.sand{background:var(--sand100);border-top:1px solid var(--sand300);border-bottom:1px solid var(--sand300)}
+
+/* split rows: words and a picture side by side */
+.mock .ab-split{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.15fr);gap:80px;align-items:center}
+.mock .ab-split.flip{grid-template-columns:minmax(0,1.15fr) minmax(0,1fr)}
+.mock .ab-split .ph img{display:block;width:100%;height:560px;object-fit:cover;border-radius:14px}
+.mock .ab-open{padding:40px 0 40px}
+.mock .ab-open .ph img{height:640px}
+
+/* the film */
+.mock .ab-film{position:relative;border-radius:14px;overflow:hidden;background:var(--navy900)}
+.mock .ab-film img{display:block;width:100%;aspect-ratio:16/9;height:auto!important;object-fit:cover;opacity:.9}
+.mock .ab-play{position:absolute;left:50%;top:50%;width:96px;height:96px;margin:-58px 0 0 -48px;
+  border-radius:50%;background:var(--rust600);box-shadow:0 8px 30px rgba(0,0,0,.35)}
+.mock .ab-play i{position:absolute;left:38px;top:30px;border-left:30px solid #fff;
+  border-top:18px solid transparent;border-bottom:18px solid transparent}
+.mock .ab-film-cap{position:absolute;left:0;right:0;bottom:0;padding:40px 24px 18px;color:#fff;
+  font-weight:700;font-size:19px;background:linear-gradient(transparent,rgba(5,18,31,.85))}
+.mock .ab-film-cap em{font-style:normal;font-weight:500;opacity:.8;margin-left:8px}
+.mock .ab-film.small{margin-top:30px;max-width:520px}
+.mock .ab-film.small .ab-play{width:68px;height:68px;margin:-44px 0 0 -34px}
+.mock .ab-film.small .ab-play i{left:27px;top:21px;border-left-width:22px;border-top-width:13px;border-bottom-width:13px}
+.mock .ab-film.small .ab-film-cap{font-size:16px;padding:30px 18px 14px}
+
+/* group mosaic */
+.mock .ab-mos{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.mock .ab-mos figure,.mock .ab-strip6 figure{margin:0}
+.mock .ab-mos img{display:block;width:100%;height:290px;object-fit:cover;border-radius:12px}
+.mock .ab-mos figcaption,.mock .ab-strip6 figcaption{font-size:13.5px;color:var(--ink500);margin-top:8px}
+.mock .ab-g{display:flex;align-items:center;gap:10px;margin-top:24px;font-size:16px;color:var(--ink700)}
+.mock .ab-g b{font-size:30px;font-weight:800;color:var(--ink900)}
+.mock .ab-stars{color:#f5a623;font-size:20px;letter-spacing:1px}
+
+/* people */
+.mock .ab-peoplehd{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:80px;align-items:end;margin-bottom:44px}
+.mock .ab-peoplehd h2{margin:0}
+.mock .ab-peoplehd p{margin:0}
+.mock .ab-g4{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:28px}
+.mock .ab-card{display:flex;flex-direction:column;background:#fff;border:1px solid var(--sand300);
+  border-radius:14px;overflow:hidden;color:inherit}
+.mock .ab-card .ph img{display:block;width:100%;height:340px;object-fit:cover;object-position:50% 25%}
+.mock .ab-card .tx{padding:22px 24px 24px;display:flex;flex-direction:column;flex:1}
+.mock .ab-card .rl,.mock .ab-f .rl{font-size:12.5px;font-weight:700;letter-spacing:.07em;
+  text-transform:uppercase;color:var(--pine700)}
+.mock .ab-card h4{font-size:23px;font-weight:800;color:var(--ink900);margin:6px 0 10px}
+.mock .ab-card p{font-size:16.5px;line-height:1.55;margin:0 0 12px}
+.mock .ab-card p.ab-q{font-style:italic;color:var(--ink500)}
+.mock .ab-card .lk{margin-top:auto;font-weight:700;color:var(--rust700);font-size:16.5px}
+.mock .ab-office{display:grid;grid-template-columns:auto repeat(3,minmax(0,1fr));gap:28px;align-items:center;
+  margin-top:40px;padding-top:36px;border-top:1px solid var(--sand300)}
+.mock .ab-office .ab-kick{margin:0}
+.mock .ab-mini{display:flex;gap:16px;align-items:center;color:var(--ink700);font-size:16px;line-height:1.45}
+.mock .ab-mini img{width:84px;height:84px;border-radius:50%;object-fit:cover;object-position:50% 25%;flex:none}
+.mock .ab-mini b{display:block;color:var(--ink900);font-size:17.5px}
+
+.mock .ab-proof{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:60px;align-items:center}
+.mock .ab-proof p{margin:0;max-width:560px}
+.mock .ab-logos{display:flex;gap:56px;align-items:center}
+.mock .ab-logos img{height:72px;width:auto;mix-blend-mode:multiply}
+.mock .ab-logos.sm{gap:16px;flex-wrap:wrap}
+.mock .ab-logos.sm img{height:30px}
+
+/* closing band */
+.mock .ab-close{background:var(--navy800);color:#fff;padding:80px 0}
+.mock .ab-close .in{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:6px 40px;align-items:center}
+.mock .ab-close h2{color:#fff!important;margin:0 0 8px!important}
+.mock .ab-close p{color:var(--navy100)!important;margin:0!important}
+.mock .ab-close .in p{grid-column:1}
+.mock .ab-close .in h2{grid-column:1}
+.mock .ab-close .ab-btns{grid-column:2;grid-row:1 / span 2;margin:0}
+.mock .ab-close .ab-btn.ghost{background:transparent;color:#fff;box-shadow:inset 0 0 0 2px rgba(255,255,255,.6)}
+.mock .ab-close .ab-work{margin-top:36px!important;padding-top:24px;border-top:1px solid var(--navy700);font-size:16px!important}
+.mock .ab-close .ab-work u{color:#fff}
+
+/* ---- C: people first */
+.mock .ab-pf{padding:36px 0 96px}
+.mock .ab-pfhd{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);gap:80px;align-items:end;margin-bottom:44px}
+.mock .ab-pfhd h1{margin:0}
+.mock .ab-pfhd p{font-size:20px!important;margin:0!important}
+.mock .ab-pfhd .ab-btns{margin-top:20px}
+.mock .ab-g7{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:28px}
+.mock .ab-g7 .ab-card.big{grid-column:span 1}
+.mock .ab-g7 .ab-card.big .ph img{height:420px}
+.mock .ab-g7 .ab-card:nth-child(n+4) .ph img{height:300px}
+.mock .ab-g7 .ab-card:first-child{grid-column:span 2;flex-direction:row}
+.mock .ab-g7 .ab-card:first-child .ph{width:52%;flex:none}
+.mock .ab-g7 .ab-card:first-child .ph img{height:100%;min-height:520px}
+.mock .ab-g7 .ab-card:first-child .tx{padding:36px 34px;justify-content:center}
+.mock .ab-g7 .ab-card:first-child h4{font-size:30px}
+.mock .ab-g7 .ab-card:first-child p{font-size:18.5px}
+.mock .ab-card.more{background:var(--sand100);border-style:dashed;justify-content:center}
+.mock .ab-card.more .tx{justify-content:center;align-items:flex-start}
+.mock .ab-card.more .ab-btn{margin-top:14px}
+.mock .ab-co{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:80px;align-items:start}
+.mock .ab-co blockquote,.mock .ab-split blockquote{margin:28px 0 0;padding:4px 0 4px 26px;border-left:4px solid var(--rust600);
+  font-size:22px;line-height:1.5;color:var(--ink900);font-weight:500}
+.mock .ab-office.stack{grid-template-columns:1fr;gap:18px;margin-top:32px;padding-top:28px}
+.mock .ab-striphd{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:80px;align-items:end;margin-bottom:32px}
+.mock .ab-striphd h2,.mock .ab-striphd p{margin:0}
+.mock .ab-strip6{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:14px}
+.mock .ab-strip6 img{display:block;width:100%;height:230px;object-fit:cover;border-radius:10px}
+.mock .ab-proof.line{display:flex;gap:36px;align-items:center;margin-top:40px;padding-top:32px;border-top:1px solid var(--sand300)}
+.mock .ab-proof.line .ab-g{margin:0;margin-right:auto}
+.mock .ab-proof.line .ab-kick{margin:0}
+.mock .ab-proof.line .ab-logos img{height:56px}
+.mock .ab-careers{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:80px;align-items:center}
+.mock .ab-careers h3{margin:0 0 6px}
+.mock .ab-careers p{margin:0}
+.mock .ab-fold{display:flex;justify-content:space-between;align-items:center;gap:20px;padding:20px 24px;
+  border:1px solid var(--sand300);border-radius:12px;font-size:17px;font-weight:600;color:var(--ink700)}
+.mock .ab-fold b{font-size:26px;color:var(--rust700)}
+
+/* ---- D: one screen */
+.mock .ab-one{padding:28px 0 56px}
+.mock .ab-onegrid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.1fr);gap:64px;align-items:start}
+.mock .ab-onegrid h1{font-size:50px}
+.mock .ab-quad{display:grid;grid-template-columns:1.3fr 1fr;grid-template-rows:330px 250px 240px;gap:14px}
+.mock .ab-quad figure{margin:0;border-radius:12px;overflow:hidden}
+.mock .ab-quad img{display:block;width:100%;height:100%;object-fit:cover}
+.mock .ab-quad .a{grid-row:1 / span 2}
+.mock .ab-quad .b{grid-column:1 / span 2;grid-row:3}
+.mock .ab-facts{background:var(--sand100);border-top:1px solid var(--sand300);border-bottom:1px solid var(--sand300);padding:40px 0}
+.mock .ab-f4{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:40px;align-items:center}
+.mock .ab-f4 > div{display:flex;flex-direction:column;gap:6px}
+.mock .ab-f4 > div > b{font-size:34px;font-weight:800;color:var(--ink900)}
+.mock .ab-f4 > div > span{font-size:16.5px;line-height:1.45;color:var(--ink700)}
+.mock .ab-f4 .ab-g{flex-wrap:wrap;margin:0}
+.mock .ab-f4 .ab-kick{margin:0 0 6px}
+.mock .ab-row10{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:36px 28px}
+.mock .ab-f{display:flex;flex-direction:column;gap:4px;color:var(--ink700);font-size:15.5px;line-height:1.45}
+.mock .ab-f img{width:100%;height:260px;object-fit:cover;object-position:50% 25%;border-radius:12px;margin-bottom:10px}
+.mock .ab-f b{font-size:19px;color:var(--ink900)}
+.mock .ab-motto{font-size:15px!important;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--pine700)!important;margin-top:22px!important}
+.mock .ab-split .ph img.team{object-position:50% 40%}
+
+/* ---- phone: the same fragments at 390 */
+.mockwrap.phone [class^="ab-"] h1,.mockwrap.phone [class*=" ab-"] h1{font-size:34px}
+.mockwrap.phone [class^="ab-"] h2{font-size:27px}
+.mockwrap.phone [class^="ab-"] p{font-size:16.5px}
+.mockwrap.phone [class^="ab-"] p.lead{font-size:18.5px}
+.mockwrap.phone .ab-row{padding:52px 0}
+.mockwrap.phone .ab-row.tight{padding:40px 0}
+.mockwrap.phone .ab-open{padding:12px 0 52px}
+.mockwrap.phone .ab-split,.mockwrap.phone .ab-split.flip,.mockwrap.phone .ab-peoplehd,.mockwrap.phone .ab-pfhd,
+.mockwrap.phone .ab-co,.mockwrap.phone .ab-striphd,.mockwrap.phone .ab-careers,.mockwrap.phone .ab-onegrid,
+.mockwrap.phone .ab-proof,.mockwrap.phone .ab-close .in{grid-template-columns:minmax(0,1fr)!important;gap:24px}
+.mockwrap.phone .ab-split .ph img,.mockwrap.phone .ab-open .ph img{height:260px}
+.mockwrap.phone .ab-split .ph{order:-1}
+.mockwrap.phone .ab-split.flip .ph{order:0}
+.mockwrap.phone .ab-btns{flex-direction:column}
+.mockwrap.phone .ab-btn{justify-content:center}
+.mockwrap.phone .ab-play{width:68px;height:68px;margin:-44px 0 0 -34px}
+.mockwrap.phone .ab-play i{left:27px;top:21px;border-left-width:22px;border-top-width:13px;border-bottom-width:13px}
+.mockwrap.phone .ab-film-cap{font-size:15px;padding:26px 14px 12px}
+.mockwrap.phone .ab-mos{gap:10px}
+.mockwrap.phone .ab-mos img{height:140px}
+.mockwrap.phone .ab-g4,.mockwrap.phone .ab-g7{grid-template-columns:minmax(0,1fr)!important;gap:18px}
+.mockwrap.phone .ab-card{flex-direction:row!important;grid-column:auto!important}
+.mockwrap.phone .ab-card .ph{width:124px!important;flex:none}
+.mockwrap.phone .ab-card .ph img{height:100%!important;min-height:0!important}
+.mockwrap.phone .ab-card .tx{padding:14px 16px!important}
+.mockwrap.phone .ab-card h4{font-size:19px!important;margin:2px 0 6px}
+.mockwrap.phone .ab-card p{font-size:14.5px!important}
+.mockwrap.phone .ab-card .lk{font-size:15px}
+.mockwrap.phone .ab-card.more .tx{align-items:stretch}
+.mockwrap.phone .ab-office{grid-template-columns:minmax(0,1fr);gap:16px}
+.mockwrap.phone .ab-mini img{width:64px;height:64px}
+.mockwrap.phone .ab-logos{flex-wrap:wrap;gap:24px}
+.mockwrap.phone .ab-logos img{height:44px}
+.mockwrap.phone .ab-close{padding:48px 0}
+.mockwrap.phone .ab-close .ab-btns{grid-column:1;grid-row:auto}
+.mockwrap.phone .ab-strip6{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.mockwrap.phone .ab-strip6 img{height:130px}
+.mockwrap.phone .ab-proof.line{flex-direction:column;align-items:flex-start;gap:14px}
+.mockwrap.phone .ab-quad{grid-template-rows:170px 120px 150px;gap:8px}
+.mockwrap.phone .ab-onegrid .ab-quad{order:-1}
+.mockwrap.phone .ab-f4{grid-template-columns:repeat(2,minmax(0,1fr));gap:22px 18px}
+.mockwrap.phone .ab-f4 > div:nth-child(n+3){grid-column:1 / span 2}
+.mockwrap.phone .ab-f4 > div > b{font-size:26px}
+.mockwrap.phone .ab-f4 > div > span{font-size:14.5px}
+.mockwrap.phone .ab-row10{grid-template-columns:repeat(2,minmax(0,1fr));gap:22px 14px}
+.mockwrap.phone .ab-f img{height:170px}
+.mockwrap.phone .ab-f{font-size:14px}
+.mockwrap.phone .ab-f b{font-size:16.5px}
+.mockwrap.phone .ab-pf{padding:12px 0 52px}
+
+.mock .ab-office.cell{grid-template-columns:1fr;margin:0;padding:24px;border:1px dashed var(--sand300);
+  border-radius:14px;background:var(--sand100);align-content:center;gap:22px}
+.mock .ab-onegrid ~ * .ph img,.mock .ab-split .ph img.team{height:460px}
+.mockwrap.phone .ab-split .ph img.team{height:240px}
+.mock .ab-g7 .ab-card:first-child .tx{justify-content:flex-start}

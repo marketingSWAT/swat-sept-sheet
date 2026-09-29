@@ -1,0 +1,1073 @@
+{
+ "url": "https://swat-website-storefront.vercel.app/about/",
+ "title": "About us | Southwest Adventure Tours",
+ "H": 11871,
+ "mainText": "About\nAbout Us\n\nSouthwest Adventure Tours provides local, experienced guides who work hard to provide travelers with the best experience in the Southwest.\n\nHome\n/\nAbout\n\nGroup Tour on Imperial Point\n\nAt Southwest Adventure Tours it would be our pleasure to tour with you! We are travel enthusiasts and we would love nothing more than to “Explore, Experience, Enrich” with each and every one of our guests. When you are on one of our tours, adventure awaits!\n\nTo see one of our tour guide professionals in action on one of our tours, watch the following video. This video demonstrates what the folks at Southwest Adventure Tours is all about.\n\nSouthwest Adventure Tours Mission Statement\n\nSouthwest Adventure Tours highest mission is to provide our guests the opportunity to build lasting memories through creating exceptional experiences that will touch their heart, mind, and soul. We create tours and adventures that enlivens the senses, instills well-being, and fulfills even the unexpressed wishes and needs of our guests.\n\nLearn more about our family of tour guides by clicking on Our Team below.\n\nHave you ever thought of getting into the travel business and becoming a tour guide? If so, we'd love to talk to you. Click on the Careers option below.\n\nAffiliations\n\nSouthwest Adventure Tours is affiliated with the following organizations:\n\nACCREDITED BY\n\nMembership in each of these is verifiable independently of anything said on this site.\n\nExplore, Experience, Enrich\n\nGroups of seven to thirteen, and a guide who has been there before. Every photograph below is one of ours, on one of these trips.\n\nZion Checkerboard Mesa Group Photo\nAlaska Group Exit Glacier 2200\nOur Team\n\nIt would be our pleasure to have you travel with us on our journey to “Explore, Experience, Enrich!” We are so fortunate to have a diverse and talented team who provide endless possibilities for your next adventure! Meet the Team Jason Murray - Owner/CEO As a native of Utah, Jason grew up visiting the National Parks, Monuments, and other regions throughout the Western United States. That is where he first fell in love with the history and geology of the area. As he grew older, he continued to enrich his education and knowledge at nature camps and class trips throughout the Southwest.\n\nOne of his favorite trips was down to Havasupai Falls and the Colorado River in the Grand Canyon. Even when he attended college in California, he continued to enjoy the diverse geological and ecological environments nearby. He has enjoyed camping, hiking, backpacking, and touring throughout the west for the last 20 years. One of his greatest loves is sharing his passion of the history, geology, and beauty of the Southwestern United States with those he tours with.\n\nTHE PEOPLE WHO GUIDE THE TRIPS\nCareers\n\nSouthwest Adventures Tours was created by a combination of our deep love for experiencing all the wonders that surround us and a passion for sharing these wonders with others. If you share our passion; Love to travel and want to share it with others, then you may be a great fit for the growing SWAT team!\n\nCurrent Openings: https://southwestadventuretours.zohorecruit.com/jobs/Careers Southwest Adventure Tours Mission Statement Southwest Adventure Tours highest mission is to provide our guests the opportunity to build lasting memories through creating exceptional experiences that will touch their heart, mind, and soul. We create tours and adventures that enlivens the senses, instills well-being, and fulfills even the unexpressed wishes and needs of our guests.\n\nSouthwest Adventure Tours Motto “Explore, Experience, Enrich!”\n\nThree Steps Of Service\nA warm and sincere greeting.\nUse the guest's name. Anticipation and fulfillment of each guest's needs.\nFond farewell. Give a warm good-bye and use the guest's name.\nService Values: I Am Proud To Be Southwest Adventure Tours\nI build strong relationships and create SWAT guests for life.\nI am always responsive to the expressed and unexpressed wishes and needs of our guests.\nI am empowered to create unique, memorable and personal experiences for our guests.\nI understand my role in achieving the Key Success Factors (AO, employee and customer engagement, community involvement, product service excellence and financial performance).\nI continuously seek opportunities to innovate and improve the Southwest Adventure Tours experience.\nI own and immediately resolve guest problems.\nI create a work environment of teamwork and lateral service so that the needs of our guests and each other are met.\nI have the opportunity to continuously learn and grow.\nI am involved in the planning of the work that affects me.\nI am proud of my professional appearance, language and behavior.\nI protect the privacy and security of our guests, my fellow employees and the company's confidential information and assets.\nI am responsible for uncompromising levels of cleanliness and creating a safe and accident-free environment.\n\nThe Employee Promise At Southwest Adventure Tours, our Ladies and Gentlemen are the most important resource in our service commitment to our guests. By applying the principles of trust, honesty, respect, integrity and commitment, we nurture and maximize talent to the benefit of each individual and the company. Southwest Adventure Tours fosters a work environment where diversity is valued, quality of life is enhanced, individual aspirations are fulfilled, and Southwest Adventure Tours is strengthened.\n\nWynn Hall",
+ "blocks": [
+  {
+   "tag": "SECTION",
+   "cls": "relative w-full overflow-hidden bg-navy-900 h-[62vh] min-h-[440px] max-h-[640px]",
+   "y": 159,
+   "x": 0,
+   "w": 390,
+   "h": 523,
+   "text": "",
+   "fs": "16px"
+  },
+  {
+   "tag": "IMG",
+   "cls": "object-cover",
+   "y": 159,
+   "x": 0,
+   "w": 390,
+   "h": 523,
+   "text": "https://pyxnpjvtdlucaqqhhvin.supabase.co/storage/v1/object/public/media/derived/w384/photos/Canyonlands_Group_456d26f8-8539-46c5-b94f-8a2a610ab7a0.avif | alt=Canyonlands Group Tour | nat=241x181",
+   "fs": "16px"
+  },
+  {
+   "tag": "H1",
+   "cls": "mt-4 font-display font-extrabold leading-[1.05] tracking-tight text-white max-w-[19ch] text-[34px] sm:text-[40px] lg:tex",
+   "y": 363,
+   "x": 20,
+   "w": 350,
+   "h": 36,
+   "text": "About Us",
+   "fs": "34px"
+  },
+  {
+   "tag": "P",
+   "cls": "leading-relaxed text-navy-100 mt-4 max-w-[48ch] text-[17px] lg:text-[19px]",
+   "y": 415,
+   "x": 20,
+   "w": 350,
+   "h": 111,
+   "text": "Southwest Adventure Tours provides local, experienced guides who work hard to provide travelers with the best experience in the Southwest.",
+   "fs": "17px"
+  },
+  {
+   "tag": "LI",
+   "cls": "flex items-center gap-1.5",
+   "y": 706,
+   "x": 20,
+   "w": 46,
+   "h": 44,
+   "text": "Home\n/",
+   "fs": "12px"
+  },
+  {
+   "tag": "LI",
+   "cls": "text-ink-700 font-medium",
+   "y": 719,
+   "x": 72,
+   "w": 36,
+   "h": 18,
+   "text": "About",
+   "fs": "12px"
+  },
+  {
+   "tag": "SECTION",
+   "cls": "py-10 lg:py-12",
+   "y": 750,
+   "x": 20,
+   "w": 350,
+   "h": 1805,
+   "text": "",
+   "fs": "16px"
+  },
+  {
+   "tag": "IMG",
+   "cls": "object-cover",
+   "y": 790,
+   "x": 20,
+   "w": 350,
+   "h": 197,
+   "text": "https://pyxnpjvtdlucaqqhhvin.supabase.co/storage/v1/object/public/media/derived/w384/photos/Group_Imperial_Point_780d7e22-85cf-444c-8d40-704bb37971cd.avif | alt=Group Tour on Imperial Point | nat=241x322",
+   "fs": "16px"
+  },
+  {
+   "tag": "P",
+   "cls": "mt-2 text-[12.5px] text-ink-300",
+   "y": 995,
+   "x": 20,
+   "w": 350,
+   "h": 19,
+   "text": "Group Tour on Imperial Point",
+   "fs": "12.5px"
+  },
+  {
+   "tag": "P",
+   "cls": "mt-4 text-[17px] leading-relaxed text-ink-700 first:mt-0",
+   "y": 1046,
+   "x": 20,
+   "w": 350,
+   "h": 193,
+   "text": "At Southwest Adventure Tours it would be our pleasure to tour with you! We are travel enthusiasts and we would love nothing more than to “Explore, Experience, Enrich” with each and every one of our guests. When you are on one of our tours, adventure awaits!",
+   "fs": "17px"
+  },
+  {
+   "tag": "P",
+   "cls": "mt-4 text-[17px] leading-relaxed text-ink-700 first:mt-0",
+   "y": 1256,
+   "x": 20,
+   "w": 350,
+   "h": 138,
+   "text": "To see one of our tour guide professionals in action on one of our tours, watch the following video. This video demonstrates what the folks at Southwest Adventure Tours is all about.",
+   "fs": "17px"
+  },
+  {
+   "tag": "H2",
+   "cls": "mt-10 font-display text-[22px] font-bold tracking-tight text-ink-900 first:mt-0 lg:text-[25px]",
+   "y": 1434,
+   "x": 20,
+   "w": 350,
+   "h": 75,
+   "text": "Southwest Adventure Tours Mission Statement",
+   "fs": "22px"
+  },
+  {
+   "tag": "P",
+   "cls": "mt-4 text-[17px] leading-relaxed text-ink-700 first:mt-0",
+   "y": 1525,
+   "x": 20,
+   "w": 350,
+   "h": 249,
+   "text": "Southwest Adventure Tours highest mission is to provide our guests the opportunity to build lasting memories through creating exceptional experiences that will touch their heart, mind, and soul. We create tours and adventures that enlivens the senses, instills well-being, and fulfills even the unexpressed wishes and needs of our guests.",
+   "fs": "17px"
+  },
+  {
+   "tag": "P",
+   "cls": "mt-4 text-[17px] leading-relaxed text-ink-700 first:mt-0",
+   "y": 1791,
+   "x": 20,
+   "w": 350,
+   "h": 55,
+   "text": "Learn more about our family of tour guides by clicking on Our Team below.",
+   "fs": "17px"
+  },
+  {
+   "tag": "P",
+   "cls": "mt-4 text-[17px] leading-relaxed text-ink-700 first:mt-0",
+   "y": 1863,
+   "x": 20,
+   "w": 350,
+   "h": 111,
+   "text": "Have you ever thought of getting into the travel business and becoming a tour guide? If so, we'd love to talk to you. Click on the Careers option below.",
+   "fs": "17px"
+  },
+  {
+   "tag": "H2",
+   "cls": "mt-10 font-display text-[22px] font-bold tracking-tight text-ink-900 first:mt-0 lg:text-[25px]",
+   "y": 2014,
+   "x": 20,
+   "w": 350,
+   "h": 37,
+   "text": "Affiliations",
+   "fs": "22px"
+  },
+  {
+   "tag": "P",
+   "cls": "mt-4 text-[17px] leading-relaxed text-ink-700 first:mt-0",
+   "y": 2067,
+   "x": 20,
+   "w": 350,
+   "h": 55,
+   "text": "Southwest Adventure Tours is affiliated with the following organizations:",
+   "fs": "17px"
+  },
+  {
+   "tag": "H2",
+   "cls": "font-display text-[13px] font-semibold uppercase tracking-wider text-ink-300",
+   "y": 2195,
+   "x": 20,
+   "w": 350,
+   "h": 20,
+   "text": "ACCREDITED BY",
+   "fs": "13px"
+  },
+  {
+   "tag": "P",
+   "cls": "mt-3 max-w-2xl text-[15px] leading-relaxed text-ink-500",
+   "y": 2227,
+   "x": 20,
+   "w": 350,
+   "h": 49,
+   "text": "Membership in each of these is verifiable independently of anything said on this site.",
+   "fs": "15px"
+  },
+  {
+   "tag": "LI",
+   "cls": "",
+   "y": 2299,
+   "x": 20,
+   "w": 193,
+   "h": 56,
+   "text": "",
+   "fs": "16px"
+  },
+  {
+   "tag": "IMG",
+   "cls": "h-14 w-auto mix-blend-multiply",
+   "y": 2299,
+   "x": 20,
+   "w": 193,
+   "h": 56,
+   "text": "https://pyxnpjvtdlucaqqhhvin.supabase.co/storage/v1/object/public/media/derived/w384/photos/logo_web_ATTA_39bcd1f6-54e7-4df4-9e45-f453613292c3.avif | alt=Adventure Travel Trade Association | nat=156x45",
+   "fs": "16px"
+  },
+  {
+   "tag": "LI",
+   "cls": "",
+   "y": 2379,
+   "x": 20,
+   "w": 122,
+   "h": 56,
+   "text": "",
+   "fs": "16px"
+  },
+  {
+   "tag": "IMG",
+   "cls": "h-14 w-auto mix-blend-multiply",
+   "y": 2379,
+   "x": 20,
+   "w": 122,
+   "h": 56,
+   "text": "https://pyxnpjvtdlucaqqhhvin.supabase.co/storage/v1/object/public/media/derived/w384/photos/logo_web_AmericanBusAssociation_06ab7452-b0d3-4749-9579-2277de4c073e.avif | alt=American Bus Association | nat=128x58",
+   "fs": "16px"
+  },
+  {
+   "tag": "LI",
+   "cls": "",
+   "y": 2379,
+   "x": 182,
+   "w": 55,
+   "h": 56,
+   "text": "",
+   "fs": "16px"
+  },
+  {
+   "tag": "IMG",
+   "cls": "h-14 w-auto mix-blend-multiply",
+   "y": 2379,
+   "x": 182,
+   "w": 55,
+   "h": 56,
+   "text": "https://pyxnpjvtdlucaqqhhvin.supabase.co/storage/v1/object/public/media/derived/w384/photos/logo_web_iatan_a047767a-ec45-4a4b-afb7-a31cd0196ca1.avif | alt=IATAN — International Airlines Travel Agent Network | nat=104x105",
+   "fs": "16px"
+  },
+  {
+   "tag": "LI",
+   "cls": "",
+   "y": 2459,
+   "x": 20,
+   "w": 187,
+   "h": 56,
+   "text": "",
+   "fs": "16px"
+  },
+  {
+   "tag": "IMG",
+   "cls": "h-14 w-auto mix-blend-multiply",
+   "y": 2459,
+   "x": 20,
+   "w": 187,
+   "h": 56,
+   "text": "https://pyxnpjvtdlucaqqhhvin.supabase.co/storage/v1/object/public/media/derived/w384/photos/logo_web_NTA_09244ba7-9d9d-4ad9-99b5-2e644c0ec974.avif | alt=National Tour Association | nat=156x46",
+   "fs": "16px"
+  },
+  {
+   "tag": "SECTION",
+   "cls": "border-y border-sand-300 bg-sand-100",
+   "y": 2555,
+   "x": 0,
+   "w": 390,
+   "h": 1895,
+   "text": "",
+   "fs": "16px"
+  },
+  {
+   "tag": "H2",
+   "cls": "font-display text-[22px] font-bold text-ink-900 lg:text-[24px]",
+   "y": 2596,
+   "x": 20,
+   "w": 350,
+   "h": 33,
+   "text": "Explore, Experience, Enrich",
+   "fs": "22px"
+  },
+  {
+   "tag": "P",
+   "cls": "mt-2 max-w-2xl text-ink-500",
+   "y": 2637,
+   "x": 20,
+   "w": 350,
+   "h": 72,
+   "text": "Groups of seven to thirteen, and a guide who has been there before. Every photograph below is one of ours, on one of these trips.",
+   "fs": "16px"
+  },
+  {
+   "tag": "IMG",
+   "cls": "object-cover",
+   "y": 2741,
+   "x": 20,
+   "w": 362,
+   "h": 241,
+   "text": "https://pyxnpjvtdlucaqqhhvin.supabase.co/storage/v1/object/public/media/derived/w384/photos/Zion_Checkerboard_Mesa_Group_Photo_ded30d2e-ad40-4010-ae62-e4b176a7a62a.avif | alt=Zion Checkerboard Mesa Group Photo | nat=210x118",
+   "fs": "16px"
+  },
+  {
+   "tag": "FIGCAPTION",
+   "cls": "mt-2 truncate text-[12.5px] text-ink-300",
+   "y": 2991,
+   "x": 20,
+   "w": 362,
+   "h": 19,
+   "text": "Zion Checkerboard Mesa Group Photo",
+   "fs": "12.5px"
+  },
+  {
+   "tag": "IMG",
+   "cls": "object-cover",
+   "y": 3022,
+   "x": 20,
+   "w": 362,
+   "h": 241,
+   "text": "https://pyxnpjvtdlucaqqhhvin.supabase.co/storage/v1/object/public/media/derived/w384/photos/Alaska_Group_Exit_Glacier_2200_3357dba1-5e0b-4cab-95fc-97bfc2554f79.avif | alt=Alaska Group Exit Glacier 2200 | nat=210x140",
+   "fs": "16px"
+  },
+  {
+   "tag": "FIGCAPTION",
+   "cls": "mt-2 truncate text-[12.5px] text-ink-300",
+   "y": 3271,
+   "x": 20,
+   "w": 362,
+   "h": 19,
+   "text": "Alaska Group Exit Glacier 2200",
+   "fs": "12.5px"
+  },
+  {
+   "tag": "IMG",
+   "cls": "object-cover",
+   "y": 3302,
+   "x": 20,
+   "w": 362,
+   "h": 241,
+   "text": "https://pyxnpjvtdlucaqqhhvin.supabase.co/storage/v1/object/public/media/derived/w384/photos/Arches_NP_Balanced_Rock_Group_91c0d0ee-f60b-4204-af2f-1bacbbe06bc3.avif | alt=Arches NP Balanced Rock Group | nat=210x157",
+   "fs": "16px"
+  },
+  {
+   "tag": "FIGCAPTION",
+   "cls": "mt-2 truncate text-[12.5px] text-ink-300",
+   "y": 3551,
+   "x": 20,
+   "w": 362,
+   "h": 19,
+   "text": "",
+   "fs": "12.5px"
+  },
+  {
+   "tag": "IMG",
+   "cls": "object-cover",
+   "y": 3582,
+   "x": 20,
+   "w": 362,
+   "h": 241,
+   "text": "https://pyxnpjvtdlucaqqhhvin.supabase.co/storage/v1/object/public/media/derived/w384/photos/IMG_9164_fa936444-36c7-4eeb-afc3-e5b41d130ad4.avif | alt=Hikers make their way up the Narrows in Zion National Park. | nat=210x140",
+   "fs": "16px"
+  },
+  {
+   "tag": "FIGCAPTION",
+   "cls": "mt-2 truncate text-[12.5px] text-ink-300",
+   "y": 3831,
+   "x": 20,
+   "w": 362,
+   "h": 19,
+   "text": "",
+   "fs": "12.5px"
+  },
+  {
+   "tag": "IMG",
+   "cls": "object-cover",
+   "y": 3862,
+   "x": 20,
+   "w": 362,
+   "h": 241,
+   "text": "https://pyxnpjvtdlucaqqhhvin.supabase.co/storage/v1/object/public/media/derived/w384/photos/Yosemite_Group_Photo_f7b06687-bf64-4bcc-9084-451c41ddf4c8.avif | alt=Yosemite Group Photo | nat=210x149",
+   "fs": "16px"
+  },
+  {
+   "tag": "FIGCAPTION",
+   "cls": "mt-2 truncate text-[12.5px] text-ink-300",
+   "y": 4111,
+   "x": 20,
+   "w": 362,
+   "h": 19,
+   "text": "",
+   "fs": "12.5px"
+  },
+  {
+   "tag": "IMG",
+   "cls": "object-cover",
+   "y": 4142,
+   "x": 20,
+   "w": 362,
+   "h": 241,
+   "text": "https://pyxnpjvtdlucaqqhhvin.supabase.co/storage/v1/object/public/media/derived/w384/photos/Van2021b2200px_42eebb97-0251-44d1-aee2-8c62e17c425f.avif | alt=Tour Group in Zion | nat=210x148",
+   "fs": "16px"
+  },
+  {
+   "tag": "FIGCAPTION",
+   "cls": "mt-2 truncate text-[12.5px] text-ink-300",
+   "y": 4391,
+   "x": 20,
+   "w": 362,
+   "h": 19,
+   "text": "",
+   "fs": "12.5px"
+  },
+  {
+   "tag": "SECTION",
+   "cls": "py-12",
+   "y": 4451,
+   "x": 20,
+   "w": 350,
+   "h": 1196,
+   "text": "",
+   "fs": "16px"
+  },
+  {
+   "tag": "IMG",
+   "cls": "object-cover",
+   "y": 4499,
+   "x": 20,
+   "w": 350,
+   "h": 219,
+   "text": "https://pyxnpjvtdlucaqqhhvin.supabase.co/storage/v1/object/public/media/derived/w384/photos/Team_Photo_33c0786b-81b8-441b-bb34-bfc1e42dd91b.avif | alt=SWAT Group Photo | nat=241x136",
+   "fs": "16px"
+  },
+  {
+   "tag": "H2",
+   "cls": "font-display text-[24px] font-bold text-ink-900",
+   "y": 4750,
+   "x": 20,
+   "w": 350,
+   "h": 36,
+   "text": "Our Team",
+   "fs": "24px"
+  },
+  {
+   "tag": "P",
+   "cls": "",
+   "y": 4802,
+   "x": 20,
+   "w": 350,
+   "h": 433,
+   "text": "It would be our pleasure to have you travel with us on our journey to “Explore, Experience, Enrich!” We are so fortunate to have a diverse and talented team who provide endless possibilities for your next adventure! Meet the Team Jason Murray - Owner/CEO As a native of Utah, Jason grew up visiting the National Parks, Monuments, and other regions throughout the Western United States. That is where ",
+   "fs": "17px"
+  },
+  {
+   "tag": "P",
+   "cls": "",
+   "y": 5252,
+   "x": 20,
+   "w": 350,
+   "h": 347,
+   "text": "One of his favorite trips was down to Havasupai Falls and the Colorado River in the Grand Canyon. Even when he attended college in California, he continued to enjoy the diverse geological and ecological environments nearby. He has enjoyed camping, hiking, backpacking, and touring throughout the west for the last 20 years. One of his greatest loves is sharing his passion of the history, geology, an",
+   "fs": "17px"
+  },
+  {
+   "tag": "SECTION",
+   "cls": "border-t border-sand-300 py-12",
+   "y": 5647,
+   "x": 20,
+   "w": 350,
+   "h": 1509,
+   "text": "",
+   "fs": "16px"
+  },
+  {
+   "tag": "H2",
+   "cls": "font-display text-[13px] font-semibold uppercase tracking-wider text-ink-300",
+   "y": 5696,
+   "x": 20,
+   "w": 350,
+   "h": 20,
+   "text": "THE PEOPLE WHO GUIDE THE TRIPS",
+   "fs": "13px"
+  },
+  {
+   "tag": "LI",
+   "cls": "defer-offscreen [--defer-h:256px]",
+   "y": 5747,
+   "x": 20,
+   "w": 165,
+   "h": 256,
+   "text": "",
+   "fs": "16px"
+  },
+  {
+   "tag": "IMG",
+   "cls": "object-cover object-top transition duration-500 group-hover:scale-[1.03]",
+   "y": 5747,
+   "x": 20,
+   "w": 165,
+   "h": 220,
+   "text": "https://pyxnpjvtdlucaqqhhvin.supabase.co/storage/v1/object/public/media/derived/w384/photos/AnnEvans_e013343d-eb52-4bca-ba05-082654d77653.avif | alt=Ann Evans | nat=210x280",
+   "fs": "16px"
+  },
+  {
+   "tag": "P",
+   "cls": "mt-3 font-display text-[16px] font-semibold text-ink-900 group-hover:text-rust-600",
+   "y": 5979,
+   "x": 20,
+   "w": 165,
+   "h": 24,
+   "text": "",
+   "fs": "16px"
+  },
+  {
+   "tag": "LI",
+   "cls": "defer-offscreen [--defer-h:256px]",
+   "y": 5747,
+   "x": 205,
+   "w": 165,
+   "h": 256,
+   "text": "",
+   "fs": "16px"
+  },
+  {
+   "tag": "IMG",
+   "cls": "object-cover object-top transition duration-500 group-hover:scale-[1.03]",
+   "y": 5747,
+   "x": 205,
+   "w": 165,
+   "h": 220,
+   "text": "https://pyxnpjvtdlucaqqhhvin.supabase.co/storage/v1/object/public/media/derived/w384/photos/chris_vander_wilt_opt_516db26a-0e54-4f5f-9a61-e653a6e4af77.avif | alt=Chris Vander Wilt | nat=210x163",
+   "fs": "16px"
+  },
+  {
+   "tag": "P",
+   "cls": "mt-3 font-display text-[16px] font-semibold text-ink-900 group-hover:text-rust-600",
+   "y": 5979,
+   "x": 205,
+   "w": 165,
+   "h": 24,
+   "text": "",
+   "fs": "16px"
+  },
+  {
+   "tag": "LI",
+   "cls": "defer-offscreen [--defer-h:256px]",
+   "y": 6023,
+   "x": 20,
+   "w": 165,
+   "h": 256,
+   "text": "",
+   "fs": "16px"
+  },
+  {
+   "tag": "IMG",
+   "cls": "object-cover object-top transition duration-500 group-hover:scale-[1.03]",
+   "y": 6023,
+   "x": 20,
+   "w": 165,
+   "h": 220,
+   "text": "https://pyxnpjvtdlucaqqhhvin.supabase.co/storage/v1/object/public/media/derived/w384/photos/Dennis_13892f9a-95b9-4878-b3d8-ddb1e7dcf2d4.avif | alt=Dennis Bailey | nat=191x188",
+   "fs": "16px"
+  },
+  {
+   "tag": "P",
+   "cls": "mt-3 font-display text-[16px] font-semibold text-ink-900 group-hover:text-rust-600",
+   "y": 6255,
+   "x": 20,
+   "w": 165,
+   "h": 24,
+   "text": "",
+   "fs": "16px"
+  },
+  {
+   "tag": "LI",
+   "cls": "defer-offscreen [--defer-h:256px]",
+   "y": 6023,
+   "x": 205,
+   "w": 165,
+   "h": 256,
+   "text": "",
+   "fs": "16px"
+  },
+  {
+   "tag": "IMG",
+   "cls": "object-cover object-top transition duration-500 group-hover:scale-[1.03]",
+   "y": 6023,
+   "x": 205,
+   "w": 165,
+   "h": 220,
+   "text": "https://pyxnpjvtdlucaqqhhvin.supabase.co/storage/v1/object/public/media/derived/w384/photos/Jason_Murray_5e542e87-9bdb-499c-bf8f-291242bc308a.avif | alt=Jason Murray | nat=210x157",
+   "fs": "16px"
+  },
+  {
+   "tag": "P",
+   "cls": "mt-3 font-display text-[16px] font-semibold text-ink-900 group-hover:text-rust-600",
+   "y": 6255,
+   "x": 205,
+   "w": 165,
+   "h": 24,
+   "text": "",
+   "fs": "16px"
+  },
+  {
+   "tag": "LI",
+   "cls": "defer-offscreen [--defer-h:256px]",
+   "y": 6299,
+   "x": 20,
+   "w": 165,
+   "h": 256,
+   "text": "",
+   "fs": "16px"
+  },
+  {
+   "tag": "IMG",
+   "cls": "object-cover object-top transition duration-500 group-hover:scale-[1.03]",
+   "y": 6299,
+   "x": 20,
+   "w": 165,
+   "h": 220,
+   "text": "https://pyxnpjvtdlucaqqhhvin.supabase.co/storage/v1/object/public/media/derived/w384/photos/Julie_Burton_Ray_Photo_5afb99f1-0974-41d7-a51a-4611d5718bac.avif | alt=Julie Burton-Ray | nat=164x219",
+   "fs": "16px"
+  },
+  {
+   "tag": "P",
+   "cls": "mt-3 font-display text-[16px] font-semibold text-ink-900 group-hover:text-rust-600",
+   "y": 6531,
+   "x": 20,
+   "w": 165,
+   "h": 24,
+   "text": "",
+   "fs": "16px"
+  },
+  {
+   "tag": "LI",
+   "cls": "defer-offscreen [--defer-h:256px]",
+   "y": 6299,
+   "x": 205,
+   "w": 165,
+   "h": 256,
+   "text": "",
+   "fs": "16px"
+  },
+  {
+   "tag": "IMG",
+   "cls": "object-cover object-top transition duration-500 group-hover:scale-[1.03]",
+   "y": 6299,
+   "x": 205,
+   "w": 165,
+   "h": 220,
+   "text": "https://pyxnpjvtdlucaqqhhvin.supabase.co/storage/v1/object/public/media/derived/w384/photos/kirt_douglass_b6e98676-0e7b-402e-8381-4abd3ba27cd5.avif | alt=Kirk Douglass | nat=210x157",
+   "fs": "16px"
+  },
+  {
+   "tag": "P",
+   "cls": "mt-3 font-display text-[16px] font-semibold text-ink-900 group-hover:text-rust-600",
+   "y": 6531,
+   "x": 205,
+   "w": 165,
+   "h": 24,
+   "text": "",
+   "fs": "16px"
+  },
+  {
+   "tag": "LI",
+   "cls": "defer-offscreen [--defer-h:256px]",
+   "y": 6575,
+   "x": 20,
+   "w": 165,
+   "h": 256,
+   "text": "",
+   "fs": "16px"
+  },
+  {
+   "tag": "IMG",
+   "cls": "object-cover object-top transition duration-500 group-hover:scale-[1.03]",
+   "y": 6575,
+   "x": 20,
+   "w": 165,
+   "h": 220,
+   "text": "https://pyxnpjvtdlucaqqhhvin.supabase.co/storage/v1/object/public/media/derived/w384/photos/phil_douglas_71842697-f115-494c-a6af-8d7aa2f90b33.avif | alt=Phil Douglass | nat=210x315",
+   "fs": "16px"
+  },
+  {
+   "tag": "P",
+   "cls": "mt-3 font-display text-[16px] font-semibold text-ink-900 group-hover:text-rust-600",
+   "y": 6807,
+   "x": 20,
+   "w": 165,
+   "h": 24,
+   "text": "",
+   "fs": "16px"
+  },
+  {
+   "tag": "LI",
+   "cls": "defer-offscreen [--defer-h:256px]",
+   "y": 6575,
+   "x": 205,
+   "w": 165,
+   "h": 256,
+   "text": "",
+   "fs": "16px"
+  },
+  {
+   "tag": "IMG",
+   "cls": "object-cover object-top transition duration-500 group-hover:scale-[1.03]",
+   "y": 6575,
+   "x": 205,
+   "w": 165,
+   "h": 220,
+   "text": "https://pyxnpjvtdlucaqqhhvin.supabase.co/storage/v1/object/public/media/derived/w384/photos/robin_luse_zion_f345414b-616f-4491-a5f1-ca4f725a2bf5.avif | alt=Robin Luse | nat=164x219",
+   "fs": "16px"
+  },
+  {
+   "tag": "P",
+   "cls": "mt-3 font-display text-[16px] font-semibold text-ink-900 group-hover:text-rust-600",
+   "y": 6807,
+   "x": 205,
+   "w": 165,
+   "h": 24,
+   "text": "",
+   "fs": "16px"
+  },
+  {
+   "tag": "LI",
+   "cls": "defer-offscreen [--defer-h:256px]",
+   "y": 6851,
+   "x": 20,
+   "w": 165,
+   "h": 256,
+   "text": "",
+   "fs": "16px"
+  },
+  {
+   "tag": "IMG",
+   "cls": "object-cover object-top transition duration-500 group-hover:scale-[1.03]",
+   "y": 6851,
+   "x": 20,
+   "w": 165,
+   "h": 220,
+   "text": "https://pyxnpjvtdlucaqqhhvin.supabase.co/storage/v1/object/public/media/derived/w384/photos/Shawn_3_a2aff3c6-efe0-42e3-9393-434aad5496c9.avif | alt=Shawn Horman | nat=210x262",
+   "fs": "16px"
+  },
+  {
+   "tag": "P",
+   "cls": "mt-3 font-display text-[16px] font-semibold text-ink-900 group-hover:text-rust-600",
+   "y": 7083,
+   "x": 20,
+   "w": 165,
+   "h": 24,
+   "text": "",
+   "fs": "16px"
+  },
+  {
+   "tag": "LI",
+   "cls": "defer-offscreen [--defer-h:256px]",
+   "y": 6851,
+   "x": 205,
+   "w": 165,
+   "h": 256,
+   "text": "",
+   "fs": "16px"
+  },
+  {
+   "tag": "IMG",
+   "cls": "object-cover object-top transition duration-500 group-hover:scale-[1.03]",
+   "y": 6851,
+   "x": 205,
+   "w": 165,
+   "h": 220,
+   "text": "https://pyxnpjvtdlucaqqhhvin.supabase.co/storage/v1/object/public/media/derived/w384/photos/Shybree_Richins_298399eb-cac6-4cdb-b034-9ee14ce5225b.avif | alt=Shybree Richens | nat=210x118",
+   "fs": "16px"
+  },
+  {
+   "tag": "P",
+   "cls": "mt-3 font-display text-[16px] font-semibold text-ink-900 group-hover:text-rust-600",
+   "y": 7083,
+   "x": 205,
+   "w": 165,
+   "h": 24,
+   "text": "",
+   "fs": "16px"
+  },
+  {
+   "tag": "SECTION",
+   "cls": "grid items-start gap-8 border-t border-sand-300 py-12 lg:grid-cols-[minmax(0,1fr)_minmax(0,26rem)] lg:gap-14",
+   "y": 7155,
+   "x": 20,
+   "w": 350,
+   "h": 3002,
+   "text": "",
+   "fs": "16px"
+  },
+  {
+   "tag": "H2",
+   "cls": "font-display text-[24px] font-bold text-ink-900",
+   "y": 7204,
+   "x": 20,
+   "w": 350,
+   "h": 36,
+   "text": "Careers",
+   "fs": "24px"
+  },
+  {
+   "tag": "P",
+   "cls": "mt-4 text-[17px] leading-relaxed text-ink-700 first:mt-0",
+   "y": 7256,
+   "x": 20,
+   "w": 350,
+   "h": 221,
+   "text": "Southwest Adventures Tours was created by a combination of our deep love for experiencing all the wonders that surround us and a passion for sharing these wonders with others. If you share our passion; Love to travel and want to share it with others, then you may be a great fit for the growing SWAT team!",
+   "fs": "17px"
+  },
+  {
+   "tag": "P",
+   "cls": "mt-4 text-[17px] leading-relaxed text-ink-700 first:mt-0",
+   "y": 7494,
+   "x": 20,
+   "w": 350,
+   "h": 359,
+   "text": "Current Openings: https://southwestadventuretours.zohorecruit.com/jobs/Careers Southwest Adventure Tours Mission Statement Southwest Adventure Tours highest mission is to provide our guests the opportunity to build lasting memories through creating exceptional experiences that will touch their heart, mind, and soul. We create tours and adventures that enlivens the senses, instills well-being, and ",
+   "fs": "17px"
+  },
+  {
+   "tag": "P",
+   "cls": "mt-4 text-[17px] leading-relaxed text-ink-700 first:mt-0",
+   "y": 7870,
+   "x": 20,
+   "w": 350,
+   "h": 55,
+   "text": "Southwest Adventure Tours Motto “Explore, Experience, Enrich!”",
+   "fs": "17px"
+  },
+  {
+   "tag": "H2",
+   "cls": "mt-10 font-display text-[22px] font-bold tracking-tight text-ink-900 first:mt-0 lg:text-[25px]",
+   "y": 7966,
+   "x": 20,
+   "w": 350,
+   "h": 37,
+   "text": "Three Steps Of Service",
+   "fs": "22px"
+  },
+  {
+   "tag": "LI",
+   "cls": "text-[17px] leading-relaxed text-ink-700",
+   "y": 8019,
+   "x": 40,
+   "w": 330,
+   "h": 28,
+   "text": "A warm and sincere greeting.",
+   "fs": "17px"
+  },
+  {
+   "tag": "LI",
+   "cls": "text-[17px] leading-relaxed text-ink-700",
+   "y": 8057,
+   "x": 40,
+   "w": 330,
+   "h": 55,
+   "text": "Use the guest's name. Anticipation and fulfillment of each guest's needs.",
+   "fs": "17px"
+  },
+  {
+   "tag": "LI",
+   "cls": "text-[17px] leading-relaxed text-ink-700",
+   "y": 8122,
+   "x": 40,
+   "w": 330,
+   "h": 55,
+   "text": "Fond farewell. Give a warm good-bye and use the guest's name.",
+   "fs": "17px"
+  },
+  {
+   "tag": "H2",
+   "cls": "mt-10 font-display text-[22px] font-bold tracking-tight text-ink-900 first:mt-0 lg:text-[25px]",
+   "y": 8217,
+   "x": 20,
+   "w": 350,
+   "h": 75,
+   "text": "Service Values: I Am Proud To Be Southwest Adventure Tours",
+   "fs": "22px"
+  },
+  {
+   "tag": "LI",
+   "cls": "text-[17px] leading-relaxed text-ink-700",
+   "y": 8308,
+   "x": 40,
+   "w": 330,
+   "h": 55,
+   "text": "I build strong relationships and create SWAT guests for life.",
+   "fs": "17px"
+  },
+  {
+   "tag": "LI",
+   "cls": "text-[17px] leading-relaxed text-ink-700",
+   "y": 8373,
+   "x": 40,
+   "w": 330,
+   "h": 83,
+   "text": "I am always responsive to the expressed and unexpressed wishes and needs of our guests.",
+   "fs": "17px"
+  },
+  {
+   "tag": "LI",
+   "cls": "text-[17px] leading-relaxed text-ink-700",
+   "y": 8466,
+   "x": 40,
+   "w": 330,
+   "h": 83,
+   "text": "I am empowered to create unique, memorable and personal experiences for our guests.",
+   "fs": "17px"
+  },
+  {
+   "tag": "LI",
+   "cls": "text-[17px] leading-relaxed text-ink-700",
+   "y": 8559,
+   "x": 40,
+   "w": 330,
+   "h": 138,
+   "text": "I understand my role in achieving the Key Success Factors (AO, employee and customer engagement, community involvement, product service excellence and financial performance).",
+   "fs": "17px"
+  },
+  {
+   "tag": "LI",
+   "cls": "text-[17px] leading-relaxed text-ink-700",
+   "y": 8707,
+   "x": 40,
+   "w": 330,
+   "h": 83,
+   "text": "I continuously seek opportunities to innovate and improve the Southwest Adventure Tours experience.",
+   "fs": "17px"
+  },
+  {
+   "tag": "LI",
+   "cls": "text-[17px] leading-relaxed text-ink-700",
+   "y": 8800,
+   "x": 40,
+   "w": 330,
+   "h": 55,
+   "text": "I own and immediately resolve guest problems.",
+   "fs": "17px"
+  },
+  {
+   "tag": "LI",
+   "cls": "text-[17px] leading-relaxed text-ink-700",
+   "y": 8865,
+   "x": 40,
+   "w": 330,
+   "h": 111,
+   "text": "I create a work environment of teamwork and lateral service so that the needs of our guests and each other are met.",
+   "fs": "17px"
+  },
+  {
+   "tag": "LI",
+   "cls": "text-[17px] leading-relaxed text-ink-700",
+   "y": 8986,
+   "x": 40,
+   "w": 330,
+   "h": 55,
+   "text": "I have the opportunity to continuously learn and grow.",
+   "fs": "17px"
+  },
+  {
+   "tag": "LI",
+   "cls": "text-[17px] leading-relaxed text-ink-700",
+   "y": 9051,
+   "x": 40,
+   "w": 330,
+   "h": 55,
+   "text": "I am involved in the planning of the work that affects me.",
+   "fs": "17px"
+  },
+  {
+   "tag": "LI",
+   "cls": "text-[17px] leading-relaxed text-ink-700",
+   "y": 9116,
+   "x": 40,
+   "w": 330,
+   "h": 55,
+   "text": "I am proud of my professional appearance, language and behavior.",
+   "fs": "17px"
+  },
+  {
+   "tag": "LI",
+   "cls": "text-[17px] leading-relaxed text-ink-700",
+   "y": 9181,
+   "x": 40,
+   "w": 330,
+   "h": 111,
+   "text": "I protect the privacy and security of our guests, my fellow employees and the company's confidential information and assets.",
+   "fs": "17px"
+  },
+  {
+   "tag": "LI",
+   "cls": "text-[17px] leading-relaxed text-ink-700",
+   "y": 9302,
+   "x": 40,
+   "w": 330,
+   "h": 83,
+   "text": "I am responsible for uncompromising levels of cleanliness and creating a safe and accident-free environment.",
+   "fs": "17px"
+  },
+  {
+   "tag": "P",
+   "cls": "mt-4 text-[17px] leading-relaxed text-ink-700 first:mt-0",
+   "y": 9401,
+   "x": 20,
+   "w": 350,
+   "h": 387,
+   "text": "The Employee Promise At Southwest Adventure Tours, our Ladies and Gentlemen are the most important resource in our service commitment to our guests. By applying the principles of trust, honesty, respect, integrity and commitment, we nurture and maximize talent to the benefit of each individual and the company. Southwest Adventure Tours fosters a work environment where diversity is valued, quality ",
+   "fs": "17px"
+  },
+  {
+   "tag": "IMG",
+   "cls": "object-cover",
+   "y": 9820,
+   "x": 20,
+   "w": 350,
+   "h": 263,
+   "text": "https://pyxnpjvtdlucaqqhhvin.supabase.co/storage/v1/object/public/media/derived/w384/photos/WynnHall2_36a91fd1-09a1-49a9-93b9-e6cb75a9b67e.avif | alt=Wynn Hall | nat=241x322",
+   "fs": "16px"
+  },
+  {
+   "tag": "P",
+   "cls": "mt-2 text-[12.5px] text-ink-300",
+   "y": 10090,
+   "x": 20,
+   "w": 350,
+   "h": 19,
+   "text": "Wynn Hall",
+   "fs": "12.5px"
+  }
+ ],
+ "nav": [
+  "Home",
+  "Destinations",
+  "Trip Styles",
+  "Departing From",
+  "Hot Deals",
+  "Build Your Own",
+  "Journal",
+  "About",
+  "Group Travel",
+  "Home",
+  "Destinations",
+  "Trip Styles",
+  "Departing From",
+  "Hot Deals",
+  "Build Your Own",
+  "Journal",
+  "About",
+  "Group Travel",
+  "Contact",
+  "800-970-5864",
+  "800-970-5864",
+  "Find a Trip"
+ ],
+ "crumbs": "Home\n/\nAbout"
+}

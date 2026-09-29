@@ -35,6 +35,7 @@ import decisions_g as G           # noqa: E402
 import decisions_h as H8          # noqa: E402
 import decisions_j as J9          # noqa: E402
 import decisions_k as K10         # noqa: E402
+import decisions_about as AB      # noqa: E402
 
 OUT = os.path.join(HERE, '..', 'site', 'index.html')
 
@@ -53,6 +54,9 @@ RAIL = [
     (39, 'The film slot'),
 ]
 
+RAIL11 = [
+    (74, 'The About page'),
+]
 RAIL10 = [
     (73, 'Dates by season'),
 ]
@@ -110,7 +114,8 @@ def rail_html():
             f'<b>{n}</b>{t}</a>' for n, t in group)
     return (
         '<nav class="rail">'
-        '<div class="rt">This round &mdash; dates by season</div>'
+        '<div class="rt">This round &mdash; open</div>'
+        f'{rows(RAIL11)}'
         f'{rows(RAIL10)}'
         '<div class="rt">Answered &mdash; the empty right side</div>'
         f'{rows(RAIL9)}'
@@ -141,19 +146,16 @@ def rail_html():
 MAST = """
 <header class="mast">
   <div class="kick">Southwest Adventure Tours &middot; storefront rebuild</div>
-  <h1>The empty right side, drawn</h1>
-  <p><b>Five decisions are open, 68 to 72.</b> You spotted the blank right half
-  of the Arches page on your computer. I measured every page on the live site
-  (all 214) at your screen size and at laptop size, and the same thing happens
-  on five kinds of page: <b>destination pages</b> (twice, top and bottom),
-  <b>Departing From</b>, <b>journal stories and trail guides</b>, and <b>Hot
-  Deals</b>. Everything else is fine or close to it; the list is under
-  decision 72.</p>
-  <p style="margin-top:12px">Every drawing is at <b>1,920 wide</b>, your
-  screen, with the live page&rsquo;s own trips, photos and words. The page as
-  it is today is ringed in green. The one I would build is ringed in amber
-  and says MY PICK.</p>
-  <p style="margin-top:12px"><b>Answer with a letter.</b> &ldquo;Sixty-eight
+  <h1>The About page, drawn three ways</h1>
+  <p><b>Two decisions are open.</b> <a href="#d74">74</a> is the whole
+  <b>About page</b>: you did not like the huge photo with the words under it,
+  so it is redrawn three different ways, next to a screenshot of the page as
+  it is today. <a href="#d73">73</a> is Matt&rsquo;s note about picking tour
+  dates <b>by season</b>. The empty-right-side round, 68 to 72, is answered
+  and folded below.</p>
+  <p style="margin-top:12px">The page as it is today is ringed in green. The
+  one I would build is ringed in amber and says MY PICK.</p>
+  <p style="margin-top:12px"><b>Answer with a letter.</b> &ldquo;Seventy-four
   goes to B.&rdquo; A voice note is fine, and &ldquo;all your picks&rdquo;
   works too.</p>
   <div class="who"><span>Crow</span><span>Claude</span>
@@ -792,12 +794,22 @@ def build():
     css += open(os.path.join(HERE, 'r8.css')).read()
     css += open(os.path.join(HERE, 'r9.css')).read()
     css += open(os.path.join(HERE, 'r10.css')).read()
+    css += open(os.path.join(HERE, 'about.css')).read()
     cx = os.path.join(HERE, '..', 'r8', 'codex', 'css')
     for f in sorted(os.listdir(cx)):
         if f.endswith('.css'):
             css += open(os.path.join(cx, f)).read()
     decisions = E.ALL + D.ALL + C.ALL + A.ALL + B.ALL
     body = (MAST +
+            sec('This round', 'The About page &mdash; 74',
+                'The whole page, top to bottom, at <b>1,920</b> wide, your screen. '
+                '<b>A is a real screenshot</b> of the live page above the footer, '
+                'not a drawing. B, C and D use only the page&rsquo;s own words and '
+                'photographs, the ten profile pages and the company film. The '
+                'drawings end where each page would end, so the empty space under '
+                'B, C and D is how much shorter each one is. Click any of them to '
+                'see it large, and use the Phone button to see it on a phone.') +
+            ''.join(AB.ALL) +
             sec('This round', 'Dates by season &mdash; 73',
                 'Drawn at <b>1440</b> wide off the live Mighty 5 from Las Vegas '
                 'page with its real 65 dates, the Departures section in its '
