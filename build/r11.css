@@ -1,0 +1,167 @@
+/* ------------------------------------------------------------------ round twelve
+   Jason's three questions, drawn at 1440 (a laptop). Geometry read off
+   production 29 Sep at 1440x900: content x=52..1388 (1,336 wide); home hero
+   558px from y=159, H1 54px; search bar at y=653; tour gallery 821x380 beside
+   a 483px title column. Reuses the round-nine chrome (.w9-hd, .w9-tick). */
+.w9.w11 .sh{max-width:1440px;padding:0 52px}
+/* the live nav holds one line at 1440; round nine's 25px gap was set for 1920 */
+.w9.w11 .w9-nav{gap:20px;white-space:nowrap}
+.w11-win{overflow:hidden;position:relative}
+.mockwrap.phone .w11-win{height:auto!important;max-height:2600px}
+.mockwrap.phone .w9.w11 .sh{padding:0 16px}
+
+/* home hero, as built */
+.w11-hero{position:relative;height:558px;overflow:hidden;background:var(--navy900)}
+.w11-hero>img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.w11-hero::after{content:'';position:absolute;inset:0;background:linear-gradient(90deg,rgba(5,18,31,.78),rgba(5,18,31,.35) 55%,rgba(5,18,31,.05))}
+.w11-hero .sh{position:relative;z-index:1;height:100%}
+.w11-hero-in{padding-top:97px;max-width:640px}
+.w11-pill{display:inline-block;background:rgba(255,255,255,.18);color:#fff;font-size:13px;font-weight:600;padding:7px 12px;border-radius:999px}
+.w11-hero h1{color:#fff;font-size:54px;line-height:1.05;font-weight:800;letter-spacing:-.02em;margin:18px 0 0}
+.w11-hero .lede{color:rgba(255,255,255,.88);font-size:20px;line-height:1.55;margin:18px 0 0;max-width:560px}
+.w11-hero .lede:empty{display:none}
+.w11-faces{display:flex;margin-top:22px}
+.w11-faces img{width:54px;height:54px;border-radius:50%;object-fit:cover;object-position:50% 25%;border:3px solid #fff;margin-right:-10px}
+.w11-proof{list-style:none;padding:0;margin:18px 0 0;color:#fff;font-size:16.5px;line-height:1.45}
+.w11-proof li{padding:4px 0 4px 26px;position:relative}
+.w11-proof li::before{content:'';position:absolute;left:4px;top:12px;width:10px;height:10px;border-radius:50%;background:var(--rust600)}
+.w11-proof b{font-weight:700}
+.w11-slot{display:block;border:2px dashed rgba(255,255,255,.7);border-radius:4px;padding:10px 14px;font-size:40px;line-height:1.15;color:#fff}
+.w11-slot.sm{font-size:18px;font-weight:500;border-width:1.5px}
+/* `.w9 .sh{margin:0 auto}` outranks a bare class, which dropped the search bar 64px */
+.w9.w11 .w11-find-wrap{position:relative;margin-top:-64px;z-index:2}
+.w11-find{background:#fff;border:1px solid var(--sand300);border-radius:4px;box-shadow:0 18px 40px -24px rgba(8,23,38,.45);
+  display:grid;grid-template-columns:1.2fr 1fr 1fr auto;gap:24px;align-items:center;padding:14px 12px 14px 26px;height:85px}
+.w11-find label{font-size:12px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--ink500)}
+.w11-find label span{display:block;font-size:16px;letter-spacing:0;text-transform:none;color:var(--ink900);font-weight:600;margin-top:4px}
+.w11-find .go{background:var(--rust600);color:#fff;border-radius:999px;padding:18px 28px;font-size:16px}
+.w11-pop{display:flex;gap:10px;align-items:center;margin-top:18px;font-size:14px;color:var(--ink500);font-weight:600}
+.w11-pop span{border:1px solid var(--sand300);border-radius:999px;padding:8px 15px;color:var(--ink700)}
+.w11-map{position:relative;margin-top:32px;height:256px;border-radius:4px;overflow:hidden;background:var(--navy900)}
+.w11-map img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.w11-map .t{position:relative;padding:44px 40px;color:#fff;max-width:520px}
+.w11-map h2{font-size:30px;font-weight:800;margin:0;letter-spacing:-.01em;line-height:1.15}
+.w11-map p{margin:10px 0 0;font-size:16px;color:var(--navy100)}
+.mockwrap.phone .w11-find{grid-template-columns:1fr;height:auto}
+.mockwrap.phone .w11-hero h1{font-size:36px}
+.mockwrap.phone .w11-pop{flex-wrap:wrap}
+
+/* trip styles */
+.w11-shero{position:relative;height:378px;overflow:hidden;background:var(--navy900)}
+.w11-shero>img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:.55}
+.w11-shero .sh{position:relative;padding-top:100px}
+.w11-shero h1{color:#fff;font-size:54px;font-weight:800;letter-spacing:-.02em;margin:18px 0 0}
+.w11-shero .lede{color:rgba(255,255,255,.9);font-size:20px;line-height:1.55;max-width:580px;margin:12px 0 0}
+.w11-sgrid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin:28px 0 48px}
+.w11-sc{position:relative;height:272px;border-radius:3px;overflow:hidden;background:var(--navy900)}
+.w11-sc img{width:100%;height:100%;object-fit:cover;display:block}
+.w11-sc::after{content:'';position:absolute;inset:0;background:linear-gradient(to top,rgba(5,18,31,.9),transparent 55%)}
+.w11-sc .t{position:absolute;left:16px;right:16px;bottom:16px;z-index:1;color:#fff}
+.w11-sc .t p{margin:0;font-size:19px;font-weight:700}
+.w11-sc .t span{font-size:13px;color:var(--navy100)}
+.w11-sc .t b{position:absolute;right:0;bottom:0;font-size:13px;color:#fff}
+.w11-sc2{border:1px solid var(--sand300);border-radius:3px;overflow:hidden;background:#fff}
+.w11-sc2 img{width:100%;height:170px;object-fit:cover;display:block}
+.w11-sc2 .b{padding:14px 16px 16px}
+.w11-sc2 .n{margin:0;font-size:19px;font-weight:700;color:var(--ink900)}
+.w11-sc2 .n span{font-size:13px;font-weight:500;color:var(--ink500);margin-left:6px}
+.w11-sc2 .how{margin:6px 0 0;font-size:15px;font-weight:600;color:var(--ink700)}
+.w11-sc2 .who{margin:2px 0 0;font-size:14px;color:var(--ink500)}
+.w11-sc2 .pr{margin:10px 0 0;font-size:14px;font-weight:700;color:var(--rust600)}
+.w11-doors{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:16px;margin-top:28px}
+.w11-door{border:1px solid var(--sand300);border-radius:3px;overflow:hidden;background:#fff;display:flex;flex-direction:column}
+.w11-door img{width:100%;height:200px;object-fit:cover;display:block}
+.w11-door .b{padding:16px;display:flex;flex-direction:column;flex:1}
+.w11-door .n{margin:0;font-size:19px;font-weight:800;color:var(--ink900);line-height:1.25}
+.w11-door .how{margin:8px 0 0;font-size:14.5px;line-height:1.5;color:var(--ink700)}
+.w11-door .pr{margin:auto 0 0;padding-top:14px;font-size:14px;font-weight:700;color:var(--ink900);display:flex;justify-content:space-between}
+.w11-door .pr b{color:var(--rust600)}
+.w11-also{margin:20px 0 48px;display:flex;gap:10px;align-items:center;font-size:14px;color:var(--ink500);font-weight:600}
+.w11-also span{border:1px solid var(--sand300);border-radius:999px;padding:8px 15px;color:var(--ink700)}
+.w11-stbl{width:100%;border-collapse:collapse;margin:28px 0 48px;font-size:15px;color:var(--ink700)}
+.w11-stbl th{text-align:left;font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink500);padding:10px 12px;border-bottom:2px solid var(--sand300)}
+.w11-stbl td{padding:10px 12px;border-bottom:1px solid var(--sand300);vertical-align:middle}
+.w11-stbl td:first-child{display:flex;align-items:center;gap:14px}
+.w11-stbl img{width:84px;height:54px;object-fit:cover;border-radius:2px}
+.w11-stbl b{color:var(--ink900);font-size:16px}
+.mockwrap.phone .w11-sgrid,.mockwrap.phone .w11-doors{grid-template-columns:1fr}
+.mockwrap.phone .w11-shero h1{font-size:36px}
+
+/* guides */
+/* `.w9.w11 .sh` zeroes vertical padding on a bare class */
+.w9.w11 .w11-sec{padding:48px 52px}
+.w11-sub{margin:8px 0 0;font-size:15px;color:var(--ink500)}
+.w11-rvs{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin-top:24px}
+.w11-rv{border:1px solid var(--sand300);border-radius:3px;padding:18px}
+.w11-rv i{color:#d08a1c;font-style:normal;font-size:13px;letter-spacing:2px}
+.w11-rv p{margin:10px 0 12px;font-size:15px;line-height:1.55;color:var(--ink700)}
+.w11-rv b{display:block;font-size:14px;color:var(--ink900)}
+.w11-rv span{font-size:13px;color:var(--ink500)}
+.w11-gs{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px;margin-top:24px}
+.w11-g{border:1px solid var(--sand300);border-radius:3px;overflow:hidden;background:#fff;display:flex;flex-direction:column}
+.w11-g>img,.w11-g .ph{width:100%;height:240px;object-fit:cover;object-position:50% 25%;display:block}
+.w11-g .ph{display:flex;align-items:center;justify-content:center;background:var(--sand100);border-bottom:2px dashed var(--ink300);color:var(--ink500);font-weight:700;font-size:14px}
+.w11-g .b{padding:16px}
+.w11-g .n{margin:0;font-size:19px;font-weight:800;color:var(--ink900)}
+.w11-g .bio{margin:6px 0 0;font-size:14.5px;line-height:1.5;color:var(--ink700)}
+.w11-g.slot .bio{color:var(--ink300);font-style:italic}
+.w11-g .guest{margin:12px 0 0;padding-top:12px;border-top:1px solid var(--sand300);font-size:14.5px;line-height:1.5;color:var(--ink900);font-weight:600}
+.w11-g .guest span{display:block;font-weight:500;font-size:13px;color:var(--ink500);margin-top:6px}
+.mockwrap.phone .w11-rvs,.mockwrap.phone .w11-gs{grid-template-columns:1fr}
+.mockwrap.phone .w9.w11 .w11-sec{padding:32px 16px}
+
+/* prices */
+.w11-prices{display:grid;grid-template-columns:483px 435px;gap:72px;padding:40px 52px;justify-content:center}
+.w11-prices .lab{font-size:12px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--ink500);margin:0 0 14px}
+.w11-prices h1{font-size:36px;font-weight:800;color:var(--ink900);letter-spacing:-.02em;margin:0 0 20px;line-height:1.1}
+.w11-pbox{border:1px solid var(--sand300);border-radius:14px;padding:20px;box-shadow:0 18px 40px -30px rgba(8,23,38,.5)}
+.w11-pbox .k{margin:0;font-size:12.5px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--ink500)}
+.w11-pbox .amt{margin:2px 0 0;font-size:30px;font-weight:800;color:var(--ink900)}
+.w11-pbox .bs{margin:4px 0 0;font-size:14px;color:var(--ink700)}
+.w11-pbox .nx{margin:10px 0 0;font-size:14.5px;font-weight:700;color:#1f6b45}
+.w11-pbox .btn{display:block;text-align:center;background:var(--rust600);color:#fff;border-radius:999px;padding:9px 0;font-size:16px;margin-top:16px}
+.w11-alone{margin-top:14px;border-top:1px solid var(--sand300);padding-top:10px}
+.w11-alone p{display:flex;justify-content:space-between;margin:6px 0 0;font-size:14.5px;color:var(--ink700)}
+.w11-alone b{color:var(--ink900)}
+.w11-alone .inc{color:var(--rust600);font-weight:700}
+.w11-ama{max-width:435px}
+.mockwrap.phone .w11-prices{grid-template-columns:1fr;padding:24px 16px;gap:32px}
+
+/* tour top, quote-priced */
+.w11-tour{display:grid;grid-template-columns:821px minmax(0,1fr);gap:32px;margin-top:16px}
+.w11-tour .gal{position:relative}
+.w11-tour .gal>img{width:100%;height:380px;object-fit:cover;border-radius:4px;display:block}
+.w11-tour .th{position:absolute;left:12px;top:314px;display:flex;gap:12px}
+.w11-tour .th i{width:76px;height:52px;border:2px solid #fff;border-radius:4px;background-size:cover;background-position:center}
+.w11-tour .facts{display:flex;gap:22px;flex-wrap:wrap;margin-top:22px;font-size:15px;color:var(--ink700)}
+.w11-tour .facts .ask{color:var(--ink500);text-decoration:underline dotted}
+.w11-tour .facts .fix{color:#1f6b45;font-weight:700}
+.w11-tour .bdg{display:flex;gap:8px}
+.w11-tour .bdg span{font-size:12.5px;font-weight:800;letter-spacing:.06em;padding:5px 8px;border-radius:5px;background:var(--sand100);color:var(--ink900)}
+.w11-tour .bdg .st{background:var(--rust600);color:#fff}
+.w11-tour h1{font-size:34px;font-weight:800;color:var(--ink900);letter-spacing:-.02em;margin:14px 0 18px}
+.w11-rl{border:1px solid var(--sand300);border-radius:14px;padding:20px;box-shadow:0 18px 40px -30px rgba(8,23,38,.5)}
+.w11-rl .k{margin:0;font-size:12.5px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--ink500)}
+.w11-rl .amt{margin:2px 0 0;font-size:30px;font-weight:800;color:var(--ink900)}
+.w11-rl .bs{margin:4px 0 0;font-size:14px;color:var(--ink700)}
+.w11-rl .more{margin:4px 0 0;font-size:14px;color:#1f6b45;font-weight:700}
+.w11-rl .btn{display:block;text-align:center;background:var(--rust600);color:#fff;border-radius:999px;padding:9px 0;font-size:16px;margin-top:16px}
+.w11-rl .sm{margin:8px 0 0;font-size:12.5px;color:var(--ink500);text-align:center}
+.w11-qf{display:grid;grid-template-columns:1.3fr .7fr 1.2fr;gap:8px;margin-top:14px}
+.w11-qf label{font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--ink500)}
+.w11-qf label span{display:block;border:1px solid var(--sand300);border-radius:6px;padding:9px 10px;margin-top:4px;font-size:14px;letter-spacing:0;text-transform:none;color:var(--ink900);font-weight:500}
+.w11-far{margin:16px 0 0;font-size:14px;color:var(--ink300);font-style:italic}
+.mockwrap.phone .w11-tour{grid-template-columns:1fr}
+.mockwrap.phone .w11-tour .gal>img{height:240px}
+.mockwrap.phone .w11-tour .th{top:174px}
+
+/* the scorecard at the top of the round */
+.sc11 td:nth-child(3){white-space:nowrap}
+.sc11 .ok{color:#7fd29f;font-weight:700}
+.sc11 .half{color:#f0c060;font-weight:700}
+.sc11 .no{color:#ff8a70;font-weight:700}
+.sc11 tr.h td{background:#1b232e;color:var(--rust);font-weight:800;letter-spacing:.06em;text-transform:uppercase;font-size:12px}
+/* a five-column table cannot hold 390px: on a phone it drops the description and the photo */
+.mockwrap.phone .w11-stbl th:nth-child(3),.mockwrap.phone .w11-stbl td:nth-child(3){display:none}
+.mockwrap.phone .w11-stbl img{display:none}
+.mockwrap.phone .w11-stbl{font-size:13px}

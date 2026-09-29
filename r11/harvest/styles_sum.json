@@ -1,0 +1,117 @@
+{
+ "special-event": {
+  "n": 0,
+  "dmin": null,
+  "dmax": null,
+  "pmin": null,
+  "pmax": null,
+  "quote": 0,
+  "grp": [],
+  "lede": "Trips built around a date \u2014 a balloon fiesta, an eclipse, a festival.",
+  "img": "https://pyxnpjvtdlucaqqhhvin.supabase.co/storage/v1/object/public/media/derived/w1600/photos/balloonfest_4_36b1c3a9-a93e-41af-be17-1f0beb36be29.avif"
+ },
+ "self-drive": {
+  "n": 6,
+  "dmin": 5,
+  "dmax": 10,
+  "pmin": 5633,
+  "pmax": 5633,
+  "quote": 6,
+  "grp": [
+   "Small group, 7\u201313"
+  ],
+  "lede": "Your own car, our itinerary. Routing, lodging and the timing of every viewpoint, without a group to keep pace with.",
+  "img": "https://pyxnpjvtdlucaqqhhvin.supabase.co/storage/v1/object/public/media/derived/w1600/photos/ArizonaPinkJeep_0873e72b-ff52-49c9-9a80-3b4ada8ec70b.avif"
+ },
+ "winter": {
+  "n": 3,
+  "dmin": 1,
+  "dmax": 7,
+  "pmin": 129,
+  "pmax": 3119,
+  "quote": 0,
+  "grp": [
+   "Small group, 7\u201313"
+  ],
+  "lede": "Snowcoach and snowmobile into a park most people only see in summer. Fewer visitors, and geysers with the whole basin to themselves.",
+  "img": "https://pyxnpjvtdlucaqqhhvin.supabase.co/storage/v1/object/public/media/derived/w1600/photos/Jackson_Yellowstone_Snowmobile_Adventure_Snowcoach_Snowmobiling_9ce8a3eb-bf00-45b2-a36d-a9ab32731e15.avif"
+ },
+ "day-tour": {
+  "n": 12,
+  "dmin": 0.5,
+  "dmax": 8,
+  "pmin": 110,
+  "pmax": 3119,
+  "quote": 5,
+  "grp": [
+   "Small group, up to 14"
+  ],
+  "lede": "Out and back between breakfast and dinner. The lowest-commitment way to see a park properly, and the easiest to add to a trip you have already booked.",
+  "img": "https://pyxnpjvtdlucaqqhhvin.supabase.co/storage/v1/object/public/media/derived/w1600/photos/Zion_Bryce_Canyon_1_Day_From_Las_Vegas_5_9ccf4659-8118-4973-824e-4b61728dc0fd.avif"
+ },
+ "backpacking": {
+  "n": 7,
+  "dmin": 4,
+  "dmax": 6,
+  "pmin": 1895,
+  "pmax": 2699,
+  "quote": 0,
+  "grp": [
+   "Small group, up to 8"
+  ],
+  "lede": "Nights on the trail with a permit, a pack and a guide who has walked it before. The strongest thing this operator does, and the hardest to buy anywhere else.",
+  "img": "https://pyxnpjvtdlucaqqhhvin.supabase.co/storage/v1/object/public/media/derived/w1600/photos/Zion_Checkerboard_Mesa_Group_Photo_ded30d2e-ad40-4010-ae62-e4b176a7a62a.avif"
+ },
+ "guided-small-group": {
+  "n": 30,
+  "dmin": 1,
+  "dmax": 13,
+  "pmin": 280,
+  "pmax": 7999,
+  "quote": 10,
+  "grp": [
+   "SMALL GROUP",
+   "Small group, 7\u201313"
+  ],
+  "lede": "A dozen people, a Sprinter with captain chairs, and a guide for the whole route. Park fees, lodging and the driving are all handled.",
+  "img": "https://pyxnpjvtdlucaqqhhvin.supabase.co/storage/v1/object/public/media/derived/w1600/photos/Canyonlands_Group_456d26f8-8539-46c5-b94f-8a2a610ab7a0.avif"
+ },
+ "private-and-custom": {
+  "n": 4,
+  "dmin": 5,
+  "dmax": 8,
+  "pmin": 2275,
+  "pmax": 3065,
+  "quote": 4,
+  "grp": [],
+  "lede": "Your dates, your group, your pace. Built from scratch around what you want to see.",
+  "img": "https://pyxnpjvtdlucaqqhhvin.supabase.co/storage/v1/object/public/media/derived/w1600/photos/Capital_Reef_NP_Group_Shot_fe347266-db6e-484b-994d-36fb56f3883c.avif"
+ },
+ "large-group": {
+  "n": 3,
+  "dmin": 8,
+  "dmax": 10,
+  "pmin": 2240,
+  "pmax": 3175,
+  "quote": 1,
+  "grp": [
+   "LARGE GROUP",
+   "Large group, 20+"
+  ],
+  "lede": "Coaches, blocks of rooms, and the logistics of moving forty people through a park.",
+  "img": "https://pyxnpjvtdlucaqqhhvin.supabase.co/storage/v1/object/public/media/derived/w1600/photos/Alaska_Group_Exit_Glacier_2200_3357dba1-5e0b-4cab-95fc-97bfc2554f79.avif"
+ },
+ "rail-and-cruise": {
+  "n": 9,
+  "dmin": 7,
+  "dmax": 12,
+  "pmin": 250,
+  "pmax": 9999,
+  "quote": 3,
+  "grp": [
+   "Small group, 7\u201313"
+  ],
+  "lede": "Longer journeys where the transport is part of the trip.",
+  "img": "https://pyxnpjvtdlucaqqhhvin.supabase.co/storage/v1/object/public/media/derived/w1600/photos/AmaDahlia_Exterior_NileRiver_PhotogMS_Wings_8188_Edit_f464dba1-2d1c-4825-bd1e-8a4c8555a086.avif"
+ }
+}

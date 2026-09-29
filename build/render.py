@@ -36,6 +36,7 @@ import decisions_h as H8          # noqa: E402
 import decisions_j as J9          # noqa: E402
 import decisions_k as K10         # noqa: E402
 import decisions_about as AB      # noqa: E402
+import decisions_l as L12         # noqa: E402
 
 OUT = os.path.join(HERE, '..', 'site', 'index.html')
 
@@ -52,6 +53,14 @@ RAIL = [
     (37, 'Is this trip right for you?'),
     (38, 'Start where you are'),
     (39, 'The film slot'),
+]
+
+RAIL12 = [
+    (75, 'What SWAT is, first screen'),
+    (76, 'How the trip styles differ'),
+    (77, 'The guides, up front'),
+    (78, 'Prices that make sense'),
+    (79, 'The next step on quote trips'),
 ]
 
 RAIL11 = [
@@ -114,6 +123,13 @@ def rail_html():
             f'<b>{n}</b>{t}</a>' for n, t in group)
     return (
         '<nav class="rail">'
+        '<div class="rt">Jason&rsquo;s three questions &mdash; open</div>'
+        '<a href="#r11s">His fifteen questions, scored</a>'
+        f'{rows(RAIL12)}'
+        '<a href="#r11w">Words that are mine</a>'
+        '<a href="#r11q">Waiting on Jason and SWAT</a>'
+        '<a href="#r11n">Said, but not true</a>'
+        '<a href="#r11o">Build order</a>'
         '<div class="rt">This round &mdash; open</div>'
         f'{rows(RAIL11)}'
         f'{rows(RAIL10)}'
@@ -146,8 +162,11 @@ def rail_html():
 MAST = """
 <header class="mast">
   <div class="kick">Southwest Adventure Tours &middot; storefront rebuild</div>
-  <h1>The About page, drawn three ways</h1>
-  <p><b>Two decisions are open.</b> <a href="#d74">74</a> is the whole
+  <h1>Jason&rsquo;s three questions, and the About page</h1>
+  <p><b>Seven decisions are open.</b> <a href="#d75">75</a> to
+  <a href="#d79">79</a> answer Jason&rsquo;s <b>Clarity, Connection,
+  Conversion</b> email across the whole site, after a scorecard of his fifteen
+  questions against the live pages. <a href="#d74">74</a> is the whole
   <b>About page</b>: you did not like the huge photo with the words under it,
   so it is redrawn three different ways, next to a screenshot of the page as
   it is today. <a href="#d73">73</a> is Matt&rsquo;s note about picking tour
@@ -795,12 +814,21 @@ def build():
     css += open(os.path.join(HERE, 'r9.css')).read()
     css += open(os.path.join(HERE, 'r10.css')).read()
     css += open(os.path.join(HERE, 'about.css')).read()
+    css += open(os.path.join(HERE, 'r11.css')).read()
     cx = os.path.join(HERE, '..', 'r8', 'codex', 'css')
     for f in sorted(os.listdir(cx)):
         if f.endswith('.css'):
             css += open(os.path.join(cx, f)).read()
     decisions = E.ALL + D.ALL + C.ALL + A.ALL + B.ALL
     body = (MAST +
+            sec('New', 'Jason&rsquo;s three questions &mdash; 75 to 79',
+                'Jason&rsquo;s email of 29 September asks fifteen questions under '
+                '<b>Clarity, Connection and Conversion</b>. First, each one asked of the live '
+                'site. Then the five answers that are a layout, drawn at <b>1440</b> wide (a '
+                'laptop) off production with SWAT&rsquo;s real photos, prices and words. '
+                'His origin-story question is the About page, <a href="#d74">74</a>, just below. '
+                'Nothing here is built, on staging or anywhere else.') +
+            L12.SCORE + ''.join(L12.ALL) + L12.REGISTERS +
             sec('This round', 'The About page &mdash; 74',
                 'The whole page, top to bottom, at <b>1,920</b> wide, your screen. '
                 '<b>A is a real screenshot</b> of the live page above the footer, '
@@ -860,6 +888,18 @@ def build():
             ''.join(decisions) + R1 + R2 + R3 + R4 + R5)
 
     foot = (
+        '<div class="foot">Round twelve &mdash; decisions 75 to 79 &mdash; was built 29 '
+        'September 2026 from Jason Murray&rsquo;s &ldquo;Clarity &gt; Connection &gt; '
+        'Conversion&rdquo; email in the Website Final round review thread. Every current-build '
+        'panel and every count was read off the DEPLOYED PRODUCTION build '
+        '<code>swat-website-storefront.vercel.app</code> at <b>1440&times;900</b> the same day: '
+        'the home page (hero 558px at y=159, search at y=653, map band heading at y=872), the '
+        'trip-styles page and its nine style pages, and all 74 tour pages (23 with Book, 21 '
+        'Ask about a date, 29 Ask a question; 6 lead with a 2026 price and only 2027 dates; 5 '
+        'lead below every listed date). Guide lines are verbatim from the ten About profile '
+        'pages; guest lines are verbatim from the reviews on the tour pages. Harvest in '
+        '<code>r11/harvest/</code>. Dates and prices rotate, so re-derive before the next '
+        'round.</div>' +
         '<div class="foot">Round ten &mdash; decision 73 &mdash; was built '
         '29 September 2026 from Crow&rsquo;s note passing on Matt&rsquo;s '
         'feedback. Its current-build panel was read off the DEPLOYED PRODUCTION '
