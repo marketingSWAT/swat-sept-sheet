@@ -839,7 +839,7 @@ def build():
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="robots" content="noindex,nofollow">
-<title>SWAT — Lance&rsquo;s notes, drawn</title>
+<title>SWAT — Picking a date, drawn</title>
 <style>{css}</style>
 </head><body>
 {M.mapdefs()}
