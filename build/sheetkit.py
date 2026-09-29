@@ -198,6 +198,8 @@ ANSWERS = {
     70: ('C', 'on production 29 September'),
     71: ('C', 'on production 29 September'),
     72: ('C', 'on production 29 September'),
+    73: ('E', '&ldquo;I like E, let&rsquo;s push that to staging so I can take a '
+              'look.&rdquo; On staging 29 September, not on production yet'),
     53: ('Settled', 'in the 28 September walkthrough with Lance: one button '
                     'on the photograph, linked to Destinations, stronger '
                     'wording than &ldquo;Find your tour&rdquo; still to be '

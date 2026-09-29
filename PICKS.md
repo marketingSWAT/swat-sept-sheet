@@ -254,3 +254,10 @@ Flagged in the verdict: the LIVE "This trip by season" band already ranks
 seasons ("The best month to come", "Hot, and we mean it", "Empty, and often
 snowed"; mountain notes say "Our own pick of the year" and spell "Colour").
 Offered to rewrite those evenly whichever letter comes back.
+
+**Answered 29 September: E.** Crow: *"I like E, lets push that to staging so I can
+take a look."* Built on storefront staging (310e535, 77c532b, 7d65f15), not
+promoted. Departs from the drawing: the year switch shows only on tours with 20+
+dates across two years; every date button is one width (132px), sold out
+included; the season band near the top STAYS (E never said to remove it), its
+lines rewritten evenly, and its links now open their own season in Departures.
