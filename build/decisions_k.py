@@ -15,7 +15,7 @@ import mocks_k as k
 from sheetkit import opt, quote, verdict, dec
 
 ALL = []
-NEW = ('New', '29 Sep')
+NEW = ('New option E', '29 Sep')
 H = 900
 
 Q = quote(
@@ -23,6 +23,17 @@ Q = quote(
      'tours. He was saying we should try and utilize the by season for these '
      'selection. Could you mock me a couple designs with this idea.'],
     'Crow, 29 September, passing on Matt&rsquo;s note')
+
+Q2 = quote(
+    ['C, the only thing I just don&rsquo;t like is potentially saying the best '
+     'month to come, so maybe we should just remove that. Maybe you can toggle '
+     'on 2026 and 2027 if you want. I just don&rsquo;t want to deter people from '
+     'booking in certain months.',
+     'Actually D kind of looks pretty good too, because it just feels more '
+     'organized, like you&rsquo;re making a better use of space. So maybe somehow '
+     'we can combine C and D. I want you to make that as another option I can '
+     'look at before we do anything.'],
+    'Crow, 29 September, after looking at A to D')
 
 
 def mk(html, *rings):
@@ -34,7 +45,7 @@ ALL.append(dec(
     [('Every tour page with dates', ''), ('Matt, via Crow', 'who'),
      ('&frac12;&ndash;1 day', ''),
      ('The seasons sit 6,800px above the dates', 'big')],
-    [Q],
+    [Q, Q2],
     [
         opt('Year tabs, as now',
             ['Two tabs, <b>2026</b> and <b>2027</b>. The page opens on 2026: '
@@ -92,7 +103,6 @@ ALL.append(dec(
             risk='The season words leave the top of the page, where they sit next '
                  'to the Overview today. Someone who already knows they want '
                  '&ldquo;the week of May 10&rdquo; has one extra tap.',
-            cls='rec',
             mockup=mk(k.opt_cards(), (1, '.k10-scs'), (2, '.k10-sc.on .ct'),
                       (3, '.k10-yh'))),
 
@@ -112,27 +122,52 @@ ALL.append(dec(
                  'over for the year tabs.',
             mockup=mk(k.opt_rows(), (1, ".k10-sr[data-s='Autumn'] .k10-sl"),
                       (2, '.k10-ch.pk'), (3, '.k10-yl:not(:first-child)'))),
+
+        opt('Season cards over every date',
+            ['<b>C&rsquo;s four season cards are the buttons</b>, smaller, each '
+             'with its months, how many dates are open and the lowest price. '
+             'No &ldquo;best month to come&rdquo; or any other ranking.',
+             'Under the cards, one plain line about that season and what to '
+             'bring. Every season gets the same kind of line, so none reads as '
+             'the wrong time to go.',
+             '<b>D&rsquo;s rows of date buttons</b> for the season you tapped, one '
+             'row per year: Autumn 2026, then Autumn 2027. Every date shows its '
+             'price, all in one color. Tap a date to book it.',
+             'A small <b>Both years / 2026 / 2027</b> switch on the right, for '
+             'someone who already knows the year.'],
+            '<p>C and D put together, as you asked: the season boxes do the '
+            'choosing, and the dates underneath take the tight rows from D '
+            'instead of the tall month boxes. Autumn here is two rows where C '
+            'needs two full grids of month boxes.</p>',
+            cost='about 1 day',
+            risk='The month boxes you approved this morning go away on this '
+                 'section and become small date buttons, so Book and Waitlist '
+                 'move inside the button. The year switch is only worth having on '
+                 'a tour with a lot of dates; on most tours I would hide it.',
+            cls='rec',
+            mockup=mk(k.opt_mix(), (1, '.k10-sc2.on'), (2, '.k10-even'),
+                      (3, '.k10-sr2:nth-child(2) .k10-chs'), (4, '.k10-yt'))),
     ],
     verdict([
-        '<b>C, the season cards pick the dates.</b> It is the only option where '
-        'the season words and the dates finally meet: today the page describes '
-        'autumn in one place and sells it 6,800px further down. It reuses the '
-        'month cards you approved this morning, so dates, prices, Book and '
-        'Waitlist all behave exactly as they do now. And it takes a section off '
-        'the page instead of adding one.',
-        '<b>B if you want the smallest change.</b> Same month cards, the year '
-        'tabs just become season tabs. It is a clean answer to Matt&rsquo;s note '
-        'but it leaves the season band up top, still saying the same thing '
-        'twice.',
-        '<b>If you keep the band near the top</b> (with A, B or D), its '
-        '&ldquo;22 autumn departures&rdquo; link should open autumn, not the 2026 '
-        'tab. That is an hour&rsquo;s fix and I will do it either way.',
-        '<b>Two things to know.</b> Seasons here are the calendar kind the band '
-        'already uses, so December counts as winter. And a tour that only runs '
-        'in one season skips the picker and shows its dates straight away, the '
-        'same way a one-year tour has no year tabs today. Codex drew a season '
-        'picker in 67 (F, &ldquo;Start with a season&rdquo;); this round is '
-        'different because the year tabs are now built and the question is '
-        'what sits on top of them.',
+        '<b>E, the season cards over every date.</b> It is the mix of C and D '
+        'you asked for. The seasons do the choosing, which is Matt&rsquo;s idea, '
+        'and the dates sit in D&rsquo;s tight rows, so the section comes out '
+        'about 40% shorter than C with every price showing.',
+        '<b>No season is ranked.</b> E drops &ldquo;the best month to come&rdquo;, '
+        'and the pricier weeks are no longer picked out in orange. Each season '
+        'just says what the weather is like and what to bring.',
+        '<b>Worth knowing: the live site already ranks seasons.</b> The '
+        '&ldquo;This trip by season&rdquo; section near the top of every tour '
+        'page says &ldquo;The best month to come&rdquo; for autumn, &ldquo;Hot, '
+        'and we mean it&rdquo; for summer and &ldquo;Empty, and often '
+        'snowed&rdquo; for winter. On the mountain tours it calls autumn '
+        '&ldquo;our own pick of the year&rdquo;. Whichever letter you choose, '
+        'I would rewrite those lines the same even way. That is an hour.',
+        '<b>C still stands if you want to keep the month boxes</b> you approved '
+        'this morning. E trades them for the smaller date buttons.',
+        '<b>Two things to know.</b> Seasons are the calendar kind the page '
+        'already uses, so December counts as winter and a winter trip can run '
+        'over New Year. A tour that only runs in one season skips the cards and '
+        'shows its dates straight away.',
     ]),
     since=NEW, cols=2))

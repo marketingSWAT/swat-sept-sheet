@@ -225,3 +225,57 @@ def opt_rows():
         'prices are the $2,199 peak weeks.</p>'
         f'<div class="k10-srs">{rows}</div>' +
         i.SOLD_LINE.replace('dp-intro', 'dp-foot'))
+
+
+# ---------------------------- E · C's season cards over D's rows of dates
+#: Crow, 29 Sep, on C: no "best month to come". Every season gets the same
+#: plain what-to-expect line and a what-to-pack tip, so no season reads as the
+#: wrong one to book. Re-expressed from DESERT_NOTES; nothing ranks a season.
+EVEN = {
+    'Autumn': 'Cool mornings and warm afternoons. Bring layers.',
+    'Winter': 'Crisp, clear days and snow on the high country. Bring a warm coat.',
+    'Spring': 'Mild days and the desert in flower. Bring layers for the mornings.',
+    'Summer': 'Long, warm days with early starts. Bring a sun hat.',
+}
+
+
+def chip_even(x):
+    """D's date button with every price in one color: the $2,199 weeks no
+    longer print in orange, which marked them out as the ones to avoid."""
+    d = x['d']
+    if x['sold']:
+        return (f'<span class="k10-ch so"><b>{MON[d.month - 1]} {d.day}</b>'
+                '<em>Sold out</em></span>')
+    return (f'<span class="k10-ch"><b>{MON[d.month - 1]} {d.day}</b>'
+            f'<em>{i.price(x) or "Book"}</em></span>')
+
+
+def opt_mix(sel='Autumn'):
+    bs = by_season()
+    cards = ''
+    for s in ORDER:
+        xs = bs[s]
+        live = [x for x in xs if is_open(x)]
+        cards += (f'<div class="k10-sc k10-sc2{" on" if s == sel else ""}" data-s="{s}">'
+                  f'<b>{s}</b><em>{SPAN[s]}</em>'
+                  f'<span class="ct">{len(live)} open &middot; from '
+                  f'{from_price(xs)}</span></div>')
+    rows = ''
+    for s, sy, run in runs():
+        if s != sel:
+            continue
+        live = [x for x in run if is_open(x)]
+        fp = from_price(run)
+        rows += (f'<div class="k10-sr k10-sr2"><div class="k10-sl"><b>{s} {sy}</b>'
+                 f'<em>{len(live)} of {len(run)} open</em>'
+                 f'<span>from {fp}</span></div>'
+                 f'<div class="k10-chs">{"".join(chip_even(x) for x in run)}</div></div>')
+    yt = ('<div class="k10-yt"><span class="on">Both years</span><span>2026</span>'
+          '<span>2027</span></div>')
+    return i.frame(
+        '<div class="k10-hd2"><p class="dp-lead">Pick a season, then tap a date '
+        'to book it.</p>' + yt + '</div>'
+        f'<div class="k10-scs">{cards}</div>'
+        f'<p class="k10-even"><b>{sel}:</b> {EVEN[sel]}</p>'
+        f'<div class="k10-srs">{rows}</div>' +
+        i.SOLD_LINE.replace('dp-intro', 'dp-foot'))

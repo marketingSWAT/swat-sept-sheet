@@ -229,3 +229,28 @@ and Codex to both draw it.
 53 was settled in the 28 September walkthrough with Lance (one button on the
 photo, linked to Destinations, wording to write), so it is folded as
 "Settled" rather than given a letter. Not built.
+
+---
+
+## Round ten, decision 73: E added, 29 September
+
+Crow looked at A-D and did not pick. Verbatim (voice note): *"C, the only thing I
+just don't like is potentially maybe saying the best month to come, so maybe we
+should just remove that. And maybe like you can toggle on 2026 and 2027 if you
+want ... I just don't want to deter people from booking in certain months ...
+actually D kind of looks pretty good too ... it just feels more organized, like
+you're just making a better use of space. So maybe like somehow we can combine C
+and D, I want you to make that as another option I can look at before we do
+anything."*
+
+Drawn as **E, "Season cards over every date"**: C's four season cards (no
+headline, just months, open count, lowest price), one even what-to-expect +
+what-to-bring line per season, D's chip rows for the chosen season (one row per
+year, every price in one color, the orange peak weeks dropped), and a small
+Both years / 2026 / 2027 switch. Canvas 709px against C's 1,228px at 1440.
+MY PICK moved from C to E. Still open; nothing built.
+
+Flagged in the verdict: the LIVE "This trip by season" band already ranks
+seasons ("The best month to come", "Hot, and we mean it", "Empty, and often
+snowed"; mountain notes say "Our own pick of the year" and spell "Colour").
+Offered to rewrite those evenly whichever letter comes back.

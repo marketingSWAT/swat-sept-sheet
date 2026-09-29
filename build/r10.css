@@ -108,3 +108,19 @@
 #d73 .opt-hd .k{grid-column:1;grid-row:1;align-self:start;margin-top:2px}
 #d73 .opt-hd .n{grid-column:2;grid-row:1}
 #d73 .opt-hd .pick{grid-column:2;grid-row:2;justify-self:start}
+
+/* ---- E · C's season cards over D's rows (Crow, 29 Sep). Cards lose the rust
+   headline; a year switch sits on the lead line; the chosen season's years
+   are D's rows, prices all one color. */
+.mock .k10-hd2{margin-top:15px;display:flex;align-items:center;justify-content:space-between;gap:16px}
+.mock .k10-hd2 .dp-lead{margin:0}
+.mock .k10-yt{display:flex;border:1px solid var(--sand300);border-radius:999px;padding:3px;flex:none}
+.mock .k10-yt span{padding:6px 14px;border-radius:999px;font-size:13px;font-weight:600;color:var(--ink500)}
+.mock .k10-yt .on{background:#0f1f2e;color:#fff}
+.mock .k10-sc2{padding:12px 16px}
+.mock .k10-sc2 .ct{margin-top:8px}
+.mock .k10-even{margin:14px 0 0;font-size:14px;line-height:21px;color:var(--ink500)}
+.mock .k10-even b{color:var(--ink900)}
+.mock .k10-sr2 .k10-sl em{margin-top:4px;color:var(--ink500)}
+.mockwrap.phone .k10-hd2{flex-direction:column;align-items:flex-start;gap:10px}
+.mockwrap.phone .k10-sr2 .k10-sl em,.mockwrap.phone .k10-sr2 .k10-sl span{display:inline;margin:0 0 0 8px}

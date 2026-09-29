@@ -170,7 +170,8 @@ MAST = """
   <b>About page</b>: you did not like the huge photo with the words under it,
   so it is redrawn three different ways, next to a screenshot of the page as
   it is today. <a href="#d73">73</a> is Matt&rsquo;s note about picking tour
-  dates <b>by season</b>. The empty-right-side round, 68 to 72, is answered
+  dates <b>by season</b>, now with a fifth drawing, <b>E</b>, that puts C and
+  D together as you asked. The empty-right-side round, 68 to 72, is answered
   and folded below.</p>
   <p style="margin-top:12px">The page as it is today is ringed in green. The
   one I would build is ringed in amber and says MY PICK.</p>
