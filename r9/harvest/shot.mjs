@@ -1,0 +1,15 @@
+const { chromium } = (await import('/home/james/swat/projects/pc-set-up/node_modules/playwright/index.js')).default;
+import fs from 'node:fs';
+const gate = fs.readFileSync(new URL('./gate.txt', import.meta.url), 'utf8').trim();
+const base = process.env.BASE || 'https://swat-website-storefront.vercel.app';
+const [p, W = 1920, out = 'shot.png'] = process.argv.slice(2);
+const browser = await chromium.launch();
+const ctx = await browser.newContext({ viewport: { width: +W, height: 1000 }, deviceScaleFactor: 1 });
+await ctx.addCookies([{ name: 'swat_gate', value: gate, url: base }]);
+const page = await ctx.newPage();
+await page.goto(base + p, { waitUntil: 'load' });
+await page.addStyleTag({ content: '*{content-visibility:visible!important} [data-lazy]{opacity:1!important}' });
+await page.evaluate(async () => { for (let y = 0; y < document.body.scrollHeight; y += 800) { scrollTo(0, y); await new Promise(r => setTimeout(r, 80)); } scrollTo(0, 0); });
+await page.waitForTimeout(800);
+await page.screenshot({ path: out, fullPage: true });
+await browser.close();

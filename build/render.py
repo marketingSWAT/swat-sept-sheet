@@ -33,6 +33,7 @@ import decisions_e as E           # noqa: E402
 import decisions_f as F           # noqa: E402
 import decisions_g as G           # noqa: E402
 import decisions_h as H8          # noqa: E402
+import decisions_j as J9          # noqa: E402
 
 OUT = os.path.join(HERE, '..', 'site', 'index.html')
 
@@ -49,6 +50,14 @@ RAIL = [
     (37, 'Is this trip right for you?'),
     (38, 'Start where you are'),
     (39, 'The film slot'),
+]
+
+RAIL9 = [
+    (68, 'Words on a destination page'),
+    (69, 'Bottom of a destination page'),
+    (70, 'Departing From'),
+    (71, 'Journal and guides'),
+    (72, 'Hot Deals'),
 ]
 
 RAIL8 = [
@@ -96,7 +105,10 @@ def rail_html():
             f'<b>{n}</b>{t}</a>' for n, t in group)
     return (
         '<nav class="rail">'
-        '<div class="rt">This round &mdash; picking a date</div>'
+        '<div class="rt">This round &mdash; the empty right side</div>'
+        f'{rows(RAIL9)}'
+        '<a href="#r9">Every page, checked</a>'
+        '<div class="rt">Answered &mdash; picking a date</div>'
         f'{rows(RAIL8)}'
         '<div class="rt">Answered &mdash; Lance&rsquo;s two notes</div>'
         f'{rows(RAIL7)}'
@@ -122,23 +134,22 @@ def rail_html():
 MAST = """
 <header class="mast">
   <div class="kick">Southwest Adventure Tours &middot; storefront rebuild</div>
-  <h1>Picking a date, drawn six ways</h1>
-  <p><b>One decision is open: <a href="#d67">67</a>, how a customer picks a
-  departure date on a tour page.</b> Six redesigns beside the page as it is
-  today: <b>B, C and D drawn by me, E, F and G drawn by Codex</b>, all from
-  the same brief and the same 65 real dates.</p>
-  <p style="margin-top:12px">Counted on the live Mighty 5 from Las Vegas page
-  before drawing anything. <b>52 of its 65 dates</b>, all of 2027, are behind
-  the &ldquo;Show all&rdquo; button, and opening it turns the section into
-  <b>six laptop screens of Mondays</b>. <b>No date shows its price</b>, though
-  2027 summer dates cost $200 more. And the orange &ldquo;Choose your
-  date&rdquo; button at the top of the page sends you <b>7,200px down</b> to
-  reach the list at all.</p>
-  <p style="margin-top:12px">Click any drawing to enlarge it, and pull the
-  others in beside it from the chip row. Every drawing has a Phone view.</p>
-  <p style="margin-top:12px"><b>Answer with a letter.</b> &ldquo;Sixty-seven
-  goes to B.&rdquo; A voice note is fine.</p>
-  <div class="who"><span>Crow</span><span>Claude + Codex</span>
+  <h1>The empty right side, drawn</h1>
+  <p><b>Five decisions are open, 68 to 72.</b> You spotted the blank right half
+  of the Arches page on your computer. I measured every page on the live site
+  (all 214) at your screen size and at laptop size, and the same thing happens
+  on five kinds of page: <b>destination pages</b> (twice, top and bottom),
+  <b>Departing From</b>, <b>journal stories and trail guides</b>, and <b>Hot
+  Deals</b>. Everything else is fine or close to it; the list is under
+  decision 72.</p>
+  <p style="margin-top:12px">Every drawing is at <b>1,920 wide</b>, your
+  screen, with the live page&rsquo;s own trips, photos and words. The page as
+  it is today is ringed in green. The one I would build is ringed in amber
+  and says MY PICK.</p>
+  <p style="margin-top:12px"><b>Answer with a letter.</b> &ldquo;Sixty-eight
+  goes to B.&rdquo; A voice note is fine, and &ldquo;all your picks&rdquo;
+  works too.</p>
+  <div class="who"><span>Crow</span><span>Claude</span>
   <span>29 Sep 2026</span><span>Earlier rounds are folded below</span></div>
 </header>
 """
@@ -182,6 +193,14 @@ def register(anchor, kicker, title, intro, body):
             f'<div class="d"><div class="d-body">{body}</div></div></section>')
 
 
+R9 = register(
+    'r9', 'Every page, checked', 'Where else the right side is empty',
+    'Every page in the sitemap, 214 of them, measured on the live site at 1,920 wide (your screen) '
+    'and 1,440 (a laptop). The percentage is how much of the page, top to bottom, has more than a '
+    'third of its width blank on the right.',
+    '<table class="tbl"><tr><th>Page</th><th>How many</th><th>Empty right side, your screen</th><th>On a laptop</th><th>What happens</th></tr><tr><td><b>Destination pages</b></td><td>38</td><td>43%</td><td>35%</td><td><a href="#d68">68</a> and <a href="#d69">69</a></td></tr><tr><td><b>Departing From</b></td><td>10</td><td>68%</td><td>63%</td><td><a href="#d70">70</a></td></tr><tr><td><b>Journal stories</b></td><td>44</td><td>73%</td><td>39%</td><td><a href="#d71">71</a></td></tr><tr><td><b>Trail guides</b></td><td>13</td><td>64%</td><td>49%</td><td><a href="#d71">71</a>, same page shape</td></tr><tr><td><b>Hot Deals</b></td><td>1</td><td>48%</td><td>46%</td><td><a href="#d72">72</a></td></tr><tr><td><b>Privacy policy</b></td><td>1</td><td>88%</td><td>64%</td><td>Leave it. Legal text should stay a narrow column, and the page is being rewritten anyway</td></tr><tr><td><b>About</b></td><td>1</td><td>24%</td><td>27%</td><td>The indented words: fixing without asking (register one)</td></tr><tr><td><b>Tour pages</b></td><td>74</td><td>26%</td><td>27%</td><td>Fine. The booking panel follows you down the right side, so on screen it is filled. 7 packing lists: register one</td></tr><tr><td><b>Trip-style pages</b></td><td>9</td><td>25%</td><td>18%</td><td>Trips fill the width. The words at the bottom are the same block as 68, and follow whatever you pick there</td></tr><tr><td><b>Contact, Group Travel, Trip protection, For travel pros</b></td><td>4</td><td>15&ndash;32%</td><td>16&ndash;26%</td><td>Fine. Short forms and short pages, centred</td></tr><tr><td><b>Home, tour finder, Build Your Own, map, archive, journal list, destinations list</b></td><td>7</td><td>0&ndash;8%</td><td>0&ndash;7%</td><td>Fine</td></tr></table>')
+
+
 R1 = register(
     'r1', 'Register one', 'Doing without asking',
     'Either you dictated it, or you praised it and it now needs protecting '
@@ -204,6 +223,15 @@ R1 = register(
     'destination pages as they are</b></td><td>&ldquo;looks good&rdquo; on '
     'each, unprompted</td><td>Frozen. Nothing in this round touches them'
     '</td></tr>'
+    '<tr><td><b>Packing lists side by side</b> (round nine)</td>'
+    '<td>7 tour pages carry a packing list: three lists stacked one under '
+    'another, each about a third of the column wide. Side by side they take '
+    'about 1,300px less on the Yosemite Happy Isles page</td><td>Doing it with '
+    'whatever you pick below. No design choice in it</td></tr>'
+    '<tr><td><b>The About page&rsquo;s words start a fifth of the way in</b> '
+    '(round nine)</td><td>The text block under the big photo is indented for '
+    'no reason, so it lines up with nothing above or below it</td><td>Doing it '
+    'with the rest. Lining it up with the photo is the fix</td></tr>'
     '<tr><td><b>Delete &ldquo;Email me the day-by-day&rdquo;</b></td>'
     '<td>Carried over and still live: travel agents copy the itineraries, so '
     'only booked guests should get them</td><td>Half a day, no design needed'
@@ -755,13 +783,22 @@ def build():
     css = open(os.path.join(HERE, 'sheet.css')).read()
     # Round eight: Claude's mock styles, then Codex's, scoped `.dp-` / `.cx-`.
     css += open(os.path.join(HERE, 'r8.css')).read()
+    css += open(os.path.join(HERE, 'r9.css')).read()
     cx = os.path.join(HERE, '..', 'r8', 'codex', 'css')
     for f in sorted(os.listdir(cx)):
         if f.endswith('.css'):
             css += open(os.path.join(cx, f)).read()
     decisions = E.ALL + D.ALL + C.ALL + A.ALL + B.ALL
-    body = (MAST + LEDE +
-            sec('This round', 'Picking a date &mdash; 67',
+    body = (MAST +
+            sec('This round', 'The empty right side &mdash; 68 to 72',
+                'Drawn at <b>1,920</b> wide, the width of your screenshot, off '
+                'the live pages with their real trips, photos and words. Where '
+                'a drawing is one screen tall it is the <b>first 1,080px you '
+                'see</b>, the same view as your screenshot; the Departing From '
+                'and bottom-of-page drawings run to the footer, because the '
+                'point there is how long the page is.') +
+            ''.join(J9.ALL) + R9 + LEDE +
+            sec('Answered', 'Picking a date &mdash; 67',
                 'Drawn at <b>1440</b> wide off the live Mighty 5 from Las Vegas '
                 'page, the one in your screenshot, with its real 65 dates. '
                 'The Departures section in its column, the booking panel '
@@ -794,7 +831,19 @@ def build():
             ''.join(decisions) + R1 + R2 + R3 + R4 + R5)
 
     foot = (
-        '<div class="foot">Round eight &mdash; decision 67 &mdash; was built '
+        '<div class="foot">Round nine &mdash; decisions 68 to 72 &mdash; was '
+        'built 29 September 2026 from Crow&rsquo;s note and screenshot of the '
+        'Arches and Canyonlands page. Every current-build panel was read off '
+        'the DEPLOYED PRODUCTION build <code>swat-website-storefront.vercel.app'
+        '</code> at <b>1920&times;1080</b>: content column x=152&ndash;1768 '
+        '(1,616 wide), words 680 wide at 17px, trip cards 386&times;539 four '
+        'across. Destination, Departing From, journal and deals panels draw '
+        'Arches and Canyonlands, Bryce, &ldquo;Exploring the Last '
+        'Frontier&rdquo; and the one live deal. &ldquo;From $1,190&rdquo; in '
+        '68B is the lowest per-person price among the 11 Arches cards (3 Parks '
+        'in 4 Days, custom-priced). The whole-site count is '
+        '<code>r9/harvest/whitespace.mjs</code>. '
+        'Round eight &mdash; decision 67 &mdash; was built '
         '29 September 2026 from Crow&rsquo;s note and screenshot of the same '
         'day. Its current-build panel was read off the DEPLOYED PRODUCTION '
         'page <code>swat-website-storefront.vercel.app/tours/mighty-5-utah-'
@@ -839,7 +888,7 @@ def build():
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="robots" content="noindex,nofollow">
-<title>SWAT — Picking a date, drawn</title>
+<title>SWAT — The empty right side, drawn</title>
 <style>{css}</style>
 </head><body>
 {M.mapdefs()}

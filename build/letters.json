@@ -176,5 +176,33 @@
     "E": "Pick it right here",
     "F": "Start with a season",
     "G": "Go soon or later"
+  },
+  "68": {
+    "A": "The words alone, as now",
+    "B": "A trip panel beside the words",
+    "C": "Photos beside the words",
+    "D": "Trips first, words underneath"
+  },
+  "69": {
+    "A": "Half-empty rows, as now",
+    "B": "Fill every row",
+    "C": "One strip of photos"
+  },
+  "70": {
+    "A": "A new row for each length, as now",
+    "B": "One row, shortest first",
+    "C": "One row, the lengths ride along",
+    "D": "The words beside the trips"
+  },
+  "71": {
+    "A": "Left of centre, as now",
+    "B": "Centre the words",
+    "C": "The trips beside the story",
+    "D": "Photos go wide"
+  },
+  "72": {
+    "A": "One card on the left, as now",
+    "B": "One wide row per deal",
+    "C": "The deal, plus how deals work"
   }
 }

@@ -1,0 +1,337 @@
+{
+ "arches": {
+  "cards": [
+   {
+    "style": "SMALL GROUP",
+    "dur": "4 days",
+    "deal": null,
+    "title": "3 Parks in 4 Days",
+    "route": "Moab → Arches National Park",
+    "places": "Arches National Park, Canyonlands National Park, Monument Valley",
+    "activity": "Activity level on request",
+    "group": "Small group, 7–13",
+    "price": "$1,190",
+    "unit": "from / person",
+    "custom": true,
+    "action": "Request a quote",
+    "img": "https://pyxnpjvtdlucaqqhhvin.supabase.co/storage/v1/object/public/media/derived/w640/photos/3_Parks_in_4_Days_1_211224a3-63ca-4b7b-9e9c-2d1c8807d0b0.webp"
+   },
+   {
+    "style": "SMALL GROUP",
+    "dur": "1 day",
+    "deal": null,
+    "title": "1 Day Arches National Park Tour from Salt Lake City",
+    "route": "Salt Lake City → Arches National Park",
+    "places": "Arches National Park, Utah",
+    "activity": "Activity level on request",
+    "group": "Small group, 7–13",
+    "price": "$1,199",
+    "unit": "total / party",
+    "custom": false,
+    "action": "Check dates",
+    "img": "https://pyxnpjvtdlucaqqhhvin.supabase.co/storage/v1/object/public/media/derived/w640/photos/Arches_NP_North_W__3826a7e5-edae-4cc4-b695-ce1d1ddc97a9.webp"
+   },
+   {
+    "style": "SMALL GROUP",
+    "dur": "1 day",
+    "deal": null,
+    "title": "1 Day Arches & Canyonlands from Salt Lake City",
+    "route": "Salt Lake City → Zion National Park",
+    "places": "Zion National Park, Bryce Canyon National Park, Arches National Park",
+    "activity": "Activity level on request",
+    "group": "Small group, 7–13",
+    "price": "$1,199",
+    "unit": "total / party",
+    "custom": true,
+    "action": "Request a quote",
+    "img": "https://pyxnpjvtdlucaqqhhvin.supabase.co/storage/v1/object/public/media/derived/w640/photos/Delicate_Arch__737acd32-2501-4b0a-baa8-714550145ff6.webp"
+   },
+   {
+    "style": "SMALL GROUP",
+    "dur": "5 days",
+    "deal": null,
+    "title": "Mighty 5 Utah Tour From Las Vegas",
+    "route": "Las Vegas → Zion National Park",
+    "places": "Zion National Park, Bryce Canyon National Park, Arches National Park",
+    "activity": "Easy",
+    "group": "Small group, 7–13",
+    "price": "$1,999",
+    "unit": "from / person",
+    "custom": false,
+    "action": "Check dates",
+    "img": "https://pyxnpjvtdlucaqqhhvin.supabase.co/storage/v1/object/public/media/derived/w640/photos/ZionTowersVirgin_8a7ab233-398c-49f0-bbc6-f70554bb9c2d.webp"
+   },
+   {
+    "style": "PRIVATE & CUSTOM",
+    "dur": "7 days",
+    "deal": null,
+    "title": "Large Group Tour: Utah's Mighty 5 National Parks",
+    "route": "Salt Lake City → Zion National Park",
+    "places": "Zion National Park, Bryce Canyon National Park, Arches National Park",
+    "activity": "Easy",
+    "group": "Your party only",
+    "price": "$2,275",
+    "unit": "from / person",
+    "custom": true,
+    "action": "Request a quote",
+    "img": "https://pyxnpjvtdlucaqqhhvin.supabase.co/storage/v1/object/public/media/derived/w640/photos/cameron_cress_OZZIrjLTmA8_unsplash_d2e9dae4-5a60-4124-b181-2a9f2c02486c.webp"
+   },
+   {
+    "style": "SMALL GROUP",
+    "dur": "7 days",
+    "deal": "$500 OFF",
+    "title": "Canyons of the Escalante",
+    "route": "Bryce → Bryce Canyon National Park",
+    "places": "Bryce Canyon National Park, Arches National Park, Grand Canyon National Park",
+    "activity": "Activity level on request",
+    "group": "Small group, 7–13",
+    "price": "$3,119",
+    "unit": "from / person",
+    "custom": false,
+    "action": "Check dates",
+    "img": "https://pyxnpjvtdlucaqqhhvin.supabase.co/storage/v1/object/public/media/derived/w640/photos/CalfCreekFalls_Michael_Kunde_Photo_0201_27bcbe60-8012-48a3-94f7-7a317b4b8f2d.webp"
+   },
+   {
+    "style": "SMALL GROUP",
+    "dur": "8 days",
+    "deal": null,
+    "title": "Mighty 5 Utah From Salt Lake City",
+    "route": "Salt Lake City → Zion National Park",
+    "places": "Zion National Park, Bryce Canyon National Park, Arches National Park",
+    "activity": "Strenuous",
+    "group": "Small group, 7–13",
+    "price": "$3,499",
+    "unit": "from / person",
+    "custom": false,
+    "action": "Check dates",
+    "img": "https://pyxnpjvtdlucaqqhhvin.supabase.co/storage/v1/object/public/media/derived/w640/photos/Bryce_Canyon_Great_Basin_Zion_National_Parks_3_4536d187-7910-4432-8ca6-5dddf785ade7.webp"
+   },
+   {
+    "style": "SELF-DRIVE",
+    "dur": "6 days",
+    "deal": null,
+    "title": "Self-Drive Tour: Mighty 5 Utah",
+    "route": "Salt Lake City → Zion National Park",
+    "places": "Zion National Park, Bryce Canyon National Park, Arches National Park",
+    "activity": "Activity level on request",
+    "group": "Small group, 7–13",
+    "price": "Price on request",
+    "unit": "",
+    "custom": true,
+    "action": "Request a quote",
+    "img": "https://pyxnpjvtdlucaqqhhvin.supabase.co/storage/v1/object/public/media/derived/w640/photos/IMG_8063_f2cad211-4fb0-4852-aa64-7c54bcc98b58.webp"
+   },
+   {
+    "style": "SELF-DRIVE",
+    "dur": "10 days",
+    "deal": null,
+    "title": "Self-Drive: Best of the Southwest",
+    "route": "Las Vegas → Zion National Park",
+    "places": "Zion National Park, Bryce Canyon National Park, Arches National Park",
+    "activity": "Activity level on request",
+    "group": "Small group, 7–13",
+    "price": "Price on request",
+    "unit": "",
+    "custom": true,
+    "action": "Request a quote",
+    "img": "https://pyxnpjvtdlucaqqhhvin.supabase.co/storage/v1/object/public/media/derived/w640/photos/IMG_7900_5254b53d-5ce7-4b94-936f-3b183e4be7e4.webp"
+   },
+   {
+    "style": "SELF-DRIVE",
+    "dur": "6 days",
+    "deal": null,
+    "title": "Self-Drive: Moab 6-Day Adventure",
+    "route": "Salt Lake City → Arches National Park",
+    "places": "Arches National Park, Canyonlands National Park, Utah",
+    "activity": "Strenuous",
+    "group": "Small group, 7–13",
+    "price": "$5,633",
+    "unit": "from / person",
+    "custom": true,
+    "action": "Request a quote",
+    "img": "https://pyxnpjvtdlucaqqhhvin.supabase.co/storage/v1/object/public/media/derived/w640/photos/delicate_arch_1_78d78138-d59d-4806-b675-f49acb5acd6b.webp"
+   },
+   {
+    "style": "RAIL & CRUISE",
+    "dur": "12 days",
+    "deal": null,
+    "title": "Grand Circle Experience: Explore Southwest National Parks",
+    "route": "Bryce → Zion National Park",
+    "places": "Zion National Park, Arches National Park, Grand Canyon National Park",
+    "activity": "Activity level on request",
+    "group": "Small group, 7–13",
+    "price": "$6,249",
+    "unit": "from / person",
+    "custom": false,
+    "action": "Check dates",
+    "img": "https://pyxnpjvtdlucaqqhhvin.supabase.co/storage/v1/object/public/media/derived/w640/photos/Grand_Circle_Experience_1_b34d81e7-7f65-43ea-bdd9-509d34545a86.webp"
+   }
+  ],
+  "prose": [
+   "Two of Utah's iconic national parks are located near the resort town of Moab – Arches & Canyonlands. Located adjacent to canyons gouged out by the Colorado River, Moab itself offers a variety of spectacular scenery that isn't in a national park, plus there is nearby Dead Horse Point State Park.",
+   "Arches National Park preserves the most abundant collection of amazing natural arches and bridges on Earth. Along with arches, you'll see balanced rocks, windows and large sandstone fins. The national park is located just 4 miles north of Moab.",
+   "Canyonlands National Park covers a huge swath of remote canyons that drain into the Colorado and Green Rivers. The national park is divided into 3 districts: Island in the Sky, the Needles, and the Maze. The Needles requires a long and dedicated day to visit, whereas the Maze can only be accessed by remote and rugged 4WD roads. Island in the Sky is the most accessible, being only a 45 minute drive from Moab on paved roads."
+  ],
+  "hikes_p": "See hiking options in Arches National Park",
+  "gallery": [
+   "https://pyxnpjvtdlucaqqhhvin.supabase.co/storage/v1/object/public/media/derived/w828/photos/1_Day_Arches_Canyonlands_from_Salt_Lake_City_5_c75c8e76-ad16-41f3-82f4-066f61e59ee3.webp",
+   "https://pyxnpjvtdlucaqqhhvin.supabase.co/storage/v1/object/public/media/derived/w828/photos/1_Day_Arches_Canyonlands_from_Salt_Lake_City_2_4c1141ff-2def-4028-a0fa-ac5cfaaf1ffd.webp",
+   "https://pyxnpjvtdlucaqqhhvin.supabase.co/storage/v1/object/public/media/derived/w828/photos/1_Day_Arches_Canyonlands_from_Salt_Lake_City_4_d2a547e5-81a7-4698-87cc-3383b7ad4241.webp",
+   "https://pyxnpjvtdlucaqqhhvin.supabase.co/storage/v1/object/public/media/derived/w828/photos/Delicate_Arch_Moab_d77821f6-0b91-474a-9ef5-40860dc39d1d.webp",
+   "https://pyxnpjvtdlucaqqhhvin.supabase.co/storage/v1/object/public/media/derived/w828/photos/Moab_Arches_9455faca-fbd7-4c40-a72b-43af43b34f55.webp",
+   "https://pyxnpjvtdlucaqqhhvin.supabase.co/storage/v1/object/public/media/derived/w828/photos/Canyonlands_Group_456d26f8-8539-46c5-b94f-8a2a610ab7a0.webp",
+   "https://pyxnpjvtdlucaqqhhvin.supabase.co/storage/v1/object/public/media/derived/w828/photos/Arches_NP_Balanced_Rock_Group_91c0d0ee-f60b-4204-af2f-1bacbbe06bc3.webp"
+  ],
+  "hikes_card": {
+   "title": "Hikes in Arches National Park",
+   "img": "https://pyxnpjvtdlucaqqhhvin.supabase.co/storage/v1/object/public/media/derived/w640/photos/Mighty_5_SLC_Arches_Delicate_Arch_2_f8a9ac42-afeb-416c-bc29-885e0e53857a.webp"
+  },
+  "journal": [
+   {
+    "title": "The Ultimate Four-Season Guide to Utah's Mighty 5",
+    "img": "https://pyxnpjvtdlucaqqhhvin.supabase.co/storage/v1/object/public/media/derived/w640/photos/152_5234_2200px_02d3b5ab-acaa-472a-a19c-9b589b7adfea.webp"
+   },
+   {
+    "title": "Arches National Park Lifts Timed-Entry Update 2026: What Travelers Need to Know",
+    "img": "https://pyxnpjvtdlucaqqhhvin.supabase.co/storage/v1/object/public/media/derived/w640/photos/intricate_explorer_OtfVkOWUbGQ_unsplash_4b5f1345-cbf9-4d56-9754-67696dd30b30.webp"
+   }
+  ],
+  "departing": [
+   "Bryce",
+   "Las Vegas",
+   "Moab",
+   "Salt Lake City"
+  ],
+  "hero": "https://pyxnpjvtdlucaqqhhvin.supabase.co/storage/v1/object/public/media/derived/w828/photos/Mighty_5_SLC_Arches_Delicate_Arch_2_f8a9ac42-afeb-416c-bc29-885e0e53857a.webp"
+ },
+ "bryce": {
+  "cards": [
+   {
+    "style": "BACKPACKING",
+    "dur": "4 days",
+    "deal": null,
+    "title": "Grand Canyon Backpacking (Escalante Route) 4 Days",
+    "route": "Bryce → Grand Canyon National Park",
+    "places": "Grand Canyon National Park, Arizona, Colorado",
+    "activity": "Moderate",
+    "group": "Small group, up to 8",
+    "price": "$2,449",
+    "unit": "from / person",
+    "custom": false,
+    "action": "Check dates",
+    "img": "https://pyxnpjvtdlucaqqhhvin.supabase.co/storage/v1/object/public/media/derived/w640/photos/Sedona_Grand_anyoun_3_Day_1_46238139-153b-4bf1-b356-bb58a009d70c.webp"
+   },
+   {
+    "style": "SMALL GROUP",
+    "dur": "7 days",
+    "deal": "$500 OFF",
+    "title": "Canyons of the Escalante",
+    "route": "Bryce → Bryce Canyon National Park",
+    "places": "Bryce Canyon National Park, Arches National Park, Grand Canyon National Park",
+    "activity": "Activity level on request",
+    "group": "Small group, 7–13",
+    "price": "$3,119",
+    "unit": "from / person",
+    "custom": false,
+    "action": "Check dates",
+    "img": "https://pyxnpjvtdlucaqqhhvin.supabase.co/storage/v1/object/public/media/derived/w640/photos/CalfCreekFalls_Michael_Kunde_Photo_0201_27bcbe60-8012-48a3-94f7-7a317b4b8f2d.webp"
+   },
+   {
+    "style": "RAIL & CRUISE",
+    "dur": "12 days",
+    "deal": null,
+    "title": "Grand Circle Experience: Explore Southwest National Parks",
+    "route": "Bryce → Zion National Park",
+    "places": "Zion National Park, Arches National Park, Grand Canyon National Park",
+    "activity": "Activity level on request",
+    "group": "Small group, 7–13",
+    "price": "$6,249",
+    "unit": "from / person",
+    "custom": false,
+    "action": "Check dates",
+    "img": "https://pyxnpjvtdlucaqqhhvin.supabase.co/storage/v1/object/public/media/derived/w640/photos/Grand_Circle_Experience_1_b34d81e7-7f65-43ea-bdd9-509d34545a86.webp"
+   }
+  ],
+  "intro": [
+   "Trips that begin at Bryce Canyon itself rather than at an airport, for travellers already on the plateau.",
+   "3 trips start here. Shortest first — pick by how much time you have."
+  ],
+  "words": [
+   "Bryce Canyon City sits at the park boundary, about 8,000 feet up on the Paunsaugunt Plateau. Trips listed as leaving from here start at the park rather than at a city several hours away, which is what you want if you are already driving the region or coming off another itinerary.",
+   "The altitude is the thing to plan for. Bryce is high enough that summer nights are cold and winter closes some of the connecting roads; the amphitheatre holds snow well into spring, which is also when it photographs best.",
+   "Zion is about ninety minutes south-west, Capitol Reef about two and a half hours east, so a trip starting here can reach three parks without a long transfer day."
+  ],
+  "groups": [
+   "4-6 days",
+   "7-10 days",
+   "11+ days"
+  ]
+ },
+ "deals": {
+  "intro": "Discover incredible discounts on upcoming tours — from iconic national parks and scenic highways to vibrant towns and hidden gems. These promotions are available for a limited time only.",
+  "img": "https://pyxnpjvtdlucaqqhhvin.supabase.co/storage/v1/object/public/media/derived/w828/photos/IMG_8063_f2cad211-4fb0-4852-aa64-7c54bcc98b58.webp"
+ },
+ "journal": {
+  "meta": "JANUARY 10, 2022 · CLIFF BANDRINGA",
+  "paras": [
+   "Article by Vicky Stafford, Southwest Adventure Tours tour director",
+   "Alaska has always been on my travel list. I’ve always heard of the incredible beauty and the many unique and exciting experiences the state has to offer. Friends who have visited have had nothing but rave reviews about their Alaskan experience. So, after a year and a half of being cooped up inside, I booked my flight!",
+   "My trip began, like most of my trips, with some frantic, good ol’ last-minute packing. There’s no greater motivation to finally pack your things than knowing that your flight leaves in less than 12 hours. (Please note: I do not advise this. Packing ahead of time is a far superior plan, but at this point, I’ve come to accept that last-minute is how I operate.) So, with limited time as my motivation, I began my least favorite, but necessary activity. Two bags and a personal item later, I was ready!",
+   "Leading up to my trip, I briefly looked up suggestions of what to bring. Winter coat, gloves, stocking cap…got it. I mean, I grew up in the Midwest. I had survived many a cold winter. How cold could it be? Answer: COLD.",
+   "Granted, the fact that I’ve lived in Los Angeles the past six years might have contributed to why I found the cold especially harsh, but even still, if you are visiting Alaska during winter months, prepare for some extremely cold temps, especially at night. (Nighttime temperatures during the winter months can reach as low as -30 degrees Fahrenheit! So, yeah, bundle up!)",
+   "The next day, my 7:00 a.m. flight from Burbank took off right on time. After a brief layover in Seattle, I was on my way to the quaint city of Fairbanks, Alaska. Upon deboarding the plane, the small but very charming Fairbanks Airport was a nice welcome to the city.",
+   "A short cab ride and a rental car later, I finally checked into my hotel. In total, I’d spend six days exploring all around the “Land of the Midnight Sun” as a part of a tour I booked through Southwest Adventure Tours.",
+   "Here are some of the highlights:",
+   "The Museums",
+   "My first full day in Alaska began with exploring a couple of great museums. First on the docket was the Morris Thompson Cultural & Visitors Center. The MTCVC was just a short walk from our hotel, so off into the brisk Alaskan air we went. Along the way, we stopped for a photo op at the Antler Arch and admired some of the various street art.",
+   "Morris Thompson Cultural & Visitors Center Fairbanks AK"
+  ],
+  "img1": "https://pyxnpjvtdlucaqqhhvin.supabase.co/storage/v1/object/public/media/derived/w828/photos/BlogNorthLights6_a7244351-407c-4060-b4ec-c28f7c230401.webp",
+  "go": [
+   {
+    "style": "SMALL GROUP",
+    "dur": "6 days",
+    "deal": null,
+    "title": "Alaska's Northern Lights Adventure Tour",
+    "route": "",
+    "places": "Denali National Park, Alaska",
+    "activity": "Easy",
+    "group": "Small group, 7–13",
+    "price": "$3,429",
+    "unit": "from / person",
+    "custom": false,
+    "action": "Check dates",
+    "img": "https://pyxnpjvtdlucaqqhhvin.supabase.co/storage/v1/object/public/media/derived/w640/photos/Northern_Lights_1_b3dddbe0-b89d-4cda-b1fc-a666bc2cea1b.webp"
+   },
+   {
+    "style": "RAIL & CRUISE",
+    "dur": "10 days",
+    "deal": null,
+    "title": "Magnificent Alaska!",
+    "route": "",
+    "places": "Denali National Park, Alaska",
+    "activity": "Easy",
+    "group": "Small group, 7–13",
+    "price": "$9,999",
+    "unit": "from / person",
+    "custom": false,
+    "action": "Check dates",
+    "img": "https://pyxnpjvtdlucaqqhhvin.supabase.co/storage/v1/object/public/media/derived/w640/photos/David_Beach_Pic2_636eef13-d313-4738-9ce9-97d2157f5086.webp"
+   }
+  ],
+  "keep": [
+   {
+    "title": "Denali National Park: History, Landscapes, and Culture",
+    "img": "https://pyxnpjvtdlucaqqhhvin.supabase.co/storage/v1/object/public/media/derived/w640/photos/Magnificent_Alaska_Denali_a0724f92-e854-4365-8e55-7f1aac2bfa05.webp"
+   },
+   {
+    "title": "Chasing the Northern Lights: A Guide to Viewing the Aurora Borealis in Alaska",
+    "img": "https://pyxnpjvtdlucaqqhhvin.supabase.co/storage/v1/object/public/media/derived/w640/photos/Alaska_Group_Exit_Glacier_2200_3357dba1-5e0b-4cab-95fc-97bfc2554f79.webp"
+   },
+   {
+    "title": "Chena Hot Springs Experience",
+    "img": "https://pyxnpjvtdlucaqqhhvin.supabase.co/storage/v1/object/public/media/derived/w640/photos/ChenaLobby_d4d569a4-23ff-4ba4-8b5d-daf0ac731815.webp"
+   }
+  ]
+ }
+}

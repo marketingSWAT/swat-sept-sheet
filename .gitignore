@@ -3,3 +3,6 @@ __pycache__/
 r8/harvest/gate.txt
 r8/preview/
 r8/codex/*.log
+r9/harvest/gate.txt
+r9/harvest/*.png
+r9/check/*.png

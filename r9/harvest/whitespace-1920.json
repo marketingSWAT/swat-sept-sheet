@@ -1,0 +1,5080 @@
+[
+ {
+  "href": "/deals/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 1377,
+  "deadPx": 660,
+  "worst": 1539,
+  "runs": [
+   {
+    "y": 599,
+    "h": 940,
+    "gap": 1539
+   }
+  ]
+ },
+ {
+  "href": "/departing-from/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 1601,
+  "deadPx": 300,
+  "worst": 1473,
+  "runs": [
+   {
+    "y": 1359,
+    "h": 420,
+    "gap": 816
+   }
+  ]
+ },
+ {
+  "href": "/destinations/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 2572,
+  "deadPx": 460,
+  "worst": 1490,
+  "runs": [
+   {
+    "y": 2279,
+    "h": 460,
+    "gap": 816
+   },
+   {
+    "y": 879,
+    "h": 160,
+    "gap": 1280
+   }
+  ]
+ },
+ {
+  "href": "/trips/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 1856,
+  "deadPx": 40,
+  "worst": 1501,
+  "runs": []
+ },
+ {
+  "href": "/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 8641,
+  "deadPx": 280,
+  "worst": 1566,
+  "runs": [
+   {
+    "y": 3339,
+    "h": 140,
+    "gap": 1397
+   }
+  ]
+ },
+ {
+  "href": "/find/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 10282,
+  "deadPx": 780,
+  "worst": 1506,
+  "runs": [
+   {
+    "y": 9799,
+    "h": 660,
+    "gap": 670
+   },
+   {
+    "y": 219,
+    "h": 280,
+    "gap": 1506
+   }
+  ]
+ },
+ {
+  "href": "/map/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 935,
+  "deadPx": 0,
+  "worst": 0,
+  "runs": []
+ },
+ {
+  "href": "/custom-tours/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 4235,
+  "deadPx": 340,
+  "worst": 1477,
+  "runs": [
+   {
+    "y": 3039,
+    "h": 280,
+    "gap": 1261
+   }
+  ]
+ },
+ {
+  "href": "/tours/1-day-great-salt-lake-and-antelope-island-tour/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 7461,
+  "deadPx": 2980,
+  "worst": 1514,
+  "runs": [
+   {
+    "y": 4599,
+    "h": 1160,
+    "gap": 1416
+   },
+   {
+    "y": 3339,
+    "h": 800,
+    "gap": 1475
+   },
+   {
+    "y": 2439,
+    "h": 560,
+    "gap": 1514
+   },
+   {
+    "y": 7299,
+    "h": 340,
+    "gap": 1514
+   }
+  ]
+ },
+ {
+  "href": "/tours/bonneville-salt-flats-adventure/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 5326,
+  "deadPx": 1940,
+  "worst": 1514,
+  "runs": [
+   {
+    "y": 2839,
+    "h": 1440,
+    "gap": 1475
+   },
+   {
+    "y": 1939,
+    "h": 560,
+    "gap": 1514
+   }
+  ]
+ },
+ {
+  "href": "/tours/salt-lake-antelope-island-dark-sky-experience/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 5424,
+  "deadPx": 2000,
+  "worst": 1475,
+  "runs": [
+   {
+    "y": 3099,
+    "h": 1280,
+    "gap": 1475
+   },
+   {
+    "y": 2219,
+    "h": 560,
+    "gap": 1475
+   },
+   {
+    "y": 1839,
+    "h": 340,
+    "gap": 1354
+   }
+  ]
+ },
+ {
+  "href": "/tours/snowbird-summer-excursion-day-tour/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 5880,
+  "deadPx": 1800,
+  "worst": 1514,
+  "runs": [
+   {
+    "y": 2879,
+    "h": 900,
+    "gap": 1475
+   },
+   {
+    "y": 1819,
+    "h": 560,
+    "gap": 1514
+   },
+   {
+    "y": 5719,
+    "h": 320,
+    "gap": 1514
+   },
+   {
+    "y": 4239,
+    "h": 240,
+    "gap": 755
+   }
+  ]
+ },
+ {
+  "href": "/tours/park-city-olympic-tour/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 6498,
+  "deadPx": 2360,
+  "worst": 1549,
+  "runs": [
+   {
+    "y": 4139,
+    "h": 960,
+    "gap": 1416
+   },
+   {
+    "y": 2919,
+    "h": 760,
+    "gap": 1475
+   },
+   {
+    "y": 6339,
+    "h": 320,
+    "gap": 1514
+   },
+   {
+    "y": 2299,
+    "h": 280,
+    "gap": 1247
+   }
+  ]
+ },
+ {
+  "href": "/tours/kanarra-falls/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 6370,
+  "deadPx": 2080,
+  "worst": 1550,
+  "runs": [
+   {
+    "y": 3999,
+    "h": 980,
+    "gap": 1416
+   },
+   {
+    "y": 2699,
+    "h": 640,
+    "gap": 1550
+   },
+   {
+    "y": 1859,
+    "h": 360,
+    "gap": 1531
+   },
+   {
+    "y": 6199,
+    "h": 340,
+    "gap": 1514
+   }
+  ]
+ },
+ {
+  "href": "/tours/zion-3-day-getaway/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 5700,
+  "deadPx": 640,
+  "worst": 1514,
+  "runs": [
+   {
+    "y": 5539,
+    "h": 320,
+    "gap": 1514
+   },
+   {
+    "y": 4059,
+    "h": 240,
+    "gap": 755
+   }
+  ]
+ },
+ {
+  "href": "/tours/gems-of-southeast-europe-christmas-markets/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 11327,
+  "deadPx": 4720,
+  "worst": 1551,
+  "runs": [
+   {
+    "y": 7079,
+    "h": 1260,
+    "gap": 1503
+   },
+   {
+    "y": 5799,
+    "h": 840,
+    "gap": 1551
+   },
+   {
+    "y": 9559,
+    "h": 720,
+    "gap": 1416
+   },
+   {
+    "y": 8419,
+    "h": 660,
+    "gap": 1514
+   }
+  ]
+ },
+ {
+  "href": "/tours/amawaterways-captivating-rhine-amalucia/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 11481,
+  "deadPx": 3900,
+  "worst": 1508,
+  "runs": [
+   {
+    "y": 8679,
+    "h": 1280,
+    "gap": 1503
+   },
+   {
+    "y": 8219,
+    "h": 420,
+    "gap": 1414
+   },
+   {
+    "y": 3079,
+    "h": 320,
+    "gap": 1086
+   },
+   {
+    "y": 1879,
+    "h": 300,
+    "gap": 1476
+   }
+  ]
+ },
+ {
+  "href": "/tours/ama-paris-normandy/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 9573,
+  "deadPx": 3380,
+  "worst": 1531,
+  "runs": [
+   {
+    "y": 6519,
+    "h": 1140,
+    "gap": 1500
+   },
+   {
+    "y": 5919,
+    "h": 560,
+    "gap": 1517
+   },
+   {
+    "y": 8139,
+    "h": 380,
+    "gap": 1531
+   },
+   {
+    "y": 3279,
+    "h": 300,
+    "gap": 1403
+   }
+  ]
+ },
+ {
+  "href": "/tours/zion-virgin-river-narrows-hiking/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 5496,
+  "deadPx": 1120,
+  "worst": 1514,
+  "runs": [
+   {
+    "y": 2079,
+    "h": 560,
+    "gap": 1086
+   },
+   {
+    "y": 5339,
+    "h": 320,
+    "gap": 1514
+   },
+   {
+    "y": 3839,
+    "h": 260,
+    "gap": 755
+   }
+  ]
+ },
+ {
+  "href": "/tours/cascade-falls-hike/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 5211,
+  "deadPx": 1120,
+  "worst": 1531,
+  "runs": [
+   {
+    "y": 2459,
+    "h": 440,
+    "gap": 1475
+   },
+   {
+    "y": 5039,
+    "h": 340,
+    "gap": 1514
+   },
+   {
+    "y": 3559,
+    "h": 260,
+    "gap": 755
+   },
+   {
+    "y": 1899,
+    "h": 220,
+    "gap": 1531
+   }
+  ]
+ },
+ {
+  "href": "/tours/zion-park-1-day-tour/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 6277,
+  "deadPx": 1380,
+  "worst": 1531,
+  "runs": [
+   {
+    "y": 3279,
+    "h": 680,
+    "gap": 1475
+   },
+   {
+    "y": 6119,
+    "h": 320,
+    "gap": 1514
+   },
+   {
+    "y": 4619,
+    "h": 260,
+    "gap": 755
+   },
+   {
+    "y": 2699,
+    "h": 240,
+    "gap": 1531
+   }
+  ]
+ },
+ {
+  "href": "/tours/ama-secrets-of-egypt-the-nile-river-cruise/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 16103,
+  "deadPx": 7280,
+  "worst": 1558,
+  "runs": [
+   {
+    "y": 10379,
+    "h": 2200,
+    "gap": 1552
+   },
+   {
+    "y": 8999,
+    "h": 1120,
+    "gap": 1510
+   },
+   {
+    "y": 12619,
+    "h": 1080,
+    "gap": 1557
+   },
+   {
+    "y": 13739,
+    "h": 440,
+    "gap": 1528
+   }
+  ]
+ },
+ {
+  "href": "/tours/zion-bryce-canyon-1-day-tour-from-southern-utah/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 5792,
+  "deadPx": 1260,
+  "worst": 1531,
+  "runs": [
+   {
+    "y": 2759,
+    "h": 700,
+    "gap": 1475
+   },
+   {
+    "y": 5639,
+    "h": 320,
+    "gap": 1514
+   },
+   {
+    "y": 4139,
+    "h": 260,
+    "gap": 755
+   },
+   {
+    "y": 2279,
+    "h": 160,
+    "gap": 1531
+   }
+  ]
+ },
+ {
+  "href": "/tours/bryce-canyon-1-day-tour/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 5854,
+  "deadPx": 1260,
+  "worst": 1514,
+  "runs": [
+   {
+    "y": 2839,
+    "h": 700,
+    "gap": 1475
+   },
+   {
+    "y": 5699,
+    "h": 320,
+    "gap": 1514
+   },
+   {
+    "y": 4199,
+    "h": 260,
+    "gap": 755
+   },
+   {
+    "y": 2379,
+    "h": 140,
+    "gap": 1510
+   }
+  ]
+ },
+ {
+  "href": "/tours/1-day-canyonlands-tour-from-salt-lake-city/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 5429,
+  "deadPx": 1320,
+  "worst": 1531,
+  "runs": [
+   {
+    "y": 2259,
+    "h": 840,
+    "gap": 1531
+   },
+   {
+    "y": 5259,
+    "h": 340,
+    "gap": 1514
+   },
+   {
+    "y": 3779,
+    "h": 260,
+    "gap": 755
+   }
+  ]
+ },
+ {
+  "href": "/tours/3-parks-in-4-days/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 6507,
+  "deadPx": 1020,
+  "worst": 1514,
+  "runs": [
+   {
+    "y": 3719,
+    "h": 460,
+    "gap": 1475
+   },
+   {
+    "y": 6339,
+    "h": 340,
+    "gap": 1514
+   },
+   {
+    "y": 4859,
+    "h": 260,
+    "gap": 755
+   }
+  ]
+ },
+ {
+  "href": "/tours/1-day-arches-np-tour-from-salt-lake-city/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 6359,
+  "deadPx": 2080,
+  "worst": 1531,
+  "runs": [
+   {
+    "y": 3979,
+    "h": 980,
+    "gap": 1416
+   },
+   {
+    "y": 2859,
+    "h": 460,
+    "gap": 1475
+   },
+   {
+    "y": 6199,
+    "h": 320,
+    "gap": 1514
+   },
+   {
+    "y": 2219,
+    "h": 300,
+    "gap": 1531
+   }
+  ]
+ },
+ {
+  "href": "/tours/bryce-canyon-1-day-tour-from-vegas-or-salt-lake/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 5593,
+  "deadPx": 1260,
+  "worst": 1551,
+  "runs": [
+   {
+    "y": 2119,
+    "h": 780,
+    "gap": 1551
+   },
+   {
+    "y": 5439,
+    "h": 320,
+    "gap": 1514
+   },
+   {
+    "y": 3939,
+    "h": 260,
+    "gap": 755
+   }
+  ]
+ },
+ {
+  "href": "/tours/1-day-arches-canyonlands-from-salt-lake-city/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 6194,
+  "deadPx": 1560,
+  "worst": 1531,
+  "runs": [
+   {
+    "y": 2639,
+    "h": 480,
+    "gap": 1531
+   },
+   {
+    "y": 1919,
+    "h": 400,
+    "gap": 1495
+   },
+   {
+    "y": 3559,
+    "h": 320,
+    "gap": 1337
+   },
+   {
+    "y": 6039,
+    "h": 320,
+    "gap": 1514
+   }
+  ]
+ },
+ {
+  "href": "/tours/tucson-adventure/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 8973,
+  "deadPx": 3960,
+  "worst": 1555,
+  "runs": [
+   {
+    "y": 3339,
+    "h": 1960,
+    "gap": 1555
+   },
+   {
+    "y": 6599,
+    "h": 980,
+    "gap": 1416
+   },
+   {
+    "y": 5739,
+    "h": 420,
+    "gap": 1475
+   },
+   {
+    "y": 8819,
+    "h": 320,
+    "gap": 1514
+   }
+  ]
+ },
+ {
+  "href": "/tours/backpacking-yosemite-half-dome-happy-isles/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 9545,
+  "deadPx": 3920,
+  "worst": 1544,
+  "runs": [
+   {
+    "y": 3539,
+    "h": 1660,
+    "gap": 1544
+   },
+   {
+    "y": 7179,
+    "h": 980,
+    "gap": 1416
+   },
+   {
+    "y": 6199,
+    "h": 520,
+    "gap": 1475
+   },
+   {
+    "y": 9379,
+    "h": 340,
+    "gap": 1514
+   }
+  ]
+ },
+ {
+  "href": "/tours/backpacking-yosemite-half-dome-mono-meadows/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 9546,
+  "deadPx": 3980,
+  "worst": 1544,
+  "runs": [
+   {
+    "y": 3539,
+    "h": 1660,
+    "gap": 1544
+   },
+   {
+    "y": 7179,
+    "h": 980,
+    "gap": 1416
+   },
+   {
+    "y": 6199,
+    "h": 520,
+    "gap": 1475
+   },
+   {
+    "y": 9379,
+    "h": 340,
+    "gap": 1514
+   }
+  ]
+ },
+ {
+  "href": "/tours/mighty-5-utah-from-las-vegas/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 11205,
+  "deadPx": 2780,
+  "worst": 1531,
+  "runs": [
+   {
+    "y": 8439,
+    "h": 520,
+    "gap": 1531
+   },
+   {
+    "y": 1739,
+    "h": 420,
+    "gap": 1382
+   },
+   {
+    "y": 2479,
+    "h": 300,
+    "gap": 1484
+   },
+   {
+    "y": 7099,
+    "h": 300,
+    "gap": 1337
+   }
+  ]
+ },
+ {
+  "href": "/tours/5-day-jackson-hole-national-parks-tour/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 7853,
+  "deadPx": 1820,
+  "worst": 1565,
+  "runs": [
+   {
+    "y": 5119,
+    "h": 640,
+    "gap": 1565
+   },
+   {
+    "y": 4319,
+    "h": 480,
+    "gap": 1531
+   },
+   {
+    "y": 2219,
+    "h": 420,
+    "gap": 1463
+   },
+   {
+    "y": 7699,
+    "h": 320,
+    "gap": 1514
+   }
+  ]
+ },
+ {
+  "href": "/tours/backpacking-yosemite-tuolumne-river-guided-trip/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 10592,
+  "deadPx": 3200,
+  "worst": 1565,
+  "runs": [
+   {
+    "y": 8219,
+    "h": 980,
+    "gap": 1416
+   },
+   {
+    "y": 5919,
+    "h": 640,
+    "gap": 1565
+   },
+   {
+    "y": 4479,
+    "h": 400,
+    "gap": 1354
+   },
+   {
+    "y": 2159,
+    "h": 320,
+    "gap": 1480
+   }
+  ]
+ },
+ {
+  "href": "/tours/mormon-battalion-the-california-saints-tour/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 10698,
+  "deadPx": 2740,
+  "worst": 1554,
+  "runs": [
+   {
+    "y": 8339,
+    "h": 960,
+    "gap": 1416
+   },
+   {
+    "y": 4679,
+    "h": 540,
+    "gap": 1554
+   },
+   {
+    "y": 2519,
+    "h": 380,
+    "gap": 1466
+   },
+   {
+    "y": 10539,
+    "h": 320,
+    "gap": 1525
+   }
+  ]
+ },
+ {
+  "href": "/tours/large-group-tour-utahs-mighty-5-national-parks/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 8967,
+  "deadPx": 1140,
+  "worst": 1514,
+  "runs": [
+   {
+    "y": 6339,
+    "h": 300,
+    "gap": 878
+   },
+   {
+    "y": 7319,
+    "h": 260,
+    "gap": 755
+   },
+   {
+    "y": 8959,
+    "h": 180,
+    "gap": 1514
+   },
+   {
+    "y": 4659,
+    "h": 160,
+    "gap": 1433
+   }
+  ]
+ },
+ {
+  "href": "/tours/backpacking-yosemite-half-dome-cathedral-lakes/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 12387,
+  "deadPx": 5340,
+  "worst": 1556,
+  "runs": [
+   {
+    "y": 6199,
+    "h": 1840,
+    "gap": 1544
+   },
+   {
+    "y": 10019,
+    "h": 980,
+    "gap": 1416
+   },
+   {
+    "y": 9039,
+    "h": 520,
+    "gap": 1475
+   },
+   {
+    "y": 4699,
+    "h": 460,
+    "gap": 1520
+   }
+  ]
+ },
+ {
+  "href": "/tours/zion-bryce-canyon-2-day-getaway/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 6344,
+  "deadPx": 1160,
+  "worst": 1514,
+  "runs": [
+   {
+    "y": 3479,
+    "h": 540,
+    "gap": 1475
+   },
+   {
+    "y": 6179,
+    "h": 340,
+    "gap": 1514
+   },
+   {
+    "y": 4699,
+    "h": 260,
+    "gap": 755
+   }
+  ]
+ },
+ {
+  "href": "/tours/grand-canyon-backpacking-escalante-route/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 9853,
+  "deadPx": 4500,
+  "worst": 1544,
+  "runs": [
+   {
+    "y": 3639,
+    "h": 1580,
+    "gap": 1544
+   },
+   {
+    "y": 7479,
+    "h": 980,
+    "gap": 1416
+   },
+   {
+    "y": 6059,
+    "h": 760,
+    "gap": 1475
+   },
+   {
+    "y": 1599,
+    "h": 360,
+    "gap": 1484
+   }
+  ]
+ },
+ {
+  "href": "/tours/grand-canyon-traveler/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 7610,
+  "deadPx": 1900,
+  "worst": 1553,
+  "runs": [
+   {
+    "y": 3659,
+    "h": 680,
+    "gap": 1510
+   },
+   {
+    "y": 4819,
+    "h": 460,
+    "gap": 1475
+   },
+   {
+    "y": 7439,
+    "h": 340,
+    "gap": 1514
+   },
+   {
+    "y": 2199,
+    "h": 280,
+    "gap": 1453
+   }
+  ]
+ },
+ {
+  "href": "/tours/large-group-tour-grand-teton-and-yellowstone-explorer/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 9318,
+  "deadPx": 1340,
+  "worst": 1514,
+  "runs": [
+   {
+    "y": 6899,
+    "h": 320,
+    "gap": 1002
+   },
+   {
+    "y": 9159,
+    "h": 320,
+    "gap": 1514
+   },
+   {
+    "y": 4499,
+    "h": 220,
+    "gap": 1463
+   },
+   {
+    "y": 5379,
+    "h": 120,
+    "gap": 1176
+   }
+  ]
+ },
+ {
+  "href": "/tours/self-drive-sedona-grand-canyon/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 7185,
+  "deadPx": 1420,
+  "worst": 1514,
+  "runs": [
+   {
+    "y": 3539,
+    "h": 660,
+    "gap": 1398
+   },
+   {
+    "y": 7019,
+    "h": 340,
+    "gap": 1514
+   },
+   {
+    "y": 4539,
+    "h": 320,
+    "gap": 1475
+   },
+   {
+    "y": 5539,
+    "h": 260,
+    "gap": 755
+   }
+  ]
+ },
+ {
+  "href": "/tours/backpacking-rocky-mountain-west-side-lakes/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 10930,
+  "deadPx": 4940,
+  "worst": 1575,
+  "runs": [
+   {
+    "y": 6799,
+    "h": 1320,
+    "gap": 1475
+   },
+   {
+    "y": 8559,
+    "h": 980,
+    "gap": 1416
+   },
+   {
+    "y": 5419,
+    "h": 900,
+    "gap": 1572
+   },
+   {
+    "y": 1599,
+    "h": 660,
+    "gap": 1575
+   }
+  ]
+ },
+ {
+  "href": "/tours/backpacking-yosemite-ten-lakes/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 10169,
+  "deadPx": 2940,
+  "worst": 1552,
+  "runs": [
+   {
+    "y": 7799,
+    "h": 980,
+    "gap": 1416
+   },
+   {
+    "y": 4839,
+    "h": 780,
+    "gap": 1552
+   },
+   {
+    "y": 9999,
+    "h": 340,
+    "gap": 1514
+   },
+   {
+    "y": 4359,
+    "h": 260,
+    "gap": 1373
+   }
+  ]
+ },
+ {
+  "href": "/tours/the-great-american-west-cowboy-tour/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 8813,
+  "deadPx": 1060,
+  "worst": 1514,
+  "runs": [
+   {
+    "y": 6179,
+    "h": 320,
+    "gap": 1481
+   },
+   {
+    "y": 8659,
+    "h": 320,
+    "gap": 1514
+   },
+   {
+    "y": 7159,
+    "h": 260,
+    "gap": 755
+   },
+   {
+    "y": 5099,
+    "h": 120,
+    "gap": 1389
+   }
+  ]
+ },
+ {
+  "href": "/tours/jackson-snowmobile-adventure/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 10893,
+  "deadPx": 2220,
+  "worst": 1531,
+  "runs": [
+   {
+    "y": 7919,
+    "h": 480,
+    "gap": 1531
+   },
+   {
+    "y": 5459,
+    "h": 360,
+    "gap": 1488
+   },
+   {
+    "y": 1699,
+    "h": 320,
+    "gap": 1484
+   },
+   {
+    "y": 10739,
+    "h": 320,
+    "gap": 1514
+   }
+  ]
+ },
+ {
+  "href": "/tours/lone-star-legacy-tour-of-texas/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 10489,
+  "deadPx": 3840,
+  "worst": 1554,
+  "runs": [
+   {
+    "y": 7959,
+    "h": 1180,
+    "gap": 1416
+   },
+   {
+    "y": 4899,
+    "h": 1120,
+    "gap": 1554
+   },
+   {
+    "y": 1599,
+    "h": 480,
+    "gap": 1486
+   },
+   {
+    "y": 4239,
+    "h": 420,
+    "gap": 1289
+   }
+  ]
+ },
+ {
+  "href": "/tours/large-group-tour-oregon-coast-south/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 9072,
+  "deadPx": 1440,
+  "worst": 1544,
+  "runs": [
+   {
+    "y": 8919,
+    "h": 320,
+    "gap": 1514
+   },
+   {
+    "y": 6499,
+    "h": 260,
+    "gap": 1251
+   },
+   {
+    "y": 7419,
+    "h": 260,
+    "gap": 755
+   },
+   {
+    "y": 5079,
+    "h": 180,
+    "gap": 1430
+   }
+  ]
+ },
+ {
+  "href": "/tours/large-group-tour-colorado-national-parks/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 8888,
+  "deadPx": 1780,
+  "worst": 1554,
+  "runs": [
+   {
+    "y": 3819,
+    "h": 400,
+    "gap": 1554
+   },
+   {
+    "y": 8719,
+    "h": 340,
+    "gap": 1514
+   },
+   {
+    "y": 4659,
+    "h": 320,
+    "gap": 1554
+   },
+   {
+    "y": 6559,
+    "h": 220,
+    "gap": 1529
+   }
+  ]
+ },
+ {
+  "href": "/tours/self-drive-canyons/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 8066,
+  "deadPx": 1060,
+  "worst": 1514,
+  "runs": [
+   {
+    "y": 7899,
+    "h": 340,
+    "gap": 1514
+   },
+   {
+    "y": 5419,
+    "h": 320,
+    "gap": 1475
+   },
+   {
+    "y": 6419,
+    "h": 260,
+    "gap": 755
+   },
+   {
+    "y": 4819,
+    "h": 120,
+    "gap": 1398
+   }
+  ]
+ },
+ {
+  "href": "/tours/canyons-of-the-escalante/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 13175,
+  "deadPx": 2460,
+  "worst": 1541,
+  "runs": [
+   {
+    "y": 11059,
+    "h": 400,
+    "gap": 1531
+   },
+   {
+    "y": 1719,
+    "h": 340,
+    "gap": 1541
+   },
+   {
+    "y": 10679,
+    "h": 320,
+    "gap": 1481
+   },
+   {
+    "y": 13019,
+    "h": 320,
+    "gap": 1514
+   }
+  ]
+ },
+ {
+  "href": "/tours/yellowstone-grand-teton-winter-adventure/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 11735,
+  "deadPx": 2780,
+  "worst": 1531,
+  "runs": [
+   {
+    "y": 1739,
+    "h": 500,
+    "gap": 1484
+   },
+   {
+    "y": 3719,
+    "h": 400,
+    "gap": 1463
+   },
+   {
+    "y": 8839,
+    "h": 400,
+    "gap": 1531
+   },
+   {
+    "y": 11579,
+    "h": 320,
+    "gap": 1514
+   }
+  ]
+ },
+ {
+  "href": "/tours/black-hills-of-south-dakota/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 12704,
+  "deadPx": 2540,
+  "worst": 1556,
+  "runs": [
+   {
+    "y": 9259,
+    "h": 440,
+    "gap": 1481
+   },
+   {
+    "y": 10079,
+    "h": 400,
+    "gap": 1531
+   },
+   {
+    "y": 12539,
+    "h": 340,
+    "gap": 1514
+   },
+   {
+    "y": 10759,
+    "h": 240,
+    "gap": 1302
+   }
+  ]
+ },
+ {
+  "href": "/tours/west-bound-mormon-trail-tour/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 11914,
+  "deadPx": 4040,
+  "worst": 1555,
+  "runs": [
+   {
+    "y": 4239,
+    "h": 1740,
+    "gap": 1555
+   },
+   {
+    "y": 9179,
+    "h": 1040,
+    "gap": 1531
+   },
+   {
+    "y": 2499,
+    "h": 560,
+    "gap": 1461
+   },
+   {
+    "y": 11759,
+    "h": 320,
+    "gap": 1514
+   }
+  ]
+ },
+ {
+  "href": "/tours/albuquerque-balloon-fiesta/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 10899,
+  "deadPx": 2800,
+  "worst": 1564,
+  "runs": [
+   {
+    "y": 1699,
+    "h": 640,
+    "gap": 1484
+   },
+   {
+    "y": 3199,
+    "h": 640,
+    "gap": 1564
+   },
+   {
+    "y": 8779,
+    "h": 400,
+    "gap": 1531
+   },
+   {
+    "y": 8399,
+    "h": 320,
+    "gap": 1481
+   }
+  ]
+ },
+ {
+  "href": "/tours/northern-lights-alaska/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 12717,
+  "deadPx": 3600,
+  "worst": 1559,
+  "runs": [
+   {
+    "y": 7879,
+    "h": 980,
+    "gap": 1331
+   },
+   {
+    "y": 9539,
+    "h": 620,
+    "gap": 1531
+   },
+   {
+    "y": 2759,
+    "h": 440,
+    "gap": 1559
+   },
+   {
+    "y": 6219,
+    "h": 340,
+    "gap": 1511
+   }
+  ]
+ },
+ {
+  "href": "/tours/grand-teton-yellowstone-explorer/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 12416,
+  "deadPx": 2620,
+  "worst": 1531,
+  "runs": [
+   {
+    "y": 8079,
+    "h": 560,
+    "gap": 1531
+   },
+   {
+    "y": 9459,
+    "h": 400,
+    "gap": 1531
+   },
+   {
+    "y": 12259,
+    "h": 320,
+    "gap": 1514
+   },
+   {
+    "y": 2939,
+    "h": 300,
+    "gap": 1463
+   }
+  ]
+ },
+ {
+  "href": "/tours/mighty-5-utah-from-salt-lake-city/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 15967,
+  "deadPx": 3700,
+  "worst": 1531,
+  "runs": [
+   {
+    "y": 12899,
+    "h": 520,
+    "gap": 1531
+   },
+   {
+    "y": 3919,
+    "h": 480,
+    "gap": 1522
+   },
+   {
+    "y": 1739,
+    "h": 360,
+    "gap": 1382
+   },
+   {
+    "y": 15799,
+    "h": 340,
+    "gap": 1514
+   }
+  ]
+ },
+ {
+  "href": "/tours/self-drive-tour-utah-mighty-5/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 7787,
+  "deadPx": 1060,
+  "worst": 1514,
+  "runs": [
+   {
+    "y": 7619,
+    "h": 340,
+    "gap": 1514
+   },
+   {
+    "y": 5139,
+    "h": 320,
+    "gap": 1475
+   },
+   {
+    "y": 6139,
+    "h": 260,
+    "gap": 755
+   }
+  ]
+ },
+ {
+  "href": "/tours/oregon-coast-crater-lake/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 14085,
+  "deadPx": 3160,
+  "worst": 1531,
+  "runs": [
+   {
+    "y": 10939,
+    "h": 620,
+    "gap": 1531
+   },
+   {
+    "y": 5459,
+    "h": 440,
+    "gap": 1262
+   },
+   {
+    "y": 7899,
+    "h": 400,
+    "gap": 1381
+   },
+   {
+    "y": 1719,
+    "h": 360,
+    "gap": 1382
+   }
+  ]
+ },
+ {
+  "href": "/tours/death-valley-joshua-tree-tour/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 11755,
+  "deadPx": 2520,
+  "worst": 1531,
+  "runs": [
+   {
+    "y": 9179,
+    "h": 360,
+    "gap": 1531
+   },
+   {
+    "y": 8799,
+    "h": 320,
+    "gap": 1481
+   },
+   {
+    "y": 11599,
+    "h": 320,
+    "gap": 1525
+   },
+   {
+    "y": 9799,
+    "h": 260,
+    "gap": 1302
+   }
+  ]
+ },
+ {
+  "href": "/tours/glacier-national-park/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 11550,
+  "deadPx": 3380,
+  "worst": 1545,
+  "runs": [
+   {
+    "y": 5619,
+    "h": 580,
+    "gap": 1493
+   },
+   {
+    "y": 1739,
+    "h": 480,
+    "gap": 1545
+   },
+   {
+    "y": 5159,
+    "h": 420,
+    "gap": 1086
+   },
+   {
+    "y": 8159,
+    "h": 380,
+    "gap": 1481
+   }
+  ]
+ },
+ {
+  "href": "/tours/oregon-south-tour/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 9225,
+  "deadPx": 1300,
+  "worst": 1539,
+  "runs": [
+   {
+    "y": 9059,
+    "h": 340,
+    "gap": 1539
+   },
+   {
+    "y": 7259,
+    "h": 240,
+    "gap": 1302
+   },
+   {
+    "y": 4459,
+    "h": 160,
+    "gap": 1304
+   },
+   {
+    "y": 3919,
+    "h": 140,
+    "gap": 1086
+   }
+  ]
+ },
+ {
+  "href": "/tours/trail-of-the-ancients/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 13591,
+  "deadPx": 2440,
+  "worst": 1540,
+  "runs": [
+   {
+    "y": 11239,
+    "h": 340,
+    "gap": 1531
+   },
+   {
+    "y": 10859,
+    "h": 320,
+    "gap": 1481
+   },
+   {
+    "y": 13439,
+    "h": 320,
+    "gap": 1514
+   },
+   {
+    "y": 1739,
+    "h": 280,
+    "gap": 1502
+   }
+  ]
+ },
+ {
+  "href": "/tours/national-parks-of-colorado/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 14126,
+  "deadPx": 3120,
+  "worst": 1531,
+  "runs": [
+   {
+    "y": 10059,
+    "h": 380,
+    "gap": 1240
+   },
+   {
+    "y": 13959,
+    "h": 340,
+    "gap": 1514
+   },
+   {
+    "y": 4279,
+    "h": 320,
+    "gap": 1086
+   },
+   {
+    "y": 10879,
+    "h": 320,
+    "gap": 1481
+   }
+  ]
+ },
+ {
+  "href": "/tours/railroads-of-the-old-west/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 13720,
+  "deadPx": 3560,
+  "worst": 1582,
+  "runs": [
+   {
+    "y": 10479,
+    "h": 740,
+    "gap": 1531
+   },
+   {
+    "y": 9659,
+    "h": 380,
+    "gap": 1379
+   },
+   {
+    "y": 6879,
+    "h": 320,
+    "gap": 1551
+   },
+   {
+    "y": 13559,
+    "h": 320,
+    "gap": 1514
+   }
+  ]
+ },
+ {
+  "href": "/tours/vore-buffalo-jump-and-the-black-hills-ancient-odysseys/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 10335,
+  "deadPx": 2680,
+  "worst": 1531,
+  "runs": [
+   {
+    "y": 7559,
+    "h": 1080,
+    "gap": 1531
+   },
+   {
+    "y": 2499,
+    "h": 560,
+    "gap": 1218
+   },
+   {
+    "y": 3859,
+    "h": 320,
+    "gap": 1261
+   },
+   {
+    "y": 10179,
+    "h": 320,
+    "gap": 1514
+   }
+  ]
+ },
+ {
+  "href": "/tours/arizona-adventure/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 14368,
+  "deadPx": 3400,
+  "worst": 1541,
+  "runs": [
+   {
+    "y": 11239,
+    "h": 620,
+    "gap": 1531
+   },
+   {
+    "y": 7579,
+    "h": 440,
+    "gap": 1541
+   },
+   {
+    "y": 1699,
+    "h": 400,
+    "gap": 1535
+   },
+   {
+    "y": 10179,
+    "h": 380,
+    "gap": 1240
+   }
+  ]
+ },
+ {
+  "href": "/tours/st-george-dinosaurs-ancient-odysseys/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 11815,
+  "deadPx": 3440,
+  "worst": 1570,
+  "runs": [
+   {
+    "y": 8759,
+    "h": 1060,
+    "gap": 1481
+   },
+   {
+    "y": 3239,
+    "h": 560,
+    "gap": 1506
+   },
+   {
+    "y": 1599,
+    "h": 440,
+    "gap": 1484
+   },
+   {
+    "y": 2519,
+    "h": 360,
+    "gap": 1555
+   }
+  ]
+ },
+ {
+  "href": "/tours/oahu-island-experience/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 10299,
+  "deadPx": 2620,
+  "worst": 1593,
+  "runs": [
+   {
+    "y": 7399,
+    "h": 320,
+    "gap": 1481
+   },
+   {
+    "y": 10139,
+    "h": 320,
+    "gap": 1514
+   },
+   {
+    "y": 2519,
+    "h": 280,
+    "gap": 1086
+   },
+   {
+    "y": 8359,
+    "h": 240,
+    "gap": 1302
+   }
+  ]
+ },
+ {
+  "href": "/tours/self-drive-best-of-the-southwest/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 9558,
+  "deadPx": 1920,
+  "worst": 1555,
+  "runs": [
+   {
+    "y": 2699,
+    "h": 500,
+    "gap": 1427
+   },
+   {
+    "y": 5299,
+    "h": 500,
+    "gap": 1555
+   },
+   {
+    "y": 6859,
+    "h": 380,
+    "gap": 1475
+   },
+   {
+    "y": 7899,
+    "h": 260,
+    "gap": 755
+   }
+  ]
+ },
+ {
+  "href": "/tours/self-drive-tour-grand-circle/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 9410,
+  "deadPx": 1740,
+  "worst": 1514,
+  "runs": [
+   {
+    "y": 2799,
+    "h": 440,
+    "gap": 1367
+   },
+   {
+    "y": 6639,
+    "h": 440,
+    "gap": 1475
+   },
+   {
+    "y": 5779,
+    "h": 340,
+    "gap": 1460
+   },
+   {
+    "y": 9239,
+    "h": 340,
+    "gap": 1514
+   }
+  ]
+ },
+ {
+  "href": "/tours/self-drive-moab-adventure/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 11067,
+  "deadPx": 3060,
+  "worst": 1559,
+  "runs": [
+   {
+    "y": 9139,
+    "h": 540,
+    "gap": 1302
+   },
+   {
+    "y": 3519,
+    "h": 500,
+    "gap": 1553
+   },
+   {
+    "y": 8019,
+    "h": 460,
+    "gap": 1475
+   },
+   {
+    "y": 1839,
+    "h": 400,
+    "gap": 1559
+   }
+  ]
+ },
+ {
+  "href": "/tours/yosemite-sequoia-california-coast/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 11419,
+  "deadPx": 2220,
+  "worst": 1531,
+  "runs": [
+   {
+    "y": 8199,
+    "h": 360,
+    "gap": 1481
+   },
+   {
+    "y": 7439,
+    "h": 320,
+    "gap": 1372
+   },
+   {
+    "y": 11259,
+    "h": 320,
+    "gap": 1514
+   },
+   {
+    "y": 9479,
+    "h": 240,
+    "gap": 1302
+   }
+  ]
+ },
+ {
+  "href": "/tours/olympic-national-park-and-the-pacific-northwest/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 11826,
+  "deadPx": 3460,
+  "worst": 1531,
+  "runs": [
+   {
+    "y": 8759,
+    "h": 840,
+    "gap": 1531
+   },
+   {
+    "y": 4659,
+    "h": 480,
+    "gap": 1509
+   },
+   {
+    "y": 6099,
+    "h": 440,
+    "gap": 1442
+   },
+   {
+    "y": 1659,
+    "h": 360,
+    "gap": 1382
+   }
+  ]
+ },
+ {
+  "href": "/tours/canadian-atlantic-experience/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 12881,
+  "deadPx": 4260,
+  "worst": 1531,
+  "runs": [
+   {
+    "y": 9699,
+    "h": 1320,
+    "gap": 1531
+   },
+   {
+    "y": 1599,
+    "h": 740,
+    "gap": 1484
+   },
+   {
+    "y": 8799,
+    "h": 460,
+    "gap": 1531
+   },
+   {
+    "y": 7459,
+    "h": 400,
+    "gap": 1086
+   }
+  ]
+ },
+ {
+  "href": "/tours/route-66-eastbound/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 18222,
+  "deadPx": 3040,
+  "worst": 1574,
+  "runs": [
+   {
+    "y": 4659,
+    "h": 520,
+    "gap": 1526
+   },
+   {
+    "y": 13859,
+    "h": 480,
+    "gap": 1574
+   },
+   {
+    "y": 18059,
+    "h": 340,
+    "gap": 1514
+   },
+   {
+    "y": 15679,
+    "h": 320,
+    "gap": 1531
+   }
+  ]
+ },
+ {
+  "href": "/tours/route-66-westbound/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 13454,
+  "deadPx": 3060,
+  "worst": 1574,
+  "runs": [
+   {
+    "y": 10099,
+    "h": 460,
+    "gap": 1574
+   },
+   {
+    "y": 5419,
+    "h": 440,
+    "gap": 1505
+   },
+   {
+    "y": 6659,
+    "h": 420,
+    "gap": 1505
+   },
+   {
+    "y": 7819,
+    "h": 300,
+    "gap": 1503
+   }
+  ]
+ },
+ {
+  "href": "/tours/magnificent-alaska/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 14265,
+  "deadPx": 3500,
+  "worst": 1566,
+  "runs": [
+   {
+    "y": 11099,
+    "h": 660,
+    "gap": 1531
+   },
+   {
+    "y": 1699,
+    "h": 600,
+    "gap": 1517
+   },
+   {
+    "y": 7119,
+    "h": 440,
+    "gap": 1566
+   },
+   {
+    "y": 14099,
+    "h": 340,
+    "gap": 1514
+   }
+  ]
+ },
+ {
+  "href": "/tours/maui-hawaii-island-combo/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 14166,
+  "deadPx": 3780,
+  "worst": 1546,
+  "runs": [
+   {
+    "y": 7939,
+    "h": 680,
+    "gap": 1542
+   },
+   {
+    "y": 1619,
+    "h": 460,
+    "gap": 1382
+   },
+   {
+    "y": 13999,
+    "h": 340,
+    "gap": 1514
+   },
+   {
+    "y": 8739,
+    "h": 260,
+    "gap": 1546
+   }
+  ]
+ },
+ {
+  "href": "/trips/backpacking/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 2589,
+  "deadPx": 540,
+  "worst": 1458,
+  "runs": [
+   {
+    "y": 2099,
+    "h": 660,
+    "gap": 1458
+   }
+  ]
+ },
+ {
+  "href": "/tours/grand-circle-experience-tours-grand-canyon-national-park/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 15789,
+  "deadPx": 2600,
+  "worst": 1553,
+  "runs": [
+   {
+    "y": 1719,
+    "h": 400,
+    "gap": 1553
+   },
+   {
+    "y": 9999,
+    "h": 340,
+    "gap": 1531
+   },
+   {
+    "y": 12439,
+    "h": 320,
+    "gap": 1481
+   },
+   {
+    "y": 11459,
+    "h": 300,
+    "gap": 1337
+   }
+  ]
+ },
+ {
+  "href": "/trips/guided-small-group/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 6040,
+  "deadPx": 1040,
+  "worst": 1458,
+  "runs": [
+   {
+    "y": 4819,
+    "h": 1100,
+    "gap": 1458
+   }
+  ]
+ },
+ {
+  "href": "/trips/day-tour/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 3150,
+  "deadPx": 480,
+  "worst": 1568,
+  "runs": [
+   {
+    "y": 2659,
+    "h": 460,
+    "gap": 1568
+   }
+  ]
+ },
+ {
+  "href": "/trips/self-drive/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 2597,
+  "deadPx": 980,
+  "worst": 1472,
+  "runs": [
+   {
+    "y": 1459,
+    "h": 1060,
+    "gap": 1472
+   },
+   {
+    "y": 2579,
+    "h": 180,
+    "gap": 1220
+   }
+  ]
+ },
+ {
+  "href": "/trips/private-and-custom/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 2045,
+  "deadPx": 480,
+  "worst": 1556,
+  "runs": [
+   {
+    "y": 1539,
+    "h": 440,
+    "gap": 1556
+   },
+   {
+    "y": 2039,
+    "h": 180,
+    "gap": 1094
+   }
+  ]
+ },
+ {
+  "href": "/trips/rail-and-cruise/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 3193,
+  "deadPx": 1100,
+  "worst": 1569,
+  "runs": [
+   {
+    "y": 2019,
+    "h": 1100,
+    "gap": 1569
+   },
+   {
+    "y": 3179,
+    "h": 180,
+    "gap": 1188
+   }
+  ]
+ },
+ {
+  "href": "/trips/large-group/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 1999,
+  "deadPx": 520,
+  "worst": 1458,
+  "runs": [
+   {
+    "y": 1539,
+    "h": 620,
+    "gap": 1458
+   }
+  ]
+ },
+ {
+  "href": "/trips/winter/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 1999,
+  "deadPx": 520,
+  "worst": 1458,
+  "runs": [
+   {
+    "y": 1539,
+    "h": 620,
+    "gap": 1458
+   }
+  ]
+ },
+ {
+  "href": "/trips/special-event/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 1562,
+  "deadPx": 580,
+  "worst": 1526,
+  "runs": [
+   {
+    "y": 839,
+    "h": 900,
+    "gap": 1526
+   }
+  ]
+ },
+ {
+  "href": "/departing-from/salt-lake-city/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 3590,
+  "deadPx": 1840,
+  "worst": 1583,
+  "runs": [
+   {
+    "y": 1619,
+    "h": 720,
+    "gap": 1557
+   },
+   {
+    "y": 1079,
+    "h": 520,
+    "gap": 820
+   },
+   {
+    "y": 2999,
+    "h": 500,
+    "gap": 1458
+   },
+   {
+    "y": 219,
+    "h": 300,
+    "gap": 1583
+   }
+  ]
+ },
+ {
+  "href": "/departing-from/las-vegas/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 3009,
+  "deadPx": 1860,
+  "worst": 1557,
+  "runs": [
+   {
+    "y": 219,
+    "h": 1560,
+    "gap": 1557
+   },
+   {
+    "y": 2399,
+    "h": 520,
+    "gap": 1506
+   },
+   {
+    "y": 2979,
+    "h": 200,
+    "gap": 1365
+   }
+  ]
+ },
+ {
+  "href": "/departing-from/bryce/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 2925,
+  "deadPx": 2380,
+  "worst": 1560,
+  "runs": [
+   {
+    "y": 219,
+    "h": 2660,
+    "gap": 1560
+   }
+  ]
+ },
+ {
+  "href": "/departing-from/denver/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 1686,
+  "deadPx": 680,
+  "worst": 1552,
+  "runs": [
+   {
+    "y": 1159,
+    "h": 700,
+    "gap": 1458
+   },
+   {
+    "y": 219,
+    "h": 300,
+    "gap": 1552
+   }
+  ]
+ },
+ {
+  "href": "/departing-from/st-george/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 2545,
+  "deadPx": 2020,
+  "worst": 1569,
+  "runs": [
+   {
+    "y": 219,
+    "h": 2500,
+    "gap": 1569
+   }
+  ]
+ },
+ {
+  "href": "/departing-from/moab/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 1885,
+  "deadPx": 1400,
+  "worst": 1557,
+  "runs": [
+   {
+    "y": 219,
+    "h": 1840,
+    "gap": 1557
+   }
+  ]
+ },
+ {
+  "href": "/departing-from/phoenix/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 1851,
+  "deadPx": 1360,
+  "worst": 1557,
+  "runs": [
+   {
+    "y": 219,
+    "h": 1800,
+    "gap": 1557
+   }
+  ]
+ },
+ {
+  "href": "/departing-from/albuquerque/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 1829,
+  "deadPx": 1340,
+  "worst": 1557,
+  "runs": [
+   {
+    "y": 219,
+    "h": 1780,
+    "gap": 1557
+   }
+  ]
+ },
+ {
+  "href": "/departing-from/portland/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 1829,
+  "deadPx": 1360,
+  "worst": 1552,
+  "runs": [
+   {
+    "y": 219,
+    "h": 1780,
+    "gap": 1552
+   }
+  ]
+ },
+ {
+  "href": "/departing-from/san-francisco/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 1885,
+  "deadPx": 1420,
+  "worst": 1576,
+  "runs": [
+   {
+    "y": 219,
+    "h": 1840,
+    "gap": 1576
+   }
+  ]
+ },
+ {
+  "href": "/destinations/arches-canyonlands-national-parks/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 5497,
+  "deadPx": 1380,
+  "worst": 1512,
+  "runs": [
+   {
+    "y": 4299,
+    "h": 880,
+    "gap": 1433
+   },
+   {
+    "y": 1019,
+    "h": 680,
+    "gap": 1512
+   },
+   {
+    "y": 3479,
+    "h": 200,
+    "gap": 1501
+   }
+  ]
+ },
+ {
+  "href": "/destinations/hikes-in-arches-national-park/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 6435,
+  "deadPx": 2140,
+  "worst": 1548,
+  "runs": [
+   {
+    "y": 1019,
+    "h": 1460,
+    "gap": 1548
+   },
+   {
+    "y": 4239,
+    "h": 800,
+    "gap": 1540
+   },
+   {
+    "y": 5659,
+    "h": 460,
+    "gap": 1433
+   }
+  ]
+ },
+ {
+  "href": "/destinations/national-parks/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 2736,
+  "deadPx": 1600,
+  "worst": 1536,
+  "runs": [
+   {
+    "y": 1019,
+    "h": 1880,
+    "gap": 1536
+   }
+  ]
+ },
+ {
+  "href": "/destinations/bryce-canyon-national-park/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 5549,
+  "deadPx": 1420,
+  "worst": 1503,
+  "runs": [
+   {
+    "y": 4359,
+    "h": 860,
+    "gap": 1433
+   },
+   {
+    "y": 1019,
+    "h": 740,
+    "gap": 1503
+   },
+   {
+    "y": 3519,
+    "h": 220,
+    "gap": 1501
+   }
+  ]
+ },
+ {
+  "href": "/destinations/badlands-national-park/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 3767,
+  "deadPx": 1900,
+  "worst": 1526,
+  "runs": [
+   {
+    "y": 1019,
+    "h": 1840,
+    "gap": 1526
+   },
+   {
+    "y": 3479,
+    "h": 460,
+    "gap": 1221
+   }
+  ]
+ },
+ {
+  "href": "/destinations/hikes-in-bryce-canyon-national-park/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 5768,
+  "deadPx": 1640,
+  "worst": 1580,
+  "runs": [
+   {
+    "y": 1019,
+    "h": 1380,
+    "gap": 1580
+   },
+   {
+    "y": 4999,
+    "h": 440,
+    "gap": 1433
+   },
+   {
+    "y": 4159,
+    "h": 200,
+    "gap": 1501
+   }
+  ]
+ },
+ {
+  "href": "/destinations/capitol-reef-national-park/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 4866,
+  "deadPx": 2100,
+  "worst": 1542,
+  "runs": [
+   {
+    "y": 3679,
+    "h": 1360,
+    "gap": 1433
+   },
+   {
+    "y": 2199,
+    "h": 860,
+    "gap": 1542
+   },
+   {
+    "y": 1019,
+    "h": 540,
+    "gap": 1419
+   }
+  ]
+ },
+ {
+  "href": "/destinations/hikes-in-capitol-reef-national-park/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 4868,
+  "deadPx": 2220,
+  "worst": 1540,
+  "runs": [
+   {
+    "y": 1019,
+    "h": 1600,
+    "gap": 1540
+   },
+   {
+    "y": 4099,
+    "h": 940,
+    "gap": 1433
+   },
+   {
+    "y": 3259,
+    "h": 200,
+    "gap": 1501
+   }
+  ]
+ },
+ {
+  "href": "/destinations/colorado-national-parks/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 3806,
+  "deadPx": 1300,
+  "worst": 1541,
+  "runs": [
+   {
+    "y": 3019,
+    "h": 960,
+    "gap": 1433
+   },
+   {
+    "y": 1019,
+    "h": 540,
+    "gap": 1519
+   },
+   {
+    "y": 2199,
+    "h": 200,
+    "gap": 1541
+   }
+  ]
+ },
+ {
+  "href": "/destinations/denali-national-park/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 4262,
+  "deadPx": 2280,
+  "worst": 1497,
+  "runs": [
+   {
+    "y": 1019,
+    "h": 1840,
+    "gap": 1497
+   },
+   {
+    "y": 3479,
+    "h": 960,
+    "gap": 1433
+   }
+  ]
+ },
+ {
+  "href": "/destinations/glacier-national-park/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 4218,
+  "deadPx": 2260,
+  "worst": 1481,
+  "runs": [
+   {
+    "y": 1019,
+    "h": 1800,
+    "gap": 1481
+   },
+   {
+    "y": 3439,
+    "h": 940,
+    "gap": 1433
+   }
+  ]
+ },
+ {
+  "href": "/destinations/devils-tower-national-monument/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 4373,
+  "deadPx": 900,
+  "worst": 1527,
+  "runs": [
+   {
+    "y": 2519,
+    "h": 760,
+    "gap": 1527
+   },
+   {
+    "y": 1019,
+    "h": 300,
+    "gap": 1419
+   }
+  ]
+ },
+ {
+  "href": "/destinations/hikes-in-grand-canyon-national-park/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 7202,
+  "deadPx": 3580,
+  "worst": 1599,
+  "runs": [
+   {
+    "y": 1019,
+    "h": 2800,
+    "gap": 1599
+   },
+   {
+    "y": 4959,
+    "h": 840,
+    "gap": 1501
+   },
+   {
+    "y": 6419,
+    "h": 460,
+    "gap": 1433
+   }
+  ]
+ },
+ {
+  "href": "/destinations/grand-canyon-national-park/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 6073,
+  "deadPx": 2440,
+  "worst": 1571,
+  "runs": [
+   {
+    "y": 2759,
+    "h": 1500,
+    "gap": 1571
+   },
+   {
+    "y": 4879,
+    "h": 860,
+    "gap": 1433
+   },
+   {
+    "y": 1019,
+    "h": 620,
+    "gap": 1536
+   }
+  ]
+ },
+ {
+  "href": "/destinations/grand-staircase-escalante-monument/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 5041,
+  "deadPx": 1620,
+  "worst": 1579,
+  "runs": [
+   {
+    "y": 2779,
+    "h": 860,
+    "gap": 1501
+   },
+   {
+    "y": 1019,
+    "h": 640,
+    "gap": 1579
+   },
+   {
+    "y": 4259,
+    "h": 460,
+    "gap": 1433
+   }
+  ]
+ },
+ {
+  "href": "/destinations/hikes-in-mesa-verde-national-park/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 4223,
+  "deadPx": 1660,
+  "worst": 1588,
+  "runs": [
+   {
+    "y": 1019,
+    "h": 1440,
+    "gap": 1588
+   },
+   {
+    "y": 3939,
+    "h": 460,
+    "gap": 1221
+   },
+   {
+    "y": 3099,
+    "h": 220,
+    "gap": 1541
+   }
+  ]
+ },
+ {
+  "href": "/destinations/mesa-verde-national-park/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 4287,
+  "deadPx": 1680,
+  "worst": 1541,
+  "runs": [
+   {
+    "y": 3599,
+    "h": 860,
+    "gap": 1420
+   },
+   {
+    "y": 2199,
+    "h": 780,
+    "gap": 1541
+   },
+   {
+    "y": 1019,
+    "h": 540,
+    "gap": 1419
+   }
+  ]
+ },
+ {
+  "href": "/destinations/monument-valley/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 3723,
+  "deadPx": 1180,
+  "worst": 1501,
+  "runs": [
+   {
+    "y": 2059,
+    "h": 760,
+    "gap": 1501
+   },
+   {
+    "y": 3439,
+    "h": 460,
+    "gap": 1221
+   },
+   {
+    "y": 1019,
+    "h": 400,
+    "gap": 1419
+   }
+  ]
+ },
+ {
+  "href": "/destinations/mount-rushmore-national-monument/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 3847,
+  "deadPx": 2020,
+  "worst": 1419,
+  "runs": [
+   {
+    "y": 1019,
+    "h": 1920,
+    "gap": 1419
+   },
+   {
+    "y": 3559,
+    "h": 460,
+    "gap": 1221
+   }
+  ]
+ },
+ {
+  "href": "/destinations/sequoia-kings-canyon-national-parks/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 4131,
+  "deadPx": 2220,
+  "worst": 1532,
+  "runs": [
+   {
+    "y": 1019,
+    "h": 2200,
+    "gap": 1532
+   },
+   {
+    "y": 3839,
+    "h": 460,
+    "gap": 1221
+   }
+  ]
+ },
+ {
+  "href": "/destinations/volcano-national-park/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 5535,
+  "deadPx": 3500,
+  "worst": 1529,
+  "runs": [
+   {
+    "y": 1019,
+    "h": 3420,
+    "gap": 1529
+   },
+   {
+    "y": 5139,
+    "h": 560,
+    "gap": 1433
+   }
+  ]
+ },
+ {
+  "href": "/destinations/yellowstone-grand-teton/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 5162,
+  "deadPx": 2320,
+  "worst": 1586,
+  "runs": [
+   {
+    "y": 1019,
+    "h": 1340,
+    "gap": 1586
+   },
+   {
+    "y": 2919,
+    "h": 840,
+    "gap": 1503
+   },
+   {
+    "y": 4379,
+    "h": 460,
+    "gap": 1433
+   }
+  ]
+ },
+ {
+  "href": "/destinations/yosemite-national-park/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 4449,
+  "deadPx": 1960,
+  "worst": 1536,
+  "runs": [
+   {
+    "y": 2039,
+    "h": 1500,
+    "gap": 1536
+   },
+   {
+    "y": 1019,
+    "h": 460,
+    "gap": 1496
+   },
+   {
+    "y": 4159,
+    "h": 460,
+    "gap": 1221
+   }
+  ]
+ },
+ {
+  "href": "/destinations/zion-national-park/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 7595,
+  "deadPx": 3280,
+  "worst": 1534,
+  "runs": [
+   {
+    "y": 1019,
+    "h": 2780,
+    "gap": 1534
+   },
+   {
+    "y": 6399,
+    "h": 880,
+    "gap": 1433
+   },
+   {
+    "y": 5579,
+    "h": 200,
+    "gap": 1501
+   }
+  ]
+ },
+ {
+  "href": "/destinations/hikes-in-zion-national-park/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 6552,
+  "deadPx": 2300,
+  "worst": 1588,
+  "runs": [
+   {
+    "y": 1019,
+    "h": 2160,
+    "gap": 1588
+   },
+   {
+    "y": 5779,
+    "h": 440,
+    "gap": 1433
+   },
+   {
+    "y": 4939,
+    "h": 220,
+    "gap": 1501
+   }
+  ]
+ },
+ {
+  "href": "/destinations/alaska/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 4562,
+  "deadPx": 2260,
+  "worst": 1581,
+  "runs": [
+   {
+    "y": 1019,
+    "h": 2140,
+    "gap": 1581
+   },
+   {
+    "y": 3779,
+    "h": 460,
+    "gap": 1433
+   }
+  ]
+ },
+ {
+  "href": "/destinations/arizona/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 5526,
+  "deadPx": 2000,
+  "worst": 1551,
+  "runs": [
+   {
+    "y": 2659,
+    "h": 1460,
+    "gap": 1548
+   },
+   {
+    "y": 1019,
+    "h": 500,
+    "gap": 1551
+   },
+   {
+    "y": 4739,
+    "h": 460,
+    "gap": 1433
+   }
+  ]
+ },
+ {
+  "href": "/destinations/colorado/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 5651,
+  "deadPx": 2580,
+  "worst": 1509,
+  "runs": [
+   {
+    "y": 1019,
+    "h": 1260,
+    "gap": 1509
+   },
+   {
+    "y": 4879,
+    "h": 940,
+    "gap": 1433
+   },
+   {
+    "y": 3399,
+    "h": 840,
+    "gap": 1501
+   }
+  ]
+ },
+ {
+  "href": "/destinations/california/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 4337,
+  "deadPx": 1840,
+  "worst": 1501,
+  "runs": [
+   {
+    "y": 2039,
+    "h": 1380,
+    "gap": 1501
+   },
+   {
+    "y": 1019,
+    "h": 460,
+    "gap": 1419
+   },
+   {
+    "y": 4059,
+    "h": 440,
+    "gap": 814
+   }
+  ]
+ },
+ {
+  "href": "/destinations/montana/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 4461,
+  "deadPx": 2440,
+  "worst": 1556,
+  "runs": [
+   {
+    "y": 1019,
+    "h": 2040,
+    "gap": 1556
+   },
+   {
+    "y": 3679,
+    "h": 960,
+    "gap": 1433
+   }
+  ]
+ },
+ {
+  "href": "/destinations/hawaii/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 6117,
+  "deadPx": 4080,
+  "worst": 1545,
+  "runs": [
+   {
+    "y": 1019,
+    "h": 4000,
+    "gap": 1545
+   },
+   {
+    "y": 5719,
+    "h": 560,
+    "gap": 1433
+   }
+  ]
+ },
+ {
+  "href": "/destinations/nevada/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 3405,
+  "deadPx": 1500,
+  "worst": 1566,
+  "runs": [
+   {
+    "y": 1059,
+    "h": 1440,
+    "gap": 1566
+   },
+   {
+    "y": 3119,
+    "h": 460,
+    "gap": 814
+   }
+  ]
+ },
+ {
+  "href": "/destinations/south-dakota/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 4037,
+  "deadPx": 2180,
+  "worst": 1572,
+  "runs": [
+   {
+    "y": 1019,
+    "h": 2120,
+    "gap": 1572
+   },
+   {
+    "y": 3759,
+    "h": 440,
+    "gap": 1221
+   }
+  ]
+ },
+ {
+  "href": "/destinations/utah/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 3701,
+  "deadPx": 1740,
+  "worst": 1500,
+  "runs": [
+   {
+    "y": 1059,
+    "h": 1740,
+    "gap": 1500
+   },
+   {
+    "y": 3419,
+    "h": 460,
+    "gap": 814
+   }
+  ]
+ },
+ {
+  "href": "/destinations/new-mexico/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 4399,
+  "deadPx": 1840,
+  "worst": 1522,
+  "runs": [
+   {
+    "y": 1059,
+    "h": 1640,
+    "gap": 1522
+   },
+   {
+    "y": 3519,
+    "h": 560,
+    "gap": 1433
+   }
+  ]
+ },
+ {
+  "href": "/destinations/wyoming/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 4888,
+  "deadPx": 1900,
+  "worst": 1576,
+  "runs": [
+   {
+    "y": 2039,
+    "h": 1440,
+    "gap": 1576
+   },
+   {
+    "y": 1019,
+    "h": 460,
+    "gap": 1518
+   },
+   {
+    "y": 4119,
+    "h": 440,
+    "gap": 1433
+   }
+  ]
+ },
+ {
+  "href": "/destinations/oregon/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 4414,
+  "deadPx": 1820,
+  "worst": 1533,
+  "runs": [
+   {
+    "y": 3639,
+    "h": 940,
+    "gap": 1433
+   },
+   {
+    "y": 2279,
+    "h": 740,
+    "gap": 1501
+   },
+   {
+    "y": 1019,
+    "h": 640,
+    "gap": 1533
+   }
+  ]
+ },
+ {
+  "href": "/destinations/washington/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 3751,
+  "deadPx": 2000,
+  "worst": 1524,
+  "runs": [
+   {
+    "y": 1019,
+    "h": 1840,
+    "gap": 1524
+   },
+   {
+    "y": 3359,
+    "h": 560,
+    "gap": 1433
+   }
+  ]
+ },
+ {
+  "href": "/about/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 6912,
+  "deadPx": 1660,
+  "worst": 1537,
+  "runs": [
+   {
+    "y": 5759,
+    "h": 1320,
+    "gap": 1537
+   },
+   {
+    "y": 1839,
+    "h": 280,
+    "gap": 1053
+   },
+   {
+    "y": 4239,
+    "h": 160,
+    "gap": 1387
+   }
+  ]
+ },
+ {
+  "href": "/contact/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 2262,
+  "deadPx": 720,
+  "worst": 1138,
+  "runs": [
+   {
+    "y": 1379,
+    "h": 360,
+    "gap": 1028
+   },
+   {
+    "y": 999,
+    "h": 340,
+    "gap": 1102
+   },
+   {
+    "y": 859,
+    "h": 100,
+    "gap": 967
+   }
+  ]
+ },
+ {
+  "href": "/guides/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 2082,
+  "deadPx": 360,
+  "worst": 1516,
+  "runs": [
+   {
+    "y": 1919,
+    "h": 340,
+    "gap": 816
+   },
+   {
+    "y": 599,
+    "h": 140,
+    "gap": 1496
+   },
+   {
+    "y": 1479,
+    "h": 100,
+    "gap": 1516
+   }
+  ]
+ },
+ {
+  "href": "/travel-professionals/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 1457,
+  "deadPx": 360,
+  "worst": 1084,
+  "runs": [
+   {
+    "y": 899,
+    "h": 260,
+    "gap": 1084
+   },
+   {
+    "y": 1199,
+    "h": 100,
+    "gap": 1043
+   }
+  ]
+ },
+ {
+  "href": "/group-travel/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 2183,
+  "deadPx": 320,
+  "worst": 1575,
+  "runs": [
+   {
+    "y": 1479,
+    "h": 340,
+    "gap": 1575
+   },
+   {
+    "y": 2139,
+    "h": 220,
+    "gap": 1368
+   },
+   {
+    "y": 599,
+    "h": 100,
+    "gap": 1486
+   }
+  ]
+ },
+ {
+  "href": "/privacy-policy/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 5453,
+  "deadPx": 4820,
+  "worst": 1227,
+  "runs": [
+   {
+    "y": 219,
+    "h": 5400,
+    "gap": 1227
+   }
+  ]
+ },
+ {
+  "href": "/trip-protection/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 1976,
+  "deadPx": 320,
+  "worst": 1123,
+  "runs": [
+   {
+    "y": 1959,
+    "h": 180,
+    "gap": 695
+   },
+   {
+    "y": 1799,
+    "h": 120,
+    "gap": 661
+   },
+   {
+    "y": 219,
+    "h": 100,
+    "gap": 1123
+   }
+  ]
+ },
+ {
+  "href": "/archive/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 25964,
+  "deadPx": 1140,
+  "worst": 1555,
+  "runs": [
+   {
+    "y": 9479,
+    "h": 480,
+    "gap": 1328
+   },
+   {
+    "y": 639,
+    "h": 140,
+    "gap": 1341
+   }
+  ]
+ },
+ {
+  "href": "/guides/coronavirus-policy-prevention/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 1173,
+  "deadPx": 520,
+  "worst": 1086,
+  "runs": [
+   {
+    "y": 499,
+    "h": 840,
+    "gap": 1086
+   }
+  ]
+ },
+ {
+  "href": "/guides/faqs/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 3397,
+  "deadPx": 2480,
+  "worst": 1213,
+  "runs": [
+   {
+    "y": 439,
+    "h": 3120,
+    "gap": 1213
+   }
+  ]
+ },
+ {
+  "href": "/guides/newsletter/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 1073,
+  "deadPx": 180,
+  "worst": 1086,
+  "runs": [
+   {
+    "y": 439,
+    "h": 200,
+    "gap": 1058
+   },
+   {
+    "y": 1059,
+    "h": 180,
+    "gap": 1086
+   }
+  ]
+ },
+ {
+  "href": "/guides/packing-list/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 4857,
+  "deadPx": 3900,
+  "worst": 1187,
+  "runs": [
+   {
+    "y": 439,
+    "h": 4580,
+    "gap": 1187
+   }
+  ]
+ },
+ {
+  "href": "/guides/testimonials-and-reviews/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 7230,
+  "deadPx": 1300,
+  "worst": 1425,
+  "runs": [
+   {
+    "y": 6639,
+    "h": 760,
+    "gap": 1316
+   },
+   {
+    "y": 3499,
+    "h": 320,
+    "gap": 906
+   },
+   {
+    "y": 4099,
+    "h": 260,
+    "gap": 840
+   },
+   {
+    "y": 6039,
+    "h": 100,
+    "gap": 737
+   }
+  ]
+ },
+ {
+  "href": "/guides/national-park-entry-fees-for-international-visitors/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 5334,
+  "deadPx": 4160,
+  "worst": 1217,
+  "runs": [
+   {
+    "y": 599,
+    "h": 4900,
+    "gap": 1217
+   }
+  ]
+ },
+ {
+  "href": "/guides/transportation/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 2057,
+  "deadPx": 1260,
+  "worst": 1086,
+  "runs": [
+   {
+    "y": 599,
+    "h": 1620,
+    "gap": 1086
+   }
+  ]
+ },
+ {
+  "href": "/guides/canadian-rockies-glacier-national-park-sample-itinerary/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 7379,
+  "deadPx": 5680,
+  "worst": 1154,
+  "runs": [
+   {
+    "y": 599,
+    "h": 6320,
+    "gap": 1154
+   },
+   {
+    "y": 7359,
+    "h": 180,
+    "gap": 1086
+   }
+  ]
+ },
+ {
+  "href": "/guides/northern-california-self-drive-sample-itinerary/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 7621,
+  "deadPx": 5880,
+  "worst": 1215,
+  "runs": [
+   {
+    "y": 599,
+    "h": 6560,
+    "gap": 1215
+   },
+   {
+    "y": 7599,
+    "h": 200,
+    "gap": 1086
+   }
+  ]
+ },
+ {
+  "href": "/guides/grand-canyon-and-sedona-sample-itinerary/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 4635,
+  "deadPx": 3000,
+  "worst": 1208,
+  "runs": [
+   {
+    "y": 599,
+    "h": 3580,
+    "gap": 1208
+   },
+   {
+    "y": 4619,
+    "h": 180,
+    "gap": 1086
+   }
+  ]
+ },
+ {
+  "href": "/guides/new-york-new-england-sample-itinerary/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 5630,
+  "deadPx": 4040,
+  "worst": 1195,
+  "runs": [
+   {
+    "y": 599,
+    "h": 4560,
+    "gap": 1195
+   },
+   {
+    "y": 5619,
+    "h": 180,
+    "gap": 1086
+   }
+  ]
+ },
+ {
+  "href": "/guides/ancient-odysseys/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 1202,
+  "deadPx": 520,
+  "worst": 1205,
+  "runs": [
+   {
+    "y": 559,
+    "h": 820,
+    "gap": 1205
+   }
+  ]
+ },
+ {
+  "href": "/about/ann-evans/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 637,
+  "deadPx": 100,
+  "worst": 1100,
+  "runs": [
+   {
+    "y": 219,
+    "h": 120,
+    "gap": 1100
+   }
+  ]
+ },
+ {
+  "href": "/guides/mighty-5-and-more-sample-itinerary/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 4487,
+  "deadPx": 2800,
+  "worst": 1215,
+  "runs": [
+   {
+    "y": 599,
+    "h": 3420,
+    "gap": 1215
+   },
+   {
+    "y": 4459,
+    "h": 200,
+    "gap": 1086
+   }
+  ]
+ },
+ {
+  "href": "/about/chris-vander-wilt/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 975,
+  "deadPx": 180,
+  "worst": 1059,
+  "runs": [
+   {
+    "y": 959,
+    "h": 180,
+    "gap": 906
+   },
+   {
+    "y": 219,
+    "h": 120,
+    "gap": 1059
+   }
+  ]
+ },
+ {
+  "href": "/about/dennis-bailey/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 703,
+  "deadPx": 100,
+  "worst": 1081,
+  "runs": [
+   {
+    "y": 219,
+    "h": 120,
+    "gap": 1081
+   }
+  ]
+ },
+ {
+  "href": "/about/jason-murray/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 710,
+  "deadPx": 180,
+  "worst": 1080,
+  "runs": [
+   {
+    "y": 699,
+    "h": 180,
+    "gap": 920
+   },
+   {
+    "y": 219,
+    "h": 120,
+    "gap": 1080
+   }
+  ]
+ },
+ {
+  "href": "/about/julie-burton-ray/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 665,
+  "deadPx": 140,
+  "worst": 1063,
+  "runs": [
+   {
+    "y": 659,
+    "h": 180,
+    "gap": 654
+   },
+   {
+    "y": 219,
+    "h": 120,
+    "gap": 1063
+   }
+  ]
+ },
+ {
+  "href": "/about/kirk-douglass/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 782,
+  "deadPx": 220,
+  "worst": 1079,
+  "runs": [
+   {
+    "y": 759,
+    "h": 200,
+    "gap": 949
+   },
+   {
+    "y": 219,
+    "h": 120,
+    "gap": 1079
+   }
+  ]
+ },
+ {
+  "href": "/about/phil-douglass/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 958,
+  "deadPx": 200,
+  "worst": 1081,
+  "runs": [
+   {
+    "y": 939,
+    "h": 180,
+    "gap": 785
+   },
+   {
+    "y": 219,
+    "h": 120,
+    "gap": 1081
+   }
+  ]
+ },
+ {
+  "href": "/about/robin-luse/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 871,
+  "deadPx": 240,
+  "worst": 1095,
+  "runs": [
+   {
+    "y": 219,
+    "h": 120,
+    "gap": 1095
+   }
+  ]
+ },
+ {
+  "href": "/about/shawn-horman/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 848,
+  "deadPx": 160,
+  "worst": 1072,
+  "runs": [
+   {
+    "y": 839,
+    "h": 180,
+    "gap": 936
+   },
+   {
+    "y": 219,
+    "h": 120,
+    "gap": 1072
+   }
+  ]
+ },
+ {
+  "href": "/about/shybree-richens/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 620,
+  "deadPx": 140,
+  "worst": 1060,
+  "runs": [
+   {
+    "y": 599,
+    "h": 200,
+    "gap": 629
+   },
+   {
+    "y": 219,
+    "h": 120,
+    "gap": 1060
+   }
+  ]
+ },
+ {
+  "href": "/journal/the-ultimate-four-season-guide-to-utahs-mighty-5/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 10828,
+  "deadPx": 8340,
+  "worst": 1233,
+  "runs": [
+   {
+    "y": 799,
+    "h": 8600,
+    "gap": 1233
+   },
+   {
+    "y": 9959,
+    "h": 500,
+    "gap": 1083
+   }
+  ]
+ },
+ {
+  "href": "/journal/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 3551,
+  "deadPx": 40,
+  "worst": 1520,
+  "runs": [
+   {
+    "y": 599,
+    "h": 100,
+    "gap": 1520
+   }
+  ]
+ },
+ {
+  "href": "/journal/peak-planning-for-the-peaks/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 3740,
+  "deadPx": 2380,
+  "worst": 1197,
+  "runs": [
+   {
+    "y": 799,
+    "h": 2700,
+    "gap": 1197
+   },
+   {
+    "y": 3559,
+    "h": 160,
+    "gap": 586
+   }
+  ]
+ },
+ {
+  "href": "/journal/grand-canyon-north-rim-a-guide-to-trails-views-and-natures-resurgence/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 8069,
+  "deadPx": 6520,
+  "worst": 1208,
+  "runs": [
+   {
+    "y": 799,
+    "h": 6660,
+    "gap": 1208
+   },
+   {
+    "y": 7819,
+    "h": 420,
+    "gap": 1116
+   },
+   {
+    "y": 7539,
+    "h": 160,
+    "gap": 586
+   }
+  ]
+ },
+ {
+  "href": "/journal/denali-national-park-history-landscapes-and-culture/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 6708,
+  "deadPx": 5280,
+  "worst": 1236,
+  "runs": [
+   {
+    "y": 799,
+    "h": 6080,
+    "gap": 1236
+   }
+  ]
+ },
+ {
+  "href": "/journal/retracing-human-and-earth-history-on-the-grand-circle/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 6086,
+  "deadPx": 4720,
+  "worst": 1215,
+  "runs": [
+   {
+    "y": 799,
+    "h": 5100,
+    "gap": 1215
+   }
+  ]
+ },
+ {
+  "href": "/journal/navigating-the-airline-bag-fee-hikes-what-you-need-to-know/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 4775,
+  "deadPx": 3240,
+  "worst": 1214,
+  "runs": [
+   {
+    "y": 799,
+    "h": 3600,
+    "gap": 1214
+   },
+   {
+    "y": 4439,
+    "h": 160,
+    "gap": 1116
+   }
+  ]
+ },
+ {
+  "href": "/journal/why-the-grand-canyon-escalante-route-is-the-ultimate-backpacking-test/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 4619,
+  "deadPx": 3240,
+  "worst": 1177,
+  "runs": [
+   {
+    "y": 799,
+    "h": 3220,
+    "gap": 1177
+   },
+   {
+    "y": 4279,
+    "h": 500,
+    "gap": 1116
+   },
+   {
+    "y": 4079,
+    "h": 180,
+    "gap": 586
+   }
+  ]
+ },
+ {
+  "href": "/journal/5-things-you-cant-miss-in-glacier-national-park/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 7932,
+  "deadPx": 6580,
+  "worst": 1223,
+  "runs": [
+   {
+    "y": 799,
+    "h": 7300,
+    "gap": 1223
+   }
+  ]
+ },
+ {
+  "href": "/journal/traveling-to-europe-in-2026-how-the-new-ees-digital-border-will-affect-you/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 4273,
+  "deadPx": 2980,
+  "worst": 1217,
+  "runs": [
+   {
+    "y": 799,
+    "h": 3460,
+    "gap": 1217
+   }
+  ]
+ },
+ {
+  "href": "/journal/your-best-backcountry-trip-starts-with-a-guide/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 3183,
+  "deadPx": 1880,
+  "worst": 1204,
+  "runs": [
+   {
+    "y": 799,
+    "h": 2200,
+    "gap": 1204
+   }
+  ]
+ },
+ {
+  "href": "/journal/announcing-our-new-olympic-national-park-and-the-pacific-northwest-tour/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 6522,
+  "deadPx": 5440,
+  "worst": 1219,
+  "runs": [
+   {
+    "y": 799,
+    "h": 5900,
+    "gap": 1219
+   }
+  ]
+ },
+ {
+  "href": "/journal/arches-national-park-entry-update-2026-what-travelers-need-to-know/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 5688,
+  "deadPx": 4300,
+  "worst": 1190,
+  "runs": [
+   {
+    "y": 799,
+    "h": 4280,
+    "gap": 1190
+   },
+   {
+    "y": 5439,
+    "h": 420,
+    "gap": 1116
+   },
+   {
+    "y": 5159,
+    "h": 160,
+    "gap": 586
+   }
+  ]
+ },
+ {
+  "href": "/journal/take-part-in-route-66-history/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 5149,
+  "deadPx": 3960,
+  "worst": 1215,
+  "runs": [
+   {
+    "y": 799,
+    "h": 4520,
+    "gap": 1215
+   }
+  ]
+ },
+ {
+  "href": "/journal/ultimate-winter-playground-7-reasons-yellowstone-the-tetons-shine-in-the-snow/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 5496,
+  "deadPx": 3980,
+  "worst": 1190,
+  "runs": [
+   {
+    "y": 799,
+    "h": 4120,
+    "gap": 1190
+   },
+   {
+    "y": 5159,
+    "h": 500,
+    "gap": 1116
+   },
+   {
+    "y": 4959,
+    "h": 180,
+    "gap": 586
+   }
+  ]
+ },
+ {
+  "href": "/journal/a-rare-wildflower-season-in-death-valley/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 4905,
+  "deadPx": 3620,
+  "worst": 1199,
+  "runs": [
+   {
+    "y": 799,
+    "h": 4280,
+    "gap": 1199
+   }
+  ]
+ },
+ {
+  "href": "/journal/utah-national-park-visitation-in-2025-what-happened-and-what-it-means-for-2026-travel/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 8921,
+  "deadPx": 7200,
+  "worst": 1204,
+  "runs": [
+   {
+    "y": 799,
+    "h": 7760,
+    "gap": 1204
+   }
+  ]
+ },
+ {
+  "href": "/journal/zions-new-tunnel-restrictions-are-here-what-tour-operators-need-to-know/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 4714,
+  "deadPx": 3300,
+  "worst": 1234,
+  "runs": [
+   {
+    "y": 799,
+    "h": 3540,
+    "gap": 1234
+   },
+   {
+    "y": 4379,
+    "h": 160,
+    "gap": 1116
+   }
+  ]
+ },
+ {
+  "href": "/journal/best-national-parks-to-visit-in-the-fall/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 8454,
+  "deadPx": 6940,
+  "worst": 1185,
+  "runs": [
+   {
+    "y": 799,
+    "h": 7480,
+    "gap": 1185
+   }
+  ]
+ },
+ {
+  "href": "/journal/culture-connection-and-the-hawaiian-way/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 4482,
+  "deadPx": 3340,
+  "worst": 1188,
+  "runs": [
+   {
+    "y": 799,
+    "h": 3860,
+    "gap": 1188
+   }
+  ]
+ },
+ {
+  "href": "/journal/no-more-shoe-hassle-at-tsa-what-it-means-for-your-next-southwest-tour/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 2962,
+  "deadPx": 1740,
+  "worst": 1200,
+  "runs": [
+   {
+    "y": 799,
+    "h": 1980,
+    "gap": 1200
+   }
+  ]
+ },
+ {
+  "href": "/journal/discovering-grand-teton-national-park/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 5894,
+  "deadPx": 4560,
+  "worst": 1144,
+  "runs": [
+   {
+    "y": 799,
+    "h": 4480,
+    "gap": 1144
+   },
+   {
+    "y": 5559,
+    "h": 500,
+    "gap": 1116
+   },
+   {
+    "y": 5359,
+    "h": 160,
+    "gap": 586
+   }
+  ]
+ },
+ {
+  "href": "/journal/tides-trails-and-timeless-charm-discover-the-canadian-atlantic-experience/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 6385,
+  "deadPx": 5080,
+  "worst": 1217,
+  "runs": [
+   {
+    "y": 799,
+    "h": 5760,
+    "gap": 1217
+   }
+  ]
+ },
+ {
+  "href": "/journal/kolob-canyon-the-zion-secret-most-tours-miss/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 6326,
+  "deadPx": 4800,
+  "worst": 1225,
+  "runs": [
+   {
+    "y": 799,
+    "h": 5160,
+    "gap": 1225
+   }
+  ]
+ },
+ {
+  "href": "/journal/texas-a-keystone-state-in-american-history/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 3173,
+  "deadPx": 1940,
+  "worst": 1083,
+  "runs": [
+   {
+    "y": 799,
+    "h": 2540,
+    "gap": 1083
+   }
+  ]
+ },
+ {
+  "href": "/journal/the-mysterious-northern-lights/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 3426,
+  "deadPx": 2060,
+  "worst": 1198,
+  "runs": [
+   {
+    "y": 799,
+    "h": 2440,
+    "gap": 1198
+   }
+  ]
+ },
+ {
+  "href": "/journal/your-guide-to-fall-colors-in-the-southwest/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 4412,
+  "deadPx": 2760,
+  "worst": 1211,
+  "runs": [
+   {
+    "y": 799,
+    "h": 3240,
+    "gap": 1211
+   }
+  ]
+ },
+ {
+  "href": "/journal/canyons-of-the-escalante-a-geological-and-hiking-odyssey/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 4092,
+  "deadPx": 2880,
+  "worst": 1214,
+  "runs": [
+   {
+    "y": 799,
+    "h": 3460,
+    "gap": 1214
+   }
+  ]
+ },
+ {
+  "href": "/journal/meet-our-guide-dave-showalter/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 3497,
+  "deadPx": 2120,
+  "worst": 1211,
+  "runs": [
+   {
+    "y": 799,
+    "h": 2340,
+    "gap": 1211
+   },
+   {
+    "y": 3159,
+    "h": 160,
+    "gap": 1116
+   }
+  ]
+ },
+ {
+  "href": "/journal/wonder-and-worry-documentary-filmmaking-on-our-private-yellowstone-tour/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 3490,
+  "deadPx": 2280,
+  "worst": 1225,
+  "runs": [
+   {
+    "y": 799,
+    "h": 2120,
+    "gap": 1225
+   },
+   {
+    "y": 3239,
+    "h": 420,
+    "gap": 1116
+   },
+   {
+    "y": 2959,
+    "h": 160,
+    "gap": 586
+   }
+  ]
+ },
+ {
+  "href": "/journal/meet-our-guide-larry-hansen/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 2536,
+  "deadPx": 1360,
+  "worst": 1167,
+  "runs": [
+   {
+    "y": 799,
+    "h": 1560,
+    "gap": 1167
+   }
+  ]
+ },
+ {
+  "href": "/journal/meet-our-guide-christopher-vander-wilt/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 2309,
+  "deadPx": 1140,
+  "worst": 1231,
+  "runs": [
+   {
+    "y": 799,
+    "h": 1340,
+    "gap": 1231
+   }
+  ]
+ },
+ {
+  "href": "/journal/southwest-adventure-tours-10-year-anniversary/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 4197,
+  "deadPx": 3040,
+  "worst": 1210,
+  "runs": [
+   {
+    "y": 799,
+    "h": 3220,
+    "gap": 1210
+   }
+  ]
+ },
+ {
+  "href": "/journal/chena-hot-springs-experience/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 8865,
+  "deadPx": 7160,
+  "worst": 1209,
+  "runs": [
+   {
+    "y": 799,
+    "h": 7880,
+    "gap": 1209
+   }
+  ]
+ },
+ {
+  "href": "/journal/meet-our-guide-wynn-hall/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 2591,
+  "deadPx": 1420,
+  "worst": 1227,
+  "runs": [
+   {
+    "y": 799,
+    "h": 1620,
+    "gap": 1227
+   }
+  ]
+ },
+ {
+  "href": "/journal/david-beach-alaska-tour-guide/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 3548,
+  "deadPx": 2200,
+  "worst": 1205,
+  "runs": [
+   {
+    "y": 799,
+    "h": 2580,
+    "gap": 1205
+   }
+  ]
+ },
+ {
+  "href": "/journal/bryce-canyon-in-the-snow/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 9629,
+  "deadPx": 8000,
+  "worst": 1228,
+  "runs": [
+   {
+    "y": 799,
+    "h": 8220,
+    "gap": 1228
+   },
+   {
+    "y": 9379,
+    "h": 420,
+    "gap": 1116
+   },
+   {
+    "y": 9099,
+    "h": 160,
+    "gap": 586
+   }
+  ]
+ },
+ {
+  "href": "/journal/meet-our-guide-ann-evans/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 3229,
+  "deadPx": 1800,
+  "worst": 1167,
+  "runs": [
+   {
+    "y": 799,
+    "h": 2060,
+    "gap": 1167
+   }
+  ]
+ },
+ {
+  "href": "/journal/exploring-the-last-frontier-my-alaskan-adventure/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 10548,
+  "deadPx": 8800,
+  "worst": 1204,
+  "runs": [
+   {
+    "y": 799,
+    "h": 9580,
+    "gap": 1204
+   }
+  ]
+ },
+ {
+  "href": "/journal/a-journey-down-historic-route-66-a-nostalgic-trip-through-time/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 2921,
+  "deadPx": 1760,
+  "worst": 1116,
+  "runs": [
+   {
+    "y": 799,
+    "h": 2300,
+    "gap": 1116
+   }
+  ]
+ },
+ {
+  "href": "/journal/meet-our-guide-haydee-schabelski/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 2365,
+  "deadPx": 1360,
+  "worst": 1203,
+  "runs": [
+   {
+    "y": 659,
+    "h": 1520,
+    "gap": 1203
+   }
+  ]
+ },
+ {
+  "href": "/journal/meet-our-guide-adam-bath/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 2517,
+  "deadPx": 1260,
+  "worst": 1228,
+  "runs": [
+   {
+    "y": 799,
+    "h": 1540,
+    "gap": 1228
+   }
+  ]
+ },
+ {
+  "href": "/journal/meet-our-guide-kim-palmer/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 2651,
+  "deadPx": 1640,
+  "worst": 1167,
+  "runs": [
+   {
+    "y": 619,
+    "h": 1860,
+    "gap": 1167
+   }
+  ]
+ },
+ {
+  "href": "/journal/meet-our-guide-wayne-parker/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 3990,
+  "deadPx": 2660,
+  "worst": 1192,
+  "runs": [
+   {
+    "y": 799,
+    "h": 2600,
+    "gap": 1192
+   },
+   {
+    "y": 3739,
+    "h": 420,
+    "gap": 1116
+   },
+   {
+    "y": 3479,
+    "h": 140,
+    "gap": 586
+   }
+  ]
+ },
+ {
+  "href": "/journal/zion-entrance-project/",
+  "cL": 152,
+  "cR": 1768,
+  "cw": 1616,
+  "pageH": 2929,
+  "deadPx": 1520,
+  "worst": 1116,
+  "runs": [
+   {
+    "y": 799,
+    "h": 1760,
+    "gap": 1083
+   }
+  ]
+ }
+]

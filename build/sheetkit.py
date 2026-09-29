@@ -187,6 +187,10 @@ ANSWERS = {
     # rather than by a letter: one button on the hero photograph, no box
     # beside it, linked to Destinations. That is closest to the retired B,
     # so no live letter fits it and none is claimed.
+    67: ('D', 'picked 29 September and on production the same day: year tabs, '
+              'month cards and a price on every date. The month cards were then '
+              'made equal height after &ldquo;I hate how some of the boxes for '
+              'each month are different sizes&rdquo;'),
     53: ('Settled', 'in the 28 September walkthrough with Lance: one button '
                     'on the photograph, linked to Destinations, stronger '
                     'wording than &ldquo;Find your tour&rdquo; still to be '

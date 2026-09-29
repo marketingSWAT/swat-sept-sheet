@@ -1,0 +1,344 @@
+[
+ {
+  "href": "/destinations/badlands-national-park/",
+  "photos": 6,
+  "hikes": 0,
+  "journal": 0,
+  "trips": 1,
+  "wordsH": 210,
+  "tripsY": 1291
+ },
+ {
+  "href": "/destinations/hikes-in-bryce-canyon-national-park/",
+  "photos": 7,
+  "hikes": 0,
+  "journal": 2,
+  "trips": 12,
+  "wordsH": 1204,
+  "tripsY": 2285
+ },
+ {
+  "href": "/destinations/bryce-canyon-national-park/",
+  "photos": 7,
+  "hikes": 1,
+  "journal": 2,
+  "trips": 12,
+  "wordsH": 575,
+  "tripsY": 1656
+ },
+ {
+  "href": "/destinations/hikes-in-arches-national-park/",
+  "photos": 7,
+  "hikes": 0,
+  "journal": 2,
+  "trips": 11,
+  "wordsH": 1284,
+  "tripsY": 2365
+ },
+ {
+  "href": "/destinations/arches-canyonlands-national-parks/",
+  "photos": 7,
+  "hikes": 1,
+  "journal": 2,
+  "trips": 11,
+  "wordsH": 519,
+  "tripsY": 1600
+ },
+ {
+  "href": "/destinations/denali-national-park/",
+  "photos": 7,
+  "hikes": 0,
+  "journal": 1,
+  "trips": 2,
+  "wordsH": 210,
+  "tripsY": 1291
+ },
+ {
+  "href": "/destinations/colorado-national-parks/",
+  "photos": 7,
+  "hikes": 0,
+  "journal": 1,
+  "trips": 3,
+  "wordsH": 366,
+  "tripsY": 1447
+ },
+ {
+  "href": "/destinations/capitol-reef-national-park/",
+  "photos": 7,
+  "hikes": 1,
+  "journal": 1,
+  "trips": 4,
+  "wordsH": 364,
+  "tripsY": 1445
+ },
+ {
+  "href": "/destinations/hikes-in-capitol-reef-national-park/",
+  "photos": 7,
+  "hikes": 0,
+  "journal": 1,
+  "trips": 4,
+  "wordsH": 1428,
+  "tripsY": 2509
+ },
+ {
+  "href": "/destinations/national-parks/",
+  "photos": 0,
+  "hikes": 0,
+  "journal": 0,
+  "trips": 0,
+  "wordsH": 1268,
+  "tripsY": 2349
+ },
+ {
+  "href": "/destinations/glacier-national-park/",
+  "photos": 7,
+  "hikes": 0,
+  "journal": 1,
+  "trips": 1,
+  "wordsH": 138,
+  "tripsY": 1219
+ },
+ {
+  "href": "/destinations/devils-tower-national-monument/",
+  "photos": 5,
+  "hikes": 0,
+  "journal": 3,
+  "trips": 8,
+  "wordsH": 138,
+  "tripsY": 1219
+ },
+ {
+  "href": "/destinations/hikes-in-mesa-verde-national-park/",
+  "photos": 6,
+  "hikes": 0,
+  "journal": 0,
+  "trips": 3,
+  "wordsH": 1278,
+  "tripsY": 2359
+ },
+ {
+  "href": "/destinations/mesa-verde-national-park/",
+  "photos": 6,
+  "hikes": 1,
+  "journal": 0,
+  "trips": 3,
+  "wordsH": 364,
+  "tripsY": 1445
+ },
+ {
+  "href": "/destinations/grand-canyon-national-park/",
+  "photos": 6,
+  "hikes": 1,
+  "journal": 2,
+  "trips": 9,
+  "wordsH": 447,
+  "tripsY": 1528
+ },
+ {
+  "href": "/destinations/hikes-in-grand-canyon-national-park/",
+  "photos": 6,
+  "hikes": 0,
+  "journal": 2,
+  "trips": 9,
+  "wordsH": 2637,
+  "tripsY": 3718
+ },
+ {
+  "href": "/destinations/grand-staircase-escalante-monument/",
+  "photos": 7,
+  "hikes": 0,
+  "journal": 2,
+  "trips": 9,
+  "wordsH": 476,
+  "tripsY": 1557
+ },
+ {
+  "href": "/destinations/monument-valley/",
+  "photos": 6,
+  "hikes": 0,
+  "journal": 0,
+  "trips": 4,
+  "wordsH": 238,
+  "tripsY": 1319
+ },
+ {
+  "href": "/destinations/mount-rushmore-national-monument/",
+  "photos": 6,
+  "hikes": 0,
+  "journal": 0,
+  "trips": 2,
+  "wordsH": 266,
+  "tripsY": 1347
+ },
+ {
+  "href": "/destinations/sequoia-kings-canyon-national-parks/",
+  "photos": 6,
+  "hikes": 0,
+  "journal": 0,
+  "trips": 1,
+  "wordsH": 293,
+  "tripsY": 1374
+ },
+ {
+  "href": "/destinations/yellowstone-grand-teton/",
+  "photos": 6,
+  "hikes": 0,
+  "journal": 2,
+  "trips": 5,
+  "wordsH": 1162,
+  "tripsY": 2243
+ },
+ {
+  "href": "/destinations/yosemite-national-park/",
+  "photos": 6,
+  "hikes": 0,
+  "journal": 0,
+  "trips": 6,
+  "wordsH": 293,
+  "tripsY": 1374
+ },
+ {
+  "href": "/destinations/volcano-national-park/",
+  "photos": 5,
+  "hikes": 0,
+  "journal": 1,
+  "trips": 2,
+  "wordsH": 2306,
+  "tripsY": 3387
+ },
+ {
+  "href": "/destinations/hikes-in-zion-national-park/",
+  "photos": 7,
+  "hikes": 0,
+  "journal": 3,
+  "trips": 12,
+  "wordsH": 1987,
+  "tripsY": 3068
+ },
+ {
+  "href": "/destinations/zion-national-park/",
+  "photos": 7,
+  "hikes": 1,
+  "journal": 3,
+  "trips": 12,
+  "wordsH": 2620,
+  "tripsY": 3701
+ },
+ {
+  "href": "/destinations/alaska/",
+  "photos": 7,
+  "hikes": 0,
+  "journal": 3,
+  "trips": 2,
+  "wordsH": 538,
+  "tripsY": 1619
+ },
+ {
+  "href": "/destinations/arizona/",
+  "photos": 6,
+  "hikes": 0,
+  "journal": 2,
+  "trips": 9,
+  "wordsH": 338,
+  "tripsY": 1419
+ },
+ {
+  "href": "/destinations/colorado/",
+  "photos": 6,
+  "hikes": 0,
+  "journal": 1,
+  "trips": 9,
+  "wordsH": 1086,
+  "tripsY": 2167
+ },
+ {
+  "href": "/destinations/california/",
+  "photos": 7,
+  "hikes": 0,
+  "journal": 0,
+  "trips": 6,
+  "wordsH": 293,
+  "tripsY": 1374
+ },
+ {
+  "href": "/destinations/hawaii/",
+  "photos": 5,
+  "hikes": 0,
+  "journal": 1,
+  "trips": 2,
+  "wordsH": 2913,
+  "tripsY": 3994
+ },
+ {
+  "href": "/destinations/montana/",
+  "photos": 7,
+  "hikes": 0,
+  "journal": 1,
+  "trips": 1,
+  "wordsH": 465,
+  "tripsY": 1546
+ },
+ {
+  "href": "/destinations/south-dakota/",
+  "photos": 6,
+  "hikes": 0,
+  "journal": 0,
+  "trips": 1,
+  "wordsH": 452,
+  "tripsY": 1533
+ },
+ {
+  "href": "/destinations/nevada/",
+  "photos": 7,
+  "hikes": 0,
+  "journal": 0,
+  "trips": 0,
+  "wordsH": 366,
+  "tripsY": 1478
+ },
+ {
+  "href": "/destinations/utah/",
+  "photos": 7,
+  "hikes": 0,
+  "journal": 0,
+  "trips": 0,
+  "wordsH": 366,
+  "tripsY": 1478
+ },
+ {
+  "href": "/destinations/new-mexico/",
+  "photos": 4,
+  "hikes": 0,
+  "journal": 2,
+  "trips": 0,
+  "wordsH": 531,
+  "tripsY": 1644
+ },
+ {
+  "href": "/destinations/wyoming/",
+  "photos": 6,
+  "hikes": 0,
+  "journal": 2,
+  "trips": 5,
+  "wordsH": 293,
+  "tripsY": 1374
+ },
+ {
+  "href": "/destinations/oregon/",
+  "photos": 6,
+  "hikes": 0,
+  "journal": 1,
+  "trips": 4,
+  "wordsH": 462,
+  "tripsY": 1543
+ },
+ {
+  "href": "/destinations/washington/",
+  "photos": 2,
+  "hikes": 0,
+  "journal": 1,
+  "trips": 1,
+  "wordsH": 183,
+  "tripsY": 1264
+ }
+]

@@ -1,0 +1,256 @@
+{
+ "href": "https://swat-website-storefront.vercel.app/departing-from/bryce/",
+ "docH": 3820,
+ "cards": [
+  {
+   "box": [
+    152,
+    521,
+    386,
+    539
+   ],
+   "text": [
+    "BACKPACKING",
+    "4 days",
+    "Grand Canyon Backpacking (Escalante Route) 4 Days",
+    "Bryce → Grand Canyon National Park",
+    "Grand Canyon National Park, Arizona, Colorado",
+    "Moderate",
+    "Small group, up to 8",
+    "$2,449",
+    "from / person",
+    "View tour",
+    "— Grand Canyon Backpacking (Escalante Route) 4 Days",
+    "Check dates",
+    "— Grand Canyon Backpacking (Escalante Route) 4 Days"
+   ],
+   "img": "https://pyxnpjvtdlucaqqhhvin.supabase.co/storage/v1/object/public/media/derived/w2048/photos/Sedona_Grand_anyoun_3_Day_1_46238139-153b-4bf1-b356-bb58a009d70c.webp",
+   "href": "/tours/grand-canyon-backpacking-escalante-route/"
+  },
+  {
+   "box": [
+    152,
+    1156,
+    386,
+    537
+   ],
+   "text": [
+    "SMALL GROUP",
+    "7 days",
+    "🔥 $500 OFF",
+    "Canyons of the Escalante",
+    "Bryce → Bryce Canyon National Park",
+    "Bryce Canyon National Park, Arches National Park, Grand Canyon National Park",
+    "Activity level on request",
+    "Small group, 7–13",
+    "$3,119",
+    "from / person",
+    "View tour",
+    "— Canyons of the Escalante",
+    "Check dates",
+    "— Canyons of the Escalante"
+   ],
+   "img": "https://pyxnpjvtdlucaqqhhvin.supabase.co/storage/v1/object/public/media/derived/w2048/photos/CalfCreekFalls_Michael_Kunde_Photo_0201_27bcbe60-8012-48a3-94f7-7a317b4b8f2d.webp",
+   "href": "/tours/canyons-of-the-escalante/"
+  },
+  {
+   "box": [
+    152,
+    1788,
+    386,
+    539
+   ],
+   "text": [
+    "RAIL & CRUISE",
+    "12 days",
+    "Grand Circle Experience: Explore Southwest National Parks",
+    "Bryce → Zion National Park",
+    "Zion National Park, Arches National Park, Grand Canyon National Park",
+    "Activity level on request",
+    "Small group, 7–13",
+    "$6,249",
+    "from / person",
+    "View tour",
+    "— Grand Circle Experience: Explore Southwest National Parks",
+    "Check dates",
+    "— Grand Circle Experience: Explore Southwest National Parks"
+   ],
+   "img": "https://pyxnpjvtdlucaqqhhvin.supabase.co/storage/v1/object/public/media/derived/w2048/photos/Grand_Circle_Experience_1_b34d81e7-7f65-43ea-bdd9-509d34545a86.webp",
+   "href": "/tours/grand-circle-experience-tours-grand-canyon-national-park/"
+  }
+ ],
+ "imgs": [
+  {
+   "box": [
+    153,
+    522,
+    384,
+    240
+   ],
+   "src": "https://pyxnpjvtdlucaqqhhvin.supabase.co/storage/v1/object/public/media/derived/w2048/photos/Sedona_Grand_anyoun_3_Day_1_46238139-153b-4bf1-b356-bb58a009d70c.webp",
+   "alt": "Grand Canyon Backpacking (Escalante Route) 4 Days"
+  },
+  {
+   "box": [
+    153,
+    1157,
+    384,
+    240
+   ],
+   "src": "https://pyxnpjvtdlucaqqhhvin.supabase.co/storage/v1/object/public/media/derived/w2048/photos/CalfCreekFalls_Michael_Kunde_Photo_0201_27bcbe60-8012-48a3-94f7-7a317b4b8f2d.webp",
+   "alt": "Canyons of the Escalante"
+  },
+  {
+   "box": [
+    153,
+    1789,
+    384,
+    240
+   ],
+   "src": "https://pyxnpjvtdlucaqqhhvin.supabase.co/storage/v1/object/public/media/derived/w2048/photos/Grand_Circle_Experience_1_b34d81e7-7f65-43ea-bdd9-509d34545a86.webp",
+   "alt": "Grand Circle Experience: Explore Southwest National Parks"
+  }
+ ],
+ "blocks": [
+  {
+   "tag": "LI",
+   "box": [
+    152,
+    215,
+    46,
+    44
+   ],
+   "text": "Home\n/"
+  },
+  {
+   "tag": "LI",
+   "box": [
+    204,
+    215,
+    99,
+    44
+   ],
+   "text": "Departing from\n/"
+  },
+  {
+   "tag": "LI",
+   "box": [
+    309,
+    228,
+    35,
+    18
+   ],
+   "text": "Bryce"
+  },
+  {
+   "tag": "H1",
+   "box": [
+    152,
+    275,
+    1616,
+    55
+   ],
+   "text": "Trips leaving Bryce"
+  },
+  {
+   "tag": "P",
+   "box": [
+    152,
+    342,
+    748,
+    61
+   ],
+   "text": "Trips that begin at Bryce Canyon itself rather than at an airport, for travellers already on the plateau."
+  },
+  {
+   "tag": "P",
+   "box": [
+    152,
+    411,
+    1616,
+    23
+   ],
+   "text": "3 trips start here. Shortest first — pick by how much time you have."
+  },
+  {
+   "tag": "H2",
+   "box": [
+    152,
+    482,
+    1616,
+    20
+   ],
+   "text": "4-6 DAYS"
+  },
+  {
+   "tag": "H2",
+   "box": [
+    152,
+    1117,
+    1616,
+    20
+   ],
+   "text": "7-10 DAYS"
+  },
+  {
+   "tag": "H2",
+   "box": [
+    152,
+    1749,
+    1616,
+    20
+   ],
+   "text": "11+ DAYS"
+  },
+  {
+   "tag": "H2",
+   "box": [
+    152,
+    2433,
+    1616,
+    36
+   ],
+   "text": "Starting from Bryce"
+  },
+  {
+   "tag": "P",
+   "box": [
+    152,
+    2485,
+    680,
+    112
+   ],
+   "text": "Bryce Canyon City sits at the park boundary, about 8,000 feet up on the Paunsaugunt Plateau. Trips listed as leaving from here start at the park rather than at a city several hours away, which is what you want if you are already driving the region or coming off another itinerary."
+  },
+  {
+   "tag": "P",
+   "box": [
+    152,
+    2613,
+    680,
+    84
+   ],
+   "text": "The altitude is the thing to plan for. Bryce is high enough that summer nights are cold and winter closes some of the connecting roads; the amphitheatre holds snow well into spring, which is also when it photographs best."
+  },
+  {
+   "tag": "P",
+   "box": [
+    152,
+    2714,
+    680,
+    56
+   ],
+   "text": "Zion is about ninety minutes south-west, Capitol Reef about two and a half hours east, so a trip starting here can reach three parks without a long transfer day."
+  },
+  {
+   "tag": "H2",
+   "box": [
+    152,
+    2859,
+    1616,
+    20
+   ],
+   "text": "WHERE THESE TRIPS GO"
+  }
+ ]
+}

@@ -1,0 +1,478 @@
+{
+ "href": "https://swat-website-storefront.vercel.app/destinations/hawaii/",
+ "docH": 7013,
+ "cards": [
+  {
+   "box": [
+    152,
+    4111,
+    386,
+    535
+   ],
+   "text": [
+    "SMALL GROUP",
+    "7 days",
+    "Hawaii Oahu Active Adventure",
+    "Arizona, Hawaii",
+    "Activity level on request",
+    "Small group, 7–13",
+    "$4,399",
+    "from / person",
+    "View tour",
+    "— Hawaii Oahu Active Adventure",
+    "Check dates",
+    "— Hawaii Oahu Active Adventure"
+   ],
+   "img": "https://pyxnpjvtdlucaqqhhvin.supabase.co/storage/v1/object/public/media/derived/w2048/photos/Makapuu_Beach_f2b43998-0707-4f4f-834b-7e72c9c4eed1.webp",
+   "href": "/tours/oahu-island-experience/"
+  },
+  {
+   "box": [
+    562,
+    4111,
+    386,
+    535
+   ],
+   "text": [
+    "SMALL GROUP",
+    "10 days",
+    "Hawai'i Maui Big Island Explorer",
+    "Hawaii",
+    "Easy",
+    "Small group, 7–13",
+    "$7,999",
+    "from / person",
+    "View tour",
+    "— Hawai'i Maui Big Island Explorer",
+    "Check dates",
+    "— Hawai'i Maui Big Island Explorer"
+   ],
+   "img": "https://pyxnpjvtdlucaqqhhvin.supabase.co/storage/v1/object/public/media/derived/w2048/photos/Rock_Beach_Hawaii_a3b12e76-897e-4ad6-ad29-9d912182a20b.webp",
+   "href": "/tours/maui-hawaii-island-combo/"
+  }
+ ],
+ "imgs": [
+  {
+   "box": [
+    0,
+    159,
+    1920,
+    620
+   ],
+   "src": "https://pyxnpjvtdlucaqqhhvin.supabase.co/storage/v1/object/public/media/derived/w2048/photos/18184_cf816800-f35b-4a7c-9cef-0a986f074c1a.webp",
+   "alt": "Hawaii Mountains & Coast"
+  },
+  {
+   "box": [
+    152,
+    2258,
+    680,
+    510
+   ],
+   "src": "https://pyxnpjvtdlucaqqhhvin.supabase.co/storage/v1/object/public/media/derived/w2048/photos/20420_2_5a1b311b-0abe-4a15-8dff-483df3c818bb.webp",
+   "alt": "Hawaii Beach"
+  },
+  {
+   "box": [
+    152,
+    3107,
+    680,
+    510
+   ],
+   "src": "https://pyxnpjvtdlucaqqhhvin.supabase.co/storage/v1/object/public/media/derived/w2048/photos/20402_fc7bf414-7993-4498-b44b-cad1575989ff.webp",
+   "alt": "Maui Coast"
+  },
+  {
+   "box": [
+    153,
+    4112,
+    384,
+    240
+   ],
+   "src": "https://pyxnpjvtdlucaqqhhvin.supabase.co/storage/v1/object/public/media/derived/w2048/photos/Makapuu_Beach_f2b43998-0707-4f4f-834b-7e72c9c4eed1.webp",
+   "alt": "Hawaii Oahu Active Adventure"
+  },
+  {
+   "box": [
+    563,
+    4112,
+    384,
+    240
+   ],
+   "src": "https://pyxnpjvtdlucaqqhhvin.supabase.co/storage/v1/object/public/media/derived/w2048/photos/Rock_Beach_Hawaii_a3b12e76-897e-4ad6-ad29-9d912182a20b.webp",
+   "alt": "Hawai'i Maui Big Island Explorer"
+  },
+  {
+   "box": [
+    152,
+    5033,
+    802,
+    605
+   ],
+   "src": "https://pyxnpjvtdlucaqqhhvin.supabase.co/storage/v1/object/public/media/derived/w2048/photos/Rock_Beach_Hawaii_a3b12e76-897e-4ad6-ad29-9d912182a20b.webp",
+   "alt": "Rock Beach"
+  },
+  {
+   "box": [
+    966,
+    5033,
+    395,
+    296
+   ],
+   "src": "https://pyxnpjvtdlucaqqhhvin.supabase.co/storage/v1/object/public/media/derived/w2048/photos/kaanapalibeachhoteldrone_11_ee1d41cd-b669-4ccd-b3ad-03de7fb80d11.webp",
+   "alt": "Kaanapali Beach Resort"
+  },
+  {
+   "box": [
+    1373,
+    5033,
+    395,
+    296
+   ],
+   "src": "https://pyxnpjvtdlucaqqhhvin.supabase.co/storage/v1/object/public/media/derived/w2048/photos/Hikers_Resting_2d0b6b5e-7141-4c76-946a-a98d3cf78538.webp",
+   "alt": "Hikers Resting Hawaii"
+  },
+  {
+   "box": [
+    966,
+    5341,
+    395,
+    296
+   ],
+   "src": "https://pyxnpjvtdlucaqqhhvin.supabase.co/storage/v1/object/public/media/derived/w2048/photos/Road_to_Hana_v2_fa275db9-41c9-43dd-a995-29fa0a3a065a.webp",
+   "alt": "Road to Hana Coast"
+  },
+  {
+   "box": [
+    1373,
+    5341,
+    395,
+    296
+   ],
+   "src": "https://pyxnpjvtdlucaqqhhvin.supabase.co/storage/v1/object/public/media/derived/w2048/photos/luau_dinner_746b067c-5569-4329-91cf-08bb82a1899d.webp",
+   "alt": "Luau Dinner"
+  },
+  {
+   "box": [
+    152,
+    5802,
+    528,
+    330
+   ],
+   "src": "https://pyxnpjvtdlucaqqhhvin.supabase.co/storage/v1/object/public/media/derived/w2048/photos/11227_tif_3df34570-e78b-4761-a45a-095d23a5067e.webp",
+   "alt": "Mauna Kea Summit"
+  }
+ ],
+ "blocks": [
+  {
+   "tag": "H1",
+   "box": [
+    152,
+    436,
+    703,
+    113
+   ],
+   "text": "Southwest Adventures Tours in Paradise"
+  },
+  {
+   "tag": "LI",
+   "box": [
+    152,
+    803,
+    46,
+    44
+   ],
+   "text": "Home\n/"
+  },
+  {
+   "tag": "LI",
+   "box": [
+    204,
+    803,
+    84,
+    44
+   ],
+   "text": "Destinations\n/"
+  },
+  {
+   "tag": "LI",
+   "box": [
+    294,
+    816,
+    243,
+    18
+   ],
+   "text": "Southwest Adventures Tours in Paradise"
+  },
+  {
+   "tag": "P",
+   "box": [
+    152,
+    1033,
+    680,
+    138
+   ],
+   "text": "A Hawaii vacation offers something no other destination can match: jaw-dropping landscapes, a welcoming aloha spirit, rich Polynesian culture, and an endless variety of experiences. Whether you're traveling solo, as a couple, or with family, Hawaii is one of the best vacation destinations in the world for those seeking both adventure and relaxation."
+  },
+  {
+   "tag": "H2",
+   "box": [
+    152,
+    1211,
+    680,
+    43
+   ],
+   "text": "Natural Beauty You Have to See to Believe"
+  },
+  {
+   "tag": "P",
+   "box": [
+    152,
+    1270,
+    680,
+    138
+   ],
+   "text": "From dramatic coastlines and active volcanoes to emerald valleys and pristine beaches, Hawaii's scenery is simply unforgettable. Each Island is a stunning combination of rainforest, waterfalls, coral reefs, and mountain peaks. Making it feel like several destinations in one. It's a tropical paradise where the sunsets glow, the ocean invites, and every corner feels like a postcard."
+  },
+  {
+   "tag": "H2",
+   "box": [
+    152,
+    1448,
+    680,
+    43
+   ],
+   "text": "Deep Culture & Aloha Spirit"
+  },
+  {
+   "tag": "P",
+   "box": [
+    152,
+    1506,
+    680,
+    111
+   ],
+   "text": "What sets Hawaii apart is its deep cultural heritage and genuine hospitality. The islands are home to a rich blend of Native Hawaiian traditions, music, dance, and food. Attend a traditional Luau, learn about ancient Polynesian navigation, or simply connect with the locals who carry the aloha spirit in everything they do."
+  },
+  {
+   "tag": "H2",
+   "box": [
+    152,
+    1657,
+    680,
+    43
+   ],
+   "text": "A Place to Slow Down and Reconnect"
+  },
+  {
+   "tag": "P",
+   "box": [
+    152,
+    1715,
+    680,
+    111
+   ],
+   "text": "In Hawaii, life moves a little slower, and that's part of the magic. Whether you're relaxing on a quiet beach, watching the sunrise from a cliffside, or sharing a sunset toast with loved ones, Hawaii gives you space to reconnect with what matters most. It's more than a trip; it's a reset."
+  },
+  {
+   "tag": "H2",
+   "box": [
+    152,
+    1866,
+    680,
+    85
+   ],
+   "text": "Explore Our Two Hawaiian Island Guided Tours Listed Below"
+  },
+  {
+   "tag": "H3",
+   "box": [
+    152,
+    1983,
+    680,
+    34
+   ],
+   "text": "Oahu Island Experience"
+  },
+  {
+   "tag": "P",
+   "box": [
+    152,
+    2033,
+    680,
+    193
+   ],
+   "text": "Embark on an unforgettable island adventure that showcases Oahu's rich culture, history, and natural beauty. Visit iconic sites like Pearl Harbor and the USS Arizona Memorial, marvel at coastal wonders like Halona Blowhole and Sandy Beach, and savor local flavors at the Dole Plantation. Enjoy snorkeling or kayaking in crystal-clear waters, hike through lush trails, and immerse yourself in Polynesian culture with an unforgettable evening of traditional cuisine and a captivating fire show. This immersive tour offers the ultimate Oahu experience from sunrise to sunset."
+  },
+  {
+   "tag": "FIGCAPTION",
+   "box": [
+    152,
+    2778,
+    680,
+    21
+   ],
+   "text": "Hawaii Beach"
+  },
+  {
+   "tag": "H3",
+   "box": [
+    152,
+    2831,
+    680,
+    34
+   ],
+   "text": "Maui & Hawaii Island Combo"
+  },
+  {
+   "tag": "P",
+   "box": [
+    152,
+    2881,
+    680,
+    193
+   ],
+   "text": "Experience the best of Maui and the Big Island on this 10-day small-group journey blending relaxation, culture, and exploration. Begin in Maui with snorkeling at Molokini Crater, scenic drives on the Road to Hana, a sunrise at Haleakala, and a traditional luau. Then, head to the Big Island to explore Volcanoes National Park by e-bike, swim with manta rays off Kona’s coast, and stargaze from Maunakea’s summit. With visits to coffee farms, black sand beaches, and historic landmarks, this tour offers a rich, immersive taste of Hawaii’s natural beauty and cultural spirit."
+  },
+  {
+   "tag": "FIGCAPTION",
+   "box": [
+    152,
+    3627,
+    680,
+    21
+   ],
+   "text": "Maui Coast"
+  },
+  {
+   "tag": "H3",
+   "box": [
+    152,
+    3680,
+    680,
+    34
+   ],
+   "text": "Why Visit Hawaii"
+  },
+  {
+   "tag": "LI",
+   "box": [
+    152,
+    3730,
+    680,
+    28
+   ],
+   "text": "Year-round warm weather"
+  },
+  {
+   "tag": "LI",
+   "box": [
+    152,
+    3768,
+    680,
+    28
+   ],
+   "text": "Stunning natural landscapes"
+  },
+  {
+   "tag": "LI",
+   "box": [
+    152,
+    3805,
+    680,
+    28
+   ],
+   "text": "Rich cultural experience"
+  },
+  {
+   "tag": "LI",
+   "box": [
+    152,
+    3843,
+    680,
+    28
+   ],
+   "text": "Wide variety of activities"
+  },
+  {
+   "tag": "LI",
+   "box": [
+    152,
+    3881,
+    680,
+    28
+   ],
+   "text": "Ideal for couples, families, and solo travelers"
+  },
+  {
+   "tag": "LI",
+   "box": [
+    152,
+    3918,
+    680,
+    28
+   ],
+   "text": "World-class amenities"
+  },
+  {
+   "tag": "H2",
+   "box": [
+    152,
+    4043,
+    1616,
+    36
+   ],
+   "text": "Trips that go here"
+  },
+  {
+   "tag": "P",
+   "box": [
+    173,
+    4729,
+    481,
+    25
+   ],
+   "text": "Want Hawaii on your own terms?"
+  },
+  {
+   "tag": "P",
+   "box": [
+    173,
+    4762,
+    481,
+    68
+   ],
+   "text": "We build tours to order — your places, your dates, your pace. It is one of the things that sets Southwest Adventure Tours apart, and most people never find out we do it."
+  },
+  {
+   "tag": "H2",
+   "box": [
+    152,
+    4989,
+    1616,
+    20
+   ],
+   "text": "SOUTHWEST ADVENTURES TOURS IN PARADISE IN PHOTOGRAPHS"
+  },
+  {
+   "tag": "H2",
+   "box": [
+    152,
+    5734,
+    1616,
+    36
+   ],
+   "text": "From the journal"
+  },
+  {
+   "tag": "P",
+   "box": [
+    168,
+    6093,
+    496,
+    23
+   ],
+   "text": "Culture, Connection, and the Hawaiian Way"
+  }
+ ]
+}

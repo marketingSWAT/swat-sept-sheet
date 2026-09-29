@@ -1,0 +1,119 @@
+{
+ "href": "https://swat-website-storefront.vercel.app/deals/",
+ "docH": 2272,
+ "cards": [],
+ "imgs": [
+  {
+   "box": [
+    0,
+    159,
+    1920,
+    420
+   ],
+   "src": "https://pyxnpjvtdlucaqqhhvin.supabase.co/storage/v1/object/public/media/derived/w2048/photos/Bryce_Canyon_thors_hammer_26bf9126-1c47-46ae-aaeb-209aaa150bcf.webp",
+   "alt": "Bryce Canyon Thor's hammer"
+  },
+  {
+   "box": [
+    152,
+    822,
+    798,
+    342
+   ],
+   "src": "https://pyxnpjvtdlucaqqhhvin.supabase.co/storage/v1/object/public/media/derived/w2048/photos/IMG_8063_f2cad211-4fb0-4852-aa64-7c54bcc98b58.webp",
+   "alt": "Bryce Point, Bryce Canyon National Park"
+  }
+ ],
+ "blocks": [
+  {
+   "tag": "H1",
+   "box": [
+    152,
+    281,
+    703,
+    113
+   ],
+   "text": "Big Adventures, Smaller Price"
+  },
+  {
+   "tag": "P",
+   "box": [
+    152,
+    411,
+    576,
+    93
+   ],
+   "text": "Discounted departures on tours that are still running. Each one is a specific date with a promo code — when the date goes, so does the deal."
+  },
+  {
+   "tag": "LI",
+   "box": [
+    152,
+    603,
+    46,
+    44
+   ],
+   "text": "Home\n/"
+  },
+  {
+   "tag": "LI",
+   "box": [
+    204,
+    616,
+    57,
+    18
+   ],
+   "text": "Hot deals"
+  },
+  {
+   "tag": "P",
+   "box": [
+    152,
+    703,
+    748,
+    87
+   ],
+   "text": "Discover incredible discounts on upcoming tours — from iconic national parks and scenic highways to vibrant towns and hidden gems. These promotions are available for a limited time only."
+  },
+  {
+   "tag": "LI",
+   "box": [
+    152,
+    822,
+    798,
+    563
+   ],
+   "text": "Canyons of the Escalante\n\nNormally from $3,119 per person\n\nOctober 25\n$500 off per person\nCODE CANYONS500\nSee the itinerary and departures →"
+  },
+  {
+   "tag": "H2",
+   "box": [
+    176,
+    1188,
+    750,
+    44
+   ],
+   "text": "Canyons of the Escalante"
+  },
+  {
+   "tag": "P",
+   "box": [
+    176,
+    1228,
+    750,
+    21
+   ],
+   "text": "Normally from $3,119 per person"
+  },
+  {
+   "tag": "LI",
+   "box": [
+    176,
+    1269,
+    750,
+    47
+   ],
+   "text": "October 25\n$500 off per person\nCODE CANYONS500"
+  }
+ ]
+}
