@@ -965,7 +965,7 @@ def build():
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="robots" content="noindex,nofollow">
-<title>SWAT — Dates by season, drawn</title>
+<title>SWAT — Open decisions, drawn</title>
 <style>{css}</style>
 </head><body>
 {M.mapdefs()}
