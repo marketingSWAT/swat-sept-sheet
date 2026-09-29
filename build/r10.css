@@ -1,0 +1,110 @@
+/* ------------------------------------------------------------------ round 10
+   Decision 73 — dates by season. Drawn at 1440 inside round eight's `.dp-`
+   frame (928px column beside the 360px rail). The month card is 67D as it
+   ships, read off production 29 Sep: 223px cards in a 4-track grid, 12px gap,
+   caps month 14/700 over a rule, 52px rows, "Mon 5" 15/700, price 12.5 under
+   it, a 65x36 rust Book pill or an outline Waitlist pill. Every option reuses
+   that card unchanged, so the only thing that differs between panels is how
+   you get to it. */
+.mock .k10-ytabs,.mock .k10-stabs{display:flex;margin-top:22px;border-bottom:1px solid var(--sand300)}
+.mock .k10-ytabs span{padding:12px 20px 13px;display:flex;align-items:baseline;gap:8px;
+  border-bottom:3px solid transparent;margin-bottom:-1px}
+.mock .k10-ytabs b{font-size:18px;font-weight:700;color:var(--ink500)}
+.mock .k10-ytabs em{font-style:normal;font-size:12.5px;color:var(--ink300)}
+.mock .k10-ytabs .on{border-color:var(--navy800)}
+.mock .k10-ytabs .on b{color:var(--ink900)}
+.mock .k10-line{margin:22px 0 0;font-size:14px;color:var(--ink500)}
+.mock .k10-line b{color:var(--ink900)}
+
+.mock .k10-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;
+  margin-top:14px;grid-auto-rows:1fr}
+.mock .k10-grid.c3{grid-template-columns:repeat(3,minmax(0,1fr))}
+.mock .k10-mc{border:1px solid var(--sand300);border-radius:4px;padding:12px 12px 0;background:#fff}
+.mock .k10-mc h4{margin:0;padding-bottom:10px;border-bottom:1px solid var(--sand300);font-size:14px;
+  font-weight:700;letter-spacing:.02em;text-transform:uppercase;color:var(--ink900)}
+.mock .k10-mc h4 i{font-style:normal;color:var(--ink300);font-weight:600}
+.mock .k10-mc ul{list-style:none;margin:0;padding:0}
+.mock .k10-mc li{display:flex;align-items:center;height:52px;border-top:1px solid var(--sand200)}
+.mock .k10-mc li:first-child{border:0}
+.mock .k10-mc li span{display:flex;flex-direction:column;line-height:1.25}
+.mock .k10-mc li b{font-size:15px;font-weight:700;color:var(--ink900)}
+.mock .k10-mc li em{font-style:normal;font-size:12.5px;color:var(--ink500)}
+.mock .k10-mc li em.so{font-size:11px;font-weight:600;letter-spacing:.08em;color:var(--ink300)}
+.mock .k10-mc li u{margin-left:auto;text-decoration:none;background:var(--rust600);color:#fff;
+  font-size:13px;font-weight:700;width:65px;height:36px;border-radius:999px;display:grid;place-items:center}
+.mock .k10-mc li u.wl{background:#fff;color:var(--ink900);border:1px solid var(--sand300);
+  font-weight:600;width:68px;box-sizing:border-box}
+
+/* ---- B · six season tabs */
+.mock .k10-stabs span{flex:1;padding:12px 10px 12px 14px;display:flex;flex-direction:column;gap:3px;
+  border-bottom:3px solid transparent;margin-bottom:-1px;min-width:0}
+.mock .k10-stabs b{font-size:16px;font-weight:700;color:var(--ink500);white-space:nowrap}
+.mock .k10-stabs b i{font-style:normal;font-weight:600;color:var(--ink300)}
+.mock .k10-stabs em{font-style:normal;font-size:12px;color:var(--ink300);white-space:nowrap}
+.mock .k10-stabs .on{border-color:var(--navy800)}
+.mock .k10-stabs .on b,.mock .k10-stabs .on b i{color:var(--ink900)}
+.mock .k10-note{margin:18px 0 0;padding:14px 16px;background:var(--sand100);border-radius:4px;
+  font-size:14px;line-height:21px;color:var(--ink500)}
+.mock .k10-note>b{color:var(--rust700)}
+.mock .k10-from{display:block;margin-top:6px;color:var(--ink700)}
+.mock .k10-from b{color:var(--ink900)}
+
+/* ---- C · the season cards pick the dates */
+.mock .k10-scs{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin-top:18px}
+.mock .k10-sc{border:1px solid var(--sand300);border-radius:6px;padding:14px 16px 14px;background:#fff;
+  display:flex;flex-direction:column}
+.mock .k10-sc>b{font-size:18px;font-weight:700;color:var(--ink900)}
+.mock .k10-sc>em{font-style:normal;font-size:12.5px;color:var(--ink300);margin-top:2px}
+.mock .k10-sc strong{margin-top:8px;font-size:14px;font-weight:700;color:var(--rust700)}
+.mock .k10-sc .ct{margin-top:10px;font-size:13px;font-weight:600;color:var(--ink700)}
+.mock .k10-sc.on{background:#0f1f2e;border-color:#0f1f2e}
+.mock .k10-sc.on>b{color:#fff}
+.mock .k10-sc.on>em,.mock .k10-sc.on .ct{color:var(--navy300)}
+.mock .k10-sc.on strong{color:#f3a57e}
+.mock .k10-yh{display:flex;align-items:baseline;gap:10px;margin-top:22px}
+.mock .k10-yh b{font-size:17px;font-weight:700;color:var(--ink900)}
+.mock .k10-yh em{font-style:normal;font-size:13px;color:var(--ink300)}
+.mock .k10-yh+.k10-grid{margin-top:10px}
+
+/* ---- D · every season on one screen */
+.mock .k10-srs{margin-top:18px;border-top:1px solid var(--sand300)}
+.mock .k10-sr{display:grid;grid-template-columns:190px minmax(0,1fr);gap:22px;padding:16px 0;
+  border-bottom:1px solid var(--sand300)}
+.mock .k10-sl b{display:block;font-size:18px;font-weight:700;color:var(--ink900)}
+.mock .k10-sl em{display:block;font-style:normal;font-size:12.5px;color:var(--ink300)}
+.mock .k10-sl strong{display:block;margin-top:6px;font-size:13.5px;font-weight:700;color:var(--rust700)}
+.mock .k10-sl span{display:block;margin-top:6px;font-size:13px;font-weight:600;color:var(--ink700)}
+.mock .k10-chs{display:flex;flex-wrap:wrap;gap:8px;align-content:flex-start}
+.mock .k10-yl{flex:0 0 100%;font-size:11px;font-weight:800;letter-spacing:.1em;color:var(--ink300);
+  margin:2px 0 -2px}
+.mock .k10-yl:not(:first-child){margin-top:8px}
+.mock .k10-ch{width:108px;height:44px;box-sizing:border-box;border:1px solid var(--sand300);
+  border-radius:6px;padding:4px 10px;display:flex;flex-direction:column;justify-content:center;
+  line-height:1.2;background:#fff}
+.mock .k10-ch b{font-size:14px;font-weight:700;color:var(--ink900)}
+.mock .k10-ch em{font-style:normal;font-size:12px;font-weight:600;color:var(--ink500)}
+.mock .k10-ch.pk em{color:var(--rust700)}
+.mock .k10-ch.so{background:var(--sand100);border-style:dashed}
+.mock .k10-ch.so b{color:var(--ink300);text-decoration:line-through}
+.mock .k10-ch.so em{color:var(--ink300)}
+
+/* ---- phone: one card per row (the live page does the same at 390), the
+   season tabs become a row you swipe, the season cards go two by two. */
+.mockwrap.phone .k10-grid,.mockwrap.phone .k10-grid.c3{grid-template-columns:1fr;grid-auto-rows:auto}
+.mockwrap.phone .k10-stabs{overflow:hidden}
+.mockwrap.phone .k10-stabs span{flex:0 0 150px}
+.mockwrap.phone .k10-ytabs span{padding:12px 16px}
+.mockwrap.phone .k10-scs{grid-template-columns:1fr 1fr;gap:8px}
+.mockwrap.phone .k10-sc{padding:10px 12px}
+.mockwrap.phone .k10-sc strong{font-size:12.5px}
+.mockwrap.phone .k10-sr{grid-template-columns:1fr;gap:10px}
+.mockwrap.phone .k10-sl strong{display:inline;margin-left:8px}
+.mockwrap.phone .k10-ch{width:calc((100% - 16px) / 3)}
+
+/* seven-option headers from round eight: same two-line box here, so the
+   drawings start on one line. */
+#d73 .opt-hd{display:grid;grid-template-columns:auto 1fr;column-gap:8px;row-gap:6px;
+  align-content:start;align-items:center;min-height:56px}
+#d73 .opt-hd .k{grid-column:1;grid-row:1;align-self:start;margin-top:2px}
+#d73 .opt-hd .n{grid-column:2;grid-row:1}
+#d73 .opt-hd .pick{grid-column:2;grid-row:2;justify-self:start}

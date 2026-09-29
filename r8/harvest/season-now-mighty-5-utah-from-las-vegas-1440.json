@@ -1,0 +1,269 @@
+{
+ "docH": 12585,
+ "dep": {
+  "x": 52,
+  "y": 8781,
+  "w": 928,
+  "h": 537
+ },
+ "depText": "Departures\n\n7 dates on this trip have sold out as of Sep 24, 2026. Call us on 800-970-5864 about a date marked sold out — we keep a waiting list, and cancellations do happen.\n\n2026\n13 dates\n\n2026 dates from $1,999. The rate for the date you choose is confirmed when you book.\n\nOCTOBER\n\nMon 5\n\nBook\n\nMon 12\n\nBook\n\nMon 19\n\nBook\n\nMon 26\n\nSOLD OUT\n\nWaitlist\nNOVEMBER\n\nMon 2\n\nSOLD OUT\n\nWaitlist\n\nMon 9\n\nSOLD OUT\n\nWaitlist\n\nMon 16\n\nSOLD OUT\n\nWaitlist\n\nMon 23\n\nBook\n\nMon 30\n\nSOLD OUT\n\nWaitlist\nDECEMBER\n\nMon 7\n\nBook\n\nMon 14\n\nSOLD OUT\n\nWaitlist\n\nMon 21\n\nBook\n\nMon 28\n\nSOLD OUT\n\nWaitlist\n2027\n52 dates",
+ "tabs": [
+  {
+   "t": "2026\n13 dates",
+   "box": {
+    "x": 52,
+    "y": 8900,
+    "w": 147,
+    "h": 52
+   }
+  },
+  {
+   "t": "2027\n52 dates",
+   "box": {
+    "x": 199,
+    "y": 8900,
+    "w": 149,
+    "h": 52
+   }
+  }
+ ],
+ "panelH": {
+  "x": 52,
+  "y": 8951,
+  "w": 928,
+  "h": 366
+ },
+ "cards": [
+  {
+   "tag": "H3",
+   "t": "OCTOBER",
+   "box": {
+    "x": 65,
+    "y": 9020,
+    "w": 197,
+    "h": 28
+   }
+  },
+  {
+   "tag": "LI",
+   "t": "Mon 5 |  | Book",
+   "box": {
+    "x": 65,
+    "y": 9052,
+    "w": 197,
+    "h": 52
+   }
+  },
+  {
+   "tag": "LI",
+   "t": "Mon 12 |  | Book",
+   "box": {
+    "x": 65,
+    "y": 9104,
+    "w": 197,
+    "h": 52
+   }
+  },
+  {
+   "tag": "LI",
+   "t": "Mon 19 |  | Book",
+   "box": {
+    "x": 65,
+    "y": 9156,
+    "w": 197,
+    "h": 52
+   }
+  },
+  {
+   "tag": "LI",
+   "t": "Mon 26 |  | SOLD OUT |  | Waitlist",
+   "box": {
+    "x": 65,
+    "y": 9208,
+    "w": 197,
+    "h": 52
+   }
+  },
+  {
+   "tag": "H3",
+   "t": "NOVEMBER",
+   "box": {
+    "x": 300,
+    "y": 9020,
+    "w": 197,
+    "h": 28
+   }
+  },
+  {
+   "tag": "LI",
+   "t": "Mon 2 |  | SOLD OUT |  | Waitlist",
+   "box": {
+    "x": 300,
+    "y": 9052,
+    "w": 197,
+    "h": 52
+   }
+  },
+  {
+   "tag": "LI",
+   "t": "Mon 9 |  | SOLD OUT |  | Waitlist",
+   "box": {
+    "x": 300,
+    "y": 9104,
+    "w": 197,
+    "h": 52
+   }
+  },
+  {
+   "tag": "LI",
+   "t": "Mon 16 |  | SOLD OUT |  | Waitlist",
+   "box": {
+    "x": 300,
+    "y": 9156,
+    "w": 197,
+    "h": 52
+   }
+  },
+  {
+   "tag": "LI",
+   "t": "Mon 23 |  | Book",
+   "box": {
+    "x": 300,
+    "y": 9208,
+    "w": 197,
+    "h": 52
+   }
+  },
+  {
+   "tag": "LI",
+   "t": "Mon 30 |  | SOLD OUT |  | Waitlist",
+   "box": {
+    "x": 300,
+    "y": 9260,
+    "w": 197,
+    "h": 52
+   }
+  },
+  {
+   "tag": "H3",
+   "t": "DECEMBER",
+   "box": {
+    "x": 535,
+    "y": 9020,
+    "w": 197,
+    "h": 28
+   }
+  },
+  {
+   "tag": "LI",
+   "t": "Mon 7 |  | Book",
+   "box": {
+    "x": 535,
+    "y": 9052,
+    "w": 197,
+    "h": 52
+   }
+  },
+  {
+   "tag": "LI",
+   "t": "Mon 14 |  | SOLD OUT |  | Waitlist",
+   "box": {
+    "x": 535,
+    "y": 9104,
+    "w": 197,
+    "h": 52
+   }
+  },
+  {
+   "tag": "LI",
+   "t": "Mon 21 |  | Book",
+   "box": {
+    "x": 535,
+    "y": 9156,
+    "w": 197,
+    "h": 52
+   }
+  },
+  {
+   "tag": "LI",
+   "t": "Mon 28 |  | SOLD OUT |  | Waitlist",
+   "box": {
+    "x": 535,
+    "y": 9208,
+    "w": 197,
+    "h": 52
+   }
+  }
+ ],
+ "seasons": {
+  "box": {
+   "x": 52,
+   "y": 1990,
+   "w": 928,
+   "h": 405
+  },
+  "text": "This trip by season\n\nThe same trip. Very different weeks.\n\nSpring\n\nMarch to May\n\nWarm days, cold mornings\n\nComfortable walking weather and the desert in flower. Mornings near freezing at Bryce, and the high country can still be under snow into May.\n\n14 spring departures ›\n\nSummer\n\nJune to August\n\nHot, and we mean it\n\nOver 100°F in the canyons through July and August, with afternoon thunderstorms. Early starts, long lunches, and everything worth seeing done before noon.\n\n13 summer departures ›\n\nAutumn\n\nSeptember to November\n\nThe best month to come\n\nThirty degrees cooler than July, thinner crowds and low light on red rock. If your dates are flexible, this is the one to pick.\n\n22 autumn departures ›\n\nWinter\n\nDecember to February\n\nEmpty, and often snowed\n\nBryce and the high plateaus under snow, the canyons quiet and clear. Short days, cold nights, and some roads closed.\n\n16 winter departures ›"
+ },
+ "toc": [
+  {
+   "t": "The trip at a glance",
+   "y": 629
+  },
+  {
+   "t": "What guests said",
+   "y": 659
+  },
+  {
+   "t": "Overview",
+   "y": 1391
+  },
+  {
+   "t": "This trip by season",
+   "y": 1990
+  },
+  {
+   "t": "Day by day",
+   "y": 2451
+  },
+  {
+   "t": "Is this trip right for you?",
+   "y": 4737
+  },
+  {
+   "t": "Tour details",
+   "y": 5195
+  },
+  {
+   "t": "Gallery",
+   "y": 6205
+  },
+  {
+   "t": "More from Zion National Park and Bryce Canyon National Park",
+   "y": 7493
+  },
+  {
+   "t": "Departures",
+   "y": 8781
+  },
+  {
+   "t": "Pricing",
+   "y": 9373
+  },
+  {
+   "t": "SWAT Trip Protection Plan",
+   "y": 9802
+  },
+  {
+   "t": "You might also consider",
+   "y": 10585
+  },
+  {
+   "t": "Close, but not quite this trip?",
+   "y": 11285
+  },
+  {
+   "t": "Where this trip goes",
+   "y": 11535
+  }
+ ]
+}

@@ -204,5 +204,11 @@
     "A": "One card on the left, as now",
     "B": "One wide row per deal",
     "C": "The deal, plus how deals work"
+  },
+  "73": {
+    "A": "Year tabs, as now",
+    "B": "Seasons instead of years",
+    "C": "The season cards pick the dates",
+    "D": "Every season on one screen"
   }
 }

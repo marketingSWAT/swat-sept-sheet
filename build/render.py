@@ -34,6 +34,7 @@ import decisions_f as F           # noqa: E402
 import decisions_g as G           # noqa: E402
 import decisions_h as H8          # noqa: E402
 import decisions_j as J9          # noqa: E402
+import decisions_k as K10         # noqa: E402
 
 OUT = os.path.join(HERE, '..', 'site', 'index.html')
 
@@ -50,6 +51,10 @@ RAIL = [
     (37, 'Is this trip right for you?'),
     (38, 'Start where you are'),
     (39, 'The film slot'),
+]
+
+RAIL10 = [
+    (73, 'Dates by season'),
 ]
 
 RAIL9 = [
@@ -105,7 +110,9 @@ def rail_html():
             f'<b>{n}</b>{t}</a>' for n, t in group)
     return (
         '<nav class="rail">'
-        '<div class="rt">This round &mdash; the empty right side</div>'
+        '<div class="rt">This round &mdash; dates by season</div>'
+        f'{rows(RAIL10)}'
+        '<div class="rt">Answered &mdash; the empty right side</div>'
         f'{rows(RAIL9)}'
         '<a href="#r9">Every page, checked</a>'
         '<div class="rt">Answered &mdash; picking a date</div>'
@@ -784,13 +791,23 @@ def build():
     # Round eight: Claude's mock styles, then Codex's, scoped `.dp-` / `.cx-`.
     css += open(os.path.join(HERE, 'r8.css')).read()
     css += open(os.path.join(HERE, 'r9.css')).read()
+    css += open(os.path.join(HERE, 'r10.css')).read()
     cx = os.path.join(HERE, '..', 'r8', 'codex', 'css')
     for f in sorted(os.listdir(cx)):
         if f.endswith('.css'):
             css += open(os.path.join(cx, f)).read()
     decisions = E.ALL + D.ALL + C.ALL + A.ALL + B.ALL
     body = (MAST +
-            sec('This round', 'The empty right side &mdash; 68 to 72',
+            sec('This round', 'Dates by season &mdash; 73',
+                'Drawn at <b>1440</b> wide off the live Mighty 5 from Las Vegas '
+                'page with its real 65 dates, the Departures section in its '
+                'column and the booking panel beside it. Every option uses the '
+                'month cards you picked in 67 exactly as they ship, so the only '
+                'difference between the drawings is <b>how you get to a '
+                'month</b>. Green ring is what ships today. Amber ring is the '
+                'one I would build.') +
+            ''.join(K10.ALL) +
+            sec('Answered', 'The empty right side &mdash; 68 to 72',
                 'Drawn at <b>1,920</b> wide, the width of your screenshot, off '
                 'the live pages with their real trips, photos and words. Where '
                 'a drawing is one screen tall it is the <b>first 1,080px you '
@@ -831,7 +848,15 @@ def build():
             ''.join(decisions) + R1 + R2 + R3 + R4 + R5)
 
     foot = (
-        '<div class="foot">Round nine &mdash; decisions 68 to 72 &mdash; was '
+        '<div class="foot">Round ten &mdash; decision 73 &mdash; was built '
+        '29 September 2026 from Crow&rsquo;s note passing on Matt&rsquo;s '
+        'feedback. Its current-build panel was read off the DEPLOYED PRODUCTION '
+        'page <code>swat-website-storefront.vercel.app/tours/mighty-5-utah-'
+        'from-las-vegas/</code> at <b>1440</b> and <b>390</b> the same day: '
+        'Departures at y=8,781 (537px on the 2026 tab, 1,140px on 2027), '
+        '&ldquo;This trip by season&rdquo; at y=1,990 (405px; 1,094px on a '
+        'phone). Season counts and prices are this trip&rsquo;s own. '
+        'Round nine &mdash; decisions 68 to 72 &mdash; was '
         'built 29 September 2026 from Crow&rsquo;s note and screenshot of the '
         'Arches and Canyonlands page. Every current-build panel was read off '
         'the DEPLOYED PRODUCTION build <code>swat-website-storefront.vercel.app'
@@ -888,7 +913,7 @@ def build():
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="robots" content="noindex,nofollow">
-<title>SWAT — The empty right side, drawn</title>
+<title>SWAT — Dates by season, drawn</title>
 <style>{css}</style>
 </head><body>
 {M.mapdefs()}

@@ -191,6 +191,13 @@ ANSWERS = {
               'month cards and a price on every date. The month cards were then '
               'made equal height after &ldquo;I hate how some of the boxes for '
               'each month are different sizes&rdquo;'),
+    68: ('C', 'photos beside the words: first drawn as B, then redrawn to a '
+              'photo box that ends on the words&rsquo; last line. On production '
+              '29 September'),
+    69: ('B', 'on production 29 September'),
+    70: ('C', 'on production 29 September'),
+    71: ('C', 'on production 29 September'),
+    72: ('C', 'on production 29 September'),
     53: ('Settled', 'in the 28 September walkthrough with Lance: one button '
                     'on the photograph, linked to Destinations, stronger '
                     'wording than &ldquo;Find your tour&rdquo; still to be '
