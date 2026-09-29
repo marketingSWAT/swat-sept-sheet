@@ -1,0 +1,30 @@
+{
+  "name": "Start with a season",
+  "changes": [
+    "Put both years in large time-of-year buttons, so 2027 is visible right away.",
+    "Choose one of three months and see its price before opening the dates.",
+    "Book from large cards that show both the Monday departure and Friday return.",
+    "Keep a clear place for a Hot deal and promo code, labeled here as an example."
+  ],
+  "rings": [
+    [
+      1,
+      ".cx-seasons"
+    ],
+    [
+      2,
+      ".cx-f-group[data-season=\"spring27\"] .cx-months"
+    ],
+    [
+      3,
+      ".cx-date[data-date=\"2027-04-05\"]"
+    ],
+    [
+      4,
+      ".cx-date[data-date=\"2027-04-19\"] .cx-deal"
+    ]
+  ],
+  "body": "Customers narrow the choices in two small steps, then see a few easy-to-read trips. Both years stay visible, and each month shows its price before they commit. The catch is an extra tap for people who already know their month.",
+  "cost": "about 1–2 days",
+  "risk": "Changing the time of year must also announce the new dates to screen readers and keep keyboard focus predictable."
+}

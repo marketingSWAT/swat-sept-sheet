@@ -1,0 +1,25 @@
+{
+  "name": "Go soon or later",
+  "changes": [
+    "Give the next three bookable trips large, separate booking buttons.",
+    "Keep all other months visible under both years, with prices for 2027.",
+    "Open only the month the customer wants, with its dates already in the page."
+  ],
+  "rings": [
+    [
+      1,
+      ".cx-g-next"
+    ],
+    [
+      2,
+      ".cx-g-years"
+    ],
+    [
+      3,
+      ".cx-g-browse"
+    ]
+  ],
+  "body": "Customers who want to travel soon can book immediately. Everyone else can open a labeled month without expanding a year of dates. The first three cards take up more room on a phone.",
+  "cost": "about 1 day",
+  "risk": "The featured trips must advance as dates pass or sell out, without duplicating dates in the month browser."
+}

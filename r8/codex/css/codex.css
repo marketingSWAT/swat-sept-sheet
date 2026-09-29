@@ -1,0 +1,188 @@
+/* Shared tour furniture. All rules are confined to Codex drawings. */
+.mock .cx-page{color-scheme:light;min-height:870px;font-size:16px;line-height:1.5}
+.mock .cx-page *{box-sizing:border-box}
+.mock .cx-page button,.mock .cx-page select,.mock .cx-page summary{font:inherit;cursor:pointer}
+.mock .cx-page button,.mock .cx-page a,.mock .cx-page summary,.mock .cx-page select{touch-action:manipulation}
+.mock .cx-page button:focus-visible,.mock .cx-page a:focus-visible,.mock .cx-page summary:focus-visible,.mock .cx-page select:focus-visible{outline:3px solid var(--pine700);outline-offset:3px}
+.mock .cx-page button:hover,.mock .cx-page summary:hover{box-shadow:0 0 0 2px var(--ink500)}
+.mock .cx-page [hidden]{display:none}
+.mock .cx-lead{font-size:17px;color:var(--ink500);margin:10px 0 26px;max-width:760px}
+.mock .cx-kicker{font-size:12px;font-weight:800;letter-spacing:.09em;text-transform:uppercase;color:var(--ink500);margin:0 0 8px}
+.mock .cx-title{font-size:23px;line-height:1.25;color:var(--ink900);margin:0}
+.mock .cx-sub{font-size:14px;color:var(--ink500);margin:8px 0 0}
+.mock .cx-btn{min-height:46px;padding:11px 20px;border:1px solid var(--rust600);border-radius:8px;background:var(--rust600);color:var(--navy900);font-weight:800;text-align:center;text-decoration:none;display:inline-flex;align-items:center;justify-content:center;gap:8px;line-height:1.3}
+.mock .cx-outline{background:#fff;color:var(--ink900);border-color:var(--ink300)}
+.mock .cx-call{color:var(--ink900);text-decoration:underline;text-underline-offset:3px;font-weight:700}
+.mock .cx-help{display:flex;align-items:center;justify-content:space-between;gap:20px;border-top:1px solid var(--sand300);margin-top:24px;padding-top:20px;font-size:14px;color:var(--ink500)}
+.mock .cx-help p{margin:0}
+.mock .cx-help a{white-space:nowrap}
+.mock .cx-price-note{font-size:14px;color:var(--ink500);margin:20px 0 0}
+.mock .cx-rail .dp-cta{width:100%;border:0;min-height:46px;line-height:1.4;color:var(--navy900);font-weight:800}
+.mock .cx-rail .dp-rt .s{color:var(--sand200)}
+.mock .cx-rail .dp-rq a{color:var(--ink700)}
+.mock .cx-pbar{position:sticky;bottom:0;z-index:5}
+.mock .cx-pbar .cx-btn{margin-left:auto;font-size:14px;padding:10px 14px}
+.mock .cx-date{border:1px solid var(--sand300);border-radius:12px;background:#fff;padding:18px;min-width:0}
+.mock .cx-date h4{font-size:19px;color:var(--ink900);line-height:1.4}
+.mock .cx-date .cx-days{display:block;color:var(--ink500);font-size:14px;margin-top:3px}
+.mock .cx-date .cx-fare{font-size:22px;font-weight:800;color:var(--ink900);display:block;margin-top:12px;line-height:1.3}
+.mock .cx-date .cx-fare small{font-size:13px;font-weight:400;color:var(--ink500)}
+.mock .cx-date .cx-btn{margin-top:14px;width:100%;font-size:15px}
+.mock .cx-sold{background:var(--sand100)}
+.mock .cx-sold-label{font-size:15px;color:var(--ink500);font-weight:700}
+.mock .cx-deal{display:flex;gap:8px;align-items:center;flex-wrap:wrap;padding:8px 10px;border-radius:6px;background:var(--rust100);font-size:13px;color:var(--ink900);margin:12px 0 0}
+.mock .cx-deal svg{width:17px;height:20px;fill:var(--rust600);flex:none}
+.mock .cx-deal small{width:100%;font-size:12px}
+/* E: the picker opens beside the booking button, above the page. */
+.mock .cx-e{position:relative;min-height:920px}
+.mock .cx-e-summary{border:1px solid var(--sand300);padding:26px;border-radius:12px;max-width:760px;display:flex;justify-content:space-between;align-items:center;gap:22px;background:var(--sand100)}
+.mock .cx-e-summary p{margin:7px 0 0;color:var(--ink500)}
+.mock .cx-e-summary .cx-btn{flex:none}
+.mock .cx-e .cx-under{margin-top:42px;max-width:750px}
+.mock .cx-e .cx-under p{font-size:16px;max-width:640px;color:var(--ink500)}
+.mock .cx-e-wash{position:absolute;inset:125px 432px 35px 24px;background:var(--sand100);opacity:.72;pointer-events:none;border-radius:20px}
+.mock .cx-e-open{position:absolute;top:173px;right:462px;width:640px;padding:24px;background:#fff;border:1px solid var(--ink300);border-radius:16px;box-shadow:0 18px 46px #0f1f2e26;z-index:3}
+.mock .cx-e-open::after{content:'';position:absolute;right:-11px;top:320px;width:20px;height:20px;background:#fff;border-top:1px solid var(--ink300);border-right:1px solid var(--ink300);transform:rotate(45deg)}
+.mock .cx-e-head{display:flex;align-items:center;justify-content:space-between;gap:16px}
+.mock .cx-close{background:#fff;border:1px solid var(--ink300);border-radius:8px;font-size:14px;min-height:44px;padding:8px 12px;color:var(--ink700)}
+.mock .cx-e-field{display:grid;grid-template-columns:1fr 1fr;align-items:center;gap:12px;margin:24px 0 16px}
+.mock .cx-e-field label{font-size:16px;font-weight:700;color:var(--ink900)}
+.mock .cx-e-field select{width:100%;border:1px solid var(--ink300);border-radius:8px;padding:12px;background:#fff;color:var(--ink900);min-height:48px}
+.mock .cx-e-row{display:grid;grid-template-columns:1fr 90px 150px;align-items:center;gap:10px;padding:16px 0;border-top:1px solid var(--sand300)}
+.mock .cx-e-row h4{font-size:18px;color:var(--ink900)}
+.mock .cx-e-row .cx-days{font-size:13px;color:var(--ink500);display:block;margin-top:4px}
+.mock .cx-e-row .cx-fare{font-size:19px;font-weight:800;color:var(--ink900)}
+.mock .cx-e-row .cx-btn{font-size:14px;padding:10px 12px}
+.mock .cx-e-row .cx-deal{grid-column:1/-1;margin:0}
+.mock .cx-e-row .cx-deal small{width:auto;margin-left:auto}
+.mock .cx-e-price{background:var(--sand100);border-radius:8px;padding:12px 14px;margin-top:16px;font-size:14px;color:var(--ink700)}
+.mock .cx-e-foot{border-top:1px solid var(--sand300);padding-top:16px;margin:18px 0 0;font-size:14px;color:var(--ink500)}
+.mock .cx-e .cx-rail-trigger{outline:3px solid var(--navy800);outline-offset:4px}
+.mock .cx-handle{display:none}
+/* F: a broad time choice, then a month, then four roomy booking cards. */
+.mock .cx-f{min-height:920px}
+.mock .cx-f-layout{display:grid;grid-template-columns:258px 1fr;border:1px solid var(--sand300);border-radius:14px;overflow:hidden;margin-top:26px}
+.mock .cx-f-start{background:var(--sand100);padding:22px 18px}
+.mock .cx-step{font-size:16px;font-weight:800;color:var(--ink900);margin:0 0 18px}
+.mock .cx-step span{width:26px;height:26px;display:inline-grid;place-items:center;border:1px solid var(--ink300);border-radius:50%;font-size:13px;margin-right:6px}
+.mock .cx-season{display:block;width:100%;border:1px solid var(--ink300);border-radius:9px;padding:14px 16px;background:#fff;text-align:left;color:var(--ink900);margin-bottom:10px;line-height:1.4}
+.mock .cx-season b{display:block;font-size:17px}
+.mock .cx-season span{display:block;font-size:14px;margin-top:3px}
+.mock .cx-season[aria-pressed=true]{background:var(--navy800);border-color:var(--navy800);color:#fff}
+.mock .cx-f-result{padding:22px}
+.mock .cx-months{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-bottom:24px}
+.mock .cx-month{padding:10px 8px;border:1px solid var(--ink300);background:#fff;color:var(--ink900);border-radius:8px;line-height:1.4;min-height:64px}
+.mock .cx-month b{display:block;font-size:16px}
+.mock .cx-month span{font-size:13px}
+.mock .cx-month[aria-pressed=true]{background:var(--navy800);color:#fff;border-color:var(--navy800)}
+.mock .cx-f-cards{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.mock .cx-f-monthtitle{display:flex;align-items:baseline;justify-content:space-between;gap:10px;margin:0 0 14px}
+.mock .cx-f-monthtitle h3{font-size:22px;color:var(--ink900)}
+.mock .cx-f-monthtitle span{font-size:13px;color:var(--ink500)}
+.mock .cx-f .cx-date{padding:16px}
+.mock .cx-f .cx-date h4{font-size:18px}
+.mock .cx-f .cx-date .cx-days{font-size:13px}
+.mock .cx-f-note{margin:18px 0 0;font-size:14px;color:var(--ink500)}
+/* G: three imminent trips, followed by a compact index of other months. */
+.mock .cx-g{min-height:950px}
+.mock .cx-g-next{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:16px}
+.mock .cx-g-next .cx-date{padding:0;overflow:hidden}
+.mock .cx-ticket-top{padding:14px 18px;background:var(--sand100);border-bottom:1px solid var(--sand300);display:flex;align-items:baseline;justify-content:space-between;gap:8px}
+.mock .cx-ticket-top b{font-size:15px;color:var(--ink900)}
+.mock .cx-ticket-top span{font-size:12px;color:var(--ink500)}
+.mock .cx-ticket-body{padding:18px}
+.mock .cx-ticket-body .cx-bigday{font-size:34px;letter-spacing:-.05em;line-height:1.2;font-weight:800;color:var(--ink900)}
+.mock .cx-ticket-body .cx-fare{font-size:18px;font-weight:700}
+.mock .cx-g-browse{margin-top:32px;padding-top:26px;border-top:1px solid var(--sand300)}
+.mock .cx-g-years{display:grid;grid-template-columns:210px 1fr;gap:26px;margin-top:20px}
+.mock .cx-g-year h4{font-size:18px;color:var(--ink900);margin:0 0 12px}
+.mock .cx-g-year h4 span{font-size:13px;font-weight:400;color:var(--ink500);margin-left:8px}
+.mock .cx-g-monthgrid{display:grid;grid-template-columns:repeat(3,1fr);align-items:start;gap:10px}
+.mock .cx-g-year:first-child .cx-g-monthgrid{grid-template-columns:1fr}
+.mock .cx-monthfold{border:1px solid var(--ink300);border-radius:8px;overflow:hidden;background:#fff}
+.mock .cx-monthfold summary{padding:12px;list-style:none;min-height:74px;color:var(--ink900);position:relative;padding-right:30px}
+.mock .cx-monthfold summary::-webkit-details-marker{display:none}
+.mock .cx-monthfold summary::after{content:'+';position:absolute;right:12px;top:21px;font-size:22px;color:var(--ink700)}
+.mock .cx-monthfold[open] summary::after{content:'−'}
+.mock .cx-monthfold summary b{display:block;font-size:16px}
+.mock .cx-monthfold summary span{display:block;font-size:13px;color:var(--ink500);margin-top:3px}
+.mock .cx-monthfold[open]{grid-column:1/-1}
+.mock .cx-monthfold[open] summary{background:var(--sand100);border-bottom:1px solid var(--sand300)}
+.mock .cx-g-dates{padding:10px;display:grid;gap:10px}
+.mock .cx-g-dates .cx-date{padding:12px}
+.mock .cx-g-dates .cx-date h4{font-size:16px}
+.mock .cx-g-dates .cx-date .cx-fare{font-size:18px}
+/* The SAME fragments at 390px. */
+.mockwrap.phone .cx-page{min-height:0;padding-bottom:0;font-size:16px}
+.mockwrap.phone .cx-lead{font-size:16px;margin:10px 0 22px}
+.mockwrap.phone .cx-title{font-size:21px}
+.mockwrap.phone .cx-help{align-items:flex-start;flex-direction:column;gap:14px}
+.mockwrap.phone .cx-price-note{font-size:13px}
+.mockwrap.phone .cx-pbar{margin-top:24px;padding-bottom:28px}
+.mockwrap.phone .cx-e{min-height:1080px;padding-bottom:100px}
+.mockwrap.phone .cx-e-summary{padding:18px;display:block}
+.mockwrap.phone .cx-e-summary .cx-btn{margin-top:16px;width:100%}
+.mockwrap.phone .cx-e .cx-under{display:none}
+.mockwrap.phone .cx-e-wash{inset:150px 0 0;border-radius:0}
+.mockwrap.phone .cx-e-open{position:relative;top:auto;right:auto;width:calc(100% + 32px);margin:38px -16px 0;padding:12px 20px 24px;border-radius:22px 22px 0 0;border:1px solid var(--sand300);box-shadow:0 -12px 30px #0f1f2e26}
+.mockwrap.phone .cx-e-open::after{display:none}
+.mockwrap.phone .cx-handle{display:block;width:44px;height:4px;background:var(--ink300);border-radius:4px;margin:0 auto 20px}
+.mockwrap.phone .cx-e-field{grid-template-columns:1fr;margin:20px 0 16px;gap:8px}
+.mockwrap.phone .cx-e-row{grid-template-columns:1fr auto;gap:8px;padding:14px 0}
+.mockwrap.phone .cx-e-row h4{font-size:18px}
+.mockwrap.phone .cx-e-row .cx-fare{font-size:19px}
+.mockwrap.phone .cx-e-row .cx-btn{grid-column:1/-1;width:100%;min-height:44px}
+.mockwrap.phone .cx-e-row .cx-deal small{width:100%;margin-left:0}
+.mockwrap.phone .cx-e .cx-pbar{position:absolute;bottom:0;left:16px;right:16px;z-index:1}
+.mockwrap.phone .cx-f-layout{grid-template-columns:1fr;margin-top:18px}
+.mockwrap.phone .cx-f-start{padding:18px 14px}
+.mockwrap.phone .cx-seasons{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.mockwrap.phone .cx-season{padding:12px 10px;margin:0}
+.mockwrap.phone .cx-season:first-child{grid-column:1/-1}
+.mockwrap.phone .cx-season b{font-size:15px}
+.mockwrap.phone .cx-season span{font-size:13px}
+.mockwrap.phone .cx-f-result{padding:18px 14px}
+.mockwrap.phone .cx-months{gap:6px;margin-bottom:22px}
+.mockwrap.phone .cx-month{padding:10px 4px}
+.mockwrap.phone .cx-month b{font-size:15px}
+.mockwrap.phone .cx-month span{font-size:12px}
+.mockwrap.phone .cx-f-cards{grid-template-columns:1fr}
+.mockwrap.phone .cx-f .cx-date{padding:16px}
+.mockwrap.phone .cx-f .cx-date h4{font-size:20px}
+.mockwrap.phone .cx-f-monthtitle{align-items:flex-start;flex-direction:column;gap:4px}
+.mockwrap.phone .cx-g-next{grid-template-columns:1fr;gap:12px}
+.mockwrap.phone .cx-ticket-top{padding:10px 16px}
+.mockwrap.phone .cx-ticket-body{display:grid;grid-template-columns:1fr 138px;gap:4px 10px;padding:16px}
+.mockwrap.phone .cx-ticket-body .cx-bigday{font-size:28px}
+.mockwrap.phone .cx-ticket-body .cx-days{grid-column:1;grid-row:2;margin:0;font-size:13px}
+.mockwrap.phone .cx-ticket-body .cx-fare{grid-column:1;grid-row:3;font-size:16px;margin-top:6px}
+.mockwrap.phone .cx-ticket-body .cx-btn{grid-column:2;grid-row:1/4;align-self:center;margin:0;font-size:14px;padding:12px 8px}
+.mockwrap.phone .cx-g-years{grid-template-columns:1fr;gap:22px}
+.mockwrap.phone .cx-g-monthgrid{grid-template-columns:1fr 1fr}
+.mockwrap.phone .cx-g-year:first-child .cx-g-monthgrid{grid-template-columns:1fr 1fr}
+.mockwrap.phone .cx-monthfold summary{min-height:78px}
+/* Keep action labels strong after the shared form-control font reset. */
+.mock .cx-page .cx-btn{font-weight:800}
+.mock .cx-date{display:flex;flex-direction:column}
+.mock .cx-date .cx-btn{margin-top:auto}
+.mock .cx-date .cx-fare{margin-bottom:14px}
+.mock .cx-date .cx-deal{margin:0 0 14px}
+.mock .cx-g-next .cx-date .cx-btn{margin-top:14px}
+.mock .cx-g-next .cx-date .cx-fare{margin-bottom:0}
+.mock .cx-e{min-height:990px}
+/* Draw the sticky bar at the foot of the static sheet, as in the host mocks. */
+.mockwrap.phone .cx-pbar{position:relative;bottom:auto}
+.mockwrap.phone .cx-e{height:1120px;min-height:1120px;padding-bottom:0}
+.mockwrap.phone .cx-e-open{position:absolute;bottom:0;top:auto;right:0;width:100%;margin:0;padding-bottom:32px}
+.mockwrap.phone .cx-e-wash{inset:105px 0 0}
+.mockwrap.phone .cx-e .cx-pbar{position:absolute;bottom:0}
+.mockwrap.phone .cx-f .cx-date{display:grid;grid-template-columns:1fr 142px;gap:0 8px}
+.mockwrap.phone .cx-f .cx-date h4{grid-column:1/-1;font-size:19px}
+.mockwrap.phone .cx-f .cx-date .cx-days{grid-column:1/-1}
+.mockwrap.phone .cx-f .cx-date .cx-fare{grid-column:1;grid-row:3;font-size:21px;margin:14px 0 0;align-self:center}
+.mockwrap.phone .cx-f .cx-date .cx-btn{grid-column:2;grid-row:3;margin-top:14px;padding:10px 8px;font-size:14px}
+.mockwrap.phone .cx-f .cx-date .cx-deal{grid-column:1/-1;grid-row:3;margin:12px 0 0}
+.mockwrap.phone .cx-f .cx-date:has(.cx-deal) .cx-fare{grid-row:4}
+.mockwrap.phone .cx-f .cx-date:has(.cx-deal) .cx-btn{grid-row:4}
+.mockwrap.phone .cx-f .cx-sold .cx-btn{grid-column:1/-1;grid-row:4}
+.mockwrap.phone .cx-g-next .cx-date .cx-btn{margin-top:0}

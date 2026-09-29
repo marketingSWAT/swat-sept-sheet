@@ -1,0 +1,985 @@
+{
+ "href": "https://swat-website-storefront.vercel.app/tours/mighty-5-utah-from-las-vegas/",
+ "docH": 12936,
+ "section": {
+  "x": 52,
+  "y": 8781,
+  "w": 928,
+  "h": 887
+ },
+ "sectionClosedH": 887,
+ "summary": {
+  "t": "Show all 65 dates through December 2027",
+  "box": {
+   "x": 52,
+   "y": 9625,
+   "w": 353,
+   "h": 43
+  }
+ },
+ "months": [
+  {
+   "t": "October 2026",
+   "box": {
+    "x": 52,
+    "y": 8908,
+    "w": 928,
+    "h": 18
+   },
+   "hidden": false
+  },
+  {
+   "t": "November 2026",
+   "box": {
+    "x": 52,
+    "y": 9231,
+    "w": 928,
+    "h": 18
+   },
+   "hidden": false
+  },
+  {
+   "t": "December 2026",
+   "box": {
+    "x": 52,
+    "y": 9700,
+    "w": 928,
+    "h": 18
+   },
+   "hidden": false
+  },
+  {
+   "t": "January 2027",
+   "box": {
+    "x": 52,
+    "y": 10025,
+    "w": 928,
+    "h": 18
+   },
+   "hidden": false
+  },
+  {
+   "t": "February 2027",
+   "box": {
+    "x": 52,
+    "y": 10346,
+    "w": 928,
+    "h": 18
+   },
+   "hidden": false
+  },
+  {
+   "t": "March 2027",
+   "box": {
+    "x": 52,
+    "y": 10667,
+    "w": 928,
+    "h": 18
+   },
+   "hidden": false
+  },
+  {
+   "t": "April 2027",
+   "box": {
+    "x": 52,
+    "y": 11052,
+    "w": 928,
+    "h": 18
+   },
+   "hidden": false
+  },
+  {
+   "t": "May 2027",
+   "box": {
+    "x": 52,
+    "y": 11373,
+    "w": 928,
+    "h": 18
+   },
+   "hidden": false
+  },
+  {
+   "t": "June 2027",
+   "box": {
+    "x": 52,
+    "y": 11759,
+    "w": 928,
+    "h": 18
+   },
+   "hidden": false
+  },
+  {
+   "t": "July 2027",
+   "box": {
+    "x": 52,
+    "y": 12080,
+    "w": 928,
+    "h": 18
+   },
+   "hidden": false
+  },
+  {
+   "t": "August 2027",
+   "box": {
+    "x": 52,
+    "y": 12401,
+    "w": 928,
+    "h": 18
+   },
+   "hidden": false
+  },
+  {
+   "t": "September 2027",
+   "box": {
+    "x": 52,
+    "y": 12786,
+    "w": 928,
+    "h": 18
+   },
+   "hidden": false
+  },
+  {
+   "t": "October 2027",
+   "box": {
+    "x": 52,
+    "y": 13107,
+    "w": 928,
+    "h": 18
+   },
+   "hidden": false
+  },
+  {
+   "t": "November 2027",
+   "box": {
+    "x": 52,
+    "y": 13428,
+    "w": 928,
+    "h": 18
+   },
+   "hidden": false
+  },
+  {
+   "t": "December 2027",
+   "box": {
+    "x": 52,
+    "y": 13814,
+    "w": 928,
+    "h": 18
+   },
+   "hidden": false
+  }
+ ],
+ "rows": [
+  {
+   "text": "Oct 5, 2026 |  | Reserve",
+   "box": {
+    "x": 52,
+    "y": 8939,
+    "w": 928,
+    "h": 65
+   },
+   "hidden": false
+  },
+  {
+   "text": "Oct 12, 2026 |  | Reserve",
+   "box": {
+    "x": 52,
+    "y": 9004,
+    "w": 928,
+    "h": 65
+   },
+   "hidden": false
+  },
+  {
+   "text": "Oct 19, 2026 |  | Reserve",
+   "box": {
+    "x": 52,
+    "y": 9068,
+    "w": 928,
+    "h": 65
+   },
+   "hidden": false
+  },
+  {
+   "text": "Oct 26, 2026 |  | SOLD OUT | Join the list",
+   "box": {
+    "x": 52,
+    "y": 9133,
+    "w": 928,
+    "h": 66
+   },
+   "hidden": false
+  },
+  {
+   "text": "Nov 2, 2026 |  | SOLD OUT | Join the list",
+   "box": {
+    "x": 52,
+    "y": 9262,
+    "w": 928,
+    "h": 67
+   },
+   "hidden": false
+  },
+  {
+   "text": "Nov 9, 2026 |  | SOLD OUT | Join the list",
+   "box": {
+    "x": 52,
+    "y": 9329,
+    "w": 928,
+    "h": 67
+   },
+   "hidden": false
+  },
+  {
+   "text": "Nov 16, 2026 |  | SOLD OUT | Join the list",
+   "box": {
+    "x": 52,
+    "y": 9395,
+    "w": 928,
+    "h": 67
+   },
+   "hidden": false
+  },
+  {
+   "text": "Nov 23, 2026 |  | Reserve",
+   "box": {
+    "x": 52,
+    "y": 9462,
+    "w": 928,
+    "h": 65
+   },
+   "hidden": false
+  },
+  {
+   "text": "Nov 30, 2026 |  | SOLD OUT | Join the list",
+   "box": {
+    "x": 52,
+    "y": 9526,
+    "w": 928,
+    "h": 66
+   },
+   "hidden": false
+  },
+  {
+   "text": "",
+   "box": {
+    "x": 52,
+    "y": 9731,
+    "w": 928,
+    "h": 65
+   },
+   "hidden": false
+  },
+  {
+   "text": "",
+   "box": {
+    "x": 52,
+    "y": 9795,
+    "w": 928,
+    "h": 67
+   },
+   "hidden": false
+  },
+  {
+   "text": "",
+   "box": {
+    "x": 52,
+    "y": 9862,
+    "w": 928,
+    "h": 65
+   },
+   "hidden": false
+  },
+  {
+   "text": "",
+   "box": {
+    "x": 52,
+    "y": 9926,
+    "w": 928,
+    "h": 66
+   },
+   "hidden": false
+  },
+  {
+   "text": "",
+   "box": {
+    "x": 52,
+    "y": 10056,
+    "w": 928,
+    "h": 65
+   },
+   "hidden": false
+  },
+  {
+   "text": "",
+   "box": {
+    "x": 52,
+    "y": 10120,
+    "w": 928,
+    "h": 65
+   },
+   "hidden": false
+  },
+  {
+   "text": "",
+   "box": {
+    "x": 52,
+    "y": 10185,
+    "w": 928,
+    "h": 65
+   },
+   "hidden": false
+  },
+  {
+   "text": "",
+   "box": {
+    "x": 52,
+    "y": 10249,
+    "w": 928,
+    "h": 64
+   },
+   "hidden": false
+  },
+  {
+   "text": "",
+   "box": {
+    "x": 52,
+    "y": 10377,
+    "w": 928,
+    "h": 65
+   },
+   "hidden": false
+  },
+  {
+   "text": "",
+   "box": {
+    "x": 52,
+    "y": 10441,
+    "w": 928,
+    "h": 65
+   },
+   "hidden": false
+  },
+  {
+   "text": "",
+   "box": {
+    "x": 52,
+    "y": 10506,
+    "w": 928,
+    "h": 65
+   },
+   "hidden": false
+  },
+  {
+   "text": "",
+   "box": {
+    "x": 52,
+    "y": 10570,
+    "w": 928,
+    "h": 64
+   },
+   "hidden": false
+  },
+  {
+   "text": "",
+   "box": {
+    "x": 52,
+    "y": 10698,
+    "w": 928,
+    "h": 65
+   },
+   "hidden": false
+  },
+  {
+   "text": "",
+   "box": {
+    "x": 52,
+    "y": 10762,
+    "w": 928,
+    "h": 65
+   },
+   "hidden": false
+  },
+  {
+   "text": "",
+   "box": {
+    "x": 52,
+    "y": 10827,
+    "w": 928,
+    "h": 65
+   },
+   "hidden": false
+  },
+  {
+   "text": "",
+   "box": {
+    "x": 52,
+    "y": 10891,
+    "w": 928,
+    "h": 65
+   },
+   "hidden": false
+  },
+  {
+   "text": "",
+   "box": {
+    "x": 52,
+    "y": 10956,
+    "w": 928,
+    "h": 64
+   },
+   "hidden": false
+  },
+  {
+   "text": "",
+   "box": {
+    "x": 52,
+    "y": 11083,
+    "w": 928,
+    "h": 65
+   },
+   "hidden": false
+  },
+  {
+   "text": "",
+   "box": {
+    "x": 52,
+    "y": 11148,
+    "w": 928,
+    "h": 65
+   },
+   "hidden": false
+  },
+  {
+   "text": "",
+   "box": {
+    "x": 52,
+    "y": 11212,
+    "w": 928,
+    "h": 65
+   },
+   "hidden": false
+  },
+  {
+   "text": "",
+   "box": {
+    "x": 52,
+    "y": 11277,
+    "w": 928,
+    "h": 64
+   },
+   "hidden": false
+  },
+  {
+   "text": "",
+   "box": {
+    "x": 52,
+    "y": 11404,
+    "w": 928,
+    "h": 65
+   },
+   "hidden": false
+  },
+  {
+   "text": "",
+   "box": {
+    "x": 52,
+    "y": 11469,
+    "w": 928,
+    "h": 65
+   },
+   "hidden": false
+  },
+  {
+   "text": "",
+   "box": {
+    "x": 52,
+    "y": 11533,
+    "w": 928,
+    "h": 65
+   },
+   "hidden": false
+  },
+  {
+   "text": "",
+   "box": {
+    "x": 52,
+    "y": 11598,
+    "w": 928,
+    "h": 65
+   },
+   "hidden": false
+  },
+  {
+   "text": "",
+   "box": {
+    "x": 52,
+    "y": 11662,
+    "w": 928,
+    "h": 64
+   },
+   "hidden": false
+  },
+  {
+   "text": "",
+   "box": {
+    "x": 52,
+    "y": 11790,
+    "w": 928,
+    "h": 65
+   },
+   "hidden": false
+  },
+  {
+   "text": "",
+   "box": {
+    "x": 52,
+    "y": 11854,
+    "w": 928,
+    "h": 65
+   },
+   "hidden": false
+  },
+  {
+   "text": "",
+   "box": {
+    "x": 52,
+    "y": 11919,
+    "w": 928,
+    "h": 65
+   },
+   "hidden": false
+  },
+  {
+   "text": "",
+   "box": {
+    "x": 52,
+    "y": 11983,
+    "w": 928,
+    "h": 64
+   },
+   "hidden": false
+  },
+  {
+   "text": "",
+   "box": {
+    "x": 52,
+    "y": 12111,
+    "w": 928,
+    "h": 65
+   },
+   "hidden": false
+  },
+  {
+   "text": "",
+   "box": {
+    "x": 52,
+    "y": 12175,
+    "w": 928,
+    "h": 65
+   },
+   "hidden": false
+  },
+  {
+   "text": "",
+   "box": {
+    "x": 52,
+    "y": 12240,
+    "w": 928,
+    "h": 65
+   },
+   "hidden": false
+  },
+  {
+   "text": "",
+   "box": {
+    "x": 52,
+    "y": 12304,
+    "w": 928,
+    "h": 64
+   },
+   "hidden": false
+  },
+  {
+   "text": "",
+   "box": {
+    "x": 52,
+    "y": 12432,
+    "w": 928,
+    "h": 65
+   },
+   "hidden": false
+  },
+  {
+   "text": "",
+   "box": {
+    "x": 52,
+    "y": 12496,
+    "w": 928,
+    "h": 65
+   },
+   "hidden": false
+  },
+  {
+   "text": "",
+   "box": {
+    "x": 52,
+    "y": 12561,
+    "w": 928,
+    "h": 65
+   },
+   "hidden": false
+  },
+  {
+   "text": "",
+   "box": {
+    "x": 52,
+    "y": 12625,
+    "w": 928,
+    "h": 65
+   },
+   "hidden": false
+  },
+  {
+   "text": "",
+   "box": {
+    "x": 52,
+    "y": 12690,
+    "w": 928,
+    "h": 64
+   },
+   "hidden": false
+  },
+  {
+   "text": "",
+   "box": {
+    "x": 52,
+    "y": 12817,
+    "w": 928,
+    "h": 65
+   },
+   "hidden": false
+  },
+  {
+   "text": "",
+   "box": {
+    "x": 52,
+    "y": 12882,
+    "w": 928,
+    "h": 65
+   },
+   "hidden": false
+  },
+  {
+   "text": "",
+   "box": {
+    "x": 52,
+    "y": 12946,
+    "w": 928,
+    "h": 65
+   },
+   "hidden": false
+  },
+  {
+   "text": "",
+   "box": {
+    "x": 52,
+    "y": 13011,
+    "w": 928,
+    "h": 64
+   },
+   "hidden": false
+  },
+  {
+   "text": "",
+   "box": {
+    "x": 52,
+    "y": 13138,
+    "w": 928,
+    "h": 65
+   },
+   "hidden": false
+  },
+  {
+   "text": "",
+   "box": {
+    "x": 52,
+    "y": 13203,
+    "w": 928,
+    "h": 65
+   },
+   "hidden": false
+  },
+  {
+   "text": "",
+   "box": {
+    "x": 52,
+    "y": 13267,
+    "w": 928,
+    "h": 65
+   },
+   "hidden": false
+  },
+  {
+   "text": "",
+   "box": {
+    "x": 52,
+    "y": 13332,
+    "w": 928,
+    "h": 64
+   },
+   "hidden": false
+  },
+  {
+   "text": "",
+   "box": {
+    "x": 52,
+    "y": 13459,
+    "w": 928,
+    "h": 65
+   },
+   "hidden": false
+  },
+  {
+   "text": "",
+   "box": {
+    "x": 52,
+    "y": 13524,
+    "w": 928,
+    "h": 65
+   },
+   "hidden": false
+  },
+  {
+   "text": "",
+   "box": {
+    "x": 52,
+    "y": 13588,
+    "w": 928,
+    "h": 65
+   },
+   "hidden": false
+  },
+  {
+   "text": "",
+   "box": {
+    "x": 52,
+    "y": 13653,
+    "w": 928,
+    "h": 65
+   },
+   "hidden": false
+  },
+  {
+   "text": "",
+   "box": {
+    "x": 52,
+    "y": 13717,
+    "w": 928,
+    "h": 64
+   },
+   "hidden": false
+  },
+  {
+   "text": "",
+   "box": {
+    "x": 52,
+    "y": 13845,
+    "w": 928,
+    "h": 65
+   },
+   "hidden": false
+  },
+  {
+   "text": "",
+   "box": {
+    "x": 52,
+    "y": 13909,
+    "w": 928,
+    "h": 65
+   },
+   "hidden": false
+  },
+  {
+   "text": "",
+   "box": {
+    "x": 52,
+    "y": 13974,
+    "w": 928,
+    "h": 65
+   },
+   "hidden": false
+  },
+  {
+   "text": "",
+   "box": {
+    "x": 52,
+    "y": 14038,
+    "w": 928,
+    "h": 64
+   },
+   "hidden": false
+  }
+ ],
+ "rail": [
+  {
+   "tag": "HEADER",
+   "cls": "sticky top-0 z-50 border-b border-navy-700 bg-navy-800 text-white",
+   "box": {
+    "x": 0,
+    "y": 36,
+    "w": 1440,
+    "h": 73
+   },
+   "text": "Home\nDestinations\nTrip Styles\nDeparting From\nHot Deals\nBuild Your Own\nJournal\nAbout\nGroup Travel\n800-970-5864\nFind a Trip"
+  },
+  {
+   "tag": "ASIDE",
+   "cls": "flex items-stretch border-y border-navy-700 bg-navy-900",
+   "box": {
+    "x": 0,
+    "y": 109,
+    "w": 1440,
+    "h": 50
+   },
+   "text": "HOT DEALS\n\n🔥\nCanyons of the Escalante\nOctober 25\n$500 off per person\nCANYONS500\n🔥\nCanyons of the Escalante\nOctober 25\n$500 off per person\nCANYONS500\nSEE ALL"
+  },
+  {
+   "tag": "DIV",
+   "cls": "sticky top-[65px] z-40 border-y border-sand-300 bg-white sm:top-[69px]",
+   "box": {
+    "x": 0,
+    "y": 976,
+    "w": 1440,
+    "h": 66
+   },
+   "text": "Right for you\nOverview\nReviews\nSeasons\nDay by day\nTour details\nGallery\nMore photos\nDepartures\nPricing\nTrip protection\n\nFrom $1,999 / person\n\nChoose your date"
+  },
+  {
+   "tag": "ASIDE",
+   "cls": "rounded-sm bg-navy-800 px-5 py-4 text-white lg:px-6 lg:py-5 ",
+   "box": {
+    "x": 52,
+    "y": 1090,
+    "w": 928,
+    "h": 142
+   },
+   "text": "PLEASE NOTE\n\nItineraries, timings and included stops can change. Weather, road and park closures, fire, wildlife activity, availability and government closures all affect where a trip can go, and your guide may adjust the day in the field if a situation is unsafe or time runs short."
+  },
+  {
+   "tag": "ASIDE",
+   "cls": "rounded-sm border border-sand-300 bg-sand-100 px-5 py-4 ",
+   "box": {
+    "x": 52,
+    "y": 10676,
+    "w": 928,
+    "h": 131
+   },
+   "text": "PLEASE NOTE\n\nItineraries, timings and included stops can change. Weather, road and park closures, fire, wildlife activity, availability and government closures all affect where a trip can go, and your guide may adjust the day in the field if a situation is unsafe or time runs short."
+  },
+  {
+   "tag": "ASIDE",
+   "cls": "lg:sticky lg:top-[150px] lg:flex lg:flex-col",
+   "box": {
+    "x": 1028,
+    "y": 1090,
+    "w": 360,
+    "h": 560
+   },
+   "text": "FROM\n\n$1,999\n\nper person, double occupancy, 2026\n\nNEXT DEPARTURES\n\nOct 5, 2026\nOct 12, 2026\nOct 19, 2026\n\n62 more dates below\n\nActivity level\nEasy\nLodging\nHotels & lodges\nGroup size\nSmall group, 7–13\nReviews\n★★★★★\n5 reviews\nChoose your date\n\nQuestions? 800-970-5864"
+  },
+  {
+   "tag": "DIV",
+   "cls": "sticky bottom-0 z-40 mt-10 lg:hidden",
+   "box": {
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0
+   },
+   "text": "From$1,999Choose your date"
+  },
+  {
+   "tag": "ASIDE",
+   "cls": "",
+   "box": {
+    "x": 0,
+    "y": 12936,
+    "w": 1440,
+    "h": 0
+   },
+   "text": "Tour Questions?"
+  }
+ ],
+ "toc": [
+  {
+   "t": "The trip at a glance",
+   "y": 629
+  },
+  {
+   "t": "What guests said",
+   "y": 659
+  },
+  {
+   "t": "Overview",
+   "y": 1391
+  },
+  {
+   "t": "This trip by season",
+   "y": 1990
+  },
+  {
+   "t": "Day by day",
+   "y": 2451
+  },
+  {
+   "t": "Is this trip right for you?",
+   "y": 4737
+  },
+  {
+   "t": "Tour details",
+   "y": 5195
+  },
+  {
+   "t": "Gallery",
+   "y": 6205
+  },
+  {
+   "t": "More from Zion National Park and Bryce Canyon National Park",
+   "y": 7493
+  },
+  {
+   "t": "Departures",
+   "y": 8781
+  },
+  {
+   "t": "Pricing",
+   "y": 9724
+  },
+  {
+   "t": "SWAT Trip Protection Plan",
+   "y": 10152
+  },
+  {
+   "t": "You might also consider",
+   "y": 10936
+  },
+  {
+   "t": "Close, but not quite this trip?",
+   "y": 11635
+  },
+  {
+   "t": "Where this trip goes",
+   "y": 11886
+  }
+ ],
+ "intro": [
+  "7 dates on this trip have sold out as of Sep 24, 2026. Call us on 800-970-5864 about a date marked sold out — we keep a waiting list, and cancellations do happen.",
+  "Oct 5, 2026",
+  "Oct 12, 2026"
+ ],
+ "openH": {
+  "sec": 5322,
+  "doc": 17371
+ }
+}

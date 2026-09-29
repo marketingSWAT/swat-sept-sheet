@@ -1,2 +1,5 @@
 __pycache__/
 *.pyc
+r8/harvest/gate.txt
+r8/preview/
+r8/codex/*.log

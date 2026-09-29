@@ -211,3 +211,21 @@ question inside an 827px screen.
   build is invisible until then.
 - 42 tours with no activity level, one film cut, and the placeholder review
   text — all still on SWAT.
+
+---
+
+## Round eight: decision 67, picking a date, open
+
+Built 29 September from Crow's note and screenshot of the Mighty 5 from Las
+Vegas Departures section: *"I just really feel like we can make this easier and
+more clear on actually picking dates, because also when you get into 2027 you
+have to click that drop down to see all the other dates."* He asked for Claude
+and Codex to both draw it.
+
+| # | Decision | Options | Recommending |
+|---|---|---|---|
+| 67 | Picking a date on a tour page | A now / B the calendar you already approved (Claude) / C every date on one screen (Claude) / D the year, month by month (Claude) / E, F, G (Codex, see the sheet) | **B**, with **C** if every date should be visible without a tap |
+
+53 was settled in the 28 September walkthrough with Lance (one button on the
+photo, linked to Destinations, wording to write), so it is folded as
+"Settled" rather than given a letter. Not built.

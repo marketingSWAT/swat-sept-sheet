@@ -1,0 +1,30 @@
+{
+  "name": "Pick it right here",
+  "changes": [
+    "Open the date picker beside the booking button, with no long jump down the page.",
+    "Use one month menu with both years listed, starting with the next bookable month.",
+    "Show the full trip dates and price beside each booking button.",
+    "On a phone, open the same choices in a bottom sheet."
+  ],
+  "rings": [
+    [
+      1,
+      ".cx-rail-trigger"
+    ],
+    [
+      2,
+      ".cx-e-field"
+    ],
+    [
+      3,
+      ".cx-e-month[data-month=\"2027-10\"]"
+    ],
+    [
+      4,
+      ".cx-e-open"
+    ]
+  ],
+  "body": "Customers choose a date where they already want to book. This drawing shows October 2027 so the price change is visible. The compact menu saves space, but it makes comparing months harder.",
+  "cost": "about 2 days",
+  "risk": "The sheet needs careful focus handling, a visible close button, and a clean handoff to the booking pop-up."
+}

@@ -48,7 +48,7 @@ def retired(dec_no, live_names):
 
 
 # --------------------------------------------------------------- components
-def opt(name, changes, body, cost=None, risk=None, cls='', mockup=''):
+def opt(name, changes, body, cost=None, risk=None, cls='', mockup='', by=None):
     """One column of a decision.
 
     `changes` is the numbered What-changed list and it LEADS the panel: the
@@ -67,9 +67,11 @@ def opt(name, changes, body, cost=None, risk=None, cls='', mockup=''):
     lis = ''.join(f'<li>{x}</li>' for x in changes)
     pick = ('<span class="pick"><span class="star">&#9733;</span> MY PICK</span>'
             if cls == 'rec' else '')
+    # `by` names who drew it, for a round two designers drew between them.
+    who = f'<span class="by">{by}</span>' if by else ''
     return (f'<div class="opt {cls}" data-name="{name}">'
             f'<div class="opt-hd"><span class="k">@@K@@</span>'
-            f'<span class="n">{name}</span>{pick}</div>'
+            f'<span class="n">{name}</span>{who}{pick}</div>'
             f'{mockup}<ul class="changes">{lis}</ul>'
             f'<div class="opt-b">{body}{c}</div></div>')
 
@@ -180,6 +182,15 @@ ANSWERS = {
               'trips two to four months out (six, not the seven the drawing '
               'claimed), then four day tours from Salt Lake City as a row of '
               'their own'),
+
+    # 53 was settled out loud, in the 28 September walkthrough with Lance,
+    # rather than by a letter: one button on the hero photograph, no box
+    # beside it, linked to Destinations. That is closest to the retired B,
+    # so no live letter fits it and none is claimed.
+    53: ('Settled', 'in the 28 September walkthrough with Lance: one button '
+                    'on the photograph, linked to Destinations, stronger '
+                    'wording than &ldquo;Find your tour&rdquo; still to be '
+                    'written. Closest to the retired B. Not built yet'),
 }
 
 

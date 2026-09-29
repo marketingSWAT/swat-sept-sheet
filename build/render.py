@@ -32,6 +32,7 @@ import decisions_d as D           # noqa: E402
 import decisions_e as E           # noqa: E402
 import decisions_f as F           # noqa: E402
 import decisions_g as G           # noqa: E402
+import decisions_h as H8          # noqa: E402
 
 OUT = os.path.join(HERE, '..', 'site', 'index.html')
 
@@ -48,6 +49,10 @@ RAIL = [
     (37, 'Is this trip right for you?'),
     (38, 'Start where you are'),
     (39, 'The film slot'),
+]
+
+RAIL8 = [
+    (67, 'Picking a date'),
 ]
 
 RAIL7 = [
@@ -91,7 +96,9 @@ def rail_html():
             f'<b>{n}</b>{t}</a>' for n, t in group)
     return (
         '<nav class="rail">'
-        '<div class="rt">This round &mdash; Lance&rsquo;s two notes</div>'
+        '<div class="rt">This round &mdash; picking a date</div>'
+        f'{rows(RAIL8)}'
+        '<div class="rt">Answered &mdash; Lance&rsquo;s two notes</div>'
         f'{rows(RAIL7)}'
         '<div class="rt">Answered &mdash; the reviews page</div>'
         f'{rows(RAIL6)}'
@@ -115,26 +122,24 @@ def rail_html():
 MAST = """
 <header class="mast">
   <div class="kick">Southwest Adventure Tours &middot; storefront rebuild</div>
-  <h1>Lance&rsquo;s two notes, drawn</h1>
-  <p><b>One decision is open: <a href="#d53">53</a>, redrawn.</b> You
-  turned down the first four versions of what the home page asks people to
-  do, so it now has four new ones, E to H, each a different shape of first
-  screen rather than different words on the same one. <a href="#d52">52</a>
-  is answered (B) and built on staging.</p>
-  <p style="margin-top:12px">Counted on production at 1440&times;900 before
-  drawing anything. On the row, only <b>2 of the 8 cards</b> are trips that
-  actually leave in the window; the other six are the cheapest things in the
-  catalogue, five of them day tours. On the first screen there are <b>30
-  things to click</b> and <b>three orange buttons with three different
-  names</b>, all opening the same tour finder.</p>
-  <p style="margin-top:12px">They are numbered 52 and 53 because the dashboard
-  sheet already uses 46 to 51. Everything else on this link is answered and
-  folded, with its letter on the front. Click any drawing to enlarge it, and
-  pull the others in beside it from the chip row.</p>
-  <p style="margin-top:12px"><b>Answer with a letter.</b> &ldquo;Fifty-three
-  goes to E.&rdquo; A voice note is fine.</p>
-  <div class="who"><span>Crow</span><span>Lance</span>
-  <span>28 Sep 2026</span><span>Earlier rounds are folded below</span></div>
+  <h1>Picking a date, drawn six ways</h1>
+  <p><b>One decision is open: <a href="#d67">67</a>, how a customer picks a
+  departure date on a tour page.</b> Six redesigns beside the page as it is
+  today: <b>B, C and D drawn by me, E, F and G drawn by Codex</b>, all from
+  the same brief and the same 65 real dates.</p>
+  <p style="margin-top:12px">Counted on the live Mighty 5 from Las Vegas page
+  before drawing anything. <b>52 of its 65 dates</b>, all of 2027, are behind
+  the &ldquo;Show all&rdquo; button, and opening it turns the section into
+  <b>six laptop screens of Mondays</b>. <b>No date shows its price</b>, though
+  2027 summer dates cost $200 more. And the orange &ldquo;Choose your
+  date&rdquo; button at the top of the page sends you <b>7,200px down</b> to
+  reach the list at all.</p>
+  <p style="margin-top:12px">Click any drawing to enlarge it, and pull the
+  others in beside it from the chip row. Every drawing has a Phone view.</p>
+  <p style="margin-top:12px"><b>Answer with a letter.</b> &ldquo;Sixty-seven
+  goes to B.&rdquo; A voice note is fine.</p>
+  <div class="who"><span>Crow</span><span>Claude + Codex</span>
+  <span>29 Sep 2026</span><span>Earlier rounds are folded below</span></div>
 </header>
 """
 
@@ -298,6 +303,24 @@ R5 = register(
     'r5', 'Register five', 'How this was measured',
     'So the next round re-derives instead of trusting this page.',
     '<ul class="ul">'
+    '<li><b>Round eight (67) was measured on production</b>, '
+    '<code>/tours/mighty-5-utah-from-las-vegas/</code> at 1440&times;900 and '
+    '390, on 29 September. Page 12,936px; Departures is the tenth section, '
+    'at y=8,781, 928px wide beside the 360px panel. It loads 887px tall with '
+    'October and November 2026 only (9 rows of 65px) and a 353&times;43 '
+    '&ldquo;Show all 65 dates&rdquo; pill; opened it is 5,322px and the page '
+    '17,371. The panel&rsquo;s &ldquo;Choose your date&rdquo; is at y=1,535. '
+    'On a phone the section starts at y=13,766 and opens to 5,360px. '
+    'Prices per date are Softrip&rsquo;s own, read 23 September: $1,999 '
+    'Jan&ndash;Apr and from Oct 18, $2,199 May 3&ndash;Oct 11. 2026 dates '
+    'publish no per-date price and the drawings invent none. The '
+    '&ldquo;7 sold out&rdquo; line is the check of 24 September. These '
+    'rotate: re-derive before building.</li>'
+    '<li><b>E, F and G were drawn by Codex</b> from one written brief '
+    '(<code>r8/BRIEF.md</code> in the sheet&rsquo;s repo) with the same '
+    'measurements, dates and palette, and rendered through the same preview '
+    'as B, C and D. Their names, change lists, costs and risks are '
+    'Codex&rsquo;s own words.</li>'
     '<li><b>Every &ldquo;Now&rdquo; panel is the deployed staging build</b>, '
     'read at a 1200px viewport on 16 September 2026 &mdash; after round one of '
     'these notes shipped, so it is the build you walked through, not the one '
@@ -730,9 +753,24 @@ SCRIPT = r"""<script>
 
 def build():
     css = open(os.path.join(HERE, 'sheet.css')).read()
+    # Round eight: Claude's mock styles, then Codex's, scoped `.dp-` / `.cx-`.
+    css += open(os.path.join(HERE, 'r8.css')).read()
+    cx = os.path.join(HERE, '..', 'r8', 'codex', 'css')
+    for f in sorted(os.listdir(cx)):
+        if f.endswith('.css'):
+            css += open(os.path.join(cx, f)).read()
     decisions = E.ALL + D.ALL + C.ALL + A.ALL + B.ALL
     body = (MAST + LEDE +
-            sec('This round', 'Lance&rsquo;s two notes &mdash; 52 and 53',
+            sec('This round', 'Picking a date &mdash; 67',
+                'Drawn at <b>1440</b> wide off the live Mighty 5 from Las Vegas '
+                'page, the one in your screenshot, with its real 65 dates. '
+                'The Departures section in its column, the booking panel '
+                'beside it. <b>B, C and D are mine; E, F and G are '
+                'Codex&rsquo;s</b>, and each panel says who drew it. Green '
+                'ring is what ships today. The ringed MY PICK is the one I '
+                'would build.') +
+            ''.join(H8.ALL) +
+            sec('Answered', 'Lance&rsquo;s two notes &mdash; 52 and 53',
                 'Both drawn at <b>1440</b> wide off the live home page. '
                 '<b>52</b> is the &ldquo;Bookable now&rdquo; row on its own; '
                 '<b>53</b> is the first screen of a 1440&times;900 window, '
@@ -756,7 +794,13 @@ def build():
             ''.join(decisions) + R1 + R2 + R3 + R4 + R5)
 
     foot = (
-        '<div class="foot">Round seven &mdash; decisions 52 and 53 &mdash; was '
+        '<div class="foot">Round eight &mdash; decision 67 &mdash; was built '
+        '29 September 2026 from Crow&rsquo;s note and screenshot of the same '
+        'day. Its current-build panel was read off the DEPLOYED PRODUCTION '
+        'page <code>swat-website-storefront.vercel.app/tours/mighty-5-utah-'
+        'from-las-vegas/</code> at <b>1440</b> and <b>390</b>. B&ndash;D were '
+        'drawn by Claude, E&ndash;G by Codex. '
+        'Round seven &mdash; decisions 52 and 53 &mdash; was '
         'built 28 September 2026 from Lance Card&rsquo;s email of the same '
         'day. Its current-build panels were read off the DEPLOYED PRODUCTION '
         'home page at <code>swat-website-storefront.vercel.app/</code> at '
