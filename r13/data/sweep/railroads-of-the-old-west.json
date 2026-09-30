@@ -1,0 +1,1018 @@
+{
+ "slug": "railroads-of-the-old-west",
+ "now": {
+  "href": "https://swat-website-storefront.vercel.app/tours/railroads-of-the-old-west/",
+  "H": 23139,
+  "vh": 844,
+  "footer": 1634,
+  "secs": [
+   {
+    "id": "overview",
+    "t": "Overview",
+    "y": 1484,
+    "h": 559
+   },
+   {
+    "id": "seasons",
+    "t": "This trip by season",
+    "y": 2099,
+    "h": 515
+   },
+   {
+    "id": "itinerary",
+    "t": "Day by day",
+    "y": 2670,
+    "h": 9019
+   },
+   {
+    "id": "right-for-you",
+    "t": "Is this trip right for you?",
+    "y": 11746,
+    "h": 354
+   },
+   {
+    "id": "details",
+    "t": "Tour details",
+    "y": 12156,
+    "h": 1960
+   },
+   {
+    "id": "gallery",
+    "t": "More photos and videos",
+    "y": 14172,
+    "h": 985
+   },
+   {
+    "id": "more-photos",
+    "t": "More from Colorado",
+    "y": 15212,
+    "h": 991
+   },
+   {
+    "id": "departures",
+    "t": "Departures",
+    "y": 16259,
+    "h": 553
+   },
+   {
+    "id": "pricing",
+    "t": "Pricing",
+    "y": 16868,
+    "h": 738
+   },
+   {
+    "id": "protection",
+    "t": "SWAT Trip Protection Plan",
+    "y": 17662,
+    "h": 996
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 18991,
+    "h": 542
+   },
+   {
+    "id": "",
+    "t": "You might also consider",
+    "y": 19597,
+    "h": 1005
+   },
+   {
+    "id": "",
+    "t": "Where this trip goes",
+    "y": 20991,
+    "h": 321
+   }
+  ],
+  "itY": 2670,
+  "days": 7,
+  "boxes": {
+   "glance": {
+    "x": 20,
+    "y": 2753,
+    "w": 350,
+    "h": 132
+   },
+   "day1": {
+    "x": 20,
+    "y": 2925,
+    "w": 350,
+    "h": 638
+   },
+   "day2": {
+    "x": 20,
+    "y": 3611,
+    "w": 350,
+    "h": 847
+   },
+   "row1": null,
+   "rowLast": {
+    "x": 20,
+    "y": 11197,
+    "w": 350,
+    "h": 493
+   },
+   "fig1": {
+    "x": 20,
+    "y": 2925,
+    "w": 350,
+    "h": 233
+   },
+   "clamp1": null,
+   "more1": null,
+   "top1": null,
+   "rfy": {
+    "x": 20,
+    "y": 11746,
+    "w": 350,
+    "h": 354
+   },
+   "rowsAll": {
+    "x": 20,
+    "y": 2925,
+    "w": 350,
+    "h": 638
+   },
+   "inPrice": {
+    "x": 20,
+    "y": 12205,
+    "w": 350,
+    "h": 820
+   },
+   "notPrice": null,
+   "gal1": {
+    "x": 163,
+    "y": 14287,
+    "w": 64,
+    "h": 64
+   },
+   "mp1": {
+    "x": 20,
+    "y": 15261,
+    "w": 350,
+    "h": 942
+   },
+   "proLine": null,
+   "dep": {
+    "x": 20,
+    "y": 16259,
+    "w": 350,
+    "h": 553
+   },
+   "pricing": {
+    "x": 20,
+    "y": 16868,
+    "w": 350,
+    "h": 738
+   },
+   "details": {
+    "x": 20,
+    "y": 12156,
+    "w": 350,
+    "h": 1960
+   },
+   "detMore": null,
+   "lines": null,
+   "gallery": {
+    "x": 20,
+    "y": 14172,
+    "w": 350,
+    "h": 985
+   },
+   "photos": {
+    "x": 20,
+    "y": 15212,
+    "w": 350,
+    "h": 991
+   },
+   "protection": {
+    "x": 20,
+    "y": 17662,
+    "w": 350,
+    "h": 996
+   }
+  }
+ },
+ "fold": {
+  "href": "https://swat-website-storefront.vercel.app/tours/railroads-of-the-old-west/",
+  "H": 14802,
+  "vh": 844,
+  "footer": 1634,
+  "secs": [
+   {
+    "id": "overview",
+    "t": "Overview",
+    "y": 1484,
+    "h": 559
+   },
+   {
+    "id": "seasons",
+    "t": "This trip by season",
+    "y": 2099,
+    "h": 515
+   },
+   {
+    "id": "itinerary",
+    "t": "Day by day",
+    "y": 2670,
+    "h": 682
+   },
+   {
+    "id": "right-for-you",
+    "t": "Is this trip right for you?",
+    "y": 3408,
+    "h": 354
+   },
+   {
+    "id": "details",
+    "t": "Tour details",
+    "y": 3818,
+    "h": 1960
+   },
+   {
+    "id": "gallery",
+    "t": "More photos and videos",
+    "y": 5834,
+    "h": 985
+   },
+   {
+    "id": "more-photos",
+    "t": "More from Colorado",
+    "y": 6875,
+    "h": 991
+   },
+   {
+    "id": "departures",
+    "t": "Departures",
+    "y": 7922,
+    "h": 553
+   },
+   {
+    "id": "pricing",
+    "t": "Pricing",
+    "y": 8531,
+    "h": 738
+   },
+   {
+    "id": "protection",
+    "t": "SWAT Trip Protection Plan",
+    "y": 9325,
+    "h": 996
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 10653,
+    "h": 542
+   },
+   {
+    "id": "",
+    "t": "You might also consider",
+    "y": 11259,
+    "h": 1005
+   },
+   {
+    "id": "",
+    "t": "Where this trip goes",
+    "y": 12654,
+    "h": 321
+   }
+  ],
+  "itY": 2670,
+  "days": 7,
+  "boxes": {
+   "glance": null,
+   "day1": {
+    "x": 20,
+    "y": 2743,
+    "w": 350,
+    "h": 86
+   },
+   "day2": {
+    "x": 20,
+    "y": 2829,
+    "w": 350,
+    "h": 89
+   },
+   "row1": {
+    "x": 20,
+    "y": 2744,
+    "w": 350,
+    "h": 85
+   },
+   "rowLast": {
+    "x": 20,
+    "y": 3265,
+    "w": 350,
+    "h": 88
+   },
+   "fig1": null,
+   "clamp1": null,
+   "more1": null,
+   "top1": null,
+   "rfy": {
+    "x": 20,
+    "y": 3408,
+    "w": 350,
+    "h": 354
+   },
+   "rowsAll": {
+    "x": 20,
+    "y": 2743,
+    "w": 350,
+    "h": 86
+   },
+   "inPrice": {
+    "x": 20,
+    "y": 3867,
+    "w": 350,
+    "h": 820
+   },
+   "notPrice": null,
+   "gal1": {
+    "x": 163,
+    "y": 5950,
+    "w": 64,
+    "h": 64
+   },
+   "mp1": {
+    "x": 20,
+    "y": 6924,
+    "w": 350,
+    "h": 942
+   },
+   "proLine": null,
+   "dep": {
+    "x": 20,
+    "y": 7922,
+    "w": 350,
+    "h": 553
+   },
+   "pricing": {
+    "x": 20,
+    "y": 8531,
+    "w": 350,
+    "h": 738
+   },
+   "details": {
+    "x": 20,
+    "y": 3818,
+    "w": 350,
+    "h": 1960
+   },
+   "detMore": null,
+   "lines": null,
+   "gallery": {
+    "x": 20,
+    "y": 5834,
+    "w": 350,
+    "h": 985
+   },
+   "photos": {
+    "x": 20,
+    "y": 6875,
+    "w": 350,
+    "h": 991
+   },
+   "protection": {
+    "x": 20,
+    "y": 9325,
+    "w": 350,
+    "h": 996
+   }
+  }
+ },
+ "short": {
+  "href": "https://swat-website-storefront.vercel.app/tours/railroads-of-the-old-west/",
+  "H": 16591,
+  "vh": 844,
+  "footer": 1634,
+  "secs": [
+   {
+    "id": "overview",
+    "t": "Overview",
+    "y": 1484,
+    "h": 559
+   },
+   {
+    "id": "seasons",
+    "t": "This trip by season",
+    "y": 2099,
+    "h": 515
+   },
+   {
+    "id": "itinerary",
+    "t": "Day by day",
+    "y": 2670,
+    "h": 2471
+   },
+   {
+    "id": "right-for-you",
+    "t": "Is this trip right for you?",
+    "y": 5197,
+    "h": 354
+   },
+   {
+    "id": "details",
+    "t": "Tour details",
+    "y": 5607,
+    "h": 1960
+   },
+   {
+    "id": "gallery",
+    "t": "More photos and videos",
+    "y": 7623,
+    "h": 985
+   },
+   {
+    "id": "more-photos",
+    "t": "More from Colorado",
+    "y": 8664,
+    "h": 991
+   },
+   {
+    "id": "departures",
+    "t": "Departures",
+    "y": 9711,
+    "h": 553
+   },
+   {
+    "id": "pricing",
+    "t": "Pricing",
+    "y": 10320,
+    "h": 738
+   },
+   {
+    "id": "protection",
+    "t": "SWAT Trip Protection Plan",
+    "y": 11114,
+    "h": 996
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 12443,
+    "h": 542
+   },
+   {
+    "id": "",
+    "t": "You might also consider",
+    "y": 13048,
+    "h": 1005
+   },
+   {
+    "id": "",
+    "t": "Where this trip goes",
+    "y": 14443,
+    "h": 321
+   }
+  ],
+  "itY": 2670,
+  "days": 7,
+  "boxes": {
+   "glance": {
+    "x": 20,
+    "y": 2753,
+    "w": 350,
+    "h": 132
+   },
+   "day1": {
+    "x": 20,
+    "y": 2925,
+    "w": 350,
+    "h": 288
+   },
+   "day2": {
+    "x": 20,
+    "y": 3261,
+    "w": 350,
+    "h": 270
+   },
+   "row1": null,
+   "rowLast": {
+    "x": 20,
+    "y": 4871,
+    "w": 350,
+    "h": 270
+   },
+   "fig1": null,
+   "clamp1": {
+    "x": 20,
+    "y": 3021,
+    "w": 350,
+    "h": 104
+   },
+   "more1": {
+    "x": 20,
+    "y": 3131,
+    "w": 123,
+    "h": 21
+   },
+   "top1": {
+    "x": 20,
+    "y": 2925,
+    "w": 350,
+    "h": 84
+   },
+   "rfy": {
+    "x": 20,
+    "y": 5197,
+    "w": 350,
+    "h": 354
+   },
+   "rowsAll": {
+    "x": 20,
+    "y": 2925,
+    "w": 350,
+    "h": 288
+   },
+   "inPrice": {
+    "x": 20,
+    "y": 5656,
+    "w": 350,
+    "h": 820
+   },
+   "notPrice": null,
+   "gal1": {
+    "x": 163,
+    "y": 7739,
+    "w": 64,
+    "h": 64
+   },
+   "mp1": {
+    "x": 20,
+    "y": 8713,
+    "w": 350,
+    "h": 942
+   },
+   "proLine": null,
+   "dep": {
+    "x": 20,
+    "y": 9711,
+    "w": 350,
+    "h": 553
+   },
+   "pricing": {
+    "x": 20,
+    "y": 10320,
+    "w": 350,
+    "h": 738
+   },
+   "details": {
+    "x": 20,
+    "y": 5607,
+    "w": 350,
+    "h": 1960
+   },
+   "detMore": null,
+   "lines": null,
+   "gallery": {
+    "x": 20,
+    "y": 7623,
+    "w": 350,
+    "h": 985
+   },
+   "photos": {
+    "x": 20,
+    "y": 8664,
+    "w": 350,
+    "h": 991
+   },
+   "protection": {
+    "x": 20,
+    "y": 11114,
+    "w": 350,
+    "h": 996
+   }
+  }
+ },
+ "lists": {
+  "href": "https://swat-website-storefront.vercel.app/tours/railroads-of-the-old-west/",
+  "H": 21109,
+  "vh": 844,
+  "footer": 1634,
+  "secs": [
+   {
+    "id": "overview",
+    "t": "Overview",
+    "y": 1484,
+    "h": 559
+   },
+   {
+    "id": "seasons",
+    "t": "This trip by season",
+    "y": 2099,
+    "h": 515
+   },
+   {
+    "id": "itinerary",
+    "t": "Day by day",
+    "y": 2670,
+    "h": 9019
+   },
+   {
+    "id": "right-for-you",
+    "t": "Is this trip right for you?",
+    "y": 11746,
+    "h": 354
+   },
+   {
+    "id": "details",
+    "t": "Tour details",
+    "y": 12156,
+    "h": 628
+   },
+   {
+    "id": "gallery",
+    "t": "More photos and videos",
+    "y": 12840,
+    "h": 985
+   },
+   {
+    "id": "more-photos",
+    "t": "More from Colorado",
+    "y": 13880,
+    "h": 991
+   },
+   {
+    "id": "departures",
+    "t": "Departures",
+    "y": 14927,
+    "h": 553
+   },
+   {
+    "id": "pricing",
+    "t": "Pricing",
+    "y": 15536,
+    "h": 738
+   },
+   {
+    "id": "protection",
+    "t": "SWAT Trip Protection Plan",
+    "y": 16330,
+    "h": 298
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 16960,
+    "h": 542
+   },
+   {
+    "id": "",
+    "t": "You might also consider",
+    "y": 17566,
+    "h": 1005
+   },
+   {
+    "id": "",
+    "t": "Where this trip goes",
+    "y": 18961,
+    "h": 321
+   }
+  ],
+  "itY": 2670,
+  "days": 7,
+  "boxes": {
+   "glance": {
+    "x": 20,
+    "y": 2753,
+    "w": 350,
+    "h": 132
+   },
+   "day1": {
+    "x": 20,
+    "y": 2925,
+    "w": 350,
+    "h": 638
+   },
+   "day2": {
+    "x": 20,
+    "y": 3611,
+    "w": 350,
+    "h": 847
+   },
+   "row1": null,
+   "rowLast": {
+    "x": 20,
+    "y": 11197,
+    "w": 350,
+    "h": 493
+   },
+   "fig1": {
+    "x": 20,
+    "y": 2925,
+    "w": 350,
+    "h": 233
+   },
+   "clamp1": null,
+   "more1": null,
+   "top1": null,
+   "rfy": {
+    "x": 20,
+    "y": 11746,
+    "w": 350,
+    "h": 354
+   },
+   "rowsAll": {
+    "x": 20,
+    "y": 2925,
+    "w": 350,
+    "h": 638
+   },
+   "inPrice": {
+    "x": 20,
+    "y": 12205,
+    "w": 350,
+    "h": 390
+   },
+   "notPrice": {
+    "x": 20,
+    "y": 12611,
+    "w": 350,
+    "h": 52
+   },
+   "gal1": {
+    "x": 163,
+    "y": 12955,
+    "w": 64,
+    "h": 64
+   },
+   "mp1": {
+    "x": 20,
+    "y": 13929,
+    "w": 350,
+    "h": 942
+   },
+   "proLine": {
+    "x": 20,
+    "y": 16484,
+    "w": 350,
+    "h": 56
+   },
+   "dep": {
+    "x": 20,
+    "y": 14927,
+    "w": 350,
+    "h": 553
+   },
+   "pricing": {
+    "x": 20,
+    "y": 15536,
+    "w": 350,
+    "h": 738
+   },
+   "details": {
+    "x": 20,
+    "y": 12156,
+    "w": 350,
+    "h": 628
+   },
+   "detMore": {
+    "x": 41,
+    "y": 12552,
+    "w": 202,
+    "h": 21
+   },
+   "lines": {
+    "x": 20,
+    "y": 12679,
+    "w": 350,
+    "h": 105
+   },
+   "gallery": {
+    "x": 20,
+    "y": 12840,
+    "w": 350,
+    "h": 985
+   },
+   "photos": {
+    "x": 20,
+    "y": 13880,
+    "w": 350,
+    "h": 991
+   },
+   "protection": {
+    "x": 20,
+    "y": 16330,
+    "w": 350,
+    "h": 298
+   }
+  }
+ },
+ "photos": {
+  "href": "https://swat-website-storefront.vercel.app/tours/railroads-of-the-old-west/",
+  "H": 20355,
+  "vh": 844,
+  "footer": 1634,
+  "secs": [
+   {
+    "id": "overview",
+    "t": "Overview",
+    "y": 1484,
+    "h": 559
+   },
+   {
+    "id": "seasons",
+    "t": "This trip by season",
+    "y": 2099,
+    "h": 515
+   },
+   {
+    "id": "itinerary",
+    "t": "Day by day",
+    "y": 2670,
+    "h": 9019
+   },
+   {
+    "id": "right-for-you",
+    "t": "Is this trip right for you?",
+    "y": 11746,
+    "h": 354
+   },
+   {
+    "id": "details",
+    "t": "Tour details",
+    "y": 12156,
+    "h": 628
+   },
+   {
+    "id": "gallery",
+    "t": "More photos and videos",
+    "y": 12840,
+    "h": 985
+   },
+   {
+    "id": "more-photos",
+    "t": "More from Colorado",
+    "y": 13880,
+    "h": 237
+   },
+   {
+    "id": "departures",
+    "t": "Departures",
+    "y": 14173,
+    "h": 553
+   },
+   {
+    "id": "pricing",
+    "t": "Pricing",
+    "y": 14782,
+    "h": 738
+   },
+   {
+    "id": "protection",
+    "t": "SWAT Trip Protection Plan",
+    "y": 15576,
+    "h": 298
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 16206,
+    "h": 542
+   },
+   {
+    "id": "",
+    "t": "You might also consider",
+    "y": 16812,
+    "h": 1005
+   },
+   {
+    "id": "",
+    "t": "Where this trip goes",
+    "y": 18206,
+    "h": 321
+   }
+  ],
+  "itY": 2670,
+  "days": 7,
+  "boxes": {
+   "glance": {
+    "x": 20,
+    "y": 2753,
+    "w": 350,
+    "h": 132
+   },
+   "day1": {
+    "x": 20,
+    "y": 2925,
+    "w": 350,
+    "h": 638
+   },
+   "day2": {
+    "x": 20,
+    "y": 3611,
+    "w": 350,
+    "h": 847
+   },
+   "row1": null,
+   "rowLast": {
+    "x": 20,
+    "y": 11197,
+    "w": 350,
+    "h": 493
+   },
+   "fig1": {
+    "x": 20,
+    "y": 2925,
+    "w": 350,
+    "h": 233
+   },
+   "clamp1": null,
+   "more1": null,
+   "top1": null,
+   "rfy": {
+    "x": 20,
+    "y": 11746,
+    "w": 350,
+    "h": 354
+   },
+   "rowsAll": {
+    "x": 20,
+    "y": 2925,
+    "w": 350,
+    "h": 638
+   },
+   "inPrice": {
+    "x": 20,
+    "y": 12205,
+    "w": 350,
+    "h": 390
+   },
+   "notPrice": {
+    "x": 20,
+    "y": 12611,
+    "w": 350,
+    "h": 52
+   },
+   "gal1": {
+    "x": 163,
+    "y": 12955,
+    "w": 64,
+    "h": 64
+   },
+   "mp1": {
+    "x": 20,
+    "y": 13929,
+    "w": 370,
+    "h": 188
+   },
+   "proLine": {
+    "x": 20,
+    "y": 15730,
+    "w": 350,
+    "h": 56
+   },
+   "dep": {
+    "x": 20,
+    "y": 14173,
+    "w": 350,
+    "h": 553
+   },
+   "pricing": {
+    "x": 20,
+    "y": 14782,
+    "w": 350,
+    "h": 738
+   },
+   "details": {
+    "x": 20,
+    "y": 12156,
+    "w": 350,
+    "h": 628
+   },
+   "detMore": {
+    "x": 41,
+    "y": 12552,
+    "w": 202,
+    "h": 21
+   },
+   "lines": {
+    "x": 20,
+    "y": 12679,
+    "w": 350,
+    "h": 105
+   },
+   "gallery": {
+    "x": 20,
+    "y": 12840,
+    "w": 350,
+    "h": 985
+   },
+   "photos": {
+    "x": 20,
+    "y": 13880,
+    "w": 350,
+    "h": 237
+   },
+   "protection": {
+    "x": 20,
+    "y": 15576,
+    "w": 350,
+    "h": 298
+   }
+  }
+ }
+}

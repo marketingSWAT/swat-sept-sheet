@@ -1,0 +1,1008 @@
+{
+ "slug": "canadian-atlantic-experience",
+ "now": {
+  "href": "https://swat-website-storefront.vercel.app/tours/canadian-atlantic-experience/",
+  "H": 21100,
+  "vh": 844,
+  "footer": 1634,
+  "secs": [
+   {
+    "id": "overview",
+    "t": "Overview",
+    "y": 1545,
+    "h": 855
+   },
+   {
+    "id": "seasons",
+    "t": "This trip by season",
+    "y": 2456,
+    "h": 313
+   },
+   {
+    "id": "itinerary",
+    "t": "Day by day",
+    "y": 2825,
+    "h": 8624
+   },
+   {
+    "id": "right-for-you",
+    "t": "Is this trip right for you?",
+    "y": 11504,
+    "h": 354
+   },
+   {
+    "id": "details",
+    "t": "Tour details",
+    "y": 11914,
+    "h": 1405
+   },
+   {
+    "id": "gallery",
+    "t": "Gallery",
+    "y": 13375,
+    "h": 312
+   },
+   {
+    "id": "more-photos",
+    "t": "More from Canada",
+    "y": 13743,
+    "h": 855
+   },
+   {
+    "id": "reserve",
+    "t": "Ask about a date",
+    "y": 14653,
+    "h": 734
+   },
+   {
+    "id": "departures",
+    "t": "Departures",
+    "y": 15443,
+    "h": 341
+   },
+   {
+    "id": "pricing",
+    "t": "Pricing",
+    "y": 15840,
+    "h": 420
+   },
+   {
+    "id": "protection",
+    "t": "SWAT Trip Protection Plan",
+    "y": 16316,
+    "h": 921
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 17570,
+    "h": 444
+   },
+   {
+    "id": "",
+    "t": "You might also consider",
+    "y": 18078,
+    "h": 870
+   }
+  ],
+  "itY": 2825,
+  "days": 13,
+  "boxes": {
+   "glance": {
+    "x": 20,
+    "y": 2908,
+    "w": 350,
+    "h": 130
+   },
+   "day1": {
+    "x": 20,
+    "y": 3078,
+    "w": 350,
+    "h": 526
+   },
+   "day2": {
+    "x": 20,
+    "y": 3652,
+    "w": 350,
+    "h": 724
+   },
+   "row1": null,
+   "rowLast": {
+    "x": 20,
+    "y": 11036,
+    "w": 350,
+    "h": 412
+   },
+   "fig1": {
+    "x": 20,
+    "y": 3078,
+    "w": 350,
+    "h": 259
+   },
+   "clamp1": null,
+   "more1": null,
+   "top1": null,
+   "rfy": {
+    "x": 20,
+    "y": 11504,
+    "w": 350,
+    "h": 354
+   },
+   "rowsAll": {
+    "x": 20,
+    "y": 3078,
+    "w": 350,
+    "h": 526
+   },
+   "inPrice": {
+    "x": 20,
+    "y": 11963,
+    "w": 350,
+    "h": 704
+   },
+   "notPrice": null,
+   "gal1": {
+    "x": 20,
+    "y": 13424,
+    "w": 350,
+    "h": 263
+   },
+   "mp1": {
+    "x": 20,
+    "y": 13792,
+    "w": 350,
+    "h": 806
+   },
+   "proLine": null,
+   "dep": {
+    "x": 20,
+    "y": 15443,
+    "w": 350,
+    "h": 341
+   },
+   "pricing": {
+    "x": 20,
+    "y": 15840,
+    "w": 350,
+    "h": 420
+   },
+   "details": {
+    "x": 20,
+    "y": 11914,
+    "w": 350,
+    "h": 1405
+   },
+   "detMore": null,
+   "lines": null,
+   "gallery": {
+    "x": 20,
+    "y": 13375,
+    "w": 350,
+    "h": 312
+   },
+   "photos": {
+    "x": 20,
+    "y": 13743,
+    "w": 350,
+    "h": 855
+   },
+   "protection": {
+    "x": 20,
+    "y": 16316,
+    "w": 350,
+    "h": 921
+   }
+  }
+ },
+ "fold": {
+  "href": "https://swat-website-storefront.vercel.app/tours/canadian-atlantic-experience/",
+  "H": 13640,
+  "vh": 844,
+  "footer": 1634,
+  "secs": [
+   {
+    "id": "overview",
+    "t": "Overview",
+    "y": 1545,
+    "h": 855
+   },
+   {
+    "id": "seasons",
+    "t": "This trip by season",
+    "y": 2456,
+    "h": 313
+   },
+   {
+    "id": "itinerary",
+    "t": "Day by day",
+    "y": 2825,
+    "h": 1163
+   },
+   {
+    "id": "right-for-you",
+    "t": "Is this trip right for you?",
+    "y": 4044,
+    "h": 354
+   },
+   {
+    "id": "details",
+    "t": "Tour details",
+    "y": 4454,
+    "h": 1405
+   },
+   {
+    "id": "gallery",
+    "t": "Gallery",
+    "y": 5915,
+    "h": 312
+   },
+   {
+    "id": "more-photos",
+    "t": "More from Canada",
+    "y": 6282,
+    "h": 855
+   },
+   {
+    "id": "reserve",
+    "t": "Ask about a date",
+    "y": 7193,
+    "h": 734
+   },
+   {
+    "id": "departures",
+    "t": "Departures",
+    "y": 7982,
+    "h": 341
+   },
+   {
+    "id": "pricing",
+    "t": "Pricing",
+    "y": 8379,
+    "h": 420
+   },
+   {
+    "id": "protection",
+    "t": "SWAT Trip Protection Plan",
+    "y": 8855,
+    "h": 921
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 10109,
+    "h": 444
+   },
+   {
+    "id": "",
+    "t": "You might also consider",
+    "y": 10617,
+    "h": 870
+   }
+  ],
+  "itY": 2825,
+  "days": 13,
+  "boxes": {
+   "glance": null,
+   "day1": {
+    "x": 20,
+    "y": 2898,
+    "w": 350,
+    "h": 82
+   },
+   "day2": {
+    "x": 20,
+    "y": 2980,
+    "w": 350,
+    "h": 82
+   },
+   "row1": {
+    "x": 20,
+    "y": 2899,
+    "w": 350,
+    "h": 81
+   },
+   "rowLast": {
+    "x": 20,
+    "y": 3905,
+    "w": 350,
+    "h": 83
+   },
+   "fig1": null,
+   "clamp1": null,
+   "more1": null,
+   "top1": null,
+   "rfy": {
+    "x": 20,
+    "y": 4044,
+    "w": 350,
+    "h": 354
+   },
+   "rowsAll": {
+    "x": 20,
+    "y": 2898,
+    "w": 350,
+    "h": 82
+   },
+   "inPrice": {
+    "x": 20,
+    "y": 4503,
+    "w": 350,
+    "h": 704
+   },
+   "notPrice": null,
+   "gal1": {
+    "x": 20,
+    "y": 5964,
+    "w": 350,
+    "h": 263
+   },
+   "mp1": {
+    "x": 20,
+    "y": 6331,
+    "w": 350,
+    "h": 806
+   },
+   "proLine": null,
+   "dep": {
+    "x": 20,
+    "y": 7982,
+    "w": 350,
+    "h": 341
+   },
+   "pricing": {
+    "x": 20,
+    "y": 8379,
+    "w": 350,
+    "h": 420
+   },
+   "details": {
+    "x": 20,
+    "y": 4454,
+    "w": 350,
+    "h": 1405
+   },
+   "detMore": null,
+   "lines": null,
+   "gallery": {
+    "x": 20,
+    "y": 5915,
+    "w": 350,
+    "h": 312
+   },
+   "photos": {
+    "x": 20,
+    "y": 6282,
+    "w": 350,
+    "h": 855
+   },
+   "protection": {
+    "x": 20,
+    "y": 8855,
+    "w": 350,
+    "h": 921
+   }
+  }
+ },
+ "short": {
+  "href": "https://swat-website-storefront.vercel.app/tours/canadian-atlantic-experience/",
+  "H": 16428,
+  "vh": 844,
+  "footer": 1634,
+  "secs": [
+   {
+    "id": "overview",
+    "t": "Overview",
+    "y": 1545,
+    "h": 855
+   },
+   {
+    "id": "seasons",
+    "t": "This trip by season",
+    "y": 2456,
+    "h": 313
+   },
+   {
+    "id": "itinerary",
+    "t": "Day by day",
+    "y": 2825,
+    "h": 3951
+   },
+   {
+    "id": "right-for-you",
+    "t": "Is this trip right for you?",
+    "y": 6832,
+    "h": 354
+   },
+   {
+    "id": "details",
+    "t": "Tour details",
+    "y": 7242,
+    "h": 1405
+   },
+   {
+    "id": "gallery",
+    "t": "Gallery",
+    "y": 8703,
+    "h": 312
+   },
+   {
+    "id": "more-photos",
+    "t": "More from Canada",
+    "y": 9070,
+    "h": 855
+   },
+   {
+    "id": "reserve",
+    "t": "Ask about a date",
+    "y": 9981,
+    "h": 734
+   },
+   {
+    "id": "departures",
+    "t": "Departures",
+    "y": 10770,
+    "h": 341
+   },
+   {
+    "id": "pricing",
+    "t": "Pricing",
+    "y": 11167,
+    "h": 420
+   },
+   {
+    "id": "protection",
+    "t": "SWAT Trip Protection Plan",
+    "y": 11643,
+    "h": 921
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 12897,
+    "h": 444
+   },
+   {
+    "id": "",
+    "t": "You might also consider",
+    "y": 13405,
+    "h": 870
+   }
+  ],
+  "itY": 2825,
+  "days": 13,
+  "boxes": {
+   "glance": {
+    "x": 20,
+    "y": 2908,
+    "w": 350,
+    "h": 130
+   },
+   "day1": {
+    "x": 20,
+    "y": 3078,
+    "w": 350,
+    "h": 228
+   },
+   "day2": {
+    "x": 20,
+    "y": 3354,
+    "w": 350,
+    "h": 270
+   },
+   "row1": null,
+   "rowLast": {
+    "x": 20,
+    "y": 6558,
+    "w": 350,
+    "h": 218
+   },
+   "fig1": null,
+   "clamp1": {
+    "x": 20,
+    "y": 3174,
+    "w": 350,
+    "h": 104
+   },
+   "more1": {
+    "x": 20,
+    "y": 3284,
+    "w": 123,
+    "h": 21
+   },
+   "top1": {
+    "x": 20,
+    "y": 3078,
+    "w": 350,
+    "h": 84
+   },
+   "rfy": {
+    "x": 20,
+    "y": 6832,
+    "w": 350,
+    "h": 354
+   },
+   "rowsAll": {
+    "x": 20,
+    "y": 3078,
+    "w": 350,
+    "h": 228
+   },
+   "inPrice": {
+    "x": 20,
+    "y": 7291,
+    "w": 350,
+    "h": 704
+   },
+   "notPrice": null,
+   "gal1": {
+    "x": 20,
+    "y": 8752,
+    "w": 350,
+    "h": 263
+   },
+   "mp1": {
+    "x": 20,
+    "y": 9119,
+    "w": 350,
+    "h": 806
+   },
+   "proLine": null,
+   "dep": {
+    "x": 20,
+    "y": 10770,
+    "w": 350,
+    "h": 341
+   },
+   "pricing": {
+    "x": 20,
+    "y": 11167,
+    "w": 350,
+    "h": 420
+   },
+   "details": {
+    "x": 20,
+    "y": 7242,
+    "w": 350,
+    "h": 1405
+   },
+   "detMore": null,
+   "lines": null,
+   "gallery": {
+    "x": 20,
+    "y": 8703,
+    "w": 350,
+    "h": 312
+   },
+   "photos": {
+    "x": 20,
+    "y": 9070,
+    "w": 350,
+    "h": 855
+   },
+   "protection": {
+    "x": 20,
+    "y": 11643,
+    "w": 350,
+    "h": 921
+   }
+  }
+ },
+ "lists": {
+  "href": "https://swat-website-storefront.vercel.app/tours/canadian-atlantic-experience/",
+  "H": 19813,
+  "vh": 844,
+  "footer": 1634,
+  "secs": [
+   {
+    "id": "overview",
+    "t": "Overview",
+    "y": 1545,
+    "h": 855
+   },
+   {
+    "id": "seasons",
+    "t": "This trip by season",
+    "y": 2456,
+    "h": 313
+   },
+   {
+    "id": "itinerary",
+    "t": "Day by day",
+    "y": 2825,
+    "h": 8624
+   },
+   {
+    "id": "right-for-you",
+    "t": "Is this trip right for you?",
+    "y": 11504,
+    "h": 354
+   },
+   {
+    "id": "details",
+    "t": "Tour details",
+    "y": 11914,
+    "h": 741
+   },
+   {
+    "id": "gallery",
+    "t": "Gallery",
+    "y": 12711,
+    "h": 312
+   },
+   {
+    "id": "more-photos",
+    "t": "More from Canada",
+    "y": 13079,
+    "h": 855
+   },
+   {
+    "id": "reserve",
+    "t": "Ask about a date",
+    "y": 13989,
+    "h": 734
+   },
+   {
+    "id": "departures",
+    "t": "Departures",
+    "y": 14779,
+    "h": 341
+   },
+   {
+    "id": "pricing",
+    "t": "Pricing",
+    "y": 15176,
+    "h": 420
+   },
+   {
+    "id": "protection",
+    "t": "SWAT Trip Protection Plan",
+    "y": 15652,
+    "h": 298
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 16282,
+    "h": 444
+   },
+   {
+    "id": "",
+    "t": "You might also consider",
+    "y": 16790,
+    "h": 870
+   }
+  ],
+  "itY": 2825,
+  "days": 13,
+  "boxes": {
+   "glance": {
+    "x": 20,
+    "y": 2908,
+    "w": 350,
+    "h": 130
+   },
+   "day1": {
+    "x": 20,
+    "y": 3078,
+    "w": 350,
+    "h": 526
+   },
+   "day2": {
+    "x": 20,
+    "y": 3652,
+    "w": 350,
+    "h": 724
+   },
+   "row1": null,
+   "rowLast": {
+    "x": 20,
+    "y": 11036,
+    "w": 350,
+    "h": 412
+   },
+   "fig1": {
+    "x": 20,
+    "y": 3078,
+    "w": 350,
+    "h": 259
+   },
+   "clamp1": null,
+   "more1": null,
+   "top1": null,
+   "rfy": {
+    "x": 20,
+    "y": 11504,
+    "w": 350,
+    "h": 354
+   },
+   "rowsAll": {
+    "x": 20,
+    "y": 3078,
+    "w": 350,
+    "h": 526
+   },
+   "inPrice": {
+    "x": 20,
+    "y": 11963,
+    "w": 350,
+    "h": 624
+   },
+   "notPrice": {
+    "x": 20,
+    "y": 12603,
+    "w": 350,
+    "h": 52
+   },
+   "gal1": {
+    "x": 20,
+    "y": 12760,
+    "w": 350,
+    "h": 263
+   },
+   "mp1": {
+    "x": 20,
+    "y": 13128,
+    "w": 350,
+    "h": 806
+   },
+   "proLine": {
+    "x": 20,
+    "y": 15806,
+    "w": 350,
+    "h": 56
+   },
+   "dep": {
+    "x": 20,
+    "y": 14779,
+    "w": 350,
+    "h": 341
+   },
+   "pricing": {
+    "x": 20,
+    "y": 15176,
+    "w": 350,
+    "h": 420
+   },
+   "details": {
+    "x": 20,
+    "y": 11914,
+    "w": 350,
+    "h": 741
+   },
+   "detMore": {
+    "x": 41,
+    "y": 12544,
+    "w": 195,
+    "h": 21
+   },
+   "lines": null,
+   "gallery": {
+    "x": 20,
+    "y": 12711,
+    "w": 350,
+    "h": 312
+   },
+   "photos": {
+    "x": 20,
+    "y": 13079,
+    "w": 350,
+    "h": 855
+   },
+   "protection": {
+    "x": 20,
+    "y": 15652,
+    "w": 350,
+    "h": 298
+   }
+  }
+ },
+ "photos": {
+  "href": "https://swat-website-storefront.vercel.app/tours/canadian-atlantic-experience/",
+  "H": 19120,
+  "vh": 844,
+  "footer": 1634,
+  "secs": [
+   {
+    "id": "overview",
+    "t": "Overview",
+    "y": 1545,
+    "h": 855
+   },
+   {
+    "id": "seasons",
+    "t": "This trip by season",
+    "y": 2456,
+    "h": 313
+   },
+   {
+    "id": "itinerary",
+    "t": "Day by day",
+    "y": 2825,
+    "h": 8624
+   },
+   {
+    "id": "right-for-you",
+    "t": "Is this trip right for you?",
+    "y": 11504,
+    "h": 354
+   },
+   {
+    "id": "details",
+    "t": "Tour details",
+    "y": 11914,
+    "h": 741
+   },
+   {
+    "id": "gallery",
+    "t": "Gallery",
+    "y": 12711,
+    "h": 237
+   },
+   {
+    "id": "more-photos",
+    "t": "More from Canada",
+    "y": 13004,
+    "h": 237
+   },
+   {
+    "id": "reserve",
+    "t": "Ask about a date",
+    "y": 13296,
+    "h": 734
+   },
+   {
+    "id": "departures",
+    "t": "Departures",
+    "y": 14086,
+    "h": 341
+   },
+   {
+    "id": "pricing",
+    "t": "Pricing",
+    "y": 14483,
+    "h": 420
+   },
+   {
+    "id": "protection",
+    "t": "SWAT Trip Protection Plan",
+    "y": 14959,
+    "h": 298
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 15589,
+    "h": 444
+   },
+   {
+    "id": "",
+    "t": "You might also consider",
+    "y": 16097,
+    "h": 870
+   }
+  ],
+  "itY": 2825,
+  "days": 13,
+  "boxes": {
+   "glance": {
+    "x": 20,
+    "y": 2908,
+    "w": 350,
+    "h": 130
+   },
+   "day1": {
+    "x": 20,
+    "y": 3078,
+    "w": 350,
+    "h": 526
+   },
+   "day2": {
+    "x": 20,
+    "y": 3652,
+    "w": 350,
+    "h": 724
+   },
+   "row1": null,
+   "rowLast": {
+    "x": 20,
+    "y": 11036,
+    "w": 350,
+    "h": 412
+   },
+   "fig1": {
+    "x": 20,
+    "y": 3078,
+    "w": 350,
+    "h": 259
+   },
+   "clamp1": null,
+   "more1": null,
+   "top1": null,
+   "rfy": {
+    "x": 20,
+    "y": 11504,
+    "w": 350,
+    "h": 354
+   },
+   "rowsAll": {
+    "x": 20,
+    "y": 3078,
+    "w": 350,
+    "h": 526
+   },
+   "inPrice": {
+    "x": 20,
+    "y": 11963,
+    "w": 350,
+    "h": 624
+   },
+   "notPrice": {
+    "x": 20,
+    "y": 12603,
+    "w": 350,
+    "h": 52
+   },
+   "gal1": {
+    "x": 20,
+    "y": 12760,
+    "w": 370,
+    "h": 188
+   },
+   "mp1": {
+    "x": 20,
+    "y": 13053,
+    "w": 370,
+    "h": 188
+   },
+   "proLine": {
+    "x": 20,
+    "y": 15113,
+    "w": 350,
+    "h": 56
+   },
+   "dep": {
+    "x": 20,
+    "y": 14086,
+    "w": 350,
+    "h": 341
+   },
+   "pricing": {
+    "x": 20,
+    "y": 14483,
+    "w": 350,
+    "h": 420
+   },
+   "details": {
+    "x": 20,
+    "y": 11914,
+    "w": 350,
+    "h": 741
+   },
+   "detMore": {
+    "x": 41,
+    "y": 12544,
+    "w": 195,
+    "h": 21
+   },
+   "lines": null,
+   "gallery": {
+    "x": 20,
+    "y": 12711,
+    "w": 350,
+    "h": 237
+   },
+   "photos": {
+    "x": 20,
+    "y": 13004,
+    "w": 350,
+    "h": 237
+   },
+   "protection": {
+    "x": 20,
+    "y": 14959,
+    "w": 350,
+    "h": 298
+   }
+  }
+ }
+}

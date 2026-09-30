@@ -1,0 +1,743 @@
+{
+ "slug": "ama-paris-normandy",
+ "now": {
+  "href": "https://swat-website-storefront.vercel.app/tours/ama-paris-normandy/",
+  "H": 17076,
+  "vh": 844,
+  "footer": 1634,
+  "secs": [
+   {
+    "id": "itinerary",
+    "t": "Day by day",
+    "y": 1513,
+    "h": 6549
+   },
+   {
+    "id": "april-8-2027-april-15-2027",
+    "t": "April 8, 2027 - April 15 2027",
+    "y": 8118,
+    "h": 931
+   },
+   {
+    "id": "deposits-cancellation-policies",
+    "t": "Deposits & Cancellation Policies",
+    "y": 9105,
+    "h": 539
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 9668,
+    "h": 306
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 9997,
+    "h": 502
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 10523,
+    "h": 616
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 11162,
+    "h": 336
+   },
+   {
+    "id": "right-for-you",
+    "t": "Is this trip right for you?",
+    "y": 11554,
+    "h": 620
+   },
+   {
+    "id": "gallery",
+    "t": "Gallery",
+    "y": 12230,
+    "h": 582
+   },
+   {
+    "id": "enquire",
+    "t": "",
+    "y": 13145,
+    "h": 777
+   },
+   {
+    "id": "",
+    "t": "You might also consider",
+    "y": 13985,
+    "h": 938
+   }
+  ],
+  "itY": 1513,
+  "days": 8,
+  "boxes": {
+   "glance": {
+    "x": 20,
+    "y": 1596,
+    "w": 350,
+    "h": 132
+   },
+   "day1": {
+    "x": 20,
+    "y": 1767,
+    "w": 350,
+    "h": 454
+   },
+   "day2": {
+    "x": 20,
+    "y": 2270,
+    "w": 350,
+    "h": 698
+   },
+   "row1": null,
+   "rowLast": {
+    "x": 20,
+    "y": 7624,
+    "w": 350,
+    "h": 438
+   },
+   "fig1": {
+    "x": 20,
+    "y": 1767,
+    "w": 350,
+    "h": 233
+   },
+   "clamp1": null,
+   "more1": null,
+   "top1": null,
+   "rfy": {
+    "x": 20,
+    "y": 11554,
+    "w": 350,
+    "h": 620
+   },
+   "rowsAll": {
+    "x": 20,
+    "y": 1767,
+    "w": 350,
+    "h": 454
+   },
+   "inPrice": null,
+   "notPrice": null,
+   "gal1": {
+    "x": 20,
+    "y": 12279,
+    "w": 350,
+    "h": 533
+   },
+   "mp1": null,
+   "proLine": null,
+   "dep": null,
+   "pricing": null,
+   "details": null,
+   "detMore": null,
+   "lines": null,
+   "gallery": {
+    "x": 20,
+    "y": 12230,
+    "w": 350,
+    "h": 582
+   },
+   "photos": null,
+   "protection": null
+  }
+ },
+ "fold": {
+  "href": "https://swat-website-storefront.vercel.app/tours/ama-paris-normandy/",
+  "H": 11262,
+  "vh": 844,
+  "footer": 1634,
+  "secs": [
+   {
+    "id": "itinerary",
+    "t": "Day by day",
+    "y": 1513,
+    "h": 735
+   },
+   {
+    "id": "april-8-2027-april-15-2027",
+    "t": "April 8, 2027 - April 15 2027",
+    "y": 2303,
+    "h": 931
+   },
+   {
+    "id": "deposits-cancellation-policies",
+    "t": "Deposits & Cancellation Policies",
+    "y": 3290,
+    "h": 539
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 3853,
+    "h": 306
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 4183,
+    "h": 502
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 4708,
+    "h": 616
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 5348,
+    "h": 336
+   },
+   {
+    "id": "right-for-you",
+    "t": "Is this trip right for you?",
+    "y": 5739,
+    "h": 620
+   },
+   {
+    "id": "gallery",
+    "t": "Gallery",
+    "y": 6415,
+    "h": 582
+   },
+   {
+    "id": "enquire",
+    "t": "",
+    "y": 7330,
+    "h": 777
+   },
+   {
+    "id": "",
+    "t": "You might also consider",
+    "y": 8171,
+    "h": 938
+   }
+  ],
+  "itY": 1513,
+  "days": 8,
+  "boxes": {
+   "glance": null,
+   "day1": {
+    "x": 20,
+    "y": 1586,
+    "w": 350,
+    "h": 82
+   },
+   "day2": {
+    "x": 20,
+    "y": 1668,
+    "w": 350,
+    "h": 82
+   },
+   "row1": {
+    "x": 20,
+    "y": 1587,
+    "w": 350,
+    "h": 81
+   },
+   "rowLast": {
+    "x": 20,
+    "y": 2164,
+    "w": 350,
+    "h": 83
+   },
+   "fig1": null,
+   "clamp1": null,
+   "more1": null,
+   "top1": null,
+   "rfy": {
+    "x": 20,
+    "y": 5739,
+    "w": 350,
+    "h": 620
+   },
+   "rowsAll": {
+    "x": 20,
+    "y": 1586,
+    "w": 350,
+    "h": 82
+   },
+   "inPrice": null,
+   "notPrice": null,
+   "gal1": {
+    "x": 20,
+    "y": 6464,
+    "w": 350,
+    "h": 533
+   },
+   "mp1": null,
+   "proLine": null,
+   "dep": null,
+   "pricing": null,
+   "details": null,
+   "detMore": null,
+   "lines": null,
+   "gallery": {
+    "x": 20,
+    "y": 6415,
+    "w": 350,
+    "h": 582
+   },
+   "photos": null,
+   "protection": null
+  }
+ },
+ "short": {
+  "href": "https://swat-website-storefront.vercel.app/tours/ama-paris-normandy/",
+  "H": 13226,
+  "vh": 844,
+  "footer": 1634,
+  "secs": [
+   {
+    "id": "itinerary",
+    "t": "Day by day",
+    "y": 1513,
+    "h": 2699
+   },
+   {
+    "id": "april-8-2027-april-15-2027",
+    "t": "April 8, 2027 - April 15 2027",
+    "y": 4268,
+    "h": 931
+   },
+   {
+    "id": "deposits-cancellation-policies",
+    "t": "Deposits & Cancellation Policies",
+    "y": 5255,
+    "h": 539
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 5818,
+    "h": 306
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 6147,
+    "h": 502
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 6673,
+    "h": 616
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 7312,
+    "h": 336
+   },
+   {
+    "id": "right-for-you",
+    "t": "Is this trip right for you?",
+    "y": 7704,
+    "h": 620
+   },
+   {
+    "id": "gallery",
+    "t": "Gallery",
+    "y": 8380,
+    "h": 582
+   },
+   {
+    "id": "enquire",
+    "t": "",
+    "y": 9294,
+    "h": 777
+   },
+   {
+    "id": "",
+    "t": "You might also consider",
+    "y": 10135,
+    "h": 938
+   }
+  ],
+  "itY": 1513,
+  "days": 8,
+  "boxes": {
+   "glance": {
+    "x": 20,
+    "y": 1596,
+    "w": 350,
+    "h": 132
+   },
+   "day1": {
+    "x": 20,
+    "y": 1767,
+    "w": 350,
+    "h": 260
+   },
+   "day2": {
+    "x": 20,
+    "y": 2075,
+    "w": 350,
+    "h": 270
+   },
+   "row1": null,
+   "rowLast": {
+    "x": 20,
+    "y": 3994,
+    "w": 350,
+    "h": 218
+   },
+   "fig1": null,
+   "clamp1": {
+    "x": 20,
+    "y": 1863,
+    "w": 350,
+    "h": 94
+   },
+   "more1": {
+    "x": 20,
+    "y": 1963,
+    "w": 123,
+    "h": 21
+   },
+   "top1": {
+    "x": 20,
+    "y": 1767,
+    "w": 350,
+    "h": 84
+   },
+   "rfy": {
+    "x": 20,
+    "y": 7704,
+    "w": 350,
+    "h": 620
+   },
+   "rowsAll": {
+    "x": 20,
+    "y": 1767,
+    "w": 350,
+    "h": 260
+   },
+   "inPrice": null,
+   "notPrice": null,
+   "gal1": {
+    "x": 20,
+    "y": 8429,
+    "w": 350,
+    "h": 533
+   },
+   "mp1": null,
+   "proLine": null,
+   "dep": null,
+   "pricing": null,
+   "details": null,
+   "detMore": null,
+   "lines": null,
+   "gallery": {
+    "x": 20,
+    "y": 8380,
+    "w": 350,
+    "h": 582
+   },
+   "photos": null,
+   "protection": null
+  }
+ },
+ "lists": {
+  "href": "https://swat-website-storefront.vercel.app/tours/ama-paris-normandy/",
+  "H": 17076,
+  "vh": 844,
+  "footer": 1634,
+  "secs": [
+   {
+    "id": "itinerary",
+    "t": "Day by day",
+    "y": 1513,
+    "h": 6549
+   },
+   {
+    "id": "april-8-2027-april-15-2027",
+    "t": "April 8, 2027 - April 15 2027",
+    "y": 8118,
+    "h": 931
+   },
+   {
+    "id": "deposits-cancellation-policies",
+    "t": "Deposits & Cancellation Policies",
+    "y": 9105,
+    "h": 539
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 9668,
+    "h": 306
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 9997,
+    "h": 502
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 10523,
+    "h": 616
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 11162,
+    "h": 336
+   },
+   {
+    "id": "right-for-you",
+    "t": "Is this trip right for you?",
+    "y": 11554,
+    "h": 620
+   },
+   {
+    "id": "gallery",
+    "t": "Gallery",
+    "y": 12230,
+    "h": 582
+   },
+   {
+    "id": "enquire",
+    "t": "",
+    "y": 13145,
+    "h": 777
+   },
+   {
+    "id": "",
+    "t": "You might also consider",
+    "y": 13985,
+    "h": 938
+   }
+  ],
+  "itY": 1513,
+  "days": 8,
+  "boxes": {
+   "glance": {
+    "x": 20,
+    "y": 1596,
+    "w": 350,
+    "h": 132
+   },
+   "day1": {
+    "x": 20,
+    "y": 1767,
+    "w": 350,
+    "h": 454
+   },
+   "day2": {
+    "x": 20,
+    "y": 2270,
+    "w": 350,
+    "h": 698
+   },
+   "row1": null,
+   "rowLast": {
+    "x": 20,
+    "y": 7624,
+    "w": 350,
+    "h": 438
+   },
+   "fig1": {
+    "x": 20,
+    "y": 1767,
+    "w": 350,
+    "h": 233
+   },
+   "clamp1": null,
+   "more1": null,
+   "top1": null,
+   "rfy": {
+    "x": 20,
+    "y": 11554,
+    "w": 350,
+    "h": 620
+   },
+   "rowsAll": {
+    "x": 20,
+    "y": 1767,
+    "w": 350,
+    "h": 454
+   },
+   "inPrice": null,
+   "notPrice": null,
+   "gal1": {
+    "x": 20,
+    "y": 12279,
+    "w": 350,
+    "h": 533
+   },
+   "mp1": null,
+   "proLine": null,
+   "dep": null,
+   "pricing": null,
+   "details": null,
+   "detMore": null,
+   "lines": null,
+   "gallery": {
+    "x": 20,
+    "y": 12230,
+    "w": 350,
+    "h": 582
+   },
+   "photos": null,
+   "protection": null
+  }
+ },
+ "photos": {
+  "href": "https://swat-website-storefront.vercel.app/tours/ama-paris-normandy/",
+  "H": 16731,
+  "vh": 844,
+  "footer": 1634,
+  "secs": [
+   {
+    "id": "itinerary",
+    "t": "Day by day",
+    "y": 1513,
+    "h": 6549
+   },
+   {
+    "id": "april-8-2027-april-15-2027",
+    "t": "April 8, 2027 - April 15 2027",
+    "y": 8118,
+    "h": 931
+   },
+   {
+    "id": "deposits-cancellation-policies",
+    "t": "Deposits & Cancellation Policies",
+    "y": 9105,
+    "h": 539
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 9668,
+    "h": 306
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 9997,
+    "h": 502
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 10523,
+    "h": 616
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 11162,
+    "h": 336
+   },
+   {
+    "id": "right-for-you",
+    "t": "Is this trip right for you?",
+    "y": 11554,
+    "h": 620
+   },
+   {
+    "id": "gallery",
+    "t": "Gallery",
+    "y": 12230,
+    "h": 237
+   },
+   {
+    "id": "enquire",
+    "t": "",
+    "y": 12799,
+    "h": 777
+   },
+   {
+    "id": "",
+    "t": "You might also consider",
+    "y": 13640,
+    "h": 938
+   }
+  ],
+  "itY": 1513,
+  "days": 8,
+  "boxes": {
+   "glance": {
+    "x": 20,
+    "y": 1596,
+    "w": 350,
+    "h": 132
+   },
+   "day1": {
+    "x": 20,
+    "y": 1767,
+    "w": 350,
+    "h": 454
+   },
+   "day2": {
+    "x": 20,
+    "y": 2270,
+    "w": 350,
+    "h": 698
+   },
+   "row1": null,
+   "rowLast": {
+    "x": 20,
+    "y": 7624,
+    "w": 350,
+    "h": 438
+   },
+   "fig1": {
+    "x": 20,
+    "y": 1767,
+    "w": 350,
+    "h": 233
+   },
+   "clamp1": null,
+   "more1": null,
+   "top1": null,
+   "rfy": {
+    "x": 20,
+    "y": 11554,
+    "w": 350,
+    "h": 620
+   },
+   "rowsAll": {
+    "x": 20,
+    "y": 1767,
+    "w": 350,
+    "h": 454
+   },
+   "inPrice": null,
+   "notPrice": null,
+   "gal1": {
+    "x": 20,
+    "y": 12279,
+    "w": 370,
+    "h": 188
+   },
+   "mp1": null,
+   "proLine": null,
+   "dep": null,
+   "pricing": null,
+   "details": null,
+   "detMore": null,
+   "lines": null,
+   "gallery": {
+    "x": 20,
+    "y": 12230,
+    "w": 350,
+    "h": 237
+   },
+   "photos": null,
+   "protection": null
+  }
+ }
+}

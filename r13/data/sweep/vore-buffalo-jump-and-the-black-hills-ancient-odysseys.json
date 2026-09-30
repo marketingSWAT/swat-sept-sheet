@@ -1,0 +1,838 @@
+{
+ "slug": "vore-buffalo-jump-and-the-black-hills-ancient-odysseys",
+ "now": {
+  "href": "https://swat-website-storefront.vercel.app/tours/vore-buffalo-jump-and-the-black-hills-ancient-odysseys/",
+  "H": 17825,
+  "vh": 844,
+  "footer": 1634,
+  "secs": [
+   {
+    "id": "itinerary",
+    "t": "Day by day",
+    "y": 1513,
+    "h": 7390
+   },
+   {
+    "id": "vore-buffalo-jump-and-the-black-hills-ancient-odysseys",
+    "t": "Vore Buffalo Jump and the Black Hills | ",
+    "y": 8958,
+    "h": 66
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 9048,
+    "h": 738
+   },
+   {
+    "id": "right-for-you",
+    "t": "Is this trip right for you?",
+    "y": 9842,
+    "h": 354
+   },
+   {
+    "id": "details",
+    "t": "Tour details",
+    "y": 10252,
+    "h": 957
+   },
+   {
+    "id": "more-photos",
+    "t": "More from Wyoming and South Dakota",
+    "y": 11265,
+    "h": 1026
+   },
+   {
+    "id": "reserve",
+    "t": "Ask about a date",
+    "y": 12347,
+    "h": 734
+   },
+   {
+    "id": "pricing",
+    "t": "Pricing",
+    "y": 13136,
+    "h": 342
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 13811,
+    "h": 456
+   },
+   {
+    "id": "",
+    "t": "You might also consider",
+    "y": 14330,
+    "h": 957
+   },
+   {
+    "id": "",
+    "t": "Where this trip goes",
+    "y": 15677,
+    "h": 321
+   }
+  ],
+  "itY": 1513,
+  "days": 6,
+  "boxes": {
+   "glance": {
+    "x": 20,
+    "y": 1596,
+    "w": 350,
+    "h": 154
+   },
+   "day1": {
+    "x": 20,
+    "y": 1789,
+    "w": 350,
+    "h": 816
+   },
+   "day2": {
+    "x": 20,
+    "y": 2654,
+    "w": 350,
+    "h": 1540
+   },
+   "row1": null,
+   "rowLast": {
+    "x": 20,
+    "y": 8188,
+    "w": 350,
+    "h": 714
+   },
+   "fig1": {
+    "x": 20,
+    "y": 1789,
+    "w": 350,
+    "h": 259
+   },
+   "clamp1": null,
+   "more1": null,
+   "top1": null,
+   "rfy": {
+    "x": 20,
+    "y": 9842,
+    "w": 350,
+    "h": 354
+   },
+   "rowsAll": {
+    "x": 20,
+    "y": 1789,
+    "w": 350,
+    "h": 816
+   },
+   "inPrice": {
+    "x": 20,
+    "y": 10301,
+    "w": 350,
+    "h": 608
+   },
+   "notPrice": null,
+   "gal1": null,
+   "mp1": {
+    "x": 20,
+    "y": 11347,
+    "w": 350,
+    "h": 944
+   },
+   "proLine": null,
+   "dep": null,
+   "pricing": {
+    "x": 20,
+    "y": 13136,
+    "w": 350,
+    "h": 342
+   },
+   "details": {
+    "x": 20,
+    "y": 10252,
+    "w": 350,
+    "h": 957
+   },
+   "detMore": null,
+   "lines": null,
+   "gallery": null,
+   "photos": {
+    "x": 20,
+    "y": 11265,
+    "w": 350,
+    "h": 1026
+   },
+   "protection": null
+  }
+ },
+ "fold": {
+  "href": "https://swat-website-storefront.vercel.app/tours/vore-buffalo-jump-and-the-black-hills-ancient-odysseys/",
+  "H": 11026,
+  "vh": 844,
+  "footer": 1634,
+  "secs": [
+   {
+    "id": "itinerary",
+    "t": "Day by day",
+    "y": 1513,
+    "h": 591
+   },
+   {
+    "id": "vore-buffalo-jump-and-the-black-hills-ancient-odysseys",
+    "t": "Vore Buffalo Jump and the Black Hills | ",
+    "y": 2159,
+    "h": 66
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 2249,
+    "h": 738
+   },
+   {
+    "id": "right-for-you",
+    "t": "Is this trip right for you?",
+    "y": 3043,
+    "h": 354
+   },
+   {
+    "id": "details",
+    "t": "Tour details",
+    "y": 3453,
+    "h": 957
+   },
+   {
+    "id": "more-photos",
+    "t": "More from Wyoming and South Dakota",
+    "y": 4466,
+    "h": 1026
+   },
+   {
+    "id": "reserve",
+    "t": "Ask about a date",
+    "y": 5548,
+    "h": 734
+   },
+   {
+    "id": "pricing",
+    "t": "Pricing",
+    "y": 6337,
+    "h": 342
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 7012,
+    "h": 456
+   },
+   {
+    "id": "",
+    "t": "You might also consider",
+    "y": 7531,
+    "h": 957
+   },
+   {
+    "id": "",
+    "t": "Where this trip goes",
+    "y": 8878,
+    "h": 321
+   }
+  ],
+  "itY": 1513,
+  "days": 6,
+  "boxes": {
+   "glance": null,
+   "day1": {
+    "x": 20,
+    "y": 1586,
+    "w": 350,
+    "h": 89
+   },
+   "day2": {
+    "x": 20,
+    "y": 1674,
+    "w": 350,
+    "h": 82
+   },
+   "row1": {
+    "x": 20,
+    "y": 1587,
+    "w": 350,
+    "h": 88
+   },
+   "rowLast": {
+    "x": 20,
+    "y": 2016,
+    "w": 350,
+    "h": 88
+   },
+   "fig1": null,
+   "clamp1": null,
+   "more1": null,
+   "top1": null,
+   "rfy": {
+    "x": 20,
+    "y": 3043,
+    "w": 350,
+    "h": 354
+   },
+   "rowsAll": {
+    "x": 20,
+    "y": 1586,
+    "w": 350,
+    "h": 89
+   },
+   "inPrice": {
+    "x": 20,
+    "y": 3502,
+    "w": 350,
+    "h": 608
+   },
+   "notPrice": null,
+   "gal1": null,
+   "mp1": {
+    "x": 20,
+    "y": 4548,
+    "w": 350,
+    "h": 944
+   },
+   "proLine": null,
+   "dep": null,
+   "pricing": {
+    "x": 20,
+    "y": 6337,
+    "w": 350,
+    "h": 342
+   },
+   "details": {
+    "x": 20,
+    "y": 3453,
+    "w": 350,
+    "h": 957
+   },
+   "detMore": null,
+   "lines": null,
+   "gallery": null,
+   "photos": {
+    "x": 20,
+    "y": 4466,
+    "w": 350,
+    "h": 1026
+   },
+   "protection": null
+  }
+ },
+ "short": {
+  "href": "https://swat-website-storefront.vercel.app/tours/vore-buffalo-jump-and-the-black-hills-ancient-odysseys/",
+  "H": 12763,
+  "vh": 844,
+  "footer": 1634,
+  "secs": [
+   {
+    "id": "itinerary",
+    "t": "Day by day",
+    "y": 1513,
+    "h": 2327
+   },
+   {
+    "id": "vore-buffalo-jump-and-the-black-hills-ancient-odysseys",
+    "t": "Vore Buffalo Jump and the Black Hills | ",
+    "y": 3896,
+    "h": 66
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 3986,
+    "h": 738
+   },
+   {
+    "id": "right-for-you",
+    "t": "Is this trip right for you?",
+    "y": 4779,
+    "h": 354
+   },
+   {
+    "id": "details",
+    "t": "Tour details",
+    "y": 5189,
+    "h": 957
+   },
+   {
+    "id": "more-photos",
+    "t": "More from Wyoming and South Dakota",
+    "y": 6202,
+    "h": 1026
+   },
+   {
+    "id": "reserve",
+    "t": "Ask about a date",
+    "y": 7284,
+    "h": 734
+   },
+   {
+    "id": "pricing",
+    "t": "Pricing",
+    "y": 8074,
+    "h": 342
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 8748,
+    "h": 456
+   },
+   {
+    "id": "",
+    "t": "You might also consider",
+    "y": 9268,
+    "h": 957
+   },
+   {
+    "id": "",
+    "t": "Where this trip goes",
+    "y": 10615,
+    "h": 321
+   }
+  ],
+  "itY": 1513,
+  "days": 6,
+  "boxes": {
+   "glance": {
+    "x": 20,
+    "y": 1596,
+    "w": 350,
+    "h": 154
+   },
+   "day1": {
+    "x": 20,
+    "y": 1789,
+    "w": 350,
+    "h": 304
+   },
+   "day2": {
+    "x": 20,
+    "y": 2141,
+    "w": 350,
+    "h": 304
+   },
+   "row1": null,
+   "rowLast": {
+    "x": 20,
+    "y": 3570,
+    "w": 350,
+    "h": 270
+   },
+   "fig1": null,
+   "clamp1": {
+    "x": 20,
+    "y": 1885,
+    "w": 350,
+    "h": 104
+   },
+   "more1": {
+    "x": 20,
+    "y": 1995,
+    "w": 123,
+    "h": 21
+   },
+   "top1": {
+    "x": 20,
+    "y": 1789,
+    "w": 350,
+    "h": 84
+   },
+   "rfy": {
+    "x": 20,
+    "y": 4779,
+    "w": 350,
+    "h": 354
+   },
+   "rowsAll": {
+    "x": 20,
+    "y": 1789,
+    "w": 350,
+    "h": 304
+   },
+   "inPrice": {
+    "x": 20,
+    "y": 5238,
+    "w": 350,
+    "h": 608
+   },
+   "notPrice": null,
+   "gal1": null,
+   "mp1": {
+    "x": 20,
+    "y": 6284,
+    "w": 350,
+    "h": 944
+   },
+   "proLine": null,
+   "dep": null,
+   "pricing": {
+    "x": 20,
+    "y": 8074,
+    "w": 350,
+    "h": 342
+   },
+   "details": {
+    "x": 20,
+    "y": 5189,
+    "w": 350,
+    "h": 957
+   },
+   "detMore": null,
+   "lines": null,
+   "gallery": null,
+   "photos": {
+    "x": 20,
+    "y": 6202,
+    "w": 350,
+    "h": 1026
+   },
+   "protection": null
+  }
+ },
+ "lists": {
+  "href": "https://swat-website-storefront.vercel.app/tours/vore-buffalo-jump-and-the-black-hills-ancient-odysseys/",
+  "H": 17323,
+  "vh": 844,
+  "footer": 1634,
+  "secs": [
+   {
+    "id": "itinerary",
+    "t": "Day by day",
+    "y": 1513,
+    "h": 7390
+   },
+   {
+    "id": "vore-buffalo-jump-and-the-black-hills-ancient-odysseys",
+    "t": "Vore Buffalo Jump and the Black Hills | ",
+    "y": 8958,
+    "h": 66
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 9048,
+    "h": 738
+   },
+   {
+    "id": "right-for-you",
+    "t": "Is this trip right for you?",
+    "y": 9842,
+    "h": 354
+   },
+   {
+    "id": "details",
+    "t": "Tour details",
+    "y": 10252,
+    "h": 455
+   },
+   {
+    "id": "more-photos",
+    "t": "More from Wyoming and South Dakota",
+    "y": 10763,
+    "h": 1026
+   },
+   {
+    "id": "reserve",
+    "t": "Ask about a date",
+    "y": 11845,
+    "h": 734
+   },
+   {
+    "id": "pricing",
+    "t": "Pricing",
+    "y": 12634,
+    "h": 342
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 13309,
+    "h": 456
+   },
+   {
+    "id": "",
+    "t": "You might also consider",
+    "y": 13828,
+    "h": 957
+   },
+   {
+    "id": "",
+    "t": "Where this trip goes",
+    "y": 15175,
+    "h": 321
+   }
+  ],
+  "itY": 1513,
+  "days": 6,
+  "boxes": {
+   "glance": {
+    "x": 20,
+    "y": 1596,
+    "w": 350,
+    "h": 154
+   },
+   "day1": {
+    "x": 20,
+    "y": 1789,
+    "w": 350,
+    "h": 816
+   },
+   "day2": {
+    "x": 20,
+    "y": 2654,
+    "w": 350,
+    "h": 1540
+   },
+   "row1": null,
+   "rowLast": {
+    "x": 20,
+    "y": 8188,
+    "w": 350,
+    "h": 714
+   },
+   "fig1": {
+    "x": 20,
+    "y": 1789,
+    "w": 350,
+    "h": 259
+   },
+   "clamp1": null,
+   "more1": null,
+   "top1": null,
+   "rfy": {
+    "x": 20,
+    "y": 9842,
+    "w": 350,
+    "h": 354
+   },
+   "rowsAll": {
+    "x": 20,
+    "y": 1789,
+    "w": 350,
+    "h": 816
+   },
+   "inPrice": {
+    "x": 20,
+    "y": 10301,
+    "w": 350,
+    "h": 338
+   },
+   "notPrice": {
+    "x": 20,
+    "y": 10655,
+    "w": 350,
+    "h": 52
+   },
+   "gal1": null,
+   "mp1": {
+    "x": 20,
+    "y": 10845,
+    "w": 350,
+    "h": 944
+   },
+   "proLine": null,
+   "dep": null,
+   "pricing": {
+    "x": 20,
+    "y": 12634,
+    "w": 350,
+    "h": 342
+   },
+   "details": {
+    "x": 20,
+    "y": 10252,
+    "w": 350,
+    "h": 455
+   },
+   "detMore": {
+    "x": 41,
+    "y": 10596,
+    "w": 201,
+    "h": 21
+   },
+   "lines": null,
+   "gallery": null,
+   "photos": {
+    "x": 20,
+    "y": 10763,
+    "w": 350,
+    "h": 1026
+   },
+   "protection": null
+  }
+ },
+ "photos": {
+  "href": "https://swat-website-storefront.vercel.app/tours/vore-buffalo-jump-and-the-black-hills-ancient-odysseys/",
+  "H": 16567,
+  "vh": 844,
+  "footer": 1634,
+  "secs": [
+   {
+    "id": "itinerary",
+    "t": "Day by day",
+    "y": 1513,
+    "h": 7390
+   },
+   {
+    "id": "vore-buffalo-jump-and-the-black-hills-ancient-odysseys",
+    "t": "Vore Buffalo Jump and the Black Hills | ",
+    "y": 8958,
+    "h": 66
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 9048,
+    "h": 738
+   },
+   {
+    "id": "right-for-you",
+    "t": "Is this trip right for you?",
+    "y": 9842,
+    "h": 354
+   },
+   {
+    "id": "details",
+    "t": "Tour details",
+    "y": 10252,
+    "h": 455
+   },
+   {
+    "id": "more-photos",
+    "t": "More from Wyoming and South Dakota",
+    "y": 10763,
+    "h": 270
+   },
+   {
+    "id": "reserve",
+    "t": "Ask about a date",
+    "y": 11088,
+    "h": 734
+   },
+   {
+    "id": "pricing",
+    "t": "Pricing",
+    "y": 11878,
+    "h": 342
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 12553,
+    "h": 456
+   },
+   {
+    "id": "",
+    "t": "You might also consider",
+    "y": 13072,
+    "h": 957
+   },
+   {
+    "id": "",
+    "t": "Where this trip goes",
+    "y": 14419,
+    "h": 321
+   }
+  ],
+  "itY": 1513,
+  "days": 6,
+  "boxes": {
+   "glance": {
+    "x": 20,
+    "y": 1596,
+    "w": 350,
+    "h": 154
+   },
+   "day1": {
+    "x": 20,
+    "y": 1789,
+    "w": 350,
+    "h": 816
+   },
+   "day2": {
+    "x": 20,
+    "y": 2654,
+    "w": 350,
+    "h": 1540
+   },
+   "row1": null,
+   "rowLast": {
+    "x": 20,
+    "y": 8188,
+    "w": 350,
+    "h": 714
+   },
+   "fig1": {
+    "x": 20,
+    "y": 1789,
+    "w": 350,
+    "h": 259
+   },
+   "clamp1": null,
+   "more1": null,
+   "top1": null,
+   "rfy": {
+    "x": 20,
+    "y": 9842,
+    "w": 350,
+    "h": 354
+   },
+   "rowsAll": {
+    "x": 20,
+    "y": 1789,
+    "w": 350,
+    "h": 816
+   },
+   "inPrice": {
+    "x": 20,
+    "y": 10301,
+    "w": 350,
+    "h": 338
+   },
+   "notPrice": {
+    "x": 20,
+    "y": 10655,
+    "w": 350,
+    "h": 52
+   },
+   "gal1": null,
+   "mp1": {
+    "x": 20,
+    "y": 10845,
+    "w": 370,
+    "h": 188
+   },
+   "proLine": null,
+   "dep": null,
+   "pricing": {
+    "x": 20,
+    "y": 11878,
+    "w": 350,
+    "h": 342
+   },
+   "details": {
+    "x": 20,
+    "y": 10252,
+    "w": 350,
+    "h": 455
+   },
+   "detMore": {
+    "x": 41,
+    "y": 10596,
+    "w": 201,
+    "h": 21
+   },
+   "lines": null,
+   "gallery": null,
+   "photos": {
+    "x": 20,
+    "y": 10763,
+    "w": 350,
+    "h": 270
+   },
+   "protection": null
+  }
+ }
+}

@@ -1,0 +1,923 @@
+{
+ "slug": "backpacking-yosemite-half-dome-mono-meadows",
+ "now": {
+  "href": "https://swat-website-storefront.vercel.app/tours/backpacking-yosemite-half-dome-mono-meadows/",
+  "H": 15165,
+  "vh": 844,
+  "footer": 1634,
+  "secs": [
+   {
+    "id": "overview",
+    "t": "Overview",
+    "y": 1636,
+    "h": 309
+   },
+   {
+    "id": "itinerary",
+    "t": "Day by day",
+    "y": 2001,
+    "h": 2982
+   },
+   {
+    "id": "what-to-pack",
+    "t": "What to Pack",
+    "y": 5039,
+    "h": 33
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 5096,
+    "h": 676
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 5796,
+    "h": 598
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 6417,
+    "h": 284
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 6725,
+    "h": 194
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 6942,
+    "h": 880
+   },
+   {
+    "id": "right-for-you",
+    "t": "Is this trip right for you?",
+    "y": 7878,
+    "h": 620
+   },
+   {
+    "id": "details",
+    "t": "Tour details",
+    "y": 8554,
+    "h": 519
+   },
+   {
+    "id": "more-photos",
+    "t": "More from California",
+    "y": 9129,
+    "h": 991
+   },
+   {
+    "id": "reserve",
+    "t": "Ask about a date",
+    "y": 10176,
+    "h": 734
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 11242,
+    "h": 456
+   },
+   {
+    "id": "",
+    "t": "You might also consider",
+    "y": 11761,
+    "h": 918
+   },
+   {
+    "id": "",
+    "t": "Where this trip goes",
+    "y": 13069,
+    "h": 269
+   }
+  ],
+  "itY": 2001,
+  "days": 4,
+  "boxes": {
+   "glance": {
+    "x": 20,
+    "y": 2084,
+    "w": 350,
+    "h": 108
+   },
+   "day1": {
+    "x": 20,
+    "y": 2232,
+    "w": 350,
+    "h": 578
+   },
+   "day2": {
+    "x": 20,
+    "y": 2858,
+    "w": 350,
+    "h": 685
+   },
+   "row1": null,
+   "rowLast": {
+    "x": 20,
+    "y": 4246,
+    "w": 350,
+    "h": 737
+   },
+   "fig1": {
+    "x": 20,
+    "y": 2232,
+    "w": 350,
+    "h": 259
+   },
+   "clamp1": null,
+   "more1": null,
+   "top1": null,
+   "rfy": {
+    "x": 20,
+    "y": 7878,
+    "w": 350,
+    "h": 620
+   },
+   "rowsAll": {
+    "x": 20,
+    "y": 2232,
+    "w": 350,
+    "h": 578
+   },
+   "inPrice": {
+    "x": 20,
+    "y": 8603,
+    "w": 350,
+    "h": 470
+   },
+   "notPrice": null,
+   "gal1": null,
+   "mp1": {
+    "x": 20,
+    "y": 9178,
+    "w": 350,
+    "h": 942
+   },
+   "proLine": null,
+   "dep": null,
+   "pricing": null,
+   "details": {
+    "x": 20,
+    "y": 8554,
+    "w": 350,
+    "h": 519
+   },
+   "detMore": null,
+   "lines": null,
+   "gallery": null,
+   "photos": {
+    "x": 20,
+    "y": 9129,
+    "w": 350,
+    "h": 991
+   },
+   "protection": null
+  }
+ },
+ "fold": {
+  "href": "https://swat-website-storefront.vercel.app/tours/backpacking-yosemite-half-dome-mono-meadows/",
+  "H": 12604,
+  "vh": 844,
+  "footer": 1634,
+  "secs": [
+   {
+    "id": "overview",
+    "t": "Overview",
+    "y": 1636,
+    "h": 309
+   },
+   {
+    "id": "itinerary",
+    "t": "Day by day",
+    "y": 2001,
+    "h": 421
+   },
+   {
+    "id": "what-to-pack",
+    "t": "What to Pack",
+    "y": 2478,
+    "h": 33
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 2535,
+    "h": 676
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 3234,
+    "h": 598
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 3856,
+    "h": 284
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 4163,
+    "h": 194
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 4381,
+    "h": 880
+   },
+   {
+    "id": "right-for-you",
+    "t": "Is this trip right for you?",
+    "y": 5316,
+    "h": 620
+   },
+   {
+    "id": "details",
+    "t": "Tour details",
+    "y": 5992,
+    "h": 519
+   },
+   {
+    "id": "more-photos",
+    "t": "More from California",
+    "y": 6567,
+    "h": 991
+   },
+   {
+    "id": "reserve",
+    "t": "Ask about a date",
+    "y": 7614,
+    "h": 734
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 8680,
+    "h": 456
+   },
+   {
+    "id": "",
+    "t": "You might also consider",
+    "y": 9200,
+    "h": 918
+   },
+   {
+    "id": "",
+    "t": "Where this trip goes",
+    "y": 10507,
+    "h": 269
+   }
+  ],
+  "itY": 2001,
+  "days": 4,
+  "boxes": {
+   "glance": null,
+   "day1": {
+    "x": 20,
+    "y": 2074,
+    "w": 350,
+    "h": 87
+   },
+   "day2": {
+    "x": 20,
+    "y": 2161,
+    "w": 350,
+    "h": 87
+   },
+   "row1": {
+    "x": 20,
+    "y": 2075,
+    "w": 350,
+    "h": 86
+   },
+   "rowLast": {
+    "x": 20,
+    "y": 2334,
+    "w": 350,
+    "h": 88
+   },
+   "fig1": null,
+   "clamp1": null,
+   "more1": null,
+   "top1": null,
+   "rfy": {
+    "x": 20,
+    "y": 5316,
+    "w": 350,
+    "h": 620
+   },
+   "rowsAll": {
+    "x": 20,
+    "y": 2074,
+    "w": 350,
+    "h": 87
+   },
+   "inPrice": {
+    "x": 20,
+    "y": 6041,
+    "w": 350,
+    "h": 470
+   },
+   "notPrice": null,
+   "gal1": null,
+   "mp1": {
+    "x": 20,
+    "y": 6616,
+    "w": 350,
+    "h": 942
+   },
+   "proLine": null,
+   "dep": null,
+   "pricing": null,
+   "details": {
+    "x": 20,
+    "y": 5992,
+    "w": 350,
+    "h": 519
+   },
+   "detMore": null,
+   "lines": null,
+   "gallery": null,
+   "photos": {
+    "x": 20,
+    "y": 6567,
+    "w": 350,
+    "h": 991
+   },
+   "protection": null
+  }
+ },
+ "short": {
+  "href": "https://swat-website-storefront.vercel.app/tours/backpacking-yosemite-half-dome-mono-meadows/",
+  "H": 13480,
+  "vh": 844,
+  "footer": 1634,
+  "secs": [
+   {
+    "id": "overview",
+    "t": "Overview",
+    "y": 1636,
+    "h": 309
+   },
+   {
+    "id": "itinerary",
+    "t": "Day by day",
+    "y": 2001,
+    "h": 1297
+   },
+   {
+    "id": "what-to-pack",
+    "t": "What to Pack",
+    "y": 3354,
+    "h": 33
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 3411,
+    "h": 676
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 4111,
+    "h": 598
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 4732,
+    "h": 284
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 5040,
+    "h": 194
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 5257,
+    "h": 880
+   },
+   {
+    "id": "right-for-you",
+    "t": "Is this trip right for you?",
+    "y": 6193,
+    "h": 620
+   },
+   {
+    "id": "details",
+    "t": "Tour details",
+    "y": 6869,
+    "h": 519
+   },
+   {
+    "id": "more-photos",
+    "t": "More from California",
+    "y": 7444,
+    "h": 991
+   },
+   {
+    "id": "reserve",
+    "t": "Ask about a date",
+    "y": 8490,
+    "h": 734
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 9557,
+    "h": 456
+   },
+   {
+    "id": "",
+    "t": "You might also consider",
+    "y": 10076,
+    "h": 918
+   },
+   {
+    "id": "",
+    "t": "Where this trip goes",
+    "y": 11384,
+    "h": 269
+   }
+  ],
+  "itY": 2001,
+  "days": 4,
+  "boxes": {
+   "glance": {
+    "x": 20,
+    "y": 2084,
+    "w": 350,
+    "h": 108
+   },
+   "day1": {
+    "x": 20,
+    "y": 2232,
+    "w": 350,
+    "h": 228
+   },
+   "day2": {
+    "x": 20,
+    "y": 2508,
+    "w": 350,
+    "h": 238
+   },
+   "row1": null,
+   "rowLast": {
+    "x": 20,
+    "y": 3070,
+    "w": 350,
+    "h": 228
+   },
+   "fig1": null,
+   "clamp1": {
+    "x": 20,
+    "y": 2328,
+    "w": 350,
+    "h": 104
+   },
+   "more1": {
+    "x": 20,
+    "y": 2438,
+    "w": 123,
+    "h": 21
+   },
+   "top1": {
+    "x": 20,
+    "y": 2232,
+    "w": 350,
+    "h": 84
+   },
+   "rfy": {
+    "x": 20,
+    "y": 6193,
+    "w": 350,
+    "h": 620
+   },
+   "rowsAll": {
+    "x": 20,
+    "y": 2232,
+    "w": 350,
+    "h": 228
+   },
+   "inPrice": {
+    "x": 20,
+    "y": 6918,
+    "w": 350,
+    "h": 470
+   },
+   "notPrice": null,
+   "gal1": null,
+   "mp1": {
+    "x": 20,
+    "y": 7493,
+    "w": 350,
+    "h": 942
+   },
+   "proLine": null,
+   "dep": null,
+   "pricing": null,
+   "details": {
+    "x": 20,
+    "y": 6869,
+    "w": 350,
+    "h": 519
+   },
+   "detMore": null,
+   "lines": null,
+   "gallery": null,
+   "photos": {
+    "x": 20,
+    "y": 7444,
+    "w": 350,
+    "h": 991
+   },
+   "protection": null
+  }
+ },
+ "lists": {
+  "href": "https://swat-website-storefront.vercel.app/tours/backpacking-yosemite-half-dome-mono-meadows/",
+  "H": 15111,
+  "vh": 844,
+  "footer": 1634,
+  "secs": [
+   {
+    "id": "overview",
+    "t": "Overview",
+    "y": 1636,
+    "h": 309
+   },
+   {
+    "id": "itinerary",
+    "t": "Day by day",
+    "y": 2001,
+    "h": 2982
+   },
+   {
+    "id": "what-to-pack",
+    "t": "What to Pack",
+    "y": 5039,
+    "h": 33
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 5096,
+    "h": 676
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 5796,
+    "h": 598
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 6417,
+    "h": 284
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 6725,
+    "h": 194
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 6942,
+    "h": 880
+   },
+   {
+    "id": "right-for-you",
+    "t": "Is this trip right for you?",
+    "y": 7878,
+    "h": 620
+   },
+   {
+    "id": "details",
+    "t": "Tour details",
+    "y": 8554,
+    "h": 465
+   },
+   {
+    "id": "more-photos",
+    "t": "More from California",
+    "y": 9075,
+    "h": 991
+   },
+   {
+    "id": "reserve",
+    "t": "Ask about a date",
+    "y": 10122,
+    "h": 734
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 11188,
+    "h": 456
+   },
+   {
+    "id": "",
+    "t": "You might also consider",
+    "y": 11707,
+    "h": 918
+   },
+   {
+    "id": "",
+    "t": "Where this trip goes",
+    "y": 13015,
+    "h": 269
+   }
+  ],
+  "itY": 2001,
+  "days": 4,
+  "boxes": {
+   "glance": {
+    "x": 20,
+    "y": 2084,
+    "w": 350,
+    "h": 108
+   },
+   "day1": {
+    "x": 20,
+    "y": 2232,
+    "w": 350,
+    "h": 578
+   },
+   "day2": {
+    "x": 20,
+    "y": 2858,
+    "w": 350,
+    "h": 685
+   },
+   "row1": null,
+   "rowLast": {
+    "x": 20,
+    "y": 4246,
+    "w": 350,
+    "h": 737
+   },
+   "fig1": {
+    "x": 20,
+    "y": 2232,
+    "w": 350,
+    "h": 259
+   },
+   "clamp1": null,
+   "more1": null,
+   "top1": null,
+   "rfy": {
+    "x": 20,
+    "y": 7878,
+    "w": 350,
+    "h": 620
+   },
+   "rowsAll": {
+    "x": 20,
+    "y": 2232,
+    "w": 350,
+    "h": 578
+   },
+   "inPrice": {
+    "x": 20,
+    "y": 8603,
+    "w": 350,
+    "h": 416
+   },
+   "notPrice": null,
+   "gal1": null,
+   "mp1": {
+    "x": 20,
+    "y": 9124,
+    "w": 350,
+    "h": 942
+   },
+   "proLine": null,
+   "dep": null,
+   "pricing": null,
+   "details": {
+    "x": 20,
+    "y": 8554,
+    "w": 350,
+    "h": 465
+   },
+   "detMore": {
+    "x": 41,
+    "y": 8976,
+    "w": 195,
+    "h": 21
+   },
+   "lines": null,
+   "gallery": null,
+   "photos": {
+    "x": 20,
+    "y": 9075,
+    "w": 350,
+    "h": 991
+   },
+   "protection": null
+  }
+ },
+ "photos": {
+  "href": "https://swat-website-storefront.vercel.app/tours/backpacking-yosemite-half-dome-mono-meadows/",
+  "H": 14357,
+  "vh": 844,
+  "footer": 1634,
+  "secs": [
+   {
+    "id": "overview",
+    "t": "Overview",
+    "y": 1636,
+    "h": 309
+   },
+   {
+    "id": "itinerary",
+    "t": "Day by day",
+    "y": 2001,
+    "h": 2982
+   },
+   {
+    "id": "what-to-pack",
+    "t": "What to Pack",
+    "y": 5039,
+    "h": 33
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 5096,
+    "h": 676
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 5796,
+    "h": 598
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 6417,
+    "h": 284
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 6725,
+    "h": 194
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 6942,
+    "h": 880
+   },
+   {
+    "id": "right-for-you",
+    "t": "Is this trip right for you?",
+    "y": 7878,
+    "h": 620
+   },
+   {
+    "id": "details",
+    "t": "Tour details",
+    "y": 8554,
+    "h": 465
+   },
+   {
+    "id": "more-photos",
+    "t": "More from California",
+    "y": 9075,
+    "h": 237
+   },
+   {
+    "id": "reserve",
+    "t": "Ask about a date",
+    "y": 9367,
+    "h": 734
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 10434,
+    "h": 456
+   },
+   {
+    "id": "",
+    "t": "You might also consider",
+    "y": 10953,
+    "h": 918
+   },
+   {
+    "id": "",
+    "t": "Where this trip goes",
+    "y": 12261,
+    "h": 269
+   }
+  ],
+  "itY": 2001,
+  "days": 4,
+  "boxes": {
+   "glance": {
+    "x": 20,
+    "y": 2084,
+    "w": 350,
+    "h": 108
+   },
+   "day1": {
+    "x": 20,
+    "y": 2232,
+    "w": 350,
+    "h": 578
+   },
+   "day2": {
+    "x": 20,
+    "y": 2858,
+    "w": 350,
+    "h": 685
+   },
+   "row1": null,
+   "rowLast": {
+    "x": 20,
+    "y": 4246,
+    "w": 350,
+    "h": 737
+   },
+   "fig1": {
+    "x": 20,
+    "y": 2232,
+    "w": 350,
+    "h": 259
+   },
+   "clamp1": null,
+   "more1": null,
+   "top1": null,
+   "rfy": {
+    "x": 20,
+    "y": 7878,
+    "w": 350,
+    "h": 620
+   },
+   "rowsAll": {
+    "x": 20,
+    "y": 2232,
+    "w": 350,
+    "h": 578
+   },
+   "inPrice": {
+    "x": 20,
+    "y": 8603,
+    "w": 350,
+    "h": 416
+   },
+   "notPrice": null,
+   "gal1": null,
+   "mp1": {
+    "x": 20,
+    "y": 9124,
+    "w": 370,
+    "h": 188
+   },
+   "proLine": null,
+   "dep": null,
+   "pricing": null,
+   "details": {
+    "x": 20,
+    "y": 8554,
+    "w": 350,
+    "h": 465
+   },
+   "detMore": {
+    "x": 41,
+    "y": 8976,
+    "w": 195,
+    "h": 21
+   },
+   "lines": null,
+   "gallery": null,
+   "photos": {
+    "x": 20,
+    "y": 9075,
+    "w": 350,
+    "h": 237
+   },
+   "protection": null
+  }
+ }
+}

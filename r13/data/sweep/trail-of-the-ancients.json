@@ -1,0 +1,983 @@
+{
+ "slug": "trail-of-the-ancients",
+ "now": {
+  "href": "https://swat-website-storefront.vercel.app/tours/trail-of-the-ancients/",
+  "H": 23147,
+  "vh": 844,
+  "footer": 1634,
+  "secs": [
+   {
+    "id": "reviews",
+    "t": "What guests said",
+    "y": 1132,
+    "h": 565
+   },
+   {
+    "id": "overview",
+    "t": "Overview",
+    "y": 2312,
+    "h": 741
+   },
+   {
+    "id": "seasons",
+    "t": "This trip by season",
+    "y": 3109,
+    "h": 536
+   },
+   {
+    "id": "itinerary",
+    "t": "Day by day",
+    "y": 3702,
+    "h": 9632
+   },
+   {
+    "id": "right-for-you",
+    "t": "Is this trip right for you?",
+    "y": 13389,
+    "h": 354
+   },
+   {
+    "id": "details",
+    "t": "Tour details",
+    "y": 13799,
+    "h": 1630
+   },
+   {
+    "id": "gallery",
+    "t": "Gallery",
+    "y": 15485,
+    "h": 448
+   },
+   {
+    "id": "more-photos",
+    "t": "More from Mesa Verde National Park and C",
+    "y": 15989,
+    "h": 1160
+   },
+   {
+    "id": "departures",
+    "t": "Departures",
+    "y": 17205,
+    "h": 665
+   },
+   {
+    "id": "pricing",
+    "t": "Pricing",
+    "y": 17925,
+    "h": 738
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 18996,
+    "h": 572
+   },
+   {
+    "id": "",
+    "t": "You might also consider",
+    "y": 19632,
+    "h": 1029
+   },
+   {
+    "id": "",
+    "t": "Where this trip goes",
+    "y": 21051,
+    "h": 269
+   }
+  ],
+  "itY": 3702,
+  "days": 9,
+  "boxes": {
+   "glance": {
+    "x": 20,
+    "y": 3785,
+    "w": 350,
+    "h": 132
+   },
+   "day1": {
+    "x": 20,
+    "y": 3956,
+    "w": 350,
+    "h": 821
+   },
+   "day2": {
+    "x": 20,
+    "y": 4825,
+    "w": 350,
+    "h": 1045
+   },
+   "row1": null,
+   "rowLast": {
+    "x": 20,
+    "y": 12567,
+    "w": 350,
+    "h": 766
+   },
+   "fig1": {
+    "x": 20,
+    "y": 3956,
+    "w": 350,
+    "h": 259
+   },
+   "clamp1": null,
+   "more1": null,
+   "top1": null,
+   "rfy": {
+    "x": 20,
+    "y": 13389,
+    "w": 350,
+    "h": 354
+   },
+   "rowsAll": {
+    "x": 20,
+    "y": 3956,
+    "w": 350,
+    "h": 821
+   },
+   "inPrice": {
+    "x": 20,
+    "y": 13848,
+    "w": 350,
+    "h": 500
+   },
+   "notPrice": null,
+   "gal1": {
+    "x": 20,
+    "y": 15534,
+    "w": 350,
+    "h": 399
+   },
+   "mp1": {
+    "x": 20,
+    "y": 16071,
+    "w": 350,
+    "h": 1078
+   },
+   "proLine": null,
+   "dep": {
+    "x": 20,
+    "y": 17205,
+    "w": 350,
+    "h": 665
+   },
+   "pricing": {
+    "x": 20,
+    "y": 17925,
+    "w": 350,
+    "h": 738
+   },
+   "details": {
+    "x": 20,
+    "y": 13799,
+    "w": 350,
+    "h": 1630
+   },
+   "detMore": null,
+   "lines": null,
+   "gallery": {
+    "x": 20,
+    "y": 15485,
+    "w": 350,
+    "h": 448
+   },
+   "photos": {
+    "x": 20,
+    "y": 15989,
+    "w": 350,
+    "h": 1160
+   },
+   "protection": null
+  }
+ },
+ "fold": {
+  "href": "https://swat-website-storefront.vercel.app/tours/trail-of-the-ancients/",
+  "H": 14479,
+  "vh": 844,
+  "footer": 1634,
+  "secs": [
+   {
+    "id": "reviews",
+    "t": "What guests said",
+    "y": 1132,
+    "h": 565
+   },
+   {
+    "id": "overview",
+    "t": "Overview",
+    "y": 2312,
+    "h": 741
+   },
+   {
+    "id": "seasons",
+    "t": "This trip by season",
+    "y": 3109,
+    "h": 536
+   },
+   {
+    "id": "itinerary",
+    "t": "Day by day",
+    "y": 3702,
+    "h": 964
+   },
+   {
+    "id": "right-for-you",
+    "t": "Is this trip right for you?",
+    "y": 4722,
+    "h": 354
+   },
+   {
+    "id": "details",
+    "t": "Tour details",
+    "y": 5132,
+    "h": 1630
+   },
+   {
+    "id": "gallery",
+    "t": "Gallery",
+    "y": 6818,
+    "h": 448
+   },
+   {
+    "id": "more-photos",
+    "t": "More from Mesa Verde National Park and C",
+    "y": 7321,
+    "h": 1160
+   },
+   {
+    "id": "departures",
+    "t": "Departures",
+    "y": 8537,
+    "h": 665
+   },
+   {
+    "id": "pricing",
+    "t": "Pricing",
+    "y": 9258,
+    "h": 738
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 10329,
+    "h": 572
+   },
+   {
+    "id": "",
+    "t": "You might also consider",
+    "y": 10965,
+    "h": 1029
+   },
+   {
+    "id": "",
+    "t": "Where this trip goes",
+    "y": 12383,
+    "h": 269
+   }
+  ],
+  "itY": 3702,
+  "days": 9,
+  "boxes": {
+   "glance": null,
+   "day1": {
+    "x": 20,
+    "y": 3775,
+    "w": 350,
+    "h": 107
+   },
+   "day2": {
+    "x": 20,
+    "y": 3882,
+    "w": 350,
+    "h": 89
+   },
+   "row1": {
+    "x": 20,
+    "y": 3776,
+    "w": 350,
+    "h": 106
+   },
+   "rowLast": {
+    "x": 20,
+    "y": 4578,
+    "w": 350,
+    "h": 88
+   },
+   "fig1": null,
+   "clamp1": null,
+   "more1": null,
+   "top1": null,
+   "rfy": {
+    "x": 20,
+    "y": 4722,
+    "w": 350,
+    "h": 354
+   },
+   "rowsAll": {
+    "x": 20,
+    "y": 3775,
+    "w": 350,
+    "h": 107
+   },
+   "inPrice": {
+    "x": 20,
+    "y": 5181,
+    "w": 350,
+    "h": 500
+   },
+   "notPrice": null,
+   "gal1": {
+    "x": 20,
+    "y": 6867,
+    "w": 350,
+    "h": 399
+   },
+   "mp1": {
+    "x": 20,
+    "y": 7403,
+    "w": 350,
+    "h": 1078
+   },
+   "proLine": null,
+   "dep": {
+    "x": 20,
+    "y": 8537,
+    "w": 350,
+    "h": 665
+   },
+   "pricing": {
+    "x": 20,
+    "y": 9258,
+    "w": 350,
+    "h": 738
+   },
+   "details": {
+    "x": 20,
+    "y": 5132,
+    "w": 350,
+    "h": 1630
+   },
+   "detMore": null,
+   "lines": null,
+   "gallery": {
+    "x": 20,
+    "y": 6818,
+    "w": 350,
+    "h": 448
+   },
+   "photos": {
+    "x": 20,
+    "y": 7321,
+    "w": 350,
+    "h": 1160
+   },
+   "protection": null
+  }
+ },
+ "short": {
+  "href": "https://swat-website-storefront.vercel.app/tours/trail-of-the-ancients/",
+  "H": 16646,
+  "vh": 844,
+  "footer": 1634,
+  "secs": [
+   {
+    "id": "reviews",
+    "t": "What guests said",
+    "y": 1132,
+    "h": 565
+   },
+   {
+    "id": "overview",
+    "t": "Overview",
+    "y": 2312,
+    "h": 741
+   },
+   {
+    "id": "seasons",
+    "t": "This trip by season",
+    "y": 3109,
+    "h": 536
+   },
+   {
+    "id": "itinerary",
+    "t": "Day by day",
+    "y": 3702,
+    "h": 3131
+   },
+   {
+    "id": "right-for-you",
+    "t": "Is this trip right for you?",
+    "y": 6889,
+    "h": 354
+   },
+   {
+    "id": "details",
+    "t": "Tour details",
+    "y": 7299,
+    "h": 1630
+   },
+   {
+    "id": "gallery",
+    "t": "Gallery",
+    "y": 8985,
+    "h": 448
+   },
+   {
+    "id": "more-photos",
+    "t": "More from Mesa Verde National Park and C",
+    "y": 9488,
+    "h": 1160
+   },
+   {
+    "id": "departures",
+    "t": "Departures",
+    "y": 10704,
+    "h": 665
+   },
+   {
+    "id": "pricing",
+    "t": "Pricing",
+    "y": 11425,
+    "h": 738
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 12495,
+    "h": 572
+   },
+   {
+    "id": "",
+    "t": "You might also consider",
+    "y": 13131,
+    "h": 1029
+   },
+   {
+    "id": "",
+    "t": "Where this trip goes",
+    "y": 14550,
+    "h": 269
+   }
+  ],
+  "itY": 3702,
+  "days": 9,
+  "boxes": {
+   "glance": {
+    "x": 20,
+    "y": 3785,
+    "w": 350,
+    "h": 132
+   },
+   "day1": {
+    "x": 20,
+    "y": 3956,
+    "w": 350,
+    "h": 280
+   },
+   "day2": {
+    "x": 20,
+    "y": 4285,
+    "w": 350,
+    "h": 280
+   },
+   "row1": null,
+   "rowLast": {
+    "x": 20,
+    "y": 6605,
+    "w": 350,
+    "h": 228
+   },
+   "fig1": null,
+   "clamp1": {
+    "x": 20,
+    "y": 4063,
+    "w": 350,
+    "h": 104
+   },
+   "more1": {
+    "x": 20,
+    "y": 4173,
+    "w": 123,
+    "h": 21
+   },
+   "top1": {
+    "x": 20,
+    "y": 3956,
+    "w": 350,
+    "h": 94
+   },
+   "rfy": {
+    "x": 20,
+    "y": 6889,
+    "w": 350,
+    "h": 354
+   },
+   "rowsAll": {
+    "x": 20,
+    "y": 3956,
+    "w": 350,
+    "h": 280
+   },
+   "inPrice": {
+    "x": 20,
+    "y": 7348,
+    "w": 350,
+    "h": 500
+   },
+   "notPrice": null,
+   "gal1": {
+    "x": 20,
+    "y": 9034,
+    "w": 350,
+    "h": 399
+   },
+   "mp1": {
+    "x": 20,
+    "y": 9570,
+    "w": 350,
+    "h": 1078
+   },
+   "proLine": null,
+   "dep": {
+    "x": 20,
+    "y": 10704,
+    "w": 350,
+    "h": 665
+   },
+   "pricing": {
+    "x": 20,
+    "y": 11425,
+    "w": 350,
+    "h": 738
+   },
+   "details": {
+    "x": 20,
+    "y": 7299,
+    "w": 350,
+    "h": 1630
+   },
+   "detMore": null,
+   "lines": null,
+   "gallery": {
+    "x": 20,
+    "y": 8985,
+    "w": 350,
+    "h": 448
+   },
+   "photos": {
+    "x": 20,
+    "y": 9488,
+    "w": 350,
+    "h": 1160
+   },
+   "protection": null
+  }
+ },
+ "lists": {
+  "href": "https://swat-website-storefront.vercel.app/tours/trail-of-the-ancients/",
+  "H": 22093,
+  "vh": 844,
+  "footer": 1634,
+  "secs": [
+   {
+    "id": "reviews",
+    "t": "What guests said",
+    "y": 1132,
+    "h": 565
+   },
+   {
+    "id": "overview",
+    "t": "Overview",
+    "y": 2312,
+    "h": 741
+   },
+   {
+    "id": "seasons",
+    "t": "This trip by season",
+    "y": 3109,
+    "h": 536
+   },
+   {
+    "id": "itinerary",
+    "t": "Day by day",
+    "y": 3702,
+    "h": 9632
+   },
+   {
+    "id": "right-for-you",
+    "t": "Is this trip right for you?",
+    "y": 13389,
+    "h": 354
+   },
+   {
+    "id": "details",
+    "t": "Tour details",
+    "y": 13799,
+    "h": 576
+   },
+   {
+    "id": "gallery",
+    "t": "Gallery",
+    "y": 14431,
+    "h": 448
+   },
+   {
+    "id": "more-photos",
+    "t": "More from Mesa Verde National Park and C",
+    "y": 14935,
+    "h": 1160
+   },
+   {
+    "id": "departures",
+    "t": "Departures",
+    "y": 16151,
+    "h": 665
+   },
+   {
+    "id": "pricing",
+    "t": "Pricing",
+    "y": 16871,
+    "h": 738
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 17942,
+    "h": 572
+   },
+   {
+    "id": "",
+    "t": "You might also consider",
+    "y": 18578,
+    "h": 1029
+   },
+   {
+    "id": "",
+    "t": "Where this trip goes",
+    "y": 19997,
+    "h": 269
+   }
+  ],
+  "itY": 3702,
+  "days": 9,
+  "boxes": {
+   "glance": {
+    "x": 20,
+    "y": 3785,
+    "w": 350,
+    "h": 132
+   },
+   "day1": {
+    "x": 20,
+    "y": 3956,
+    "w": 350,
+    "h": 821
+   },
+   "day2": {
+    "x": 20,
+    "y": 4825,
+    "w": 350,
+    "h": 1045
+   },
+   "row1": null,
+   "rowLast": {
+    "x": 20,
+    "y": 12567,
+    "w": 350,
+    "h": 766
+   },
+   "fig1": {
+    "x": 20,
+    "y": 3956,
+    "w": 350,
+    "h": 259
+   },
+   "clamp1": null,
+   "more1": null,
+   "top1": null,
+   "rfy": {
+    "x": 20,
+    "y": 13389,
+    "w": 350,
+    "h": 354
+   },
+   "rowsAll": {
+    "x": 20,
+    "y": 3956,
+    "w": 350,
+    "h": 821
+   },
+   "inPrice": {
+    "x": 20,
+    "y": 13848,
+    "w": 350,
+    "h": 338
+   },
+   "notPrice": {
+    "x": 20,
+    "y": 14202,
+    "w": 350,
+    "h": 52
+   },
+   "gal1": {
+    "x": 20,
+    "y": 14480,
+    "w": 350,
+    "h": 399
+   },
+   "mp1": {
+    "x": 20,
+    "y": 15017,
+    "w": 350,
+    "h": 1078
+   },
+   "proLine": null,
+   "dep": {
+    "x": 20,
+    "y": 16151,
+    "w": 350,
+    "h": 665
+   },
+   "pricing": {
+    "x": 20,
+    "y": 16871,
+    "w": 350,
+    "h": 738
+   },
+   "details": {
+    "x": 20,
+    "y": 13799,
+    "w": 350,
+    "h": 576
+   },
+   "detMore": {
+    "x": 41,
+    "y": 14143,
+    "w": 202,
+    "h": 21
+   },
+   "lines": {
+    "x": 20,
+    "y": 14270,
+    "w": 350,
+    "h": 105
+   },
+   "gallery": {
+    "x": 20,
+    "y": 14431,
+    "w": 350,
+    "h": 448
+   },
+   "photos": {
+    "x": 20,
+    "y": 14935,
+    "w": 350,
+    "h": 1160
+   },
+   "protection": null
+  }
+ },
+ "photos": {
+  "href": "https://swat-website-storefront.vercel.app/tours/trail-of-the-ancients/",
+  "H": 20991,
+  "vh": 844,
+  "footer": 1634,
+  "secs": [
+   {
+    "id": "reviews",
+    "t": "What guests said",
+    "y": 1132,
+    "h": 565
+   },
+   {
+    "id": "overview",
+    "t": "Overview",
+    "y": 2312,
+    "h": 741
+   },
+   {
+    "id": "seasons",
+    "t": "This trip by season",
+    "y": 3109,
+    "h": 536
+   },
+   {
+    "id": "itinerary",
+    "t": "Day by day",
+    "y": 3702,
+    "h": 9632
+   },
+   {
+    "id": "right-for-you",
+    "t": "Is this trip right for you?",
+    "y": 13389,
+    "h": 354
+   },
+   {
+    "id": "details",
+    "t": "Tour details",
+    "y": 13799,
+    "h": 576
+   },
+   {
+    "id": "gallery",
+    "t": "Gallery",
+    "y": 14431,
+    "h": 237
+   },
+   {
+    "id": "more-photos",
+    "t": "More from Mesa Verde National Park and C",
+    "y": 14724,
+    "h": 270
+   },
+   {
+    "id": "departures",
+    "t": "Departures",
+    "y": 15049,
+    "h": 665
+   },
+   {
+    "id": "pricing",
+    "t": "Pricing",
+    "y": 15770,
+    "h": 738
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 16840,
+    "h": 572
+   },
+   {
+    "id": "",
+    "t": "You might also consider",
+    "y": 17476,
+    "h": 1029
+   },
+   {
+    "id": "",
+    "t": "Where this trip goes",
+    "y": 18895,
+    "h": 269
+   }
+  ],
+  "itY": 3702,
+  "days": 9,
+  "boxes": {
+   "glance": {
+    "x": 20,
+    "y": 3785,
+    "w": 350,
+    "h": 132
+   },
+   "day1": {
+    "x": 20,
+    "y": 3956,
+    "w": 350,
+    "h": 821
+   },
+   "day2": {
+    "x": 20,
+    "y": 4825,
+    "w": 350,
+    "h": 1045
+   },
+   "row1": null,
+   "rowLast": {
+    "x": 20,
+    "y": 12567,
+    "w": 350,
+    "h": 766
+   },
+   "fig1": {
+    "x": 20,
+    "y": 3956,
+    "w": 350,
+    "h": 259
+   },
+   "clamp1": null,
+   "more1": null,
+   "top1": null,
+   "rfy": {
+    "x": 20,
+    "y": 13389,
+    "w": 350,
+    "h": 354
+   },
+   "rowsAll": {
+    "x": 20,
+    "y": 3956,
+    "w": 350,
+    "h": 821
+   },
+   "inPrice": {
+    "x": 20,
+    "y": 13848,
+    "w": 350,
+    "h": 338
+   },
+   "notPrice": {
+    "x": 20,
+    "y": 14202,
+    "w": 350,
+    "h": 52
+   },
+   "gal1": {
+    "x": 20,
+    "y": 14480,
+    "w": 370,
+    "h": 188
+   },
+   "mp1": {
+    "x": 20,
+    "y": 14806,
+    "w": 370,
+    "h": 188
+   },
+   "proLine": null,
+   "dep": {
+    "x": 20,
+    "y": 15049,
+    "w": 350,
+    "h": 665
+   },
+   "pricing": {
+    "x": 20,
+    "y": 15770,
+    "w": 350,
+    "h": 738
+   },
+   "details": {
+    "x": 20,
+    "y": 13799,
+    "w": 350,
+    "h": 576
+   },
+   "detMore": {
+    "x": 41,
+    "y": 14143,
+    "w": 202,
+    "h": 21
+   },
+   "lines": {
+    "x": 20,
+    "y": 14270,
+    "w": 350,
+    "h": 105
+   },
+   "gallery": {
+    "x": 20,
+    "y": 14431,
+    "w": 350,
+    "h": 237
+   },
+   "photos": {
+    "x": 20,
+    "y": 14724,
+    "w": 350,
+    "h": 270
+   },
+   "protection": null
+  }
+ }
+}

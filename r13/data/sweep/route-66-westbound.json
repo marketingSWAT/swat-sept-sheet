@@ -1,0 +1,908 @@
+{
+ "slug": "route-66-westbound",
+ "now": {
+  "href": "https://swat-website-storefront.vercel.app/tours/route-66-westbound/",
+  "H": 24086,
+  "vh": 844,
+  "footer": 1634,
+  "secs": [
+   {
+    "id": "overview",
+    "t": "Overview",
+    "y": 1548,
+    "h": 751
+   },
+   {
+    "id": "seasons",
+    "t": "This trip by season",
+    "y": 2355,
+    "h": 536
+   },
+   {
+    "id": "itinerary",
+    "t": "Day by day",
+    "y": 2948,
+    "h": 12066
+   },
+   {
+    "id": "right-for-you",
+    "t": "Is this trip right for you?",
+    "y": 15070,
+    "h": 354
+   },
+   {
+    "id": "details",
+    "t": "Tour details",
+    "y": 15480,
+    "h": 1779
+   },
+   {
+    "id": "gallery",
+    "t": "Gallery",
+    "y": 17315,
+    "h": 584
+   },
+   {
+    "id": "departures",
+    "t": "Departures",
+    "y": 17955,
+    "h": 382
+   },
+   {
+    "id": "pricing",
+    "t": "Pricing",
+    "y": 18393,
+    "h": 738
+   },
+   {
+    "id": "protection",
+    "t": "SWAT Trip Protection Plan",
+    "y": 19187,
+    "h": 921
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 20441,
+    "h": 515
+   },
+   {
+    "id": "",
+    "t": "You might also consider",
+    "y": 21020,
+    "h": 914
+   }
+  ],
+  "itY": 2948,
+  "days": 12,
+  "boxes": {
+   "glance": {
+    "x": 20,
+    "y": 3031,
+    "w": 350,
+    "h": 130
+   },
+   "day1": {
+    "x": 20,
+    "y": 3201,
+    "w": 350,
+    "h": 896
+   },
+   "day2": {
+    "x": 20,
+    "y": 4145,
+    "w": 350,
+    "h": 1318
+   },
+   "row1": null,
+   "rowLast": {
+    "x": 20,
+    "y": 14576,
+    "w": 350,
+    "h": 438
+   },
+   "fig1": {
+    "x": 20,
+    "y": 3201,
+    "w": 350,
+    "h": 259
+   },
+   "clamp1": null,
+   "more1": null,
+   "top1": null,
+   "rfy": {
+    "x": 20,
+    "y": 15070,
+    "w": 350,
+    "h": 354
+   },
+   "rowsAll": {
+    "x": 20,
+    "y": 3201,
+    "w": 350,
+    "h": 896
+   },
+   "inPrice": {
+    "x": 20,
+    "y": 15529,
+    "w": 350,
+    "h": 912
+   },
+   "notPrice": null,
+   "gal1": {
+    "x": 20,
+    "y": 17364,
+    "w": 350,
+    "h": 535
+   },
+   "mp1": null,
+   "proLine": null,
+   "dep": {
+    "x": 20,
+    "y": 17955,
+    "w": 350,
+    "h": 382
+   },
+   "pricing": {
+    "x": 20,
+    "y": 18393,
+    "w": 350,
+    "h": 738
+   },
+   "details": {
+    "x": 20,
+    "y": 15480,
+    "w": 350,
+    "h": 1779
+   },
+   "detMore": null,
+   "lines": null,
+   "gallery": {
+    "x": 20,
+    "y": 17315,
+    "w": 350,
+    "h": 584
+   },
+   "photos": null,
+   "protection": {
+    "x": 20,
+    "y": 19187,
+    "w": 350,
+    "h": 921
+   }
+  }
+ },
+ "fold": {
+  "href": "https://swat-website-storefront.vercel.app/tours/route-66-westbound/",
+  "H": 13131,
+  "vh": 844,
+  "footer": 1634,
+  "secs": [
+   {
+    "id": "overview",
+    "t": "Overview",
+    "y": 1548,
+    "h": 751
+   },
+   {
+    "id": "seasons",
+    "t": "This trip by season",
+    "y": 2355,
+    "h": 536
+   },
+   {
+    "id": "itinerary",
+    "t": "Day by day",
+    "y": 2948,
+    "h": 1111
+   },
+   {
+    "id": "right-for-you",
+    "t": "Is this trip right for you?",
+    "y": 4115,
+    "h": 354
+   },
+   {
+    "id": "details",
+    "t": "Tour details",
+    "y": 4525,
+    "h": 1779
+   },
+   {
+    "id": "gallery",
+    "t": "Gallery",
+    "y": 6360,
+    "h": 584
+   },
+   {
+    "id": "departures",
+    "t": "Departures",
+    "y": 7000,
+    "h": 382
+   },
+   {
+    "id": "pricing",
+    "t": "Pricing",
+    "y": 7438,
+    "h": 738
+   },
+   {
+    "id": "protection",
+    "t": "SWAT Trip Protection Plan",
+    "y": 8232,
+    "h": 921
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 9486,
+    "h": 515
+   },
+   {
+    "id": "",
+    "t": "You might also consider",
+    "y": 10065,
+    "h": 914
+   }
+  ],
+  "itY": 2948,
+  "days": 12,
+  "boxes": {
+   "glance": null,
+   "day1": {
+    "x": 20,
+    "y": 3021,
+    "w": 350,
+    "h": 89
+   },
+   "day2": {
+    "x": 20,
+    "y": 3109,
+    "w": 350,
+    "h": 89
+   },
+   "row1": {
+    "x": 20,
+    "y": 3022,
+    "w": 350,
+    "h": 88
+   },
+   "rowLast": {
+    "x": 20,
+    "y": 3976,
+    "w": 350,
+    "h": 83
+   },
+   "fig1": null,
+   "clamp1": null,
+   "more1": null,
+   "top1": null,
+   "rfy": {
+    "x": 20,
+    "y": 4115,
+    "w": 350,
+    "h": 354
+   },
+   "rowsAll": {
+    "x": 20,
+    "y": 3021,
+    "w": 350,
+    "h": 89
+   },
+   "inPrice": {
+    "x": 20,
+    "y": 4574,
+    "w": 350,
+    "h": 912
+   },
+   "notPrice": null,
+   "gal1": {
+    "x": 20,
+    "y": 6409,
+    "w": 350,
+    "h": 535
+   },
+   "mp1": null,
+   "proLine": null,
+   "dep": {
+    "x": 20,
+    "y": 7000,
+    "w": 350,
+    "h": 382
+   },
+   "pricing": {
+    "x": 20,
+    "y": 7438,
+    "w": 350,
+    "h": 738
+   },
+   "details": {
+    "x": 20,
+    "y": 4525,
+    "w": 350,
+    "h": 1779
+   },
+   "detMore": null,
+   "lines": null,
+   "gallery": {
+    "x": 20,
+    "y": 6360,
+    "w": 350,
+    "h": 584
+   },
+   "photos": null,
+   "protection": {
+    "x": 20,
+    "y": 8232,
+    "w": 350,
+    "h": 921
+   }
+  }
+ },
+ "short": {
+  "href": "https://swat-website-storefront.vercel.app/tours/route-66-westbound/",
+  "H": 15989,
+  "vh": 844,
+  "footer": 1634,
+  "secs": [
+   {
+    "id": "overview",
+    "t": "Overview",
+    "y": 1548,
+    "h": 751
+   },
+   {
+    "id": "seasons",
+    "t": "This trip by season",
+    "y": 2355,
+    "h": 536
+   },
+   {
+    "id": "itinerary",
+    "t": "Day by day",
+    "y": 2948,
+    "h": 3969
+   },
+   {
+    "id": "right-for-you",
+    "t": "Is this trip right for you?",
+    "y": 6973,
+    "h": 354
+   },
+   {
+    "id": "details",
+    "t": "Tour details",
+    "y": 7383,
+    "h": 1779
+   },
+   {
+    "id": "gallery",
+    "t": "Gallery",
+    "y": 9218,
+    "h": 584
+   },
+   {
+    "id": "departures",
+    "t": "Departures",
+    "y": 9858,
+    "h": 382
+   },
+   {
+    "id": "pricing",
+    "t": "Pricing",
+    "y": 10295,
+    "h": 738
+   },
+   {
+    "id": "protection",
+    "t": "SWAT Trip Protection Plan",
+    "y": 11089,
+    "h": 921
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 12343,
+    "h": 515
+   },
+   {
+    "id": "",
+    "t": "You might also consider",
+    "y": 12922,
+    "h": 914
+   }
+  ],
+  "itY": 2948,
+  "days": 12,
+  "boxes": {
+   "glance": {
+    "x": 20,
+    "y": 3031,
+    "w": 350,
+    "h": 130
+   },
+   "day1": {
+    "x": 20,
+    "y": 3201,
+    "w": 350,
+    "h": 270
+   },
+   "day2": {
+    "x": 20,
+    "y": 3519,
+    "w": 350,
+    "h": 270
+   },
+   "row1": null,
+   "rowLast": {
+    "x": 20,
+    "y": 6699,
+    "w": 350,
+    "h": 218
+   },
+   "fig1": null,
+   "clamp1": {
+    "x": 20,
+    "y": 3297,
+    "w": 350,
+    "h": 104
+   },
+   "more1": {
+    "x": 20,
+    "y": 3407,
+    "w": 123,
+    "h": 21
+   },
+   "top1": {
+    "x": 20,
+    "y": 3201,
+    "w": 350,
+    "h": 84
+   },
+   "rfy": {
+    "x": 20,
+    "y": 6973,
+    "w": 350,
+    "h": 354
+   },
+   "rowsAll": {
+    "x": 20,
+    "y": 3201,
+    "w": 350,
+    "h": 270
+   },
+   "inPrice": {
+    "x": 20,
+    "y": 7432,
+    "w": 350,
+    "h": 912
+   },
+   "notPrice": null,
+   "gal1": {
+    "x": 20,
+    "y": 9267,
+    "w": 350,
+    "h": 535
+   },
+   "mp1": null,
+   "proLine": null,
+   "dep": {
+    "x": 20,
+    "y": 9858,
+    "w": 350,
+    "h": 382
+   },
+   "pricing": {
+    "x": 20,
+    "y": 10295,
+    "w": 350,
+    "h": 738
+   },
+   "details": {
+    "x": 20,
+    "y": 7383,
+    "w": 350,
+    "h": 1779
+   },
+   "detMore": null,
+   "lines": null,
+   "gallery": {
+    "x": 20,
+    "y": 9218,
+    "w": 350,
+    "h": 584
+   },
+   "photos": null,
+   "protection": {
+    "x": 20,
+    "y": 11089,
+    "w": 350,
+    "h": 921
+   }
+  }
+ },
+ "lists": {
+  "href": "https://swat-website-storefront.vercel.app/tours/route-66-westbound/",
+  "H": 22182,
+  "vh": 844,
+  "footer": 1634,
+  "secs": [
+   {
+    "id": "overview",
+    "t": "Overview",
+    "y": 1548,
+    "h": 751
+   },
+   {
+    "id": "seasons",
+    "t": "This trip by season",
+    "y": 2355,
+    "h": 536
+   },
+   {
+    "id": "itinerary",
+    "t": "Day by day",
+    "y": 2948,
+    "h": 12066
+   },
+   {
+    "id": "right-for-you",
+    "t": "Is this trip right for you?",
+    "y": 15070,
+    "h": 354
+   },
+   {
+    "id": "details",
+    "t": "Tour details",
+    "y": 15480,
+    "h": 498
+   },
+   {
+    "id": "gallery",
+    "t": "Gallery",
+    "y": 16034,
+    "h": 584
+   },
+   {
+    "id": "departures",
+    "t": "Departures",
+    "y": 16674,
+    "h": 382
+   },
+   {
+    "id": "pricing",
+    "t": "Pricing",
+    "y": 17112,
+    "h": 738
+   },
+   {
+    "id": "protection",
+    "t": "SWAT Trip Protection Plan",
+    "y": 17906,
+    "h": 298
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 18536,
+    "h": 515
+   },
+   {
+    "id": "",
+    "t": "You might also consider",
+    "y": 19115,
+    "h": 914
+   }
+  ],
+  "itY": 2948,
+  "days": 12,
+  "boxes": {
+   "glance": {
+    "x": 20,
+    "y": 3031,
+    "w": 350,
+    "h": 130
+   },
+   "day1": {
+    "x": 20,
+    "y": 3201,
+    "w": 350,
+    "h": 896
+   },
+   "day2": {
+    "x": 20,
+    "y": 4145,
+    "w": 350,
+    "h": 1318
+   },
+   "row1": null,
+   "rowLast": {
+    "x": 20,
+    "y": 14576,
+    "w": 350,
+    "h": 438
+   },
+   "fig1": {
+    "x": 20,
+    "y": 3201,
+    "w": 350,
+    "h": 259
+   },
+   "clamp1": null,
+   "more1": null,
+   "top1": null,
+   "rfy": {
+    "x": 20,
+    "y": 15070,
+    "w": 350,
+    "h": 354
+   },
+   "rowsAll": {
+    "x": 20,
+    "y": 3201,
+    "w": 350,
+    "h": 896
+   },
+   "inPrice": {
+    "x": 20,
+    "y": 15529,
+    "w": 350,
+    "h": 312
+   },
+   "notPrice": {
+    "x": 20,
+    "y": 15857,
+    "w": 350,
+    "h": 52
+   },
+   "gal1": {
+    "x": 20,
+    "y": 16083,
+    "w": 350,
+    "h": 535
+   },
+   "mp1": null,
+   "proLine": {
+    "x": 20,
+    "y": 18060,
+    "w": 350,
+    "h": 56
+   },
+   "dep": {
+    "x": 20,
+    "y": 16674,
+    "w": 350,
+    "h": 382
+   },
+   "pricing": {
+    "x": 20,
+    "y": 17112,
+    "w": 350,
+    "h": 738
+   },
+   "details": {
+    "x": 20,
+    "y": 15480,
+    "w": 350,
+    "h": 498
+   },
+   "detMore": {
+    "x": 41,
+    "y": 15798,
+    "w": 205,
+    "h": 21
+   },
+   "lines": {
+    "x": 20,
+    "y": 15925,
+    "w": 350,
+    "h": 53
+   },
+   "gallery": {
+    "x": 20,
+    "y": 16034,
+    "w": 350,
+    "h": 584
+   },
+   "photos": null,
+   "protection": {
+    "x": 20,
+    "y": 17906,
+    "w": 350,
+    "h": 298
+   }
+  }
+ },
+ "photos": {
+  "href": "https://swat-website-storefront.vercel.app/tours/route-66-westbound/",
+  "H": 21834,
+  "vh": 844,
+  "footer": 1634,
+  "secs": [
+   {
+    "id": "overview",
+    "t": "Overview",
+    "y": 1548,
+    "h": 751
+   },
+   {
+    "id": "seasons",
+    "t": "This trip by season",
+    "y": 2355,
+    "h": 536
+   },
+   {
+    "id": "itinerary",
+    "t": "Day by day",
+    "y": 2948,
+    "h": 12066
+   },
+   {
+    "id": "right-for-you",
+    "t": "Is this trip right for you?",
+    "y": 15070,
+    "h": 354
+   },
+   {
+    "id": "details",
+    "t": "Tour details",
+    "y": 15480,
+    "h": 498
+   },
+   {
+    "id": "gallery",
+    "t": "Gallery",
+    "y": 16034,
+    "h": 237
+   },
+   {
+    "id": "departures",
+    "t": "Departures",
+    "y": 16326,
+    "h": 382
+   },
+   {
+    "id": "pricing",
+    "t": "Pricing",
+    "y": 16764,
+    "h": 738
+   },
+   {
+    "id": "protection",
+    "t": "SWAT Trip Protection Plan",
+    "y": 17558,
+    "h": 298
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 18189,
+    "h": 515
+   },
+   {
+    "id": "",
+    "t": "You might also consider",
+    "y": 18768,
+    "h": 914
+   }
+  ],
+  "itY": 2948,
+  "days": 12,
+  "boxes": {
+   "glance": {
+    "x": 20,
+    "y": 3031,
+    "w": 350,
+    "h": 130
+   },
+   "day1": {
+    "x": 20,
+    "y": 3201,
+    "w": 350,
+    "h": 896
+   },
+   "day2": {
+    "x": 20,
+    "y": 4145,
+    "w": 350,
+    "h": 1318
+   },
+   "row1": null,
+   "rowLast": {
+    "x": 20,
+    "y": 14576,
+    "w": 350,
+    "h": 438
+   },
+   "fig1": {
+    "x": 20,
+    "y": 3201,
+    "w": 350,
+    "h": 259
+   },
+   "clamp1": null,
+   "more1": null,
+   "top1": null,
+   "rfy": {
+    "x": 20,
+    "y": 15070,
+    "w": 350,
+    "h": 354
+   },
+   "rowsAll": {
+    "x": 20,
+    "y": 3201,
+    "w": 350,
+    "h": 896
+   },
+   "inPrice": {
+    "x": 20,
+    "y": 15529,
+    "w": 350,
+    "h": 312
+   },
+   "notPrice": {
+    "x": 20,
+    "y": 15857,
+    "w": 350,
+    "h": 52
+   },
+   "gal1": {
+    "x": 20,
+    "y": 16083,
+    "w": 370,
+    "h": 188
+   },
+   "mp1": null,
+   "proLine": {
+    "x": 20,
+    "y": 17712,
+    "w": 350,
+    "h": 56
+   },
+   "dep": {
+    "x": 20,
+    "y": 16326,
+    "w": 350,
+    "h": 382
+   },
+   "pricing": {
+    "x": 20,
+    "y": 16764,
+    "w": 350,
+    "h": 738
+   },
+   "details": {
+    "x": 20,
+    "y": 15480,
+    "w": 350,
+    "h": 498
+   },
+   "detMore": {
+    "x": 41,
+    "y": 15798,
+    "w": 205,
+    "h": 21
+   },
+   "lines": {
+    "x": 20,
+    "y": 15925,
+    "w": 350,
+    "h": 53
+   },
+   "gallery": {
+    "x": 20,
+    "y": 16034,
+    "w": 350,
+    "h": 237
+   },
+   "photos": null,
+   "protection": {
+    "x": 20,
+    "y": 17558,
+    "w": 350,
+    "h": 298
+   }
+  }
+ }
+}

@@ -1,0 +1,933 @@
+{
+ "slug": "route-66-eastbound",
+ "now": {
+  "href": "https://swat-website-storefront.vercel.app/tours/route-66-eastbound/",
+  "H": 31776,
+  "vh": 844,
+  "footer": 1634,
+  "secs": [
+   {
+    "id": "itinerary",
+    "t": "Day by day",
+    "y": 1516,
+    "h": 18579
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 20118,
+    "h": 1681
+   },
+   {
+    "id": "right-for-you",
+    "t": "Is this trip right for you?",
+    "y": 21855,
+    "h": 620
+   },
+   {
+    "id": "details",
+    "t": "Tour details",
+    "y": 22531,
+    "h": 1671
+   },
+   {
+    "id": "gallery",
+    "t": "Gallery",
+    "y": 24258,
+    "h": 448
+   },
+   {
+    "id": "more-photos",
+    "t": "More from Arizona and California",
+    "y": 24762,
+    "h": 1263
+   },
+   {
+    "id": "pricing",
+    "t": "Pricing",
+    "y": 26081,
+    "h": 420
+   },
+   {
+    "id": "protection",
+    "t": "SWAT Trip Protection Plan",
+    "y": 26557,
+    "h": 921
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 27811,
+    "h": 456
+   },
+   {
+    "id": "",
+    "t": "You might also consider",
+    "y": 28331,
+    "h": 960
+   },
+   {
+    "id": "",
+    "t": "Where this trip goes",
+    "y": 29680,
+    "h": 269
+   }
+  ],
+  "itY": 1516,
+  "days": 12,
+  "boxes": {
+   "glance": {
+    "x": 20,
+    "y": 1599,
+    "w": 350,
+    "h": 154
+   },
+   "day1": {
+    "x": 20,
+    "y": 1793,
+    "w": 350,
+    "h": 1477
+   },
+   "day2": {
+    "x": 20,
+    "y": 3318,
+    "w": 350,
+    "h": 1287
+   },
+   "row1": null,
+   "rowLast": {
+    "x": 20,
+    "y": 19065,
+    "w": 350,
+    "h": 1029
+   },
+   "fig1": {
+    "x": 20,
+    "y": 1793,
+    "w": 350,
+    "h": 259
+   },
+   "clamp1": null,
+   "more1": null,
+   "top1": null,
+   "rfy": {
+    "x": 20,
+    "y": 21855,
+    "w": 350,
+    "h": 620
+   },
+   "rowsAll": {
+    "x": 20,
+    "y": 1793,
+    "w": 350,
+    "h": 1477
+   },
+   "inPrice": {
+    "x": 20,
+    "y": 22580,
+    "w": 350,
+    "h": 788
+   },
+   "notPrice": null,
+   "gal1": {
+    "x": 20,
+    "y": 24307,
+    "w": 350,
+    "h": 399
+   },
+   "mp1": {
+    "x": 20,
+    "y": 24811,
+    "w": 350,
+    "h": 1214
+   },
+   "proLine": null,
+   "dep": null,
+   "pricing": {
+    "x": 20,
+    "y": 26081,
+    "w": 350,
+    "h": 420
+   },
+   "details": {
+    "x": 20,
+    "y": 22531,
+    "w": 350,
+    "h": 1671
+   },
+   "detMore": null,
+   "lines": null,
+   "gallery": {
+    "x": 20,
+    "y": 24258,
+    "w": 350,
+    "h": 448
+   },
+   "photos": {
+    "x": 20,
+    "y": 24762,
+    "w": 350,
+    "h": 1263
+   },
+   "protection": {
+    "x": 20,
+    "y": 26557,
+    "w": 350,
+    "h": 921
+   }
+  }
+ },
+ "fold": {
+  "href": "https://swat-website-storefront.vercel.app/tours/route-66-eastbound/",
+  "H": 14484,
+  "vh": 844,
+  "footer": 1634,
+  "secs": [
+   {
+    "id": "itinerary",
+    "t": "Day by day",
+    "y": 1516,
+    "h": 1286
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 2826,
+    "h": 1681
+   },
+   {
+    "id": "right-for-you",
+    "t": "Is this trip right for you?",
+    "y": 4563,
+    "h": 620
+   },
+   {
+    "id": "details",
+    "t": "Tour details",
+    "y": 5239,
+    "h": 1671
+   },
+   {
+    "id": "gallery",
+    "t": "Gallery",
+    "y": 6966,
+    "h": 448
+   },
+   {
+    "id": "more-photos",
+    "t": "More from Arizona and California",
+    "y": 7470,
+    "h": 1263
+   },
+   {
+    "id": "pricing",
+    "t": "Pricing",
+    "y": 8789,
+    "h": 420
+   },
+   {
+    "id": "protection",
+    "t": "SWAT Trip Protection Plan",
+    "y": 9265,
+    "h": 921
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 10519,
+    "h": 456
+   },
+   {
+    "id": "",
+    "t": "You might also consider",
+    "y": 11039,
+    "h": 960
+   },
+   {
+    "id": "",
+    "t": "Where this trip goes",
+    "y": 12388,
+    "h": 269
+   }
+  ],
+  "itY": 1516,
+  "days": 12,
+  "boxes": {
+   "glance": null,
+   "day1": {
+    "x": 20,
+    "y": 1589,
+    "w": 350,
+    "h": 107
+   },
+   "day2": {
+    "x": 20,
+    "y": 1696,
+    "w": 350,
+    "h": 107
+   },
+   "row1": {
+    "x": 20,
+    "y": 1590,
+    "w": 350,
+    "h": 106
+   },
+   "rowLast": {
+    "x": 20,
+    "y": 2715,
+    "w": 350,
+    "h": 88
+   },
+   "fig1": null,
+   "clamp1": null,
+   "more1": null,
+   "top1": null,
+   "rfy": {
+    "x": 20,
+    "y": 4563,
+    "w": 350,
+    "h": 620
+   },
+   "rowsAll": {
+    "x": 20,
+    "y": 1589,
+    "w": 350,
+    "h": 107
+   },
+   "inPrice": {
+    "x": 20,
+    "y": 5288,
+    "w": 350,
+    "h": 788
+   },
+   "notPrice": null,
+   "gal1": {
+    "x": 20,
+    "y": 7015,
+    "w": 350,
+    "h": 399
+   },
+   "mp1": {
+    "x": 20,
+    "y": 7519,
+    "w": 350,
+    "h": 1214
+   },
+   "proLine": null,
+   "dep": null,
+   "pricing": {
+    "x": 20,
+    "y": 8789,
+    "w": 350,
+    "h": 420
+   },
+   "details": {
+    "x": 20,
+    "y": 5239,
+    "w": 350,
+    "h": 1671
+   },
+   "detMore": null,
+   "lines": null,
+   "gallery": {
+    "x": 20,
+    "y": 6966,
+    "w": 350,
+    "h": 448
+   },
+   "photos": {
+    "x": 20,
+    "y": 7470,
+    "w": 350,
+    "h": 1263
+   },
+   "protection": {
+    "x": 20,
+    "y": 9265,
+    "w": 350,
+    "h": 921
+   }
+  }
+ },
+ "short": {
+  "href": "https://swat-website-storefront.vercel.app/tours/route-66-eastbound/",
+  "H": 17756,
+  "vh": 844,
+  "footer": 1634,
+  "secs": [
+   {
+    "id": "itinerary",
+    "t": "Day by day",
+    "y": 1516,
+    "h": 4559
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 6099,
+    "h": 1681
+   },
+   {
+    "id": "right-for-you",
+    "t": "Is this trip right for you?",
+    "y": 7836,
+    "h": 620
+   },
+   {
+    "id": "details",
+    "t": "Tour details",
+    "y": 8512,
+    "h": 1671
+   },
+   {
+    "id": "gallery",
+    "t": "Gallery",
+    "y": 10239,
+    "h": 448
+   },
+   {
+    "id": "more-photos",
+    "t": "More from Arizona and California",
+    "y": 10742,
+    "h": 1263
+   },
+   {
+    "id": "pricing",
+    "t": "Pricing",
+    "y": 12062,
+    "h": 420
+   },
+   {
+    "id": "protection",
+    "t": "SWAT Trip Protection Plan",
+    "y": 12538,
+    "h": 921
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 13792,
+    "h": 456
+   },
+   {
+    "id": "",
+    "t": "You might also consider",
+    "y": 14311,
+    "h": 960
+   },
+   {
+    "id": "",
+    "t": "Where this trip goes",
+    "y": 15660,
+    "h": 269
+   }
+  ],
+  "itY": 1516,
+  "days": 12,
+  "boxes": {
+   "glance": {
+    "x": 20,
+    "y": 1599,
+    "w": 350,
+    "h": 154
+   },
+   "day1": {
+    "x": 20,
+    "y": 1793,
+    "w": 350,
+    "h": 322
+   },
+   "day2": {
+    "x": 20,
+    "y": 2163,
+    "w": 350,
+    "h": 314
+   },
+   "row1": null,
+   "rowLast": {
+    "x": 20,
+    "y": 5805,
+    "w": 350,
+    "h": 270
+   },
+   "fig1": null,
+   "clamp1": {
+    "x": 20,
+    "y": 1889,
+    "w": 350,
+    "h": 104
+   },
+   "more1": {
+    "x": 20,
+    "y": 1999,
+    "w": 123,
+    "h": 21
+   },
+   "top1": {
+    "x": 20,
+    "y": 1793,
+    "w": 350,
+    "h": 84
+   },
+   "rfy": {
+    "x": 20,
+    "y": 7836,
+    "w": 350,
+    "h": 620
+   },
+   "rowsAll": {
+    "x": 20,
+    "y": 1793,
+    "w": 350,
+    "h": 322
+   },
+   "inPrice": {
+    "x": 20,
+    "y": 8561,
+    "w": 350,
+    "h": 788
+   },
+   "notPrice": null,
+   "gal1": {
+    "x": 20,
+    "y": 10288,
+    "w": 350,
+    "h": 399
+   },
+   "mp1": {
+    "x": 20,
+    "y": 10791,
+    "w": 350,
+    "h": 1214
+   },
+   "proLine": null,
+   "dep": null,
+   "pricing": {
+    "x": 20,
+    "y": 12062,
+    "w": 350,
+    "h": 420
+   },
+   "details": {
+    "x": 20,
+    "y": 8512,
+    "w": 350,
+    "h": 1671
+   },
+   "detMore": null,
+   "lines": null,
+   "gallery": {
+    "x": 20,
+    "y": 10239,
+    "w": 350,
+    "h": 448
+   },
+   "photos": {
+    "x": 20,
+    "y": 10742,
+    "w": 350,
+    "h": 1263
+   },
+   "protection": {
+    "x": 20,
+    "y": 12538,
+    "w": 350,
+    "h": 921
+   }
+  }
+ },
+ "lists": {
+  "href": "https://swat-website-storefront.vercel.app/tours/route-66-eastbound/",
+  "H": 29980,
+  "vh": 844,
+  "footer": 1634,
+  "secs": [
+   {
+    "id": "itinerary",
+    "t": "Day by day",
+    "y": 1516,
+    "h": 18579
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 20118,
+    "h": 1681
+   },
+   {
+    "id": "right-for-you",
+    "t": "Is this trip right for you?",
+    "y": 21855,
+    "h": 620
+   },
+   {
+    "id": "details",
+    "t": "Tour details",
+    "y": 22531,
+    "h": 498
+   },
+   {
+    "id": "gallery",
+    "t": "Gallery",
+    "y": 23085,
+    "h": 448
+   },
+   {
+    "id": "more-photos",
+    "t": "More from Arizona and California",
+    "y": 23589,
+    "h": 1263
+   },
+   {
+    "id": "pricing",
+    "t": "Pricing",
+    "y": 24908,
+    "h": 420
+   },
+   {
+    "id": "protection",
+    "t": "SWAT Trip Protection Plan",
+    "y": 25384,
+    "h": 298
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 26015,
+    "h": 456
+   },
+   {
+    "id": "",
+    "t": "You might also consider",
+    "y": 26534,
+    "h": 960
+   },
+   {
+    "id": "",
+    "t": "Where this trip goes",
+    "y": 27883,
+    "h": 269
+   }
+  ],
+  "itY": 1516,
+  "days": 12,
+  "boxes": {
+   "glance": {
+    "x": 20,
+    "y": 1599,
+    "w": 350,
+    "h": 154
+   },
+   "day1": {
+    "x": 20,
+    "y": 1793,
+    "w": 350,
+    "h": 1477
+   },
+   "day2": {
+    "x": 20,
+    "y": 3318,
+    "w": 350,
+    "h": 1287
+   },
+   "row1": null,
+   "rowLast": {
+    "x": 20,
+    "y": 19065,
+    "w": 350,
+    "h": 1029
+   },
+   "fig1": {
+    "x": 20,
+    "y": 1793,
+    "w": 350,
+    "h": 259
+   },
+   "clamp1": null,
+   "more1": null,
+   "top1": null,
+   "rfy": {
+    "x": 20,
+    "y": 21855,
+    "w": 350,
+    "h": 620
+   },
+   "rowsAll": {
+    "x": 20,
+    "y": 1793,
+    "w": 350,
+    "h": 1477
+   },
+   "inPrice": {
+    "x": 20,
+    "y": 22580,
+    "w": 350,
+    "h": 312
+   },
+   "notPrice": {
+    "x": 20,
+    "y": 22908,
+    "w": 350,
+    "h": 52
+   },
+   "gal1": {
+    "x": 20,
+    "y": 23134,
+    "w": 350,
+    "h": 399
+   },
+   "mp1": {
+    "x": 20,
+    "y": 23638,
+    "w": 350,
+    "h": 1214
+   },
+   "proLine": {
+    "x": 20,
+    "y": 25539,
+    "w": 350,
+    "h": 56
+   },
+   "dep": null,
+   "pricing": {
+    "x": 20,
+    "y": 24908,
+    "w": 350,
+    "h": 420
+   },
+   "details": {
+    "x": 20,
+    "y": 22531,
+    "w": 350,
+    "h": 498
+   },
+   "detMore": {
+    "x": 41,
+    "y": 22849,
+    "w": 202,
+    "h": 21
+   },
+   "lines": {
+    "x": 20,
+    "y": 22976,
+    "w": 350,
+    "h": 53
+   },
+   "gallery": {
+    "x": 20,
+    "y": 23085,
+    "w": 350,
+    "h": 448
+   },
+   "photos": {
+    "x": 20,
+    "y": 23589,
+    "w": 350,
+    "h": 1263
+   },
+   "protection": {
+    "x": 20,
+    "y": 25384,
+    "w": 350,
+    "h": 298
+   }
+  }
+ },
+ "photos": {
+  "href": "https://swat-website-storefront.vercel.app/tours/route-66-eastbound/",
+  "H": 28742,
+  "vh": 844,
+  "footer": 1634,
+  "secs": [
+   {
+    "id": "itinerary",
+    "t": "Day by day",
+    "y": 1516,
+    "h": 18579
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 20118,
+    "h": 1681
+   },
+   {
+    "id": "right-for-you",
+    "t": "Is this trip right for you?",
+    "y": 21855,
+    "h": 620
+   },
+   {
+    "id": "details",
+    "t": "Tour details",
+    "y": 22531,
+    "h": 498
+   },
+   {
+    "id": "gallery",
+    "t": "Gallery",
+    "y": 23085,
+    "h": 237
+   },
+   {
+    "id": "more-photos",
+    "t": "More from Arizona and California",
+    "y": 23378,
+    "h": 237
+   },
+   {
+    "id": "pricing",
+    "t": "Pricing",
+    "y": 23670,
+    "h": 420
+   },
+   {
+    "id": "protection",
+    "t": "SWAT Trip Protection Plan",
+    "y": 24146,
+    "h": 298
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 24777,
+    "h": 456
+   },
+   {
+    "id": "",
+    "t": "You might also consider",
+    "y": 25296,
+    "h": 960
+   },
+   {
+    "id": "",
+    "t": "Where this trip goes",
+    "y": 26645,
+    "h": 269
+   }
+  ],
+  "itY": 1516,
+  "days": 12,
+  "boxes": {
+   "glance": {
+    "x": 20,
+    "y": 1599,
+    "w": 350,
+    "h": 154
+   },
+   "day1": {
+    "x": 20,
+    "y": 1793,
+    "w": 350,
+    "h": 1477
+   },
+   "day2": {
+    "x": 20,
+    "y": 3318,
+    "w": 350,
+    "h": 1287
+   },
+   "row1": null,
+   "rowLast": {
+    "x": 20,
+    "y": 19065,
+    "w": 350,
+    "h": 1029
+   },
+   "fig1": {
+    "x": 20,
+    "y": 1793,
+    "w": 350,
+    "h": 259
+   },
+   "clamp1": null,
+   "more1": null,
+   "top1": null,
+   "rfy": {
+    "x": 20,
+    "y": 21855,
+    "w": 350,
+    "h": 620
+   },
+   "rowsAll": {
+    "x": 20,
+    "y": 1793,
+    "w": 350,
+    "h": 1477
+   },
+   "inPrice": {
+    "x": 20,
+    "y": 22580,
+    "w": 350,
+    "h": 312
+   },
+   "notPrice": {
+    "x": 20,
+    "y": 22908,
+    "w": 350,
+    "h": 52
+   },
+   "gal1": {
+    "x": 20,
+    "y": 23134,
+    "w": 370,
+    "h": 188
+   },
+   "mp1": {
+    "x": 20,
+    "y": 23427,
+    "w": 370,
+    "h": 188
+   },
+   "proLine": {
+    "x": 20,
+    "y": 24301,
+    "w": 350,
+    "h": 56
+   },
+   "dep": null,
+   "pricing": {
+    "x": 20,
+    "y": 23670,
+    "w": 350,
+    "h": 420
+   },
+   "details": {
+    "x": 20,
+    "y": 22531,
+    "w": 350,
+    "h": 498
+   },
+   "detMore": {
+    "x": 41,
+    "y": 22849,
+    "w": 202,
+    "h": 21
+   },
+   "lines": {
+    "x": 20,
+    "y": 22976,
+    "w": 350,
+    "h": 53
+   },
+   "gallery": {
+    "x": 20,
+    "y": 23085,
+    "w": 350,
+    "h": 237
+   },
+   "photos": {
+    "x": 20,
+    "y": 23378,
+    "w": 350,
+    "h": 237
+   },
+   "protection": {
+    "x": 20,
+    "y": 24146,
+    "w": 350,
+    "h": 298
+   }
+  }
+ }
+}

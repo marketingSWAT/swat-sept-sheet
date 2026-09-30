@@ -1,0 +1,968 @@
+{
+ "slug": "death-valley-joshua-tree-tour",
+ "now": {
+  "href": "https://swat-website-storefront.vercel.app/tours/death-valley-joshua-tree-tour/",
+  "H": 21091,
+  "vh": 844,
+  "footer": 1634,
+  "secs": [
+   {
+    "id": "reviews",
+    "t": "What guests said",
+    "y": 1163,
+    "h": 643
+   },
+   {
+    "id": "seasons",
+    "t": "This trip by season",
+    "y": 2421,
+    "h": 536
+   },
+   {
+    "id": "itinerary",
+    "t": "Day by day",
+    "y": 3013,
+    "h": 7178
+   },
+   {
+    "id": "death-valley-joshua-tree-adventure",
+    "t": "Death Valley & Joshua Tree Adventure",
+    "y": 10247,
+    "h": 1091
+   },
+   {
+    "id": "right-for-you",
+    "t": "Is this trip right for you?",
+    "y": 11394,
+    "h": 620
+   },
+   {
+    "id": "details",
+    "t": "Tour details",
+    "y": 12070,
+    "h": 1480
+   },
+   {
+    "id": "more-photos",
+    "t": "More from California",
+    "y": 13606,
+    "h": 991
+   },
+   {
+    "id": "departures",
+    "t": "Departures",
+    "y": 14653,
+    "h": 546
+   },
+   {
+    "id": "pricing",
+    "t": "Pricing",
+    "y": 15255,
+    "h": 420
+   },
+   {
+    "id": "protection",
+    "t": "SWAT Trip Protection Plan",
+    "y": 15731,
+    "h": 921
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 16985,
+    "h": 572
+   },
+   {
+    "id": "",
+    "t": "You might also consider",
+    "y": 17621,
+    "h": 985
+   },
+   {
+    "id": "",
+    "t": "Where this trip goes",
+    "y": 18995,
+    "h": 269
+   }
+  ],
+  "itY": 3013,
+  "days": 7,
+  "boxes": {
+   "glance": {
+    "x": 20,
+    "y": 3096,
+    "w": 350,
+    "h": 154
+   },
+   "day1": {
+    "x": 20,
+    "y": 3290,
+    "w": 350,
+    "h": 880
+   },
+   "day2": {
+    "x": 20,
+    "y": 4218,
+    "w": 350,
+    "h": 1107
+   },
+   "row1": null,
+   "rowLast": {
+    "x": 20,
+    "y": 9623,
+    "w": 350,
+    "h": 568
+   },
+   "fig1": {
+    "x": 20,
+    "y": 3290,
+    "w": 350,
+    "h": 233
+   },
+   "clamp1": null,
+   "more1": null,
+   "top1": null,
+   "rfy": {
+    "x": 20,
+    "y": 11394,
+    "w": 350,
+    "h": 620
+   },
+   "rowsAll": {
+    "x": 20,
+    "y": 3290,
+    "w": 350,
+    "h": 880
+   },
+   "inPrice": {
+    "x": 20,
+    "y": 12119,
+    "w": 350,
+    "h": 366
+   },
+   "notPrice": null,
+   "gal1": null,
+   "mp1": {
+    "x": 20,
+    "y": 13655,
+    "w": 350,
+    "h": 942
+   },
+   "proLine": null,
+   "dep": {
+    "x": 20,
+    "y": 14653,
+    "w": 350,
+    "h": 546
+   },
+   "pricing": {
+    "x": 20,
+    "y": 15255,
+    "w": 350,
+    "h": 420
+   },
+   "details": {
+    "x": 20,
+    "y": 12070,
+    "w": 350,
+    "h": 1480
+   },
+   "detMore": null,
+   "lines": null,
+   "gallery": null,
+   "photos": {
+    "x": 20,
+    "y": 13606,
+    "w": 350,
+    "h": 991
+   },
+   "protection": {
+    "x": 20,
+    "y": 15731,
+    "w": 350,
+    "h": 921
+   }
+  }
+ },
+ "fold": {
+  "href": "https://swat-website-storefront.vercel.app/tours/death-valley-joshua-tree-tour/",
+  "H": 14641,
+  "vh": 844,
+  "footer": 1634,
+  "secs": [
+   {
+    "id": "reviews",
+    "t": "What guests said",
+    "y": 1163,
+    "h": 643
+   },
+   {
+    "id": "seasons",
+    "t": "This trip by season",
+    "y": 2421,
+    "h": 536
+   },
+   {
+    "id": "itinerary",
+    "t": "Day by day",
+    "y": 3013,
+    "h": 728
+   },
+   {
+    "id": "death-valley-joshua-tree-adventure",
+    "t": "Death Valley & Joshua Tree Adventure",
+    "y": 3797,
+    "h": 1091
+   },
+   {
+    "id": "right-for-you",
+    "t": "Is this trip right for you?",
+    "y": 4944,
+    "h": 620
+   },
+   {
+    "id": "details",
+    "t": "Tour details",
+    "y": 5620,
+    "h": 1480
+   },
+   {
+    "id": "more-photos",
+    "t": "More from California",
+    "y": 7156,
+    "h": 991
+   },
+   {
+    "id": "departures",
+    "t": "Departures",
+    "y": 8203,
+    "h": 546
+   },
+   {
+    "id": "pricing",
+    "t": "Pricing",
+    "y": 8805,
+    "h": 420
+   },
+   {
+    "id": "protection",
+    "t": "SWAT Trip Protection Plan",
+    "y": 9281,
+    "h": 921
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 10535,
+    "h": 572
+   },
+   {
+    "id": "",
+    "t": "You might also consider",
+    "y": 11171,
+    "h": 985
+   },
+   {
+    "id": "",
+    "t": "Where this trip goes",
+    "y": 12545,
+    "h": 269
+   }
+  ],
+  "itY": 3013,
+  "days": 7,
+  "boxes": {
+   "glance": null,
+   "day1": {
+    "x": 20,
+    "y": 3086,
+    "w": 350,
+    "h": 86
+   },
+   "day2": {
+    "x": 20,
+    "y": 3172,
+    "w": 350,
+    "h": 107
+   },
+   "row1": {
+    "x": 20,
+    "y": 3087,
+    "w": 350,
+    "h": 85
+   },
+   "rowLast": {
+    "x": 20,
+    "y": 3653,
+    "w": 350,
+    "h": 88
+   },
+   "fig1": null,
+   "clamp1": null,
+   "more1": null,
+   "top1": null,
+   "rfy": {
+    "x": 20,
+    "y": 4944,
+    "w": 350,
+    "h": 620
+   },
+   "rowsAll": {
+    "x": 20,
+    "y": 3086,
+    "w": 350,
+    "h": 86
+   },
+   "inPrice": {
+    "x": 20,
+    "y": 5669,
+    "w": 350,
+    "h": 366
+   },
+   "notPrice": null,
+   "gal1": null,
+   "mp1": {
+    "x": 20,
+    "y": 7205,
+    "w": 350,
+    "h": 942
+   },
+   "proLine": null,
+   "dep": {
+    "x": 20,
+    "y": 8203,
+    "w": 350,
+    "h": 546
+   },
+   "pricing": {
+    "x": 20,
+    "y": 8805,
+    "w": 350,
+    "h": 420
+   },
+   "details": {
+    "x": 20,
+    "y": 5620,
+    "w": 350,
+    "h": 1480
+   },
+   "detMore": null,
+   "lines": null,
+   "gallery": null,
+   "photos": {
+    "x": 20,
+    "y": 7156,
+    "w": 350,
+    "h": 991
+   },
+   "protection": {
+    "x": 20,
+    "y": 9281,
+    "w": 350,
+    "h": 921
+   }
+  }
+ },
+ "short": {
+  "href": "https://swat-website-storefront.vercel.app/tours/death-valley-joshua-tree-tour/",
+  "H": 16560,
+  "vh": 844,
+  "footer": 1634,
+  "secs": [
+   {
+    "id": "reviews",
+    "t": "What guests said",
+    "y": 1163,
+    "h": 643
+   },
+   {
+    "id": "seasons",
+    "t": "This trip by season",
+    "y": 2421,
+    "h": 536
+   },
+   {
+    "id": "itinerary",
+    "t": "Day by day",
+    "y": 3013,
+    "h": 2647
+   },
+   {
+    "id": "death-valley-joshua-tree-adventure",
+    "t": "Death Valley & Joshua Tree Adventure",
+    "y": 5716,
+    "h": 1091
+   },
+   {
+    "id": "right-for-you",
+    "t": "Is this trip right for you?",
+    "y": 6863,
+    "h": 620
+   },
+   {
+    "id": "details",
+    "t": "Tour details",
+    "y": 7539,
+    "h": 1480
+   },
+   {
+    "id": "more-photos",
+    "t": "More from California",
+    "y": 9075,
+    "h": 991
+   },
+   {
+    "id": "departures",
+    "t": "Departures",
+    "y": 10122,
+    "h": 546
+   },
+   {
+    "id": "pricing",
+    "t": "Pricing",
+    "y": 10724,
+    "h": 420
+   },
+   {
+    "id": "protection",
+    "t": "SWAT Trip Protection Plan",
+    "y": 11200,
+    "h": 921
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 12454,
+    "h": 572
+   },
+   {
+    "id": "",
+    "t": "You might also consider",
+    "y": 13090,
+    "h": 985
+   },
+   {
+    "id": "",
+    "t": "Where this trip goes",
+    "y": 14464,
+    "h": 269
+   }
+  ],
+  "itY": 3013,
+  "days": 7,
+  "boxes": {
+   "glance": {
+    "x": 20,
+    "y": 3096,
+    "w": 350,
+    "h": 154
+   },
+   "day1": {
+    "x": 20,
+    "y": 3290,
+    "w": 350,
+    "h": 322
+   },
+   "day2": {
+    "x": 20,
+    "y": 3660,
+    "w": 350,
+    "h": 332
+   },
+   "row1": null,
+   "rowLast": {
+    "x": 20,
+    "y": 5432,
+    "w": 350,
+    "h": 228
+   },
+   "fig1": null,
+   "clamp1": {
+    "x": 20,
+    "y": 3386,
+    "w": 350,
+    "h": 104
+   },
+   "more1": {
+    "x": 20,
+    "y": 3496,
+    "w": 123,
+    "h": 21
+   },
+   "top1": {
+    "x": 20,
+    "y": 3290,
+    "w": 350,
+    "h": 84
+   },
+   "rfy": {
+    "x": 20,
+    "y": 6863,
+    "w": 350,
+    "h": 620
+   },
+   "rowsAll": {
+    "x": 20,
+    "y": 3290,
+    "w": 350,
+    "h": 322
+   },
+   "inPrice": {
+    "x": 20,
+    "y": 7588,
+    "w": 350,
+    "h": 366
+   },
+   "notPrice": null,
+   "gal1": null,
+   "mp1": {
+    "x": 20,
+    "y": 9124,
+    "w": 350,
+    "h": 942
+   },
+   "proLine": null,
+   "dep": {
+    "x": 20,
+    "y": 10122,
+    "w": 350,
+    "h": 546
+   },
+   "pricing": {
+    "x": 20,
+    "y": 10724,
+    "w": 350,
+    "h": 420
+   },
+   "details": {
+    "x": 20,
+    "y": 7539,
+    "w": 350,
+    "h": 1480
+   },
+   "detMore": null,
+   "lines": null,
+   "gallery": null,
+   "photos": {
+    "x": 20,
+    "y": 9075,
+    "w": 350,
+    "h": 991
+   },
+   "protection": {
+    "x": 20,
+    "y": 11200,
+    "w": 350,
+    "h": 921
+   }
+  }
+ },
+ "lists": {
+  "href": "https://swat-website-storefront.vercel.app/tours/death-valley-joshua-tree-tour/",
+  "H": 19564,
+  "vh": 844,
+  "footer": 1634,
+  "secs": [
+   {
+    "id": "reviews",
+    "t": "What guests said",
+    "y": 1163,
+    "h": 643
+   },
+   {
+    "id": "seasons",
+    "t": "This trip by season",
+    "y": 2421,
+    "h": 536
+   },
+   {
+    "id": "itinerary",
+    "t": "Day by day",
+    "y": 3013,
+    "h": 7178
+   },
+   {
+    "id": "death-valley-joshua-tree-adventure",
+    "t": "Death Valley & Joshua Tree Adventure",
+    "y": 10247,
+    "h": 1091
+   },
+   {
+    "id": "right-for-you",
+    "t": "Is this trip right for you?",
+    "y": 11394,
+    "h": 620
+   },
+   {
+    "id": "details",
+    "t": "Tour details",
+    "y": 12070,
+    "h": 576
+   },
+   {
+    "id": "more-photos",
+    "t": "More from California",
+    "y": 12702,
+    "h": 991
+   },
+   {
+    "id": "departures",
+    "t": "Departures",
+    "y": 13749,
+    "h": 546
+   },
+   {
+    "id": "pricing",
+    "t": "Pricing",
+    "y": 14351,
+    "h": 420
+   },
+   {
+    "id": "protection",
+    "t": "SWAT Trip Protection Plan",
+    "y": 14827,
+    "h": 298
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 15457,
+    "h": 572
+   },
+   {
+    "id": "",
+    "t": "You might also consider",
+    "y": 16093,
+    "h": 985
+   },
+   {
+    "id": "",
+    "t": "Where this trip goes",
+    "y": 17468,
+    "h": 269
+   }
+  ],
+  "itY": 3013,
+  "days": 7,
+  "boxes": {
+   "glance": {
+    "x": 20,
+    "y": 3096,
+    "w": 350,
+    "h": 154
+   },
+   "day1": {
+    "x": 20,
+    "y": 3290,
+    "w": 350,
+    "h": 880
+   },
+   "day2": {
+    "x": 20,
+    "y": 4218,
+    "w": 350,
+    "h": 1107
+   },
+   "row1": null,
+   "rowLast": {
+    "x": 20,
+    "y": 9623,
+    "w": 350,
+    "h": 568
+   },
+   "fig1": {
+    "x": 20,
+    "y": 3290,
+    "w": 350,
+    "h": 233
+   },
+   "clamp1": null,
+   "more1": null,
+   "top1": null,
+   "rfy": {
+    "x": 20,
+    "y": 11394,
+    "w": 350,
+    "h": 620
+   },
+   "rowsAll": {
+    "x": 20,
+    "y": 3290,
+    "w": 350,
+    "h": 880
+   },
+   "inPrice": {
+    "x": 20,
+    "y": 12119,
+    "w": 350,
+    "h": 338
+   },
+   "notPrice": {
+    "x": 20,
+    "y": 12473,
+    "w": 350,
+    "h": 52
+   },
+   "gal1": null,
+   "mp1": {
+    "x": 20,
+    "y": 12751,
+    "w": 350,
+    "h": 942
+   },
+   "proLine": {
+    "x": 20,
+    "y": 14981,
+    "w": 350,
+    "h": 56
+   },
+   "dep": {
+    "x": 20,
+    "y": 13749,
+    "w": 350,
+    "h": 546
+   },
+   "pricing": {
+    "x": 20,
+    "y": 14351,
+    "w": 350,
+    "h": 420
+   },
+   "details": {
+    "x": 20,
+    "y": 12070,
+    "w": 350,
+    "h": 576
+   },
+   "detMore": {
+    "x": 41,
+    "y": 12414,
+    "w": 195,
+    "h": 21
+   },
+   "lines": {
+    "x": 20,
+    "y": 12541,
+    "w": 350,
+    "h": 105
+   },
+   "gallery": null,
+   "photos": {
+    "x": 20,
+    "y": 12702,
+    "w": 350,
+    "h": 991
+   },
+   "protection": {
+    "x": 20,
+    "y": 14827,
+    "w": 350,
+    "h": 298
+   }
+  }
+ },
+ "photos": {
+  "href": "https://swat-website-storefront.vercel.app/tours/death-valley-joshua-tree-tour/",
+  "H": 18810,
+  "vh": 844,
+  "footer": 1634,
+  "secs": [
+   {
+    "id": "reviews",
+    "t": "What guests said",
+    "y": 1163,
+    "h": 643
+   },
+   {
+    "id": "seasons",
+    "t": "This trip by season",
+    "y": 2421,
+    "h": 536
+   },
+   {
+    "id": "itinerary",
+    "t": "Day by day",
+    "y": 3013,
+    "h": 7178
+   },
+   {
+    "id": "death-valley-joshua-tree-adventure",
+    "t": "Death Valley & Joshua Tree Adventure",
+    "y": 10247,
+    "h": 1091
+   },
+   {
+    "id": "right-for-you",
+    "t": "Is this trip right for you?",
+    "y": 11394,
+    "h": 620
+   },
+   {
+    "id": "details",
+    "t": "Tour details",
+    "y": 12070,
+    "h": 576
+   },
+   {
+    "id": "more-photos",
+    "t": "More from California",
+    "y": 12702,
+    "h": 237
+   },
+   {
+    "id": "departures",
+    "t": "Departures",
+    "y": 12995,
+    "h": 546
+   },
+   {
+    "id": "pricing",
+    "t": "Pricing",
+    "y": 13597,
+    "h": 420
+   },
+   {
+    "id": "protection",
+    "t": "SWAT Trip Protection Plan",
+    "y": 14073,
+    "h": 298
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 14703,
+    "h": 572
+   },
+   {
+    "id": "",
+    "t": "You might also consider",
+    "y": 15339,
+    "h": 985
+   },
+   {
+    "id": "",
+    "t": "Where this trip goes",
+    "y": 16713,
+    "h": 269
+   }
+  ],
+  "itY": 3013,
+  "days": 7,
+  "boxes": {
+   "glance": {
+    "x": 20,
+    "y": 3096,
+    "w": 350,
+    "h": 154
+   },
+   "day1": {
+    "x": 20,
+    "y": 3290,
+    "w": 350,
+    "h": 880
+   },
+   "day2": {
+    "x": 20,
+    "y": 4218,
+    "w": 350,
+    "h": 1107
+   },
+   "row1": null,
+   "rowLast": {
+    "x": 20,
+    "y": 9623,
+    "w": 350,
+    "h": 568
+   },
+   "fig1": {
+    "x": 20,
+    "y": 3290,
+    "w": 350,
+    "h": 233
+   },
+   "clamp1": null,
+   "more1": null,
+   "top1": null,
+   "rfy": {
+    "x": 20,
+    "y": 11394,
+    "w": 350,
+    "h": 620
+   },
+   "rowsAll": {
+    "x": 20,
+    "y": 3290,
+    "w": 350,
+    "h": 880
+   },
+   "inPrice": {
+    "x": 20,
+    "y": 12119,
+    "w": 350,
+    "h": 338
+   },
+   "notPrice": {
+    "x": 20,
+    "y": 12473,
+    "w": 350,
+    "h": 52
+   },
+   "gal1": null,
+   "mp1": {
+    "x": 20,
+    "y": 12751,
+    "w": 370,
+    "h": 188
+   },
+   "proLine": {
+    "x": 20,
+    "y": 14227,
+    "w": 350,
+    "h": 56
+   },
+   "dep": {
+    "x": 20,
+    "y": 12995,
+    "w": 350,
+    "h": 546
+   },
+   "pricing": {
+    "x": 20,
+    "y": 13597,
+    "w": 350,
+    "h": 420
+   },
+   "details": {
+    "x": 20,
+    "y": 12070,
+    "w": 350,
+    "h": 576
+   },
+   "detMore": {
+    "x": 41,
+    "y": 12414,
+    "w": 195,
+    "h": 21
+   },
+   "lines": {
+    "x": 20,
+    "y": 12541,
+    "w": 350,
+    "h": 105
+   },
+   "gallery": null,
+   "photos": {
+    "x": 20,
+    "y": 12702,
+    "w": 350,
+    "h": 237
+   },
+   "protection": {
+    "x": 20,
+    "y": 14073,
+    "w": 350,
+    "h": 298
+   }
+  }
+ }
+}

@@ -1,0 +1,1108 @@
+{
+ "slug": "northern-lights-alaska",
+ "now": {
+  "href": "https://swat-website-storefront.vercel.app/tours/northern-lights-alaska/",
+  "H": 22811,
+  "vh": 844,
+  "footer": 1634,
+  "secs": [
+   {
+    "id": "reviews",
+    "t": "What guests said",
+    "y": 1163,
+    "h": 730
+   },
+   {
+    "id": "overview",
+    "t": "Overview",
+    "y": 2507,
+    "h": 387
+   },
+   {
+    "id": "seasons",
+    "t": "This trip by season",
+    "y": 2950,
+    "h": 783
+   },
+   {
+    "id": "itinerary",
+    "t": "Day by day",
+    "y": 3789,
+    "h": 6379
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 10192,
+    "h": 674
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 10889,
+    "h": 156
+   },
+   {
+    "id": "right-for-you",
+    "t": "Is this trip right for you?",
+    "y": 11101,
+    "h": 620
+   },
+   {
+    "id": "details",
+    "t": "Tour details",
+    "y": 11777,
+    "h": 1606
+   },
+   {
+    "id": "gallery",
+    "t": "More photos and videos",
+    "y": 13439,
+    "h": 848
+   },
+   {
+    "id": "more-photos",
+    "t": "More from Denali National Park and Alask",
+    "y": 14343,
+    "h": 1296
+   },
+   {
+    "id": "departures",
+    "t": "Departures",
+    "y": 15695,
+    "h": 542
+   },
+   {
+    "id": "pricing",
+    "t": "Pricing",
+    "y": 16293,
+    "h": 1166
+   },
+   {
+    "id": "protection",
+    "t": "SWAT Trip Protection Plan",
+    "y": 17515,
+    "h": 921
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 18769,
+    "h": 572
+   },
+   {
+    "id": "",
+    "t": "You might also consider",
+    "y": 19405,
+    "h": 920
+   },
+   {
+    "id": "",
+    "t": "Where this trip goes",
+    "y": 20715,
+    "h": 269
+   }
+  ],
+  "itY": 3789,
+  "days": 6,
+  "boxes": {
+   "glance": {
+    "x": 20,
+    "y": 3872,
+    "w": 350,
+    "h": 132
+   },
+   "day1": {
+    "x": 20,
+    "y": 4044,
+    "w": 350,
+    "h": 974
+   },
+   "day2": {
+    "x": 20,
+    "y": 5066,
+    "w": 350,
+    "h": 1341
+   },
+   "row1": null,
+   "rowLast": {
+    "x": 20,
+    "y": 9678,
+    "w": 350,
+    "h": 490
+   },
+   "fig1": {
+    "x": 20,
+    "y": 4044,
+    "w": 350,
+    "h": 259
+   },
+   "clamp1": null,
+   "more1": null,
+   "top1": null,
+   "rfy": {
+    "x": 20,
+    "y": 11101,
+    "w": 350,
+    "h": 620
+   },
+   "rowsAll": {
+    "x": 20,
+    "y": 4044,
+    "w": 350,
+    "h": 974
+   },
+   "inPrice": {
+    "x": 20,
+    "y": 11826,
+    "w": 350,
+    "h": 618
+   },
+   "notPrice": null,
+   "gal1": {
+    "x": 163,
+    "y": 13554,
+    "w": 64,
+    "h": 64
+   },
+   "mp1": {
+    "x": 20,
+    "y": 14425,
+    "w": 350,
+    "h": 1214
+   },
+   "proLine": null,
+   "dep": {
+    "x": 20,
+    "y": 15695,
+    "w": 350,
+    "h": 542
+   },
+   "pricing": {
+    "x": 20,
+    "y": 16293,
+    "w": 350,
+    "h": 1166
+   },
+   "details": {
+    "x": 20,
+    "y": 11777,
+    "w": 350,
+    "h": 1606
+   },
+   "detMore": null,
+   "lines": null,
+   "gallery": {
+    "x": 20,
+    "y": 13439,
+    "w": 350,
+    "h": 848
+   },
+   "photos": {
+    "x": 20,
+    "y": 14343,
+    "w": 350,
+    "h": 1296
+   },
+   "protection": {
+    "x": 20,
+    "y": 17515,
+    "w": 350,
+    "h": 921
+   }
+  }
+ },
+ "fold": {
+  "href": "https://swat-website-storefront.vercel.app/tours/northern-lights-alaska/",
+  "H": 17025,
+  "vh": 844,
+  "footer": 1634,
+  "secs": [
+   {
+    "id": "reviews",
+    "t": "What guests said",
+    "y": 1163,
+    "h": 730
+   },
+   {
+    "id": "overview",
+    "t": "Overview",
+    "y": 2507,
+    "h": 387
+   },
+   {
+    "id": "seasons",
+    "t": "This trip by season",
+    "y": 2950,
+    "h": 783
+   },
+   {
+    "id": "itinerary",
+    "t": "Day by day",
+    "y": 3789,
+    "h": 593
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 4406,
+    "h": 674
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 5103,
+    "h": 156
+   },
+   {
+    "id": "right-for-you",
+    "t": "Is this trip right for you?",
+    "y": 5315,
+    "h": 620
+   },
+   {
+    "id": "details",
+    "t": "Tour details",
+    "y": 5991,
+    "h": 1606
+   },
+   {
+    "id": "gallery",
+    "t": "More photos and videos",
+    "y": 7653,
+    "h": 848
+   },
+   {
+    "id": "more-photos",
+    "t": "More from Denali National Park and Alask",
+    "y": 8557,
+    "h": 1296
+   },
+   {
+    "id": "departures",
+    "t": "Departures",
+    "y": 9910,
+    "h": 542
+   },
+   {
+    "id": "pricing",
+    "t": "Pricing",
+    "y": 10507,
+    "h": 1166
+   },
+   {
+    "id": "protection",
+    "t": "SWAT Trip Protection Plan",
+    "y": 11729,
+    "h": 921
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 12983,
+    "h": 572
+   },
+   {
+    "id": "",
+    "t": "You might also consider",
+    "y": 13619,
+    "h": 920
+   },
+   {
+    "id": "",
+    "t": "Where this trip goes",
+    "y": 14929,
+    "h": 269
+   }
+  ],
+  "itY": 3789,
+  "days": 6,
+  "boxes": {
+   "glance": null,
+   "day1": {
+    "x": 20,
+    "y": 3862,
+    "w": 350,
+    "h": 82
+   },
+   "day2": {
+    "x": 20,
+    "y": 3944,
+    "w": 350,
+    "h": 89
+   },
+   "row1": {
+    "x": 20,
+    "y": 3863,
+    "w": 350,
+    "h": 81
+   },
+   "rowLast": {
+    "x": 20,
+    "y": 4299,
+    "w": 350,
+    "h": 83
+   },
+   "fig1": null,
+   "clamp1": null,
+   "more1": null,
+   "top1": null,
+   "rfy": {
+    "x": 20,
+    "y": 5315,
+    "w": 350,
+    "h": 620
+   },
+   "rowsAll": {
+    "x": 20,
+    "y": 3862,
+    "w": 350,
+    "h": 82
+   },
+   "inPrice": {
+    "x": 20,
+    "y": 6040,
+    "w": 350,
+    "h": 618
+   },
+   "notPrice": null,
+   "gal1": {
+    "x": 163,
+    "y": 7768,
+    "w": 64,
+    "h": 64
+   },
+   "mp1": {
+    "x": 20,
+    "y": 8639,
+    "w": 350,
+    "h": 1214
+   },
+   "proLine": null,
+   "dep": {
+    "x": 20,
+    "y": 9910,
+    "w": 350,
+    "h": 542
+   },
+   "pricing": {
+    "x": 20,
+    "y": 10507,
+    "w": 350,
+    "h": 1166
+   },
+   "details": {
+    "x": 20,
+    "y": 5991,
+    "w": 350,
+    "h": 1606
+   },
+   "detMore": null,
+   "lines": null,
+   "gallery": {
+    "x": 20,
+    "y": 7653,
+    "w": 350,
+    "h": 848
+   },
+   "photos": {
+    "x": 20,
+    "y": 8557,
+    "w": 350,
+    "h": 1296
+   },
+   "protection": {
+    "x": 20,
+    "y": 11729,
+    "w": 350,
+    "h": 921
+   }
+  }
+ },
+ "short": {
+  "href": "https://swat-website-storefront.vercel.app/tours/northern-lights-alaska/",
+  "H": 18626,
+  "vh": 844,
+  "footer": 1634,
+  "secs": [
+   {
+    "id": "reviews",
+    "t": "What guests said",
+    "y": 1163,
+    "h": 730
+   },
+   {
+    "id": "overview",
+    "t": "Overview",
+    "y": 2507,
+    "h": 387
+   },
+   {
+    "id": "seasons",
+    "t": "This trip by season",
+    "y": 2950,
+    "h": 783
+   },
+   {
+    "id": "itinerary",
+    "t": "Day by day",
+    "y": 3789,
+    "h": 2193
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 6006,
+    "h": 674
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 6704,
+    "h": 156
+   },
+   {
+    "id": "right-for-you",
+    "t": "Is this trip right for you?",
+    "y": 6915,
+    "h": 620
+   },
+   {
+    "id": "details",
+    "t": "Tour details",
+    "y": 7591,
+    "h": 1606
+   },
+   {
+    "id": "gallery",
+    "t": "More photos and videos",
+    "y": 9253,
+    "h": 848
+   },
+   {
+    "id": "more-photos",
+    "t": "More from Denali National Park and Alask",
+    "y": 10158,
+    "h": 1296
+   },
+   {
+    "id": "departures",
+    "t": "Departures",
+    "y": 11510,
+    "h": 542
+   },
+   {
+    "id": "pricing",
+    "t": "Pricing",
+    "y": 12108,
+    "h": 1166
+   },
+   {
+    "id": "protection",
+    "t": "SWAT Trip Protection Plan",
+    "y": 13330,
+    "h": 921
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 14583,
+    "h": 572
+   },
+   {
+    "id": "",
+    "t": "You might also consider",
+    "y": 15219,
+    "h": 920
+   },
+   {
+    "id": "",
+    "t": "Where this trip goes",
+    "y": 16529,
+    "h": 269
+   }
+  ],
+  "itY": 3789,
+  "days": 6,
+  "boxes": {
+   "glance": {
+    "x": 20,
+    "y": 3872,
+    "w": 350,
+    "h": 132
+   },
+   "day1": {
+    "x": 20,
+    "y": 4044,
+    "w": 350,
+    "h": 270
+   },
+   "day2": {
+    "x": 20,
+    "y": 4362,
+    "w": 350,
+    "h": 280
+   },
+   "row1": null,
+   "rowLast": {
+    "x": 20,
+    "y": 5712,
+    "w": 350,
+    "h": 270
+   },
+   "fig1": null,
+   "clamp1": {
+    "x": 20,
+    "y": 4140,
+    "w": 350,
+    "h": 104
+   },
+   "more1": {
+    "x": 20,
+    "y": 4250,
+    "w": 123,
+    "h": 21
+   },
+   "top1": {
+    "x": 20,
+    "y": 4044,
+    "w": 350,
+    "h": 84
+   },
+   "rfy": {
+    "x": 20,
+    "y": 6915,
+    "w": 350,
+    "h": 620
+   },
+   "rowsAll": {
+    "x": 20,
+    "y": 4044,
+    "w": 350,
+    "h": 270
+   },
+   "inPrice": {
+    "x": 20,
+    "y": 7640,
+    "w": 350,
+    "h": 618
+   },
+   "notPrice": null,
+   "gal1": {
+    "x": 163,
+    "y": 9369,
+    "w": 64,
+    "h": 64
+   },
+   "mp1": {
+    "x": 20,
+    "y": 10240,
+    "w": 350,
+    "h": 1214
+   },
+   "proLine": null,
+   "dep": {
+    "x": 20,
+    "y": 11510,
+    "w": 350,
+    "h": 542
+   },
+   "pricing": {
+    "x": 20,
+    "y": 12108,
+    "w": 350,
+    "h": 1166
+   },
+   "details": {
+    "x": 20,
+    "y": 7591,
+    "w": 350,
+    "h": 1606
+   },
+   "detMore": null,
+   "lines": null,
+   "gallery": {
+    "x": 20,
+    "y": 9253,
+    "w": 350,
+    "h": 848
+   },
+   "photos": {
+    "x": 20,
+    "y": 10158,
+    "w": 350,
+    "h": 1296
+   },
+   "protection": {
+    "x": 20,
+    "y": 13330,
+    "w": 350,
+    "h": 921
+   }
+  }
+ },
+ "lists": {
+  "href": "https://swat-website-storefront.vercel.app/tours/northern-lights-alaska/",
+  "H": 21106,
+  "vh": 844,
+  "footer": 1634,
+  "secs": [
+   {
+    "id": "reviews",
+    "t": "What guests said",
+    "y": 1163,
+    "h": 730
+   },
+   {
+    "id": "overview",
+    "t": "Overview",
+    "y": 2507,
+    "h": 387
+   },
+   {
+    "id": "seasons",
+    "t": "This trip by season",
+    "y": 2950,
+    "h": 783
+   },
+   {
+    "id": "itinerary",
+    "t": "Day by day",
+    "y": 3789,
+    "h": 6379
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 10192,
+    "h": 674
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 10889,
+    "h": 156
+   },
+   {
+    "id": "right-for-you",
+    "t": "Is this trip right for you?",
+    "y": 11101,
+    "h": 620
+   },
+   {
+    "id": "details",
+    "t": "Tour details",
+    "y": 11777,
+    "h": 524
+   },
+   {
+    "id": "gallery",
+    "t": "More photos and videos",
+    "y": 12357,
+    "h": 848
+   },
+   {
+    "id": "more-photos",
+    "t": "More from Denali National Park and Alask",
+    "y": 13261,
+    "h": 1296
+   },
+   {
+    "id": "departures",
+    "t": "Departures",
+    "y": 14613,
+    "h": 542
+   },
+   {
+    "id": "pricing",
+    "t": "Pricing",
+    "y": 15211,
+    "h": 1166
+   },
+   {
+    "id": "protection",
+    "t": "SWAT Trip Protection Plan",
+    "y": 16433,
+    "h": 298
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 17064,
+    "h": 572
+   },
+   {
+    "id": "",
+    "t": "You might also consider",
+    "y": 17700,
+    "h": 920
+   },
+   {
+    "id": "",
+    "t": "Where this trip goes",
+    "y": 19009,
+    "h": 269
+   }
+  ],
+  "itY": 3789,
+  "days": 6,
+  "boxes": {
+   "glance": {
+    "x": 20,
+    "y": 3872,
+    "w": 350,
+    "h": 132
+   },
+   "day1": {
+    "x": 20,
+    "y": 4044,
+    "w": 350,
+    "h": 974
+   },
+   "day2": {
+    "x": 20,
+    "y": 5066,
+    "w": 350,
+    "h": 1341
+   },
+   "row1": null,
+   "rowLast": {
+    "x": 20,
+    "y": 9678,
+    "w": 350,
+    "h": 490
+   },
+   "fig1": {
+    "x": 20,
+    "y": 4044,
+    "w": 350,
+    "h": 259
+   },
+   "clamp1": null,
+   "more1": null,
+   "top1": null,
+   "rfy": {
+    "x": 20,
+    "y": 11101,
+    "w": 350,
+    "h": 620
+   },
+   "rowsAll": {
+    "x": 20,
+    "y": 4044,
+    "w": 350,
+    "h": 974
+   },
+   "inPrice": {
+    "x": 20,
+    "y": 11826,
+    "w": 350,
+    "h": 286
+   },
+   "notPrice": {
+    "x": 20,
+    "y": 12128,
+    "w": 350,
+    "h": 52
+   },
+   "gal1": {
+    "x": 163,
+    "y": 12472,
+    "w": 64,
+    "h": 64
+   },
+   "mp1": {
+    "x": 20,
+    "y": 13343,
+    "w": 350,
+    "h": 1214
+   },
+   "proLine": {
+    "x": 20,
+    "y": 16587,
+    "w": 350,
+    "h": 56
+   },
+   "dep": {
+    "x": 20,
+    "y": 14613,
+    "w": 350,
+    "h": 542
+   },
+   "pricing": {
+    "x": 20,
+    "y": 15211,
+    "w": 350,
+    "h": 1166
+   },
+   "details": {
+    "x": 20,
+    "y": 11777,
+    "w": 350,
+    "h": 524
+   },
+   "detMore": {
+    "x": 41,
+    "y": 12069,
+    "w": 202,
+    "h": 21
+   },
+   "lines": {
+    "x": 20,
+    "y": 12196,
+    "w": 350,
+    "h": 105
+   },
+   "gallery": {
+    "x": 20,
+    "y": 12357,
+    "w": 350,
+    "h": 848
+   },
+   "photos": {
+    "x": 20,
+    "y": 13261,
+    "w": 350,
+    "h": 1296
+   },
+   "protection": {
+    "x": 20,
+    "y": 16433,
+    "w": 350,
+    "h": 298
+   }
+  }
+ },
+ "photos": {
+  "href": "https://swat-website-storefront.vercel.app/tours/northern-lights-alaska/",
+  "H": 20079,
+  "vh": 844,
+  "footer": 1634,
+  "secs": [
+   {
+    "id": "reviews",
+    "t": "What guests said",
+    "y": 1163,
+    "h": 730
+   },
+   {
+    "id": "overview",
+    "t": "Overview",
+    "y": 2507,
+    "h": 387
+   },
+   {
+    "id": "seasons",
+    "t": "This trip by season",
+    "y": 2950,
+    "h": 783
+   },
+   {
+    "id": "itinerary",
+    "t": "Day by day",
+    "y": 3789,
+    "h": 6379
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 10192,
+    "h": 674
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 10889,
+    "h": 156
+   },
+   {
+    "id": "right-for-you",
+    "t": "Is this trip right for you?",
+    "y": 11101,
+    "h": 620
+   },
+   {
+    "id": "details",
+    "t": "Tour details",
+    "y": 11777,
+    "h": 524
+   },
+   {
+    "id": "gallery",
+    "t": "More photos and videos",
+    "y": 12357,
+    "h": 848
+   },
+   {
+    "id": "more-photos",
+    "t": "More from Denali National Park and Alask",
+    "y": 13261,
+    "h": 270
+   },
+   {
+    "id": "departures",
+    "t": "Departures",
+    "y": 13587,
+    "h": 542
+   },
+   {
+    "id": "pricing",
+    "t": "Pricing",
+    "y": 14184,
+    "h": 1166
+   },
+   {
+    "id": "protection",
+    "t": "SWAT Trip Protection Plan",
+    "y": 15406,
+    "h": 298
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 16037,
+    "h": 572
+   },
+   {
+    "id": "",
+    "t": "You might also consider",
+    "y": 16673,
+    "h": 920
+   },
+   {
+    "id": "",
+    "t": "Where this trip goes",
+    "y": 17983,
+    "h": 269
+   }
+  ],
+  "itY": 3789,
+  "days": 6,
+  "boxes": {
+   "glance": {
+    "x": 20,
+    "y": 3872,
+    "w": 350,
+    "h": 132
+   },
+   "day1": {
+    "x": 20,
+    "y": 4044,
+    "w": 350,
+    "h": 974
+   },
+   "day2": {
+    "x": 20,
+    "y": 5066,
+    "w": 350,
+    "h": 1341
+   },
+   "row1": null,
+   "rowLast": {
+    "x": 20,
+    "y": 9678,
+    "w": 350,
+    "h": 490
+   },
+   "fig1": {
+    "x": 20,
+    "y": 4044,
+    "w": 350,
+    "h": 259
+   },
+   "clamp1": null,
+   "more1": null,
+   "top1": null,
+   "rfy": {
+    "x": 20,
+    "y": 11101,
+    "w": 350,
+    "h": 620
+   },
+   "rowsAll": {
+    "x": 20,
+    "y": 4044,
+    "w": 350,
+    "h": 974
+   },
+   "inPrice": {
+    "x": 20,
+    "y": 11826,
+    "w": 350,
+    "h": 286
+   },
+   "notPrice": {
+    "x": 20,
+    "y": 12128,
+    "w": 350,
+    "h": 52
+   },
+   "gal1": {
+    "x": 163,
+    "y": 12472,
+    "w": 64,
+    "h": 64
+   },
+   "mp1": {
+    "x": 20,
+    "y": 13343,
+    "w": 370,
+    "h": 188
+   },
+   "proLine": {
+    "x": 20,
+    "y": 15561,
+    "w": 350,
+    "h": 56
+   },
+   "dep": {
+    "x": 20,
+    "y": 13587,
+    "w": 350,
+    "h": 542
+   },
+   "pricing": {
+    "x": 20,
+    "y": 14184,
+    "w": 350,
+    "h": 1166
+   },
+   "details": {
+    "x": 20,
+    "y": 11777,
+    "w": 350,
+    "h": 524
+   },
+   "detMore": {
+    "x": 41,
+    "y": 12069,
+    "w": 202,
+    "h": 21
+   },
+   "lines": {
+    "x": 20,
+    "y": 12196,
+    "w": 350,
+    "h": 105
+   },
+   "gallery": {
+    "x": 20,
+    "y": 12357,
+    "w": 350,
+    "h": 848
+   },
+   "photos": {
+    "x": 20,
+    "y": 13261,
+    "w": 350,
+    "h": 270
+   },
+   "protection": {
+    "x": 20,
+    "y": 15406,
+    "w": 350,
+    "h": 298
+   }
+  }
+ }
+}

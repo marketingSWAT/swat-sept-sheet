@@ -37,6 +37,7 @@ import decisions_j as J9          # noqa: E402
 import decisions_k as K10         # noqa: E402
 import decisions_about as AB      # noqa: E402
 import decisions_l as L12         # noqa: E402
+import decisions_m as M13         # noqa: E402
 
 OUT = os.path.join(HERE, '..', 'site', 'index.html')
 
@@ -53,6 +54,11 @@ RAIL = [
     (37, 'Is this trip right for you?'),
     (38, 'Start where you are'),
     (39, 'The film slot'),
+]
+
+RAIL13 = [
+    (80, 'The days, on a phone'),
+    (81, 'Lists and photos below them'),
 ]
 
 RAIL12 = [
@@ -123,6 +129,8 @@ def rail_html():
             f'<b>{n}</b>{t}</a>' for n, t in group)
     return (
         '<nav class="rail">'
+        '<div class="rt">Tour pages on a phone &mdash; open</div>'
+        f'{rows(RAIL13)}'
         '<div class="rt">Jason&rsquo;s three questions &mdash; open</div>'
         '<a href="#r11s">His fifteen questions, scored</a>'
         f'{rows(RAIL12)}'
@@ -816,13 +824,22 @@ def build():
     css += open(os.path.join(HERE, 'r10.css')).read()
     css += open(os.path.join(HERE, 'about.css')).read()
     css += open(os.path.join(HERE, 'r11.css')).read()
+    css += open(os.path.join(HERE, 'r13.css')).read()
     cx = os.path.join(HERE, '..', 'r8', 'codex', 'css')
     for f in sorted(os.listdir(cx)):
         if f.endswith('.css'):
             css += open(os.path.join(cx, f)).read()
     decisions = E.ALL + D.ALL + C.ALL + A.ALL + B.ALL
     body = (MAST +
-            sec('New', 'Jason&rsquo;s three questions &mdash; 75 to 79',
+            sec('New', 'Tour pages on a phone &mdash; 80 and 81',
+                'Every tour page, measured on a phone (390 wide, an ordinary iPhone). These are '
+                '<b>not drawings</b>: each panel is the live Arizona Adventure page with the '
+                'option applied to it in the browser, then photographed. Every panel is the '
+                'same <b>three phone screens</b> tall, starting at the same heading, and the '
+                'dashed lines mark each screen, so how far down the page each one gets is the '
+                'difference. Phones only: on a laptop nothing changes. Nothing here is built.') +
+            ''.join(M13.ALL) +
+            sec('Open', 'Jason&rsquo;s three questions &mdash; 75 to 79',
                 'Jason&rsquo;s email of 29 September asks fifteen questions under '
                 '<b>Clarity, Connection and Conversion</b>. First, each one asked of the live '
                 'site. Then the five answers that are a layout, drawn at <b>1440</b> wide (a '
@@ -889,6 +906,14 @@ def build():
             ''.join(decisions) + R1 + R2 + R3 + R4 + R5)
 
     foot = (
+        '<div class="foot">Round thirteen &mdash; decisions 80 and 81 &mdash; was built 29 '
+        'September 2026 from Crow&rsquo;s note asking to see the phone tour-page proposal. The '
+        'panels are photographs of the DEPLOYED PRODUCTION page <code>swat-website-storefront.'
+        'vercel.app/tours/arizona-adventure/</code> at <b>390&times;844</b>, with each option '
+        'applied to the real page in the browser (<code>r13/harvest/proto.js</code>), shot and '
+        'measured in the same state (<code>shoot.mjs</code>). The page-length table is every '
+        'live tour page measured the same way the same evening. Rings are measured boxes of '
+        'the real elements. Content rotates, so re-derive before the next round.</div>' +
         '<div class="foot">Round twelve &mdash; decisions 75 to 79 &mdash; was built 29 '
         'September 2026 from Jason Murray&rsquo;s &ldquo;Clarity &gt; Connection &gt; '
         'Conversion&rdquo; email in the Website Final round review thread. Every current-build '

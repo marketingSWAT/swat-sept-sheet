@@ -1,0 +1,843 @@
+{
+ "slug": "gems-of-southeast-europe-christmas-markets",
+ "now": {
+  "href": "https://swat-website-storefront.vercel.app/tours/gems-of-southeast-europe-christmas-markets/",
+  "H": 19599,
+  "vh": 844,
+  "footer": 1634,
+  "secs": [
+   {
+    "id": "itinerary",
+    "t": "Day by day",
+    "y": 1544,
+    "h": 8643
+   },
+   {
+    "id": "gems-of-southeast-europe-christmas-markets-2026",
+    "t": "Gems of Southeast Europe Christmas Marke",
+    "y": 10243,
+    "h": 472
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 10739,
+    "h": 306
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 11068,
+    "h": 518
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 11610,
+    "h": 616
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 12249,
+    "h": 336
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 12609,
+    "h": 358
+   },
+   {
+    "id": "special-offer",
+    "t": "Special Offer",
+    "y": 13022,
+    "h": 399
+   },
+   {
+    "id": "deposits-cancellation-policies-deposit",
+    "t": "Deposits & Cancellation Policies Deposit",
+    "y": 13477,
+    "h": 134
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 13635,
+    "h": 64
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 13723,
+    "h": 346
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 14092,
+    "h": 102
+   },
+   {
+    "id": "right-for-you",
+    "t": "Is this trip right for you?",
+    "y": 14250,
+    "h": 620
+   },
+   {
+    "id": "reserve",
+    "t": "Ask about a date",
+    "y": 14926,
+    "h": 734
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 15992,
+    "h": 456
+   },
+   {
+    "id": "",
+    "t": "You might also consider",
+    "y": 16511,
+    "h": 934
+   }
+  ],
+  "itY": 1544,
+  "days": 12,
+  "boxes": {
+   "glance": {
+    "x": 20,
+    "y": 1627,
+    "w": 350,
+    "h": 132
+   },
+   "day1": {
+    "x": 20,
+    "y": 1798,
+    "w": 350,
+    "h": 532
+   },
+   "day2": {
+    "x": 20,
+    "y": 2378,
+    "w": 350,
+    "h": 802
+   },
+   "row1": null,
+   "rowLast": {
+    "x": 20,
+    "y": 9960,
+    "w": 350,
+    "h": 227
+   },
+   "fig1": {
+    "x": 20,
+    "y": 1798,
+    "w": 350,
+    "h": 233
+   },
+   "clamp1": null,
+   "more1": null,
+   "top1": null,
+   "rfy": {
+    "x": 20,
+    "y": 14250,
+    "w": 350,
+    "h": 620
+   },
+   "rowsAll": {
+    "x": 20,
+    "y": 1798,
+    "w": 350,
+    "h": 532
+   },
+   "inPrice": null,
+   "notPrice": null,
+   "gal1": null,
+   "mp1": null,
+   "proLine": null,
+   "dep": null,
+   "pricing": null,
+   "details": null,
+   "detMore": null,
+   "lines": null,
+   "gallery": null,
+   "photos": null,
+   "protection": null
+  }
+ },
+ "fold": {
+  "href": "https://swat-website-storefront.vercel.app/tours/gems-of-southeast-europe-christmas-markets/",
+  "H": 12032,
+  "vh": 844,
+  "footer": 1634,
+  "secs": [
+   {
+    "id": "itinerary",
+    "t": "Day by day",
+    "y": 1544,
+    "h": 1077
+   },
+   {
+    "id": "gems-of-southeast-europe-christmas-markets-2026",
+    "t": "Gems of Southeast Europe Christmas Marke",
+    "y": 2676,
+    "h": 472
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 3172,
+    "h": 306
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 3502,
+    "h": 518
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 4043,
+    "h": 616
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 4683,
+    "h": 336
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 5042,
+    "h": 358
+   },
+   {
+    "id": "special-offer",
+    "t": "Special Offer",
+    "y": 5456,
+    "h": 399
+   },
+   {
+    "id": "deposits-cancellation-policies-deposit",
+    "t": "Deposits & Cancellation Policies Deposit",
+    "y": 5911,
+    "h": 134
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 6069,
+    "h": 64
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 6156,
+    "h": 346
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 6526,
+    "h": 102
+   },
+   {
+    "id": "right-for-you",
+    "t": "Is this trip right for you?",
+    "y": 6683,
+    "h": 620
+   },
+   {
+    "id": "reserve",
+    "t": "Ask about a date",
+    "y": 7359,
+    "h": 734
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 8425,
+    "h": 456
+   },
+   {
+    "id": "",
+    "t": "You might also consider",
+    "y": 8945,
+    "h": 934
+   }
+  ],
+  "itY": 1544,
+  "days": 12,
+  "boxes": {
+   "glance": null,
+   "day1": {
+    "x": 20,
+    "y": 1617,
+    "w": 350,
+    "h": 87
+   },
+   "day2": {
+    "x": 20,
+    "y": 1703,
+    "w": 350,
+    "h": 82
+   },
+   "row1": {
+    "x": 20,
+    "y": 1618,
+    "w": 350,
+    "h": 86
+   },
+   "rowLast": {
+    "x": 20,
+    "y": 2533,
+    "w": 350,
+    "h": 88
+   },
+   "fig1": null,
+   "clamp1": null,
+   "more1": null,
+   "top1": null,
+   "rfy": {
+    "x": 20,
+    "y": 6683,
+    "w": 350,
+    "h": 620
+   },
+   "rowsAll": {
+    "x": 20,
+    "y": 1617,
+    "w": 350,
+    "h": 87
+   },
+   "inPrice": null,
+   "notPrice": null,
+   "gal1": null,
+   "mp1": null,
+   "proLine": null,
+   "dep": null,
+   "pricing": null,
+   "details": null,
+   "detMore": null,
+   "lines": null,
+   "gallery": null,
+   "photos": null,
+   "protection": null
+  }
+ },
+ "short": {
+  "href": "https://swat-website-storefront.vercel.app/tours/gems-of-southeast-europe-christmas-markets/",
+  "H": 14857,
+  "vh": 844,
+  "footer": 1634,
+  "secs": [
+   {
+    "id": "itinerary",
+    "t": "Day by day",
+    "y": 1544,
+    "h": 3902
+   },
+   {
+    "id": "gems-of-southeast-europe-christmas-markets-2026",
+    "t": "Gems of Southeast Europe Christmas Marke",
+    "y": 5502,
+    "h": 472
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 5998,
+    "h": 306
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 6327,
+    "h": 518
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 6869,
+    "h": 616
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 7508,
+    "h": 336
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 7868,
+    "h": 358
+   },
+   {
+    "id": "special-offer",
+    "t": "Special Offer",
+    "y": 8281,
+    "h": 399
+   },
+   {
+    "id": "deposits-cancellation-policies-deposit",
+    "t": "Deposits & Cancellation Policies Deposit",
+    "y": 8736,
+    "h": 134
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 8894,
+    "h": 64
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 8982,
+    "h": 346
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 9351,
+    "h": 102
+   },
+   {
+    "id": "right-for-you",
+    "t": "Is this trip right for you?",
+    "y": 9509,
+    "h": 620
+   },
+   {
+    "id": "reserve",
+    "t": "Ask about a date",
+    "y": 10185,
+    "h": 734
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 11251,
+    "h": 456
+   },
+   {
+    "id": "",
+    "t": "You might also consider",
+    "y": 11770,
+    "h": 934
+   }
+  ],
+  "itY": 1544,
+  "days": 12,
+  "boxes": {
+   "glance": {
+    "x": 20,
+    "y": 1627,
+    "w": 350,
+    "h": 132
+   },
+   "day1": {
+    "x": 20,
+    "y": 1798,
+    "w": 350,
+    "h": 228
+   },
+   "day2": {
+    "x": 20,
+    "y": 2074,
+    "w": 350,
+    "h": 270
+   },
+   "row1": null,
+   "rowLast": {
+    "x": 20,
+    "y": 5215,
+    "w": 350,
+    "h": 231
+   },
+   "fig1": null,
+   "clamp1": {
+    "x": 20,
+    "y": 1894,
+    "w": 350,
+    "h": 104
+   },
+   "more1": {
+    "x": 20,
+    "y": 2004,
+    "w": 123,
+    "h": 21
+   },
+   "top1": {
+    "x": 20,
+    "y": 1798,
+    "w": 350,
+    "h": 84
+   },
+   "rfy": {
+    "x": 20,
+    "y": 9509,
+    "w": 350,
+    "h": 620
+   },
+   "rowsAll": {
+    "x": 20,
+    "y": 1798,
+    "w": 350,
+    "h": 228
+   },
+   "inPrice": null,
+   "notPrice": null,
+   "gal1": null,
+   "mp1": null,
+   "proLine": null,
+   "dep": null,
+   "pricing": null,
+   "details": null,
+   "detMore": null,
+   "lines": null,
+   "gallery": null,
+   "photos": null,
+   "protection": null
+  }
+ },
+ "lists": {
+  "href": "https://swat-website-storefront.vercel.app/tours/gems-of-southeast-europe-christmas-markets/",
+  "H": 19599,
+  "vh": 844,
+  "footer": 1634,
+  "secs": [
+   {
+    "id": "itinerary",
+    "t": "Day by day",
+    "y": 1544,
+    "h": 8643
+   },
+   {
+    "id": "gems-of-southeast-europe-christmas-markets-2026",
+    "t": "Gems of Southeast Europe Christmas Marke",
+    "y": 10243,
+    "h": 472
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 10739,
+    "h": 306
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 11068,
+    "h": 518
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 11610,
+    "h": 616
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 12249,
+    "h": 336
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 12609,
+    "h": 358
+   },
+   {
+    "id": "special-offer",
+    "t": "Special Offer",
+    "y": 13022,
+    "h": 399
+   },
+   {
+    "id": "deposits-cancellation-policies-deposit",
+    "t": "Deposits & Cancellation Policies Deposit",
+    "y": 13477,
+    "h": 134
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 13635,
+    "h": 64
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 13723,
+    "h": 346
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 14092,
+    "h": 102
+   },
+   {
+    "id": "right-for-you",
+    "t": "Is this trip right for you?",
+    "y": 14250,
+    "h": 620
+   },
+   {
+    "id": "reserve",
+    "t": "Ask about a date",
+    "y": 14926,
+    "h": 734
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 15992,
+    "h": 456
+   },
+   {
+    "id": "",
+    "t": "You might also consider",
+    "y": 16511,
+    "h": 934
+   }
+  ],
+  "itY": 1544,
+  "days": 12,
+  "boxes": {
+   "glance": {
+    "x": 20,
+    "y": 1627,
+    "w": 350,
+    "h": 132
+   },
+   "day1": {
+    "x": 20,
+    "y": 1798,
+    "w": 350,
+    "h": 532
+   },
+   "day2": {
+    "x": 20,
+    "y": 2378,
+    "w": 350,
+    "h": 802
+   },
+   "row1": null,
+   "rowLast": {
+    "x": 20,
+    "y": 9960,
+    "w": 350,
+    "h": 227
+   },
+   "fig1": {
+    "x": 20,
+    "y": 1798,
+    "w": 350,
+    "h": 233
+   },
+   "clamp1": null,
+   "more1": null,
+   "top1": null,
+   "rfy": {
+    "x": 20,
+    "y": 14250,
+    "w": 350,
+    "h": 620
+   },
+   "rowsAll": {
+    "x": 20,
+    "y": 1798,
+    "w": 350,
+    "h": 532
+   },
+   "inPrice": null,
+   "notPrice": null,
+   "gal1": null,
+   "mp1": null,
+   "proLine": null,
+   "dep": null,
+   "pricing": null,
+   "details": null,
+   "detMore": null,
+   "lines": null,
+   "gallery": null,
+   "photos": null,
+   "protection": null
+  }
+ },
+ "photos": {
+  "href": "https://swat-website-storefront.vercel.app/tours/gems-of-southeast-europe-christmas-markets/",
+  "H": 19599,
+  "vh": 844,
+  "footer": 1634,
+  "secs": [
+   {
+    "id": "itinerary",
+    "t": "Day by day",
+    "y": 1544,
+    "h": 8643
+   },
+   {
+    "id": "gems-of-southeast-europe-christmas-markets-2026",
+    "t": "Gems of Southeast Europe Christmas Marke",
+    "y": 10243,
+    "h": 472
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 10739,
+    "h": 306
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 11068,
+    "h": 518
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 11610,
+    "h": 616
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 12249,
+    "h": 336
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 12609,
+    "h": 358
+   },
+   {
+    "id": "special-offer",
+    "t": "Special Offer",
+    "y": 13022,
+    "h": 399
+   },
+   {
+    "id": "deposits-cancellation-policies-deposit",
+    "t": "Deposits & Cancellation Policies Deposit",
+    "y": 13477,
+    "h": 134
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 13635,
+    "h": 64
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 13723,
+    "h": 346
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 14092,
+    "h": 102
+   },
+   {
+    "id": "right-for-you",
+    "t": "Is this trip right for you?",
+    "y": 14250,
+    "h": 620
+   },
+   {
+    "id": "reserve",
+    "t": "Ask about a date",
+    "y": 14926,
+    "h": 734
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 15992,
+    "h": 456
+   },
+   {
+    "id": "",
+    "t": "You might also consider",
+    "y": 16511,
+    "h": 934
+   }
+  ],
+  "itY": 1544,
+  "days": 12,
+  "boxes": {
+   "glance": {
+    "x": 20,
+    "y": 1627,
+    "w": 350,
+    "h": 132
+   },
+   "day1": {
+    "x": 20,
+    "y": 1798,
+    "w": 350,
+    "h": 532
+   },
+   "day2": {
+    "x": 20,
+    "y": 2378,
+    "w": 350,
+    "h": 802
+   },
+   "row1": null,
+   "rowLast": {
+    "x": 20,
+    "y": 9960,
+    "w": 350,
+    "h": 227
+   },
+   "fig1": {
+    "x": 20,
+    "y": 1798,
+    "w": 350,
+    "h": 233
+   },
+   "clamp1": null,
+   "more1": null,
+   "top1": null,
+   "rfy": {
+    "x": 20,
+    "y": 14250,
+    "w": 350,
+    "h": 620
+   },
+   "rowsAll": {
+    "x": 20,
+    "y": 1798,
+    "w": 350,
+    "h": 532
+   },
+   "inPrice": null,
+   "notPrice": null,
+   "gal1": null,
+   "mp1": null,
+   "proLine": null,
+   "dep": null,
+   "pricing": null,
+   "details": null,
+   "detMore": null,
+   "lines": null,
+   "gallery": null,
+   "photos": null,
+   "protection": null
+  }
+ }
+}

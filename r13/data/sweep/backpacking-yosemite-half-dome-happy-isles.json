@@ -1,0 +1,923 @@
+{
+ "slug": "backpacking-yosemite-half-dome-happy-isles",
+ "now": {
+  "href": "https://swat-website-storefront.vercel.app/tours/backpacking-yosemite-half-dome-happy-isles/",
+  "H": 14976,
+  "vh": 844,
+  "footer": 1634,
+  "secs": [
+   {
+    "id": "overview",
+    "t": "Overview",
+    "y": 1636,
+    "h": 335
+   },
+   {
+    "id": "itinerary",
+    "t": "Day by day",
+    "y": 2027,
+    "h": 2767
+   },
+   {
+    "id": "what-to-pack",
+    "t": "What to Pack",
+    "y": 4850,
+    "h": 33
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 4907,
+    "h": 676
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 5606,
+    "h": 598
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 6228,
+    "h": 284
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 6535,
+    "h": 194
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 6753,
+    "h": 880
+   },
+   {
+    "id": "right-for-you",
+    "t": "Is this trip right for you?",
+    "y": 7688,
+    "h": 620
+   },
+   {
+    "id": "details",
+    "t": "Tour details",
+    "y": 8364,
+    "h": 519
+   },
+   {
+    "id": "more-photos",
+    "t": "More from California",
+    "y": 8939,
+    "h": 991
+   },
+   {
+    "id": "reserve",
+    "t": "Ask about a date",
+    "y": 9986,
+    "h": 734
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 11052,
+    "h": 456
+   },
+   {
+    "id": "",
+    "t": "You might also consider",
+    "y": 11572,
+    "h": 918
+   },
+   {
+    "id": "",
+    "t": "Where this trip goes",
+    "y": 12879,
+    "h": 269
+   }
+  ],
+  "itY": 2027,
+  "days": 4,
+  "boxes": {
+   "glance": {
+    "x": 20,
+    "y": 2110,
+    "w": 350,
+    "h": 106
+   },
+   "day1": {
+    "x": 20,
+    "y": 2256,
+    "w": 350,
+    "h": 578
+   },
+   "day2": {
+    "x": 20,
+    "y": 2882,
+    "w": 350,
+    "h": 578
+   },
+   "row1": null,
+   "rowLast": {
+    "x": 20,
+    "y": 4161,
+    "w": 350,
+    "h": 633
+   },
+   "fig1": {
+    "x": 20,
+    "y": 2256,
+    "w": 350,
+    "h": 259
+   },
+   "clamp1": null,
+   "more1": null,
+   "top1": null,
+   "rfy": {
+    "x": 20,
+    "y": 7688,
+    "w": 350,
+    "h": 620
+   },
+   "rowsAll": {
+    "x": 20,
+    "y": 2256,
+    "w": 350,
+    "h": 578
+   },
+   "inPrice": {
+    "x": 20,
+    "y": 8413,
+    "w": 350,
+    "h": 470
+   },
+   "notPrice": null,
+   "gal1": null,
+   "mp1": {
+    "x": 20,
+    "y": 8988,
+    "w": 350,
+    "h": 942
+   },
+   "proLine": null,
+   "dep": null,
+   "pricing": null,
+   "details": {
+    "x": 20,
+    "y": 8364,
+    "w": 350,
+    "h": 519
+   },
+   "detMore": null,
+   "lines": null,
+   "gallery": null,
+   "photos": {
+    "x": 20,
+    "y": 8939,
+    "w": 350,
+    "h": 991
+   },
+   "protection": null
+  }
+ },
+ "fold": {
+  "href": "https://swat-website-storefront.vercel.app/tours/backpacking-yosemite-half-dome-happy-isles/",
+  "H": 12625,
+  "vh": 844,
+  "footer": 1634,
+  "secs": [
+   {
+    "id": "overview",
+    "t": "Overview",
+    "y": 1636,
+    "h": 335
+   },
+   {
+    "id": "itinerary",
+    "t": "Day by day",
+    "y": 2027,
+    "h": 416
+   },
+   {
+    "id": "what-to-pack",
+    "t": "What to Pack",
+    "y": 2499,
+    "h": 33
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 2556,
+    "h": 676
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 3256,
+    "h": 598
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 3877,
+    "h": 284
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 4185,
+    "h": 194
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 4402,
+    "h": 880
+   },
+   {
+    "id": "right-for-you",
+    "t": "Is this trip right for you?",
+    "y": 5338,
+    "h": 620
+   },
+   {
+    "id": "details",
+    "t": "Tour details",
+    "y": 6014,
+    "h": 519
+   },
+   {
+    "id": "more-photos",
+    "t": "More from California",
+    "y": 6589,
+    "h": 991
+   },
+   {
+    "id": "reserve",
+    "t": "Ask about a date",
+    "y": 7636,
+    "h": 734
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 8702,
+    "h": 456
+   },
+   {
+    "id": "",
+    "t": "You might also consider",
+    "y": 9221,
+    "h": 918
+   },
+   {
+    "id": "",
+    "t": "Where this trip goes",
+    "y": 10529,
+    "h": 269
+   }
+  ],
+  "itY": 2027,
+  "days": 4,
+  "boxes": {
+   "glance": null,
+   "day1": {
+    "x": 20,
+    "y": 2100,
+    "w": 350,
+    "h": 87
+   },
+   "day2": {
+    "x": 20,
+    "y": 2187,
+    "w": 350,
+    "h": 87
+   },
+   "row1": {
+    "x": 20,
+    "y": 2101,
+    "w": 350,
+    "h": 86
+   },
+   "rowLast": {
+    "x": 20,
+    "y": 2356,
+    "w": 350,
+    "h": 88
+   },
+   "fig1": null,
+   "clamp1": null,
+   "more1": null,
+   "top1": null,
+   "rfy": {
+    "x": 20,
+    "y": 5338,
+    "w": 350,
+    "h": 620
+   },
+   "rowsAll": {
+    "x": 20,
+    "y": 2100,
+    "w": 350,
+    "h": 87
+   },
+   "inPrice": {
+    "x": 20,
+    "y": 6063,
+    "w": 350,
+    "h": 470
+   },
+   "notPrice": null,
+   "gal1": null,
+   "mp1": {
+    "x": 20,
+    "y": 6638,
+    "w": 350,
+    "h": 942
+   },
+   "proLine": null,
+   "dep": null,
+   "pricing": null,
+   "details": {
+    "x": 20,
+    "y": 6014,
+    "w": 350,
+    "h": 519
+   },
+   "detMore": null,
+   "lines": null,
+   "gallery": null,
+   "photos": {
+    "x": 20,
+    "y": 6589,
+    "w": 350,
+    "h": 991
+   },
+   "protection": null
+  }
+ },
+ "short": {
+  "href": "https://swat-website-storefront.vercel.app/tours/backpacking-yosemite-half-dome-happy-isles/",
+  "H": 13494,
+  "vh": 844,
+  "footer": 1634,
+  "secs": [
+   {
+    "id": "overview",
+    "t": "Overview",
+    "y": 1636,
+    "h": 335
+   },
+   {
+    "id": "itinerary",
+    "t": "Day by day",
+    "y": 2027,
+    "h": 1285
+   },
+   {
+    "id": "what-to-pack",
+    "t": "What to Pack",
+    "y": 3368,
+    "h": 33
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 3425,
+    "h": 676
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 4125,
+    "h": 598
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 4746,
+    "h": 284
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 5054,
+    "h": 194
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 5271,
+    "h": 880
+   },
+   {
+    "id": "right-for-you",
+    "t": "Is this trip right for you?",
+    "y": 6207,
+    "h": 620
+   },
+   {
+    "id": "details",
+    "t": "Tour details",
+    "y": 6883,
+    "h": 519
+   },
+   {
+    "id": "more-photos",
+    "t": "More from California",
+    "y": 7458,
+    "h": 991
+   },
+   {
+    "id": "reserve",
+    "t": "Ask about a date",
+    "y": 8505,
+    "h": 734
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 9571,
+    "h": 456
+   },
+   {
+    "id": "",
+    "t": "You might also consider",
+    "y": 10090,
+    "h": 918
+   },
+   {
+    "id": "",
+    "t": "Where this trip goes",
+    "y": 11398,
+    "h": 269
+   }
+  ],
+  "itY": 2027,
+  "days": 4,
+  "boxes": {
+   "glance": {
+    "x": 20,
+    "y": 2110,
+    "w": 350,
+    "h": 106
+   },
+   "day1": {
+    "x": 20,
+    "y": 2256,
+    "w": 350,
+    "h": 228
+   },
+   "day2": {
+    "x": 20,
+    "y": 2532,
+    "w": 350,
+    "h": 228
+   },
+   "row1": null,
+   "rowLast": {
+    "x": 20,
+    "y": 3084,
+    "w": 350,
+    "h": 228
+   },
+   "fig1": null,
+   "clamp1": {
+    "x": 20,
+    "y": 2352,
+    "w": 350,
+    "h": 104
+   },
+   "more1": {
+    "x": 20,
+    "y": 2462,
+    "w": 123,
+    "h": 21
+   },
+   "top1": {
+    "x": 20,
+    "y": 2256,
+    "w": 350,
+    "h": 84
+   },
+   "rfy": {
+    "x": 20,
+    "y": 6207,
+    "w": 350,
+    "h": 620
+   },
+   "rowsAll": {
+    "x": 20,
+    "y": 2256,
+    "w": 350,
+    "h": 228
+   },
+   "inPrice": {
+    "x": 20,
+    "y": 6932,
+    "w": 350,
+    "h": 470
+   },
+   "notPrice": null,
+   "gal1": null,
+   "mp1": {
+    "x": 20,
+    "y": 7507,
+    "w": 350,
+    "h": 942
+   },
+   "proLine": null,
+   "dep": null,
+   "pricing": null,
+   "details": {
+    "x": 20,
+    "y": 6883,
+    "w": 350,
+    "h": 519
+   },
+   "detMore": null,
+   "lines": null,
+   "gallery": null,
+   "photos": {
+    "x": 20,
+    "y": 7458,
+    "w": 350,
+    "h": 991
+   },
+   "protection": null
+  }
+ },
+ "lists": {
+  "href": "https://swat-website-storefront.vercel.app/tours/backpacking-yosemite-half-dome-happy-isles/",
+  "H": 14922,
+  "vh": 844,
+  "footer": 1634,
+  "secs": [
+   {
+    "id": "overview",
+    "t": "Overview",
+    "y": 1636,
+    "h": 335
+   },
+   {
+    "id": "itinerary",
+    "t": "Day by day",
+    "y": 2027,
+    "h": 2767
+   },
+   {
+    "id": "what-to-pack",
+    "t": "What to Pack",
+    "y": 4850,
+    "h": 33
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 4907,
+    "h": 676
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 5606,
+    "h": 598
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 6228,
+    "h": 284
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 6535,
+    "h": 194
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 6753,
+    "h": 880
+   },
+   {
+    "id": "right-for-you",
+    "t": "Is this trip right for you?",
+    "y": 7688,
+    "h": 620
+   },
+   {
+    "id": "details",
+    "t": "Tour details",
+    "y": 8364,
+    "h": 465
+   },
+   {
+    "id": "more-photos",
+    "t": "More from California",
+    "y": 8885,
+    "h": 991
+   },
+   {
+    "id": "reserve",
+    "t": "Ask about a date",
+    "y": 9932,
+    "h": 734
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 10998,
+    "h": 456
+   },
+   {
+    "id": "",
+    "t": "You might also consider",
+    "y": 11518,
+    "h": 918
+   },
+   {
+    "id": "",
+    "t": "Where this trip goes",
+    "y": 12825,
+    "h": 269
+   }
+  ],
+  "itY": 2027,
+  "days": 4,
+  "boxes": {
+   "glance": {
+    "x": 20,
+    "y": 2110,
+    "w": 350,
+    "h": 106
+   },
+   "day1": {
+    "x": 20,
+    "y": 2256,
+    "w": 350,
+    "h": 578
+   },
+   "day2": {
+    "x": 20,
+    "y": 2882,
+    "w": 350,
+    "h": 578
+   },
+   "row1": null,
+   "rowLast": {
+    "x": 20,
+    "y": 4161,
+    "w": 350,
+    "h": 633
+   },
+   "fig1": {
+    "x": 20,
+    "y": 2256,
+    "w": 350,
+    "h": 259
+   },
+   "clamp1": null,
+   "more1": null,
+   "top1": null,
+   "rfy": {
+    "x": 20,
+    "y": 7688,
+    "w": 350,
+    "h": 620
+   },
+   "rowsAll": {
+    "x": 20,
+    "y": 2256,
+    "w": 350,
+    "h": 578
+   },
+   "inPrice": {
+    "x": 20,
+    "y": 8413,
+    "w": 350,
+    "h": 416
+   },
+   "notPrice": null,
+   "gal1": null,
+   "mp1": {
+    "x": 20,
+    "y": 8934,
+    "w": 350,
+    "h": 942
+   },
+   "proLine": null,
+   "dep": null,
+   "pricing": null,
+   "details": {
+    "x": 20,
+    "y": 8364,
+    "w": 350,
+    "h": 465
+   },
+   "detMore": {
+    "x": 41,
+    "y": 8786,
+    "w": 195,
+    "h": 21
+   },
+   "lines": null,
+   "gallery": null,
+   "photos": {
+    "x": 20,
+    "y": 8885,
+    "w": 350,
+    "h": 991
+   },
+   "protection": null
+  }
+ },
+ "photos": {
+  "href": "https://swat-website-storefront.vercel.app/tours/backpacking-yosemite-half-dome-happy-isles/",
+  "H": 14167,
+  "vh": 844,
+  "footer": 1634,
+  "secs": [
+   {
+    "id": "overview",
+    "t": "Overview",
+    "y": 1636,
+    "h": 335
+   },
+   {
+    "id": "itinerary",
+    "t": "Day by day",
+    "y": 2027,
+    "h": 2767
+   },
+   {
+    "id": "what-to-pack",
+    "t": "What to Pack",
+    "y": 4850,
+    "h": 33
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 4907,
+    "h": 676
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 5606,
+    "h": 598
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 6228,
+    "h": 284
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 6535,
+    "h": 194
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 6753,
+    "h": 880
+   },
+   {
+    "id": "right-for-you",
+    "t": "Is this trip right for you?",
+    "y": 7688,
+    "h": 620
+   },
+   {
+    "id": "details",
+    "t": "Tour details",
+    "y": 8364,
+    "h": 465
+   },
+   {
+    "id": "more-photos",
+    "t": "More from California",
+    "y": 8885,
+    "h": 237
+   },
+   {
+    "id": "reserve",
+    "t": "Ask about a date",
+    "y": 9178,
+    "h": 734
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 10244,
+    "h": 456
+   },
+   {
+    "id": "",
+    "t": "You might also consider",
+    "y": 10764,
+    "h": 918
+   },
+   {
+    "id": "",
+    "t": "Where this trip goes",
+    "y": 12071,
+    "h": 269
+   }
+  ],
+  "itY": 2027,
+  "days": 4,
+  "boxes": {
+   "glance": {
+    "x": 20,
+    "y": 2110,
+    "w": 350,
+    "h": 106
+   },
+   "day1": {
+    "x": 20,
+    "y": 2256,
+    "w": 350,
+    "h": 578
+   },
+   "day2": {
+    "x": 20,
+    "y": 2882,
+    "w": 350,
+    "h": 578
+   },
+   "row1": null,
+   "rowLast": {
+    "x": 20,
+    "y": 4161,
+    "w": 350,
+    "h": 633
+   },
+   "fig1": {
+    "x": 20,
+    "y": 2256,
+    "w": 350,
+    "h": 259
+   },
+   "clamp1": null,
+   "more1": null,
+   "top1": null,
+   "rfy": {
+    "x": 20,
+    "y": 7688,
+    "w": 350,
+    "h": 620
+   },
+   "rowsAll": {
+    "x": 20,
+    "y": 2256,
+    "w": 350,
+    "h": 578
+   },
+   "inPrice": {
+    "x": 20,
+    "y": 8413,
+    "w": 350,
+    "h": 416
+   },
+   "notPrice": null,
+   "gal1": null,
+   "mp1": {
+    "x": 20,
+    "y": 8934,
+    "w": 370,
+    "h": 188
+   },
+   "proLine": null,
+   "dep": null,
+   "pricing": null,
+   "details": {
+    "x": 20,
+    "y": 8364,
+    "w": 350,
+    "h": 465
+   },
+   "detMore": {
+    "x": 41,
+    "y": 8786,
+    "w": 195,
+    "h": 21
+   },
+   "lines": null,
+   "gallery": null,
+   "photos": {
+    "x": 20,
+    "y": 8885,
+    "w": 350,
+    "h": 237
+   },
+   "protection": null
+  }
+ }
+}

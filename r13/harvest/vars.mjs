@@ -1,0 +1,15 @@
+import fs from 'node:fs';
+const pw = (await import('/home/james/swat/projects/pc-set-up/node_modules/playwright/index.js')).default;
+const gate = fs.readFileSync('/tmp/claude-1000/-home-james-swat/ab73d74c-8e04-4727-a07e-b01db273e3f8/scratchpad/gate','utf8').trim();
+const base='https://swat-website-storefront.vercel.app';
+const b=await pw.chromium.launch();
+const ctx=await b.newContext({viewport:{width:390,height:844},deviceScaleFactor:2,isMobile:true,hasTouch:true});
+await ctx.addCookies([{name:'swat_gate',value:gate,url:base,httpOnly:true,sameSite:'Lax'}]);
+const p=await ctx.newPage(); await p.goto(`${base}/tours/arizona-adventure/`,{waitUntil:'load'});
+console.log(await p.evaluate(()=>{const cs=getComputedStyle(document.documentElement);
+ const v=['--color-rust-600','--color-ink-900','--color-ink-700','--color-ink-500','--color-ink-300','--color-sand-100','--color-sand-200','--color-sand-300','--color-navy-800','--font-display'].map(k=>k+'='+cs.getPropertyValue(k));
+ const chips=[...document.querySelectorAll('#day-1 .mt-4.flex.flex-wrap.gap-2 > span')].map(s=>[s.children[0]?.textContent, s.textContent]);
+ const footer=document.querySelector('footer').getBoundingClientRect().height;
+ const hdr=document.querySelector('header')?.getBoundingClientRect(); 
+ return JSON.stringify({v,chips,footer,hdr:[hdr?.height,getComputedStyle(document.querySelector('header')).position]});}));
+await b.close();

@@ -1,0 +1,923 @@
+{
+ "slug": "backpacking-yosemite-half-dome-cathedral-lakes",
+ "now": {
+  "href": "https://swat-website-storefront.vercel.app/tours/backpacking-yosemite-half-dome-cathedral-lakes/",
+  "H": 20379,
+  "vh": 844,
+  "footer": 1634,
+  "secs": [
+   {
+    "id": "overview",
+    "t": "Overview",
+    "y": 1636,
+    "h": 533
+   },
+   {
+    "id": "itinerary",
+    "t": "Day by day",
+    "y": 2225,
+    "h": 7972
+   },
+   {
+    "id": "what-to-pack",
+    "t": "What to Pack",
+    "y": 10254,
+    "h": 33
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 10311,
+    "h": 676
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 11010,
+    "h": 598
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 11632,
+    "h": 284
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 11939,
+    "h": 194
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 12157,
+    "h": 880
+   },
+   {
+    "id": "right-for-you",
+    "t": "Is this trip right for you?",
+    "y": 13092,
+    "h": 620
+   },
+   {
+    "id": "details",
+    "t": "Tour details",
+    "y": 13768,
+    "h": 519
+   },
+   {
+    "id": "more-photos",
+    "t": "More from California",
+    "y": 14343,
+    "h": 991
+   },
+   {
+    "id": "reserve",
+    "t": "Ask about a date",
+    "y": 15390,
+    "h": 734
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 16456,
+    "h": 456
+   },
+   {
+    "id": "",
+    "t": "You might also consider",
+    "y": 16975,
+    "h": 918
+   },
+   {
+    "id": "",
+    "t": "Where this trip goes",
+    "y": 18283,
+    "h": 269
+   }
+  ],
+  "itY": 2225,
+  "days": 6,
+  "boxes": {
+   "glance": {
+    "x": 20,
+    "y": 2308,
+    "w": 350,
+    "h": 108
+   },
+   "day1": {
+    "x": 20,
+    "y": 2456,
+    "w": 350,
+    "h": 1201
+   },
+   "day2": {
+    "x": 20,
+    "y": 3705,
+    "w": 350,
+    "h": 1321
+   },
+   "row1": null,
+   "rowLast": {
+    "x": 20,
+    "y": 9126,
+    "w": 350,
+    "h": 1071
+   },
+   "fig1": {
+    "x": 20,
+    "y": 2456,
+    "w": 350,
+    "h": 259
+   },
+   "clamp1": null,
+   "more1": null,
+   "top1": null,
+   "rfy": {
+    "x": 20,
+    "y": 13092,
+    "w": 350,
+    "h": 620
+   },
+   "rowsAll": {
+    "x": 20,
+    "y": 2456,
+    "w": 350,
+    "h": 1201
+   },
+   "inPrice": {
+    "x": 20,
+    "y": 13817,
+    "w": 350,
+    "h": 470
+   },
+   "notPrice": null,
+   "gal1": null,
+   "mp1": {
+    "x": 20,
+    "y": 14392,
+    "w": 350,
+    "h": 942
+   },
+   "proLine": null,
+   "dep": null,
+   "pricing": null,
+   "details": {
+    "x": 20,
+    "y": 13768,
+    "w": 350,
+    "h": 519
+   },
+   "detMore": null,
+   "lines": null,
+   "gallery": null,
+   "photos": {
+    "x": 20,
+    "y": 14343,
+    "w": 350,
+    "h": 991
+   },
+   "protection": null
+  }
+ },
+ "fold": {
+  "href": "https://swat-website-storefront.vercel.app/tours/backpacking-yosemite-half-dome-cathedral-lakes/",
+  "H": 12996,
+  "vh": 844,
+  "footer": 1634,
+  "secs": [
+   {
+    "id": "overview",
+    "t": "Overview",
+    "y": 1636,
+    "h": 533
+   },
+   {
+    "id": "itinerary",
+    "t": "Day by day",
+    "y": 2225,
+    "h": 589
+   },
+   {
+    "id": "what-to-pack",
+    "t": "What to Pack",
+    "y": 2871,
+    "h": 33
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 2928,
+    "h": 676
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 3627,
+    "h": 598
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 4249,
+    "h": 284
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 4556,
+    "h": 194
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 4774,
+    "h": 880
+   },
+   {
+    "id": "right-for-you",
+    "t": "Is this trip right for you?",
+    "y": 5709,
+    "h": 620
+   },
+   {
+    "id": "details",
+    "t": "Tour details",
+    "y": 6385,
+    "h": 519
+   },
+   {
+    "id": "more-photos",
+    "t": "More from California",
+    "y": 6960,
+    "h": 991
+   },
+   {
+    "id": "reserve",
+    "t": "Ask about a date",
+    "y": 8007,
+    "h": 734
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 9073,
+    "h": 456
+   },
+   {
+    "id": "",
+    "t": "You might also consider",
+    "y": 9593,
+    "h": 918
+   },
+   {
+    "id": "",
+    "t": "Where this trip goes",
+    "y": 10900,
+    "h": 269
+   }
+  ],
+  "itY": 2225,
+  "days": 6,
+  "boxes": {
+   "glance": null,
+   "day1": {
+    "x": 20,
+    "y": 2298,
+    "w": 350,
+    "h": 87
+   },
+   "day2": {
+    "x": 20,
+    "y": 2385,
+    "w": 350,
+    "h": 87
+   },
+   "row1": {
+    "x": 20,
+    "y": 2299,
+    "w": 350,
+    "h": 86
+   },
+   "rowLast": {
+    "x": 20,
+    "y": 2727,
+    "w": 350,
+    "h": 88
+   },
+   "fig1": null,
+   "clamp1": null,
+   "more1": null,
+   "top1": null,
+   "rfy": {
+    "x": 20,
+    "y": 5709,
+    "w": 350,
+    "h": 620
+   },
+   "rowsAll": {
+    "x": 20,
+    "y": 2298,
+    "w": 350,
+    "h": 87
+   },
+   "inPrice": {
+    "x": 20,
+    "y": 6434,
+    "w": 350,
+    "h": 470
+   },
+   "notPrice": null,
+   "gal1": null,
+   "mp1": {
+    "x": 20,
+    "y": 7009,
+    "w": 350,
+    "h": 942
+   },
+   "proLine": null,
+   "dep": null,
+   "pricing": null,
+   "details": {
+    "x": 20,
+    "y": 6385,
+    "w": 350,
+    "h": 519
+   },
+   "detMore": null,
+   "lines": null,
+   "gallery": null,
+   "photos": {
+    "x": 20,
+    "y": 6960,
+    "w": 350,
+    "h": 991
+   },
+   "protection": null
+  }
+ },
+ "short": {
+  "href": "https://swat-website-storefront.vercel.app/tours/backpacking-yosemite-half-dome-cathedral-lakes/",
+  "H": 14266,
+  "vh": 844,
+  "footer": 1634,
+  "secs": [
+   {
+    "id": "overview",
+    "t": "Overview",
+    "y": 1636,
+    "h": 533
+   },
+   {
+    "id": "itinerary",
+    "t": "Day by day",
+    "y": 2225,
+    "h": 1859
+   },
+   {
+    "id": "what-to-pack",
+    "t": "What to Pack",
+    "y": 4140,
+    "h": 33
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 4197,
+    "h": 676
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 4897,
+    "h": 598
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 5518,
+    "h": 284
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 5826,
+    "h": 194
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 6043,
+    "h": 880
+   },
+   {
+    "id": "right-for-you",
+    "t": "Is this trip right for you?",
+    "y": 6979,
+    "h": 620
+   },
+   {
+    "id": "details",
+    "t": "Tour details",
+    "y": 7655,
+    "h": 519
+   },
+   {
+    "id": "more-photos",
+    "t": "More from California",
+    "y": 8230,
+    "h": 991
+   },
+   {
+    "id": "reserve",
+    "t": "Ask about a date",
+    "y": 9277,
+    "h": 734
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 10343,
+    "h": 456
+   },
+   {
+    "id": "",
+    "t": "You might also consider",
+    "y": 10862,
+    "h": 918
+   },
+   {
+    "id": "",
+    "t": "Where this trip goes",
+    "y": 12170,
+    "h": 269
+   }
+  ],
+  "itY": 2225,
+  "days": 6,
+  "boxes": {
+   "glance": {
+    "x": 20,
+    "y": 2308,
+    "w": 350,
+    "h": 108
+   },
+   "day1": {
+    "x": 20,
+    "y": 2456,
+    "w": 350,
+    "h": 228
+   },
+   "day2": {
+    "x": 20,
+    "y": 2732,
+    "w": 350,
+    "h": 238
+   },
+   "row1": null,
+   "rowLast": {
+    "x": 20,
+    "y": 3856,
+    "w": 350,
+    "h": 228
+   },
+   "fig1": null,
+   "clamp1": {
+    "x": 20,
+    "y": 2552,
+    "w": 350,
+    "h": 104
+   },
+   "more1": {
+    "x": 20,
+    "y": 2662,
+    "w": 123,
+    "h": 21
+   },
+   "top1": {
+    "x": 20,
+    "y": 2456,
+    "w": 350,
+    "h": 84
+   },
+   "rfy": {
+    "x": 20,
+    "y": 6979,
+    "w": 350,
+    "h": 620
+   },
+   "rowsAll": {
+    "x": 20,
+    "y": 2456,
+    "w": 350,
+    "h": 228
+   },
+   "inPrice": {
+    "x": 20,
+    "y": 7704,
+    "w": 350,
+    "h": 470
+   },
+   "notPrice": null,
+   "gal1": null,
+   "mp1": {
+    "x": 20,
+    "y": 8279,
+    "w": 350,
+    "h": 942
+   },
+   "proLine": null,
+   "dep": null,
+   "pricing": null,
+   "details": {
+    "x": 20,
+    "y": 7655,
+    "w": 350,
+    "h": 519
+   },
+   "detMore": null,
+   "lines": null,
+   "gallery": null,
+   "photos": {
+    "x": 20,
+    "y": 8230,
+    "w": 350,
+    "h": 991
+   },
+   "protection": null
+  }
+ },
+ "lists": {
+  "href": "https://swat-website-storefront.vercel.app/tours/backpacking-yosemite-half-dome-cathedral-lakes/",
+  "H": 20325,
+  "vh": 844,
+  "footer": 1634,
+  "secs": [
+   {
+    "id": "overview",
+    "t": "Overview",
+    "y": 1636,
+    "h": 533
+   },
+   {
+    "id": "itinerary",
+    "t": "Day by day",
+    "y": 2225,
+    "h": 7972
+   },
+   {
+    "id": "what-to-pack",
+    "t": "What to Pack",
+    "y": 10254,
+    "h": 33
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 10311,
+    "h": 676
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 11010,
+    "h": 598
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 11632,
+    "h": 284
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 11939,
+    "h": 194
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 12157,
+    "h": 880
+   },
+   {
+    "id": "right-for-you",
+    "t": "Is this trip right for you?",
+    "y": 13092,
+    "h": 620
+   },
+   {
+    "id": "details",
+    "t": "Tour details",
+    "y": 13768,
+    "h": 465
+   },
+   {
+    "id": "more-photos",
+    "t": "More from California",
+    "y": 14289,
+    "h": 991
+   },
+   {
+    "id": "reserve",
+    "t": "Ask about a date",
+    "y": 15336,
+    "h": 734
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 16402,
+    "h": 456
+   },
+   {
+    "id": "",
+    "t": "You might also consider",
+    "y": 16921,
+    "h": 918
+   },
+   {
+    "id": "",
+    "t": "Where this trip goes",
+    "y": 18229,
+    "h": 269
+   }
+  ],
+  "itY": 2225,
+  "days": 6,
+  "boxes": {
+   "glance": {
+    "x": 20,
+    "y": 2308,
+    "w": 350,
+    "h": 108
+   },
+   "day1": {
+    "x": 20,
+    "y": 2456,
+    "w": 350,
+    "h": 1201
+   },
+   "day2": {
+    "x": 20,
+    "y": 3705,
+    "w": 350,
+    "h": 1321
+   },
+   "row1": null,
+   "rowLast": {
+    "x": 20,
+    "y": 9126,
+    "w": 350,
+    "h": 1071
+   },
+   "fig1": {
+    "x": 20,
+    "y": 2456,
+    "w": 350,
+    "h": 259
+   },
+   "clamp1": null,
+   "more1": null,
+   "top1": null,
+   "rfy": {
+    "x": 20,
+    "y": 13092,
+    "w": 350,
+    "h": 620
+   },
+   "rowsAll": {
+    "x": 20,
+    "y": 2456,
+    "w": 350,
+    "h": 1201
+   },
+   "inPrice": {
+    "x": 20,
+    "y": 13817,
+    "w": 350,
+    "h": 416
+   },
+   "notPrice": null,
+   "gal1": null,
+   "mp1": {
+    "x": 20,
+    "y": 14338,
+    "w": 350,
+    "h": 942
+   },
+   "proLine": null,
+   "dep": null,
+   "pricing": null,
+   "details": {
+    "x": 20,
+    "y": 13768,
+    "w": 350,
+    "h": 465
+   },
+   "detMore": {
+    "x": 41,
+    "y": 14190,
+    "w": 195,
+    "h": 21
+   },
+   "lines": null,
+   "gallery": null,
+   "photos": {
+    "x": 20,
+    "y": 14289,
+    "w": 350,
+    "h": 991
+   },
+   "protection": null
+  }
+ },
+ "photos": {
+  "href": "https://swat-website-storefront.vercel.app/tours/backpacking-yosemite-half-dome-cathedral-lakes/",
+  "H": 19571,
+  "vh": 844,
+  "footer": 1634,
+  "secs": [
+   {
+    "id": "overview",
+    "t": "Overview",
+    "y": 1636,
+    "h": 533
+   },
+   {
+    "id": "itinerary",
+    "t": "Day by day",
+    "y": 2225,
+    "h": 7972
+   },
+   {
+    "id": "what-to-pack",
+    "t": "What to Pack",
+    "y": 10254,
+    "h": 33
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 10311,
+    "h": 676
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 11010,
+    "h": 598
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 11632,
+    "h": 284
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 11939,
+    "h": 194
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 12157,
+    "h": 880
+   },
+   {
+    "id": "right-for-you",
+    "t": "Is this trip right for you?",
+    "y": 13092,
+    "h": 620
+   },
+   {
+    "id": "details",
+    "t": "Tour details",
+    "y": 13768,
+    "h": 465
+   },
+   {
+    "id": "more-photos",
+    "t": "More from California",
+    "y": 14289,
+    "h": 237
+   },
+   {
+    "id": "reserve",
+    "t": "Ask about a date",
+    "y": 14582,
+    "h": 734
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 15648,
+    "h": 456
+   },
+   {
+    "id": "",
+    "t": "You might also consider",
+    "y": 16167,
+    "h": 918
+   },
+   {
+    "id": "",
+    "t": "Where this trip goes",
+    "y": 17475,
+    "h": 269
+   }
+  ],
+  "itY": 2225,
+  "days": 6,
+  "boxes": {
+   "glance": {
+    "x": 20,
+    "y": 2308,
+    "w": 350,
+    "h": 108
+   },
+   "day1": {
+    "x": 20,
+    "y": 2456,
+    "w": 350,
+    "h": 1201
+   },
+   "day2": {
+    "x": 20,
+    "y": 3705,
+    "w": 350,
+    "h": 1321
+   },
+   "row1": null,
+   "rowLast": {
+    "x": 20,
+    "y": 9126,
+    "w": 350,
+    "h": 1071
+   },
+   "fig1": {
+    "x": 20,
+    "y": 2456,
+    "w": 350,
+    "h": 259
+   },
+   "clamp1": null,
+   "more1": null,
+   "top1": null,
+   "rfy": {
+    "x": 20,
+    "y": 13092,
+    "w": 350,
+    "h": 620
+   },
+   "rowsAll": {
+    "x": 20,
+    "y": 2456,
+    "w": 350,
+    "h": 1201
+   },
+   "inPrice": {
+    "x": 20,
+    "y": 13817,
+    "w": 350,
+    "h": 416
+   },
+   "notPrice": null,
+   "gal1": null,
+   "mp1": {
+    "x": 20,
+    "y": 14338,
+    "w": 370,
+    "h": 188
+   },
+   "proLine": null,
+   "dep": null,
+   "pricing": null,
+   "details": {
+    "x": 20,
+    "y": 13768,
+    "w": 350,
+    "h": 465
+   },
+   "detMore": {
+    "x": 41,
+    "y": 14190,
+    "w": 195,
+    "h": 21
+   },
+   "lines": null,
+   "gallery": null,
+   "photos": {
+    "x": 20,
+    "y": 14289,
+    "w": 350,
+    "h": 237
+   },
+   "protection": null
+  }
+ }
+}

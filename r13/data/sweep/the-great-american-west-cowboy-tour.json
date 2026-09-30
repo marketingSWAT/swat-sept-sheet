@@ -1,0 +1,763 @@
+{
+ "slug": "the-great-american-west-cowboy-tour",
+ "now": {
+  "href": "https://swat-website-storefront.vercel.app/tours/the-great-american-west-cowboy-tour/",
+  "H": 16194,
+  "vh": 844,
+  "footer": 1634,
+  "secs": [
+   {
+    "id": "itinerary",
+    "t": "Day by day",
+    "y": 1578,
+    "h": 6369
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 7970,
+    "h": 26
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 8020,
+    "h": 350
+   },
+   {
+    "id": "right-for-you",
+    "t": "Is this trip right for you?",
+    "y": 8425,
+    "h": 354
+   },
+   {
+    "id": "details",
+    "t": "Tour details",
+    "y": 8835,
+    "h": 1250
+   },
+   {
+    "id": "more-photos",
+    "t": "More from Yellowstone National Park, Gra",
+    "y": 10141,
+    "h": 1329
+   },
+   {
+    "id": "enquire",
+    "t": "",
+    "y": 11803,
+    "h": 777
+   },
+   {
+    "id": "",
+    "t": "You might also consider",
+    "y": 12644,
+    "h": 960
+   },
+   {
+    "id": "",
+    "t": "Where this trip goes",
+    "y": 13994,
+    "h": 373
+   }
+  ],
+  "itY": 1578,
+  "days": 8,
+  "boxes": {
+   "glance": {
+    "x": 20,
+    "y": 1661,
+    "w": 350,
+    "h": 152
+   },
+   "day1": {
+    "x": 20,
+    "y": 1853,
+    "w": 350,
+    "h": 646
+   },
+   "day2": {
+    "x": 20,
+    "y": 2547,
+    "w": 350,
+    "h": 594
+   },
+   "row1": null,
+   "rowLast": {
+    "x": 20,
+    "y": 7326,
+    "w": 350,
+    "h": 620
+   },
+   "fig1": {
+    "x": 20,
+    "y": 1853,
+    "w": 350,
+    "h": 259
+   },
+   "clamp1": null,
+   "more1": null,
+   "top1": null,
+   "rfy": {
+    "x": 20,
+    "y": 8425,
+    "w": 350,
+    "h": 354
+   },
+   "rowsAll": {
+    "x": 20,
+    "y": 1853,
+    "w": 350,
+    "h": 646
+   },
+   "inPrice": {
+    "x": 20,
+    "y": 8884,
+    "w": 350,
+    "h": 438
+   },
+   "notPrice": null,
+   "gal1": null,
+   "mp1": {
+    "x": 20,
+    "y": 10256,
+    "w": 350,
+    "h": 1214
+   },
+   "proLine": null,
+   "dep": null,
+   "pricing": null,
+   "details": {
+    "x": 20,
+    "y": 8835,
+    "w": 350,
+    "h": 1250
+   },
+   "detMore": null,
+   "lines": null,
+   "gallery": null,
+   "photos": {
+    "x": 20,
+    "y": 10141,
+    "w": 350,
+    "h": 1329
+   },
+   "protection": null
+  }
+ },
+ "fold": {
+  "href": "https://swat-website-storefront.vercel.app/tours/the-great-american-west-cowboy-tour/",
+  "H": 10567,
+  "vh": 844,
+  "footer": 1634,
+  "secs": [
+   {
+    "id": "itinerary",
+    "t": "Day by day",
+    "y": 1578,
+    "h": 741
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 2343,
+    "h": 26
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 2392,
+    "h": 350
+   },
+   {
+    "id": "right-for-you",
+    "t": "Is this trip right for you?",
+    "y": 2798,
+    "h": 354
+   },
+   {
+    "id": "details",
+    "t": "Tour details",
+    "y": 3208,
+    "h": 1250
+   },
+   {
+    "id": "more-photos",
+    "t": "More from Yellowstone National Park, Gra",
+    "y": 4514,
+    "h": 1329
+   },
+   {
+    "id": "enquire",
+    "t": "",
+    "y": 6176,
+    "h": 777
+   },
+   {
+    "id": "",
+    "t": "You might also consider",
+    "y": 7016,
+    "h": 960
+   },
+   {
+    "id": "",
+    "t": "Where this trip goes",
+    "y": 8366,
+    "h": 373
+   }
+  ],
+  "itY": 1578,
+  "days": 8,
+  "boxes": {
+   "glance": null,
+   "day1": {
+    "x": 20,
+    "y": 1651,
+    "w": 350,
+    "h": 89
+   },
+   "day2": {
+    "x": 20,
+    "y": 1739,
+    "w": 350,
+    "h": 82
+   },
+   "row1": {
+    "x": 20,
+    "y": 1652,
+    "w": 350,
+    "h": 88
+   },
+   "rowLast": {
+    "x": 20,
+    "y": 2231,
+    "w": 350,
+    "h": 88
+   },
+   "fig1": null,
+   "clamp1": null,
+   "more1": null,
+   "top1": null,
+   "rfy": {
+    "x": 20,
+    "y": 2798,
+    "w": 350,
+    "h": 354
+   },
+   "rowsAll": {
+    "x": 20,
+    "y": 1651,
+    "w": 350,
+    "h": 89
+   },
+   "inPrice": {
+    "x": 20,
+    "y": 3257,
+    "w": 350,
+    "h": 438
+   },
+   "notPrice": null,
+   "gal1": null,
+   "mp1": {
+    "x": 20,
+    "y": 4629,
+    "w": 350,
+    "h": 1214
+   },
+   "proLine": null,
+   "dep": null,
+   "pricing": null,
+   "details": {
+    "x": 20,
+    "y": 3208,
+    "w": 350,
+    "h": 1250
+   },
+   "detMore": null,
+   "lines": null,
+   "gallery": null,
+   "photos": {
+    "x": 20,
+    "y": 4514,
+    "w": 350,
+    "h": 1329
+   },
+   "protection": null
+  }
+ },
+ "short": {
+  "href": "https://swat-website-storefront.vercel.app/tours/the-great-american-west-cowboy-tour/",
+  "H": 12664,
+  "vh": 844,
+  "footer": 1634,
+  "secs": [
+   {
+    "id": "itinerary",
+    "t": "Day by day",
+    "y": 1578,
+    "h": 2839
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 4441,
+    "h": 26
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 4490,
+    "h": 350
+   },
+   {
+    "id": "right-for-you",
+    "t": "Is this trip right for you?",
+    "y": 4896,
+    "h": 354
+   },
+   {
+    "id": "details",
+    "t": "Tour details",
+    "y": 5306,
+    "h": 1250
+   },
+   {
+    "id": "more-photos",
+    "t": "More from Yellowstone National Park, Gra",
+    "y": 6612,
+    "h": 1329
+   },
+   {
+    "id": "enquire",
+    "t": "",
+    "y": 8273,
+    "h": 777
+   },
+   {
+    "id": "",
+    "t": "You might also consider",
+    "y": 9114,
+    "h": 960
+   },
+   {
+    "id": "",
+    "t": "Where this trip goes",
+    "y": 10464,
+    "h": 373
+   }
+  ],
+  "itY": 1578,
+  "days": 8,
+  "boxes": {
+   "glance": {
+    "x": 20,
+    "y": 1661,
+    "w": 350,
+    "h": 152
+   },
+   "day1": {
+    "x": 20,
+    "y": 1853,
+    "w": 350,
+    "h": 270
+   },
+   "day2": {
+    "x": 20,
+    "y": 2171,
+    "w": 350,
+    "h": 270
+   },
+   "row1": null,
+   "rowLast": {
+    "x": 20,
+    "y": 4147,
+    "w": 350,
+    "h": 270
+   },
+   "fig1": null,
+   "clamp1": {
+    "x": 20,
+    "y": 1949,
+    "w": 350,
+    "h": 104
+   },
+   "more1": {
+    "x": 20,
+    "y": 2059,
+    "w": 123,
+    "h": 21
+   },
+   "top1": {
+    "x": 20,
+    "y": 1853,
+    "w": 350,
+    "h": 84
+   },
+   "rfy": {
+    "x": 20,
+    "y": 4896,
+    "w": 350,
+    "h": 354
+   },
+   "rowsAll": {
+    "x": 20,
+    "y": 1853,
+    "w": 350,
+    "h": 270
+   },
+   "inPrice": {
+    "x": 20,
+    "y": 5355,
+    "w": 350,
+    "h": 438
+   },
+   "notPrice": null,
+   "gal1": null,
+   "mp1": {
+    "x": 20,
+    "y": 6727,
+    "w": 350,
+    "h": 1214
+   },
+   "proLine": null,
+   "dep": null,
+   "pricing": null,
+   "details": {
+    "x": 20,
+    "y": 5306,
+    "w": 350,
+    "h": 1250
+   },
+   "detMore": null,
+   "lines": null,
+   "gallery": null,
+   "photos": {
+    "x": 20,
+    "y": 6612,
+    "w": 350,
+    "h": 1329
+   },
+   "protection": null
+  }
+ },
+ "lists": {
+  "href": "https://swat-website-storefront.vercel.app/tours/the-great-american-west-cowboy-tour/",
+  "H": 15442,
+  "vh": 844,
+  "footer": 1634,
+  "secs": [
+   {
+    "id": "itinerary",
+    "t": "Day by day",
+    "y": 1578,
+    "h": 6369
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 7970,
+    "h": 26
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 8020,
+    "h": 350
+   },
+   {
+    "id": "right-for-you",
+    "t": "Is this trip right for you?",
+    "y": 8425,
+    "h": 354
+   },
+   {
+    "id": "details",
+    "t": "Tour details",
+    "y": 8835,
+    "h": 498
+   },
+   {
+    "id": "more-photos",
+    "t": "More from Yellowstone National Park, Gra",
+    "y": 9389,
+    "h": 1329
+   },
+   {
+    "id": "enquire",
+    "t": "",
+    "y": 11051,
+    "h": 777
+   },
+   {
+    "id": "",
+    "t": "You might also consider",
+    "y": 11892,
+    "h": 960
+   },
+   {
+    "id": "",
+    "t": "Where this trip goes",
+    "y": 13242,
+    "h": 373
+   }
+  ],
+  "itY": 1578,
+  "days": 8,
+  "boxes": {
+   "glance": {
+    "x": 20,
+    "y": 1661,
+    "w": 350,
+    "h": 152
+   },
+   "day1": {
+    "x": 20,
+    "y": 1853,
+    "w": 350,
+    "h": 646
+   },
+   "day2": {
+    "x": 20,
+    "y": 2547,
+    "w": 350,
+    "h": 594
+   },
+   "row1": null,
+   "rowLast": {
+    "x": 20,
+    "y": 7326,
+    "w": 350,
+    "h": 620
+   },
+   "fig1": {
+    "x": 20,
+    "y": 1853,
+    "w": 350,
+    "h": 259
+   },
+   "clamp1": null,
+   "more1": null,
+   "top1": null,
+   "rfy": {
+    "x": 20,
+    "y": 8425,
+    "w": 350,
+    "h": 354
+   },
+   "rowsAll": {
+    "x": 20,
+    "y": 1853,
+    "w": 350,
+    "h": 646
+   },
+   "inPrice": {
+    "x": 20,
+    "y": 8884,
+    "w": 350,
+    "h": 312
+   },
+   "notPrice": {
+    "x": 20,
+    "y": 9212,
+    "w": 350,
+    "h": 52
+   },
+   "gal1": null,
+   "mp1": {
+    "x": 20,
+    "y": 9504,
+    "w": 350,
+    "h": 1214
+   },
+   "proLine": null,
+   "dep": null,
+   "pricing": null,
+   "details": {
+    "x": 20,
+    "y": 8835,
+    "w": 350,
+    "h": 498
+   },
+   "detMore": {
+    "x": 41,
+    "y": 9153,
+    "w": 196,
+    "h": 21
+   },
+   "lines": {
+    "x": 20,
+    "y": 9280,
+    "w": 350,
+    "h": 53
+   },
+   "gallery": null,
+   "photos": {
+    "x": 20,
+    "y": 9389,
+    "w": 350,
+    "h": 1329
+   },
+   "protection": null
+  }
+ },
+ "photos": {
+  "href": "https://swat-website-storefront.vercel.app/tours/the-great-american-west-cowboy-tour/",
+  "H": 14415,
+  "vh": 844,
+  "footer": 1634,
+  "secs": [
+   {
+    "id": "itinerary",
+    "t": "Day by day",
+    "y": 1578,
+    "h": 6369
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 7970,
+    "h": 26
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 8020,
+    "h": 350
+   },
+   {
+    "id": "right-for-you",
+    "t": "Is this trip right for you?",
+    "y": 8425,
+    "h": 354
+   },
+   {
+    "id": "details",
+    "t": "Tour details",
+    "y": 8835,
+    "h": 498
+   },
+   {
+    "id": "more-photos",
+    "t": "More from Yellowstone National Park, Gra",
+    "y": 9389,
+    "h": 303
+   },
+   {
+    "id": "enquire",
+    "t": "",
+    "y": 10024,
+    "h": 777
+   },
+   {
+    "id": "",
+    "t": "You might also consider",
+    "y": 10865,
+    "h": 960
+   },
+   {
+    "id": "",
+    "t": "Where this trip goes",
+    "y": 12215,
+    "h": 373
+   }
+  ],
+  "itY": 1578,
+  "days": 8,
+  "boxes": {
+   "glance": {
+    "x": 20,
+    "y": 1661,
+    "w": 350,
+    "h": 152
+   },
+   "day1": {
+    "x": 20,
+    "y": 1853,
+    "w": 350,
+    "h": 646
+   },
+   "day2": {
+    "x": 20,
+    "y": 2547,
+    "w": 350,
+    "h": 594
+   },
+   "row1": null,
+   "rowLast": {
+    "x": 20,
+    "y": 7326,
+    "w": 350,
+    "h": 620
+   },
+   "fig1": {
+    "x": 20,
+    "y": 1853,
+    "w": 350,
+    "h": 259
+   },
+   "clamp1": null,
+   "more1": null,
+   "top1": null,
+   "rfy": {
+    "x": 20,
+    "y": 8425,
+    "w": 350,
+    "h": 354
+   },
+   "rowsAll": {
+    "x": 20,
+    "y": 1853,
+    "w": 350,
+    "h": 646
+   },
+   "inPrice": {
+    "x": 20,
+    "y": 8884,
+    "w": 350,
+    "h": 312
+   },
+   "notPrice": {
+    "x": 20,
+    "y": 9212,
+    "w": 350,
+    "h": 52
+   },
+   "gal1": null,
+   "mp1": {
+    "x": 20,
+    "y": 9504,
+    "w": 370,
+    "h": 188
+   },
+   "proLine": null,
+   "dep": null,
+   "pricing": null,
+   "details": {
+    "x": 20,
+    "y": 8835,
+    "w": 350,
+    "h": 498
+   },
+   "detMore": {
+    "x": 41,
+    "y": 9153,
+    "w": 196,
+    "h": 21
+   },
+   "lines": {
+    "x": 20,
+    "y": 9280,
+    "w": 350,
+    "h": 53
+   },
+   "gallery": null,
+   "photos": {
+    "x": 20,
+    "y": 9389,
+    "w": 350,
+    "h": 303
+   },
+   "protection": null
+  }
+ }
+}

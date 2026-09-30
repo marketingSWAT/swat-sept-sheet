@@ -200,6 +200,13 @@ ANSWERS = {
     72: ('C', 'on production 29 September'),
     73: ('E', '&ldquo;I like E, let&rsquo;s push that to staging so I can take a '
               'look.&rdquo; On staging 29 September, not on production yet'),
+    # Round twelve, answered 29 September at 16:16. 77 and 78 are held, not
+    # folded: Crow could not tell where on the site they live.
+    75: ('A', '&ldquo;don&rsquo;t touch, leave as is&rdquo;'),
+    76: ('C', 'with each door&rsquo;s own trips below it (&ldquo;make more use of this '
+              'space&rdquo;). On staging 29 September, not on production'),
+    79: ('C', 'on staging 29 September, not on production. The facts strip moved up under '
+              'the photo so the columns end together on the pages with less blank space'),
     53: ('Settled', 'in the 28 September walkthrough with Lance: one button '
                     'on the photograph, linked to Destinations, stronger '
                     'wording than &ldquo;Find your tour&rdquo; still to be '

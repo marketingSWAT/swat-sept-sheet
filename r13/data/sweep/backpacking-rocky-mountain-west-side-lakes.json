@@ -1,0 +1,813 @@
+{
+ "slug": "backpacking-rocky-mountain-west-side-lakes",
+ "now": {
+  "href": "https://swat-website-storefront.vercel.app/tours/backpacking-rocky-mountain-west-side-lakes/",
+  "H": 17873,
+  "vh": 844,
+  "footer": 1634,
+  "secs": [
+   {
+    "id": "overview",
+    "t": "Overview",
+    "y": 1576,
+    "h": 997
+   },
+   {
+    "id": "itinerary",
+    "t": "Day by day",
+    "y": 2629,
+    "h": 5567
+   },
+   {
+    "id": "activities",
+    "t": "Activities",
+    "y": 8252,
+    "h": 283
+   },
+   {
+    "id": "what-to-pack",
+    "t": "What To Pack",
+    "y": 8591,
+    "h": 811
+   },
+   {
+    "id": "right-for-you",
+    "t": "Is this trip right for you?",
+    "y": 9458,
+    "h": 620
+   },
+   {
+    "id": "details",
+    "t": "Tour details",
+    "y": 10134,
+    "h": 1513
+   },
+   {
+    "id": "more-photos",
+    "t": "More from Colorado",
+    "y": 11703,
+    "h": 991
+   },
+   {
+    "id": "reserve",
+    "t": "Ask about a date",
+    "y": 12750,
+    "h": 734
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 13816,
+    "h": 456
+   },
+   {
+    "id": "",
+    "t": "You might also consider",
+    "y": 14336,
+    "h": 1051
+   },
+   {
+    "id": "",
+    "t": "Where this trip goes",
+    "y": 15776,
+    "h": 269
+   }
+  ],
+  "itY": 2629,
+  "days": 4,
+  "boxes": {
+   "glance": {
+    "x": 20,
+    "y": 2712,
+    "w": 350,
+    "h": 108
+   },
+   "day1": {
+    "x": 20,
+    "y": 2860,
+    "w": 350,
+    "h": 1382
+   },
+   "day2": {
+    "x": 20,
+    "y": 4290,
+    "w": 350,
+    "h": 1363
+   },
+   "row1": null,
+   "rowLast": {
+    "x": 20,
+    "y": 7086,
+    "w": 350,
+    "h": 1110
+   },
+   "fig1": {
+    "x": 20,
+    "y": 2860,
+    "w": 350,
+    "h": 259
+   },
+   "clamp1": null,
+   "more1": null,
+   "top1": null,
+   "rfy": {
+    "x": 20,
+    "y": 9458,
+    "w": 350,
+    "h": 620
+   },
+   "rowsAll": {
+    "x": 20,
+    "y": 2860,
+    "w": 350,
+    "h": 1382
+   },
+   "inPrice": {
+    "x": 20,
+    "y": 10183,
+    "w": 350,
+    "h": 1378
+   },
+   "notPrice": null,
+   "gal1": null,
+   "mp1": {
+    "x": 20,
+    "y": 11752,
+    "w": 350,
+    "h": 942
+   },
+   "proLine": null,
+   "dep": null,
+   "pricing": null,
+   "details": {
+    "x": 20,
+    "y": 10134,
+    "w": 350,
+    "h": 1513
+   },
+   "detMore": null,
+   "lines": null,
+   "gallery": null,
+   "photos": {
+    "x": 20,
+    "y": 11703,
+    "w": 350,
+    "h": 991
+   },
+   "protection": null
+  }
+ },
+ "fold": {
+  "href": "https://swat-website-storefront.vercel.app/tours/backpacking-rocky-mountain-west-side-lakes/",
+  "H": 12722,
+  "vh": 844,
+  "footer": 1634,
+  "secs": [
+   {
+    "id": "overview",
+    "t": "Overview",
+    "y": 1576,
+    "h": 997
+   },
+   {
+    "id": "itinerary",
+    "t": "Day by day",
+    "y": 2629,
+    "h": 416
+   },
+   {
+    "id": "activities",
+    "t": "Activities",
+    "y": 3101,
+    "h": 283
+   },
+   {
+    "id": "what-to-pack",
+    "t": "What To Pack",
+    "y": 3440,
+    "h": 811
+   },
+   {
+    "id": "right-for-you",
+    "t": "Is this trip right for you?",
+    "y": 4307,
+    "h": 620
+   },
+   {
+    "id": "details",
+    "t": "Tour details",
+    "y": 4983,
+    "h": 1513
+   },
+   {
+    "id": "more-photos",
+    "t": "More from Colorado",
+    "y": 6552,
+    "h": 991
+   },
+   {
+    "id": "reserve",
+    "t": "Ask about a date",
+    "y": 7599,
+    "h": 734
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 8665,
+    "h": 456
+   },
+   {
+    "id": "",
+    "t": "You might also consider",
+    "y": 9185,
+    "h": 1051
+   },
+   {
+    "id": "",
+    "t": "Where this trip goes",
+    "y": 10625,
+    "h": 269
+   }
+  ],
+  "itY": 2629,
+  "days": 4,
+  "boxes": {
+   "glance": null,
+   "day1": {
+    "x": 20,
+    "y": 2702,
+    "w": 350,
+    "h": 87
+   },
+   "day2": {
+    "x": 20,
+    "y": 2789,
+    "w": 350,
+    "h": 87
+   },
+   "row1": {
+    "x": 20,
+    "y": 2703,
+    "w": 350,
+    "h": 86
+   },
+   "rowLast": {
+    "x": 20,
+    "y": 2962,
+    "w": 350,
+    "h": 83
+   },
+   "fig1": null,
+   "clamp1": null,
+   "more1": null,
+   "top1": null,
+   "rfy": {
+    "x": 20,
+    "y": 4307,
+    "w": 350,
+    "h": 620
+   },
+   "rowsAll": {
+    "x": 20,
+    "y": 2702,
+    "w": 350,
+    "h": 87
+   },
+   "inPrice": {
+    "x": 20,
+    "y": 5032,
+    "w": 350,
+    "h": 1378
+   },
+   "notPrice": null,
+   "gal1": null,
+   "mp1": {
+    "x": 20,
+    "y": 6601,
+    "w": 350,
+    "h": 942
+   },
+   "proLine": null,
+   "dep": null,
+   "pricing": null,
+   "details": {
+    "x": 20,
+    "y": 4983,
+    "w": 350,
+    "h": 1513
+   },
+   "detMore": null,
+   "lines": null,
+   "gallery": null,
+   "photos": {
+    "x": 20,
+    "y": 6552,
+    "w": 350,
+    "h": 991
+   },
+   "protection": null
+  }
+ },
+ "short": {
+  "href": "https://swat-website-storefront.vercel.app/tours/backpacking-rocky-mountain-west-side-lakes/",
+  "H": 13613,
+  "vh": 844,
+  "footer": 1634,
+  "secs": [
+   {
+    "id": "overview",
+    "t": "Overview",
+    "y": 1576,
+    "h": 997
+   },
+   {
+    "id": "itinerary",
+    "t": "Day by day",
+    "y": 2629,
+    "h": 1307
+   },
+   {
+    "id": "activities",
+    "t": "Activities",
+    "y": 3993,
+    "h": 283
+   },
+   {
+    "id": "what-to-pack",
+    "t": "What To Pack",
+    "y": 4332,
+    "h": 811
+   },
+   {
+    "id": "right-for-you",
+    "t": "Is this trip right for you?",
+    "y": 5199,
+    "h": 620
+   },
+   {
+    "id": "details",
+    "t": "Tour details",
+    "y": 5875,
+    "h": 1513
+   },
+   {
+    "id": "more-photos",
+    "t": "More from Colorado",
+    "y": 7444,
+    "h": 991
+   },
+   {
+    "id": "reserve",
+    "t": "Ask about a date",
+    "y": 8490,
+    "h": 734
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 9557,
+    "h": 456
+   },
+   {
+    "id": "",
+    "t": "You might also consider",
+    "y": 10076,
+    "h": 1051
+   },
+   {
+    "id": "",
+    "t": "Where this trip goes",
+    "y": 11517,
+    "h": 269
+   }
+  ],
+  "itY": 2629,
+  "days": 4,
+  "boxes": {
+   "glance": {
+    "x": 20,
+    "y": 2712,
+    "w": 350,
+    "h": 108
+   },
+   "day1": {
+    "x": 20,
+    "y": 2860,
+    "w": 350,
+    "h": 238
+   },
+   "day2": {
+    "x": 20,
+    "y": 3146,
+    "w": 350,
+    "h": 228
+   },
+   "row1": null,
+   "rowLast": {
+    "x": 20,
+    "y": 3709,
+    "w": 350,
+    "h": 228
+   },
+   "fig1": null,
+   "clamp1": {
+    "x": 20,
+    "y": 2966,
+    "w": 350,
+    "h": 104
+   },
+   "more1": {
+    "x": 20,
+    "y": 3076,
+    "w": 123,
+    "h": 21
+   },
+   "top1": {
+    "x": 20,
+    "y": 2860,
+    "w": 350,
+    "h": 94
+   },
+   "rfy": {
+    "x": 20,
+    "y": 5199,
+    "w": 350,
+    "h": 620
+   },
+   "rowsAll": {
+    "x": 20,
+    "y": 2860,
+    "w": 350,
+    "h": 238
+   },
+   "inPrice": {
+    "x": 20,
+    "y": 5924,
+    "w": 350,
+    "h": 1378
+   },
+   "notPrice": null,
+   "gal1": null,
+   "mp1": {
+    "x": 20,
+    "y": 7493,
+    "w": 350,
+    "h": 942
+   },
+   "proLine": null,
+   "dep": null,
+   "pricing": null,
+   "details": {
+    "x": 20,
+    "y": 5875,
+    "w": 350,
+    "h": 1513
+   },
+   "detMore": null,
+   "lines": null,
+   "gallery": null,
+   "photos": {
+    "x": 20,
+    "y": 7444,
+    "w": 350,
+    "h": 991
+   },
+   "protection": null
+  }
+ },
+ "lists": {
+  "href": "https://swat-website-storefront.vercel.app/tours/backpacking-rocky-mountain-west-side-lakes/",
+  "H": 16738,
+  "vh": 844,
+  "footer": 1634,
+  "secs": [
+   {
+    "id": "overview",
+    "t": "Overview",
+    "y": 1576,
+    "h": 997
+   },
+   {
+    "id": "itinerary",
+    "t": "Day by day",
+    "y": 2629,
+    "h": 5567
+   },
+   {
+    "id": "activities",
+    "t": "Activities",
+    "y": 8252,
+    "h": 283
+   },
+   {
+    "id": "what-to-pack",
+    "t": "What To Pack",
+    "y": 8591,
+    "h": 811
+   },
+   {
+    "id": "right-for-you",
+    "t": "Is this trip right for you?",
+    "y": 9458,
+    "h": 620
+   },
+   {
+    "id": "details",
+    "t": "Tour details",
+    "y": 10134,
+    "h": 378
+   },
+   {
+    "id": "more-photos",
+    "t": "More from Colorado",
+    "y": 10568,
+    "h": 991
+   },
+   {
+    "id": "reserve",
+    "t": "Ask about a date",
+    "y": 11615,
+    "h": 734
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 12681,
+    "h": 456
+   },
+   {
+    "id": "",
+    "t": "You might also consider",
+    "y": 13201,
+    "h": 1051
+   },
+   {
+    "id": "",
+    "t": "Where this trip goes",
+    "y": 14641,
+    "h": 269
+   }
+  ],
+  "itY": 2629,
+  "days": 4,
+  "boxes": {
+   "glance": {
+    "x": 20,
+    "y": 2712,
+    "w": 350,
+    "h": 108
+   },
+   "day1": {
+    "x": 20,
+    "y": 2860,
+    "w": 350,
+    "h": 1382
+   },
+   "day2": {
+    "x": 20,
+    "y": 4290,
+    "w": 350,
+    "h": 1363
+   },
+   "row1": null,
+   "rowLast": {
+    "x": 20,
+    "y": 7086,
+    "w": 350,
+    "h": 1110
+   },
+   "fig1": {
+    "x": 20,
+    "y": 2860,
+    "w": 350,
+    "h": 259
+   },
+   "clamp1": null,
+   "more1": null,
+   "top1": null,
+   "rfy": {
+    "x": 20,
+    "y": 9458,
+    "w": 350,
+    "h": 620
+   },
+   "rowsAll": {
+    "x": 20,
+    "y": 2860,
+    "w": 350,
+    "h": 1382
+   },
+   "inPrice": {
+    "x": 20,
+    "y": 10183,
+    "w": 350,
+    "h": 312
+   },
+   "notPrice": null,
+   "gal1": null,
+   "mp1": {
+    "x": 20,
+    "y": 10617,
+    "w": 350,
+    "h": 942
+   },
+   "proLine": null,
+   "dep": null,
+   "pricing": null,
+   "details": {
+    "x": 20,
+    "y": 10134,
+    "w": 350,
+    "h": 378
+   },
+   "detMore": {
+    "x": 41,
+    "y": 10452,
+    "w": 204,
+    "h": 21
+   },
+   "lines": {
+    "x": 20,
+    "y": 10511,
+    "w": 350,
+    "h": 1
+   },
+   "gallery": null,
+   "photos": {
+    "x": 20,
+    "y": 10568,
+    "w": 350,
+    "h": 991
+   },
+   "protection": null
+  }
+ },
+ "photos": {
+  "href": "https://swat-website-storefront.vercel.app/tours/backpacking-rocky-mountain-west-side-lakes/",
+  "H": 15983,
+  "vh": 844,
+  "footer": 1634,
+  "secs": [
+   {
+    "id": "overview",
+    "t": "Overview",
+    "y": 1576,
+    "h": 997
+   },
+   {
+    "id": "itinerary",
+    "t": "Day by day",
+    "y": 2629,
+    "h": 5567
+   },
+   {
+    "id": "activities",
+    "t": "Activities",
+    "y": 8252,
+    "h": 283
+   },
+   {
+    "id": "what-to-pack",
+    "t": "What To Pack",
+    "y": 8591,
+    "h": 811
+   },
+   {
+    "id": "right-for-you",
+    "t": "Is this trip right for you?",
+    "y": 9458,
+    "h": 620
+   },
+   {
+    "id": "details",
+    "t": "Tour details",
+    "y": 10134,
+    "h": 378
+   },
+   {
+    "id": "more-photos",
+    "t": "More from Colorado",
+    "y": 10568,
+    "h": 237
+   },
+   {
+    "id": "reserve",
+    "t": "Ask about a date",
+    "y": 10861,
+    "h": 734
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 11927,
+    "h": 456
+   },
+   {
+    "id": "",
+    "t": "You might also consider",
+    "y": 12447,
+    "h": 1051
+   },
+   {
+    "id": "",
+    "t": "Where this trip goes",
+    "y": 13887,
+    "h": 269
+   }
+  ],
+  "itY": 2629,
+  "days": 4,
+  "boxes": {
+   "glance": {
+    "x": 20,
+    "y": 2712,
+    "w": 350,
+    "h": 108
+   },
+   "day1": {
+    "x": 20,
+    "y": 2860,
+    "w": 350,
+    "h": 1382
+   },
+   "day2": {
+    "x": 20,
+    "y": 4290,
+    "w": 350,
+    "h": 1363
+   },
+   "row1": null,
+   "rowLast": {
+    "x": 20,
+    "y": 7086,
+    "w": 350,
+    "h": 1110
+   },
+   "fig1": {
+    "x": 20,
+    "y": 2860,
+    "w": 350,
+    "h": 259
+   },
+   "clamp1": null,
+   "more1": null,
+   "top1": null,
+   "rfy": {
+    "x": 20,
+    "y": 9458,
+    "w": 350,
+    "h": 620
+   },
+   "rowsAll": {
+    "x": 20,
+    "y": 2860,
+    "w": 350,
+    "h": 1382
+   },
+   "inPrice": {
+    "x": 20,
+    "y": 10183,
+    "w": 350,
+    "h": 312
+   },
+   "notPrice": null,
+   "gal1": null,
+   "mp1": {
+    "x": 20,
+    "y": 10617,
+    "w": 370,
+    "h": 188
+   },
+   "proLine": null,
+   "dep": null,
+   "pricing": null,
+   "details": {
+    "x": 20,
+    "y": 10134,
+    "w": 350,
+    "h": 378
+   },
+   "detMore": {
+    "x": 41,
+    "y": 10452,
+    "w": 204,
+    "h": 21
+   },
+   "lines": {
+    "x": 20,
+    "y": 10511,
+    "w": 350,
+    "h": 1
+   },
+   "gallery": null,
+   "photos": {
+    "x": 20,
+    "y": 10568,
+    "w": 350,
+    "h": 237
+   },
+   "protection": null
+  }
+ }
+}

@@ -1,0 +1,1048 @@
+{
+ "slug": "yosemite-sequoia-california-coast",
+ "now": {
+  "href": "https://swat-website-storefront.vercel.app/tours/yosemite-sequoia-california-coast/",
+  "H": 21018,
+  "vh": 844,
+  "footer": 1634,
+  "secs": [
+   {
+    "id": "reviews",
+    "t": "What guests said",
+    "y": 1163,
+    "h": 805
+   },
+   {
+    "id": "overview",
+    "t": "Overview",
+    "y": 2583,
+    "h": 439
+   },
+   {
+    "id": "seasons",
+    "t": "This trip by season",
+    "y": 3078,
+    "h": 515
+   },
+   {
+    "id": "itinerary",
+    "t": "Day by day",
+    "y": 3649,
+    "h": 6362
+   },
+   {
+    "id": "right-for-you",
+    "t": "Is this trip right for you?",
+    "y": 10066,
+    "h": 354
+   },
+   {
+    "id": "details",
+    "t": "Tour details",
+    "y": 10476,
+    "h": 1524
+   },
+   {
+    "id": "gallery",
+    "t": "Gallery",
+    "y": 12056,
+    "h": 991
+   },
+   {
+    "id": "more-photos",
+    "t": "More from California",
+    "y": 13103,
+    "h": 991
+   },
+   {
+    "id": "departures",
+    "t": "Departures",
+    "y": 14150,
+    "h": 568
+   },
+   {
+    "id": "pricing",
+    "t": "Pricing",
+    "y": 14774,
+    "h": 738
+   },
+   {
+    "id": "protection",
+    "t": "SWAT Trip Protection Plan",
+    "y": 15568,
+    "h": 921
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 16822,
+    "h": 572
+   },
+   {
+    "id": "",
+    "t": "You might also consider",
+    "y": 17458,
+    "h": 918
+   },
+   {
+    "id": "",
+    "t": "Where this trip goes",
+    "y": 18766,
+    "h": 425
+   }
+  ],
+  "itY": 3649,
+  "days": 8,
+  "boxes": {
+   "glance": {
+    "x": 20,
+    "y": 3732,
+    "w": 350,
+    "h": 154
+   },
+   "day1": {
+    "x": 20,
+    "y": 3925,
+    "w": 350,
+    "h": 490
+   },
+   "day2": {
+    "x": 20,
+    "y": 4463,
+    "w": 350,
+    "h": 878
+   },
+   "row1": null,
+   "rowLast": {
+    "x": 20,
+    "y": 9520,
+    "w": 350,
+    "h": 490
+   },
+   "fig1": {
+    "x": 20,
+    "y": 3925,
+    "w": 350,
+    "h": 259
+   },
+   "clamp1": null,
+   "more1": null,
+   "top1": null,
+   "rfy": {
+    "x": 20,
+    "y": 10066,
+    "w": 350,
+    "h": 354
+   },
+   "rowsAll": {
+    "x": 20,
+    "y": 3925,
+    "w": 350,
+    "h": 490
+   },
+   "inPrice": {
+    "x": 20,
+    "y": 10525,
+    "w": 350,
+    "h": 500
+   },
+   "notPrice": null,
+   "gal1": {
+    "x": 20,
+    "y": 12105,
+    "w": 350,
+    "h": 942
+   },
+   "mp1": {
+    "x": 20,
+    "y": 13152,
+    "w": 350,
+    "h": 942
+   },
+   "proLine": null,
+   "dep": {
+    "x": 20,
+    "y": 14150,
+    "w": 350,
+    "h": 568
+   },
+   "pricing": {
+    "x": 20,
+    "y": 14774,
+    "w": 350,
+    "h": 738
+   },
+   "details": {
+    "x": 20,
+    "y": 10476,
+    "w": 350,
+    "h": 1524
+   },
+   "detMore": null,
+   "lines": null,
+   "gallery": {
+    "x": 20,
+    "y": 12056,
+    "w": 350,
+    "h": 991
+   },
+   "photos": {
+    "x": 20,
+    "y": 13103,
+    "w": 350,
+    "h": 991
+   },
+   "protection": {
+    "x": 20,
+    "y": 15568,
+    "w": 350,
+    "h": 921
+   }
+  }
+ },
+ "fold": {
+  "href": "https://swat-website-storefront.vercel.app/tours/yosemite-sequoia-california-coast/",
+  "H": 15450,
+  "vh": 844,
+  "footer": 1634,
+  "secs": [
+   {
+    "id": "reviews",
+    "t": "What guests said",
+    "y": 1163,
+    "h": 805
+   },
+   {
+    "id": "overview",
+    "t": "Overview",
+    "y": 2583,
+    "h": 439
+   },
+   {
+    "id": "seasons",
+    "t": "This trip by season",
+    "y": 3078,
+    "h": 515
+   },
+   {
+    "id": "itinerary",
+    "t": "Day by day",
+    "y": 3649,
+    "h": 794
+   },
+   {
+    "id": "right-for-you",
+    "t": "Is this trip right for you?",
+    "y": 4499,
+    "h": 354
+   },
+   {
+    "id": "details",
+    "t": "Tour details",
+    "y": 4909,
+    "h": 1524
+   },
+   {
+    "id": "gallery",
+    "t": "Gallery",
+    "y": 6489,
+    "h": 991
+   },
+   {
+    "id": "more-photos",
+    "t": "More from California",
+    "y": 7536,
+    "h": 991
+   },
+   {
+    "id": "departures",
+    "t": "Departures",
+    "y": 8582,
+    "h": 568
+   },
+   {
+    "id": "pricing",
+    "t": "Pricing",
+    "y": 9207,
+    "h": 738
+   },
+   {
+    "id": "protection",
+    "t": "SWAT Trip Protection Plan",
+    "y": 10001,
+    "h": 921
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 11255,
+    "h": 572
+   },
+   {
+    "id": "",
+    "t": "You might also consider",
+    "y": 11891,
+    "h": 918
+   },
+   {
+    "id": "",
+    "t": "Where this trip goes",
+    "y": 13198,
+    "h": 425
+   }
+  ],
+  "itY": 3649,
+  "days": 8,
+  "boxes": {
+   "glance": null,
+   "day1": {
+    "x": 20,
+    "y": 3722,
+    "w": 350,
+    "h": 82
+   },
+   "day2": {
+    "x": 20,
+    "y": 3804,
+    "w": 350,
+    "h": 82
+   },
+   "row1": {
+    "x": 20,
+    "y": 3723,
+    "w": 350,
+    "h": 81
+   },
+   "rowLast": {
+    "x": 20,
+    "y": 4360,
+    "w": 350,
+    "h": 83
+   },
+   "fig1": null,
+   "clamp1": null,
+   "more1": null,
+   "top1": null,
+   "rfy": {
+    "x": 20,
+    "y": 4499,
+    "w": 350,
+    "h": 354
+   },
+   "rowsAll": {
+    "x": 20,
+    "y": 3722,
+    "w": 350,
+    "h": 82
+   },
+   "inPrice": {
+    "x": 20,
+    "y": 4958,
+    "w": 350,
+    "h": 500
+   },
+   "notPrice": null,
+   "gal1": {
+    "x": 20,
+    "y": 6538,
+    "w": 350,
+    "h": 942
+   },
+   "mp1": {
+    "x": 20,
+    "y": 7585,
+    "w": 350,
+    "h": 942
+   },
+   "proLine": null,
+   "dep": {
+    "x": 20,
+    "y": 8582,
+    "w": 350,
+    "h": 568
+   },
+   "pricing": {
+    "x": 20,
+    "y": 9207,
+    "w": 350,
+    "h": 738
+   },
+   "details": {
+    "x": 20,
+    "y": 4909,
+    "w": 350,
+    "h": 1524
+   },
+   "detMore": null,
+   "lines": null,
+   "gallery": {
+    "x": 20,
+    "y": 6489,
+    "w": 350,
+    "h": 991
+   },
+   "photos": {
+    "x": 20,
+    "y": 7536,
+    "w": 350,
+    "h": 991
+   },
+   "protection": {
+    "x": 20,
+    "y": 10001,
+    "w": 350,
+    "h": 921
+   }
+  }
+ },
+ "short": {
+  "href": "https://swat-website-storefront.vercel.app/tours/yosemite-sequoia-california-coast/",
+  "H": 17575,
+  "vh": 844,
+  "footer": 1634,
+  "secs": [
+   {
+    "id": "reviews",
+    "t": "What guests said",
+    "y": 1163,
+    "h": 805
+   },
+   {
+    "id": "overview",
+    "t": "Overview",
+    "y": 2583,
+    "h": 439
+   },
+   {
+    "id": "seasons",
+    "t": "This trip by season",
+    "y": 3078,
+    "h": 515
+   },
+   {
+    "id": "itinerary",
+    "t": "Day by day",
+    "y": 3649,
+    "h": 2919
+   },
+   {
+    "id": "right-for-you",
+    "t": "Is this trip right for you?",
+    "y": 6624,
+    "h": 354
+   },
+   {
+    "id": "details",
+    "t": "Tour details",
+    "y": 7034,
+    "h": 1524
+   },
+   {
+    "id": "gallery",
+    "t": "Gallery",
+    "y": 8614,
+    "h": 991
+   },
+   {
+    "id": "more-photos",
+    "t": "More from California",
+    "y": 9660,
+    "h": 991
+   },
+   {
+    "id": "departures",
+    "t": "Departures",
+    "y": 10707,
+    "h": 568
+   },
+   {
+    "id": "pricing",
+    "t": "Pricing",
+    "y": 11331,
+    "h": 738
+   },
+   {
+    "id": "protection",
+    "t": "SWAT Trip Protection Plan",
+    "y": 12125,
+    "h": 921
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 13379,
+    "h": 572
+   },
+   {
+    "id": "",
+    "t": "You might also consider",
+    "y": 14015,
+    "h": 918
+   },
+   {
+    "id": "",
+    "t": "Where this trip goes",
+    "y": 15323,
+    "h": 425
+   }
+  ],
+  "itY": 3649,
+  "days": 8,
+  "boxes": {
+   "glance": {
+    "x": 20,
+    "y": 3732,
+    "w": 350,
+    "h": 154
+   },
+   "day1": {
+    "x": 20,
+    "y": 3925,
+    "w": 350,
+    "h": 270
+   },
+   "day2": {
+    "x": 20,
+    "y": 4243,
+    "w": 350,
+    "h": 304
+   },
+   "row1": null,
+   "rowLast": {
+    "x": 20,
+    "y": 6298,
+    "w": 350,
+    "h": 270
+   },
+   "fig1": null,
+   "clamp1": {
+    "x": 20,
+    "y": 4021,
+    "w": 350,
+    "h": 104
+   },
+   "more1": {
+    "x": 20,
+    "y": 4131,
+    "w": 123,
+    "h": 21
+   },
+   "top1": {
+    "x": 20,
+    "y": 3925,
+    "w": 350,
+    "h": 84
+   },
+   "rfy": {
+    "x": 20,
+    "y": 6624,
+    "w": 350,
+    "h": 354
+   },
+   "rowsAll": {
+    "x": 20,
+    "y": 3925,
+    "w": 350,
+    "h": 270
+   },
+   "inPrice": {
+    "x": 20,
+    "y": 7083,
+    "w": 350,
+    "h": 500
+   },
+   "notPrice": null,
+   "gal1": {
+    "x": 20,
+    "y": 8663,
+    "w": 350,
+    "h": 942
+   },
+   "mp1": {
+    "x": 20,
+    "y": 9709,
+    "w": 350,
+    "h": 942
+   },
+   "proLine": null,
+   "dep": {
+    "x": 20,
+    "y": 10707,
+    "w": 350,
+    "h": 568
+   },
+   "pricing": {
+    "x": 20,
+    "y": 11331,
+    "w": 350,
+    "h": 738
+   },
+   "details": {
+    "x": 20,
+    "y": 7034,
+    "w": 350,
+    "h": 1524
+   },
+   "detMore": null,
+   "lines": null,
+   "gallery": {
+    "x": 20,
+    "y": 8614,
+    "w": 350,
+    "h": 991
+   },
+   "photos": {
+    "x": 20,
+    "y": 9660,
+    "w": 350,
+    "h": 991
+   },
+   "protection": {
+    "x": 20,
+    "y": 12125,
+    "w": 350,
+    "h": 921
+   }
+  }
+ },
+ "lists": {
+  "href": "https://swat-website-storefront.vercel.app/tours/yosemite-sequoia-california-coast/",
+  "H": 19394,
+  "vh": 844,
+  "footer": 1634,
+  "secs": [
+   {
+    "id": "reviews",
+    "t": "What guests said",
+    "y": 1163,
+    "h": 805
+   },
+   {
+    "id": "overview",
+    "t": "Overview",
+    "y": 2583,
+    "h": 439
+   },
+   {
+    "id": "seasons",
+    "t": "This trip by season",
+    "y": 3078,
+    "h": 515
+   },
+   {
+    "id": "itinerary",
+    "t": "Day by day",
+    "y": 3649,
+    "h": 6362
+   },
+   {
+    "id": "right-for-you",
+    "t": "Is this trip right for you?",
+    "y": 10066,
+    "h": 354
+   },
+   {
+    "id": "details",
+    "t": "Tour details",
+    "y": 10476,
+    "h": 524
+   },
+   {
+    "id": "gallery",
+    "t": "Gallery",
+    "y": 11056,
+    "h": 991
+   },
+   {
+    "id": "more-photos",
+    "t": "More from California",
+    "y": 12103,
+    "h": 991
+   },
+   {
+    "id": "departures",
+    "t": "Departures",
+    "y": 13150,
+    "h": 568
+   },
+   {
+    "id": "pricing",
+    "t": "Pricing",
+    "y": 13774,
+    "h": 738
+   },
+   {
+    "id": "protection",
+    "t": "SWAT Trip Protection Plan",
+    "y": 14568,
+    "h": 298
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 15199,
+    "h": 572
+   },
+   {
+    "id": "",
+    "t": "You might also consider",
+    "y": 15835,
+    "h": 918
+   },
+   {
+    "id": "",
+    "t": "Where this trip goes",
+    "y": 17142,
+    "h": 425
+   }
+  ],
+  "itY": 3649,
+  "days": 8,
+  "boxes": {
+   "glance": {
+    "x": 20,
+    "y": 3732,
+    "w": 350,
+    "h": 154
+   },
+   "day1": {
+    "x": 20,
+    "y": 3925,
+    "w": 350,
+    "h": 490
+   },
+   "day2": {
+    "x": 20,
+    "y": 4463,
+    "w": 350,
+    "h": 878
+   },
+   "row1": null,
+   "rowLast": {
+    "x": 20,
+    "y": 9520,
+    "w": 350,
+    "h": 490
+   },
+   "fig1": {
+    "x": 20,
+    "y": 3925,
+    "w": 350,
+    "h": 259
+   },
+   "clamp1": null,
+   "more1": null,
+   "top1": null,
+   "rfy": {
+    "x": 20,
+    "y": 10066,
+    "w": 350,
+    "h": 354
+   },
+   "rowsAll": {
+    "x": 20,
+    "y": 3925,
+    "w": 350,
+    "h": 490
+   },
+   "inPrice": {
+    "x": 20,
+    "y": 10525,
+    "w": 350,
+    "h": 286
+   },
+   "notPrice": {
+    "x": 20,
+    "y": 10827,
+    "w": 350,
+    "h": 52
+   },
+   "gal1": {
+    "x": 20,
+    "y": 11105,
+    "w": 350,
+    "h": 942
+   },
+   "mp1": {
+    "x": 20,
+    "y": 12152,
+    "w": 350,
+    "h": 942
+   },
+   "proLine": {
+    "x": 20,
+    "y": 14722,
+    "w": 350,
+    "h": 56
+   },
+   "dep": {
+    "x": 20,
+    "y": 13150,
+    "w": 350,
+    "h": 568
+   },
+   "pricing": {
+    "x": 20,
+    "y": 13774,
+    "w": 350,
+    "h": 738
+   },
+   "details": {
+    "x": 20,
+    "y": 10476,
+    "w": 350,
+    "h": 524
+   },
+   "detMore": {
+    "x": 41,
+    "y": 10768,
+    "w": 202,
+    "h": 21
+   },
+   "lines": {
+    "x": 20,
+    "y": 10895,
+    "w": 350,
+    "h": 105
+   },
+   "gallery": {
+    "x": 20,
+    "y": 11056,
+    "w": 350,
+    "h": 991
+   },
+   "photos": {
+    "x": 20,
+    "y": 12103,
+    "w": 350,
+    "h": 991
+   },
+   "protection": {
+    "x": 20,
+    "y": 14568,
+    "w": 350,
+    "h": 298
+   }
+  }
+ },
+ "photos": {
+  "href": "https://swat-website-storefront.vercel.app/tours/yosemite-sequoia-california-coast/",
+  "H": 17886,
+  "vh": 844,
+  "footer": 1634,
+  "secs": [
+   {
+    "id": "reviews",
+    "t": "What guests said",
+    "y": 1163,
+    "h": 805
+   },
+   {
+    "id": "overview",
+    "t": "Overview",
+    "y": 2583,
+    "h": 439
+   },
+   {
+    "id": "seasons",
+    "t": "This trip by season",
+    "y": 3078,
+    "h": 515
+   },
+   {
+    "id": "itinerary",
+    "t": "Day by day",
+    "y": 3649,
+    "h": 6362
+   },
+   {
+    "id": "right-for-you",
+    "t": "Is this trip right for you?",
+    "y": 10066,
+    "h": 354
+   },
+   {
+    "id": "details",
+    "t": "Tour details",
+    "y": 10476,
+    "h": 524
+   },
+   {
+    "id": "gallery",
+    "t": "Gallery",
+    "y": 11056,
+    "h": 237
+   },
+   {
+    "id": "more-photos",
+    "t": "More from California",
+    "y": 11349,
+    "h": 237
+   },
+   {
+    "id": "departures",
+    "t": "Departures",
+    "y": 11641,
+    "h": 568
+   },
+   {
+    "id": "pricing",
+    "t": "Pricing",
+    "y": 12266,
+    "h": 738
+   },
+   {
+    "id": "protection",
+    "t": "SWAT Trip Protection Plan",
+    "y": 13060,
+    "h": 298
+   },
+   {
+    "id": "",
+    "t": "",
+    "y": 13690,
+    "h": 572
+   },
+   {
+    "id": "",
+    "t": "You might also consider",
+    "y": 14326,
+    "h": 918
+   },
+   {
+    "id": "",
+    "t": "Where this trip goes",
+    "y": 15634,
+    "h": 425
+   }
+  ],
+  "itY": 3649,
+  "days": 8,
+  "boxes": {
+   "glance": {
+    "x": 20,
+    "y": 3732,
+    "w": 350,
+    "h": 154
+   },
+   "day1": {
+    "x": 20,
+    "y": 3925,
+    "w": 350,
+    "h": 490
+   },
+   "day2": {
+    "x": 20,
+    "y": 4463,
+    "w": 350,
+    "h": 878
+   },
+   "row1": null,
+   "rowLast": {
+    "x": 20,
+    "y": 9520,
+    "w": 350,
+    "h": 490
+   },
+   "fig1": {
+    "x": 20,
+    "y": 3925,
+    "w": 350,
+    "h": 259
+   },
+   "clamp1": null,
+   "more1": null,
+   "top1": null,
+   "rfy": {
+    "x": 20,
+    "y": 10066,
+    "w": 350,
+    "h": 354
+   },
+   "rowsAll": {
+    "x": 20,
+    "y": 3925,
+    "w": 350,
+    "h": 490
+   },
+   "inPrice": {
+    "x": 20,
+    "y": 10525,
+    "w": 350,
+    "h": 286
+   },
+   "notPrice": {
+    "x": 20,
+    "y": 10827,
+    "w": 350,
+    "h": 52
+   },
+   "gal1": {
+    "x": 20,
+    "y": 11105,
+    "w": 370,
+    "h": 188
+   },
+   "mp1": {
+    "x": 20,
+    "y": 11398,
+    "w": 370,
+    "h": 188
+   },
+   "proLine": {
+    "x": 20,
+    "y": 13214,
+    "w": 350,
+    "h": 56
+   },
+   "dep": {
+    "x": 20,
+    "y": 11641,
+    "w": 350,
+    "h": 568
+   },
+   "pricing": {
+    "x": 20,
+    "y": 12266,
+    "w": 350,
+    "h": 738
+   },
+   "details": {
+    "x": 20,
+    "y": 10476,
+    "w": 350,
+    "h": 524
+   },
+   "detMore": {
+    "x": 41,
+    "y": 10768,
+    "w": 202,
+    "h": 21
+   },
+   "lines": {
+    "x": 20,
+    "y": 10895,
+    "w": 350,
+    "h": 105
+   },
+   "gallery": {
+    "x": 20,
+    "y": 11056,
+    "w": 350,
+    "h": 237
+   },
+   "photos": {
+    "x": 20,
+    "y": 11349,
+    "w": 350,
+    "h": 237
+   },
+   "protection": {
+    "x": 20,
+    "y": 13060,
+    "w": 350,
+    "h": 298
+   }
+  }
+ }
+}
