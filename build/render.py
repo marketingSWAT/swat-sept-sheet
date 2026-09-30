@@ -38,6 +38,7 @@ import decisions_k as K10         # noqa: E402
 import decisions_about as AB      # noqa: E402
 import decisions_l as L12         # noqa: E402
 import decisions_m as M13         # noqa: E402
+import decisions_n as N14         # noqa: E402
 
 OUT = os.path.join(HERE, '..', 'site', 'index.html')
 
@@ -54,6 +55,11 @@ RAIL = [
     (37, 'Is this trip right for you?'),
     (38, 'Start where you are'),
     (39, 'The film slot'),
+]
+
+RAIL14 = [
+    (82, 'The filters on Find a trip'),
+    (83, 'The search box'),
 ]
 
 RAIL13 = [
@@ -129,7 +135,9 @@ def rail_html():
             f'<b>{n}</b>{t}</a>' for n, t in group)
     return (
         '<nav class="rail">'
-        '<div class="rt">Tour pages on a phone &mdash; open</div>'
+        '<div class="rt">Find a trip &mdash; open</div>'
+        f'{rows(RAIL14)}'
+        '<div class="rt">Answered &mdash; tour pages on a phone</div>'
         f'{rows(RAIL13)}'
         '<div class="rt">Jason&rsquo;s three questions &mdash; open</div>'
         '<a href="#r11s">His fifteen questions, scored</a>'
@@ -170,24 +178,22 @@ def rail_html():
 MAST = """
 <header class="mast">
   <div class="kick">Southwest Adventure Tours &middot; storefront rebuild</div>
-  <h1>Jason&rsquo;s three questions, and the About page</h1>
-  <p><b>Seven decisions are open.</b> <a href="#d75">75</a> to
-  <a href="#d79">79</a> answer Jason&rsquo;s <b>Clarity, Connection,
-  Conversion</b> email across the whole site, after a scorecard of his fifteen
-  questions against the live pages. <a href="#d74">74</a> is the whole
-  <b>About page</b>: you did not like the huge photo with the words under it,
-  so it is redrawn three different ways, next to a screenshot of the page as
-  it is today. <a href="#d73">73</a> is Matt&rsquo;s note about picking tour
-  dates <b>by season</b>, now with a fifth drawing, <b>E</b>, that puts C and
-  D together as you asked. The empty-right-side round, 68 to 72, is answered
-  and folded below.</p>
+  <h1>The filters and the search box on Find a trip</h1>
+  <p><b>Two decisions are open.</b> <a href="#d82">82</a> is how the filters
+  look: you did not like the bubbles, so there are three other ways to lay
+  them out next to the page as it is today. <a href="#d83">83</a> is the
+  search box: thirty everyday searches, how many find nothing today, and three
+  ways to make it more helpful.</p>
+  <p style="margin-top:12px">The scrolling problem with the filter column is
+  not a choice. It is being fixed on staging with the rest of Jason&rsquo;s
+  notes, whichever look you pick.</p>
   <p style="margin-top:12px">The page as it is today is ringed in green. The
   one I would build is ringed in amber and says MY PICK.</p>
-  <p style="margin-top:12px"><b>Answer with a letter.</b> &ldquo;Seventy-four
-  goes to B.&rdquo; A voice note is fine, and &ldquo;all your picks&rdquo;
+  <p style="margin-top:12px"><b>Answer with a letter.</b> &ldquo;Eighty-two
+  goes to C.&rdquo; A voice note is fine, and &ldquo;all your picks&rdquo;
   works too.</p>
   <div class="who"><span>Crow</span><span>Claude</span>
-  <span>29 Sep 2026</span><span>Earlier rounds are folded below</span></div>
+  <span>30 Sep 2026</span><span>Earlier rounds are folded below</span></div>
 </header>
 """
 
@@ -825,13 +831,22 @@ def build():
     css += open(os.path.join(HERE, 'about.css')).read()
     css += open(os.path.join(HERE, 'r11.css')).read()
     css += open(os.path.join(HERE, 'r13.css')).read()
+    css += open(os.path.join(HERE, 'r14.css')).read()
     cx = os.path.join(HERE, '..', 'r8', 'codex', 'css')
     for f in sorted(os.listdir(cx)):
         if f.endswith('.css'):
             css += open(os.path.join(cx, f)).read()
     decisions = E.ALL + D.ALL + C.ALL + A.ALL + B.ALL
     body = (MAST +
-            sec('New', 'Tour pages on a phone &mdash; 80 and 81',
+            sec('New', 'Find a trip &mdash; 82 and 83',
+                'Your note of 30 September about the filters and the search box on the Find a trip '
+                'page. These are <b>not drawings</b>: each panel is the live page with the option '
+                'applied to it in the browser, then photographed, so the trips, photos and prices '
+                'are what ships today. The filter panels have <b>Utah</b> chosen so you can see what '
+                'a picked filter looks like. The dashed line is the bottom of a laptop screen. Use '
+                'the <b>Phone</b> button on any panel to see it on a phone. Nothing here is built.') +
+            ''.join(N14.ALL) +
+            sec('Answered', 'Tour pages on a phone &mdash; 80 and 81',
                 'Every tour page, measured on a phone (390 wide, an ordinary iPhone). These are '
                 '<b>not drawings</b>: each panel is the live Arizona Adventure page with the '
                 'option applied to it in the browser, then photographed. Every panel is the '
@@ -906,6 +921,16 @@ def build():
             ''.join(decisions) + R1 + R2 + R3 + R4 + R5)
 
     foot = (
+        '<div class="foot">Round fourteen &mdash; decisions 82 and 83 &mdash; was built 30 '
+        'September 2026 from Crow&rsquo;s note and screenshot about the Find a trip filters and '
+        'search box. The panels are photographs of the DEPLOYED PRODUCTION page <code>swat-website-'
+        'storefront.vercel.app/find/</code> (filters with <code>?destination=Utah</code>) at '
+        '<b>1440</b> wide and <b>390&times;844</b>, each option applied to the real page in the '
+        'browser (<code>r14/harvest/proto.js</code>) and shot in that state (<code>shoot.mjs</code>). '
+        'Every trip count beside a filter was read off production the same day, one page load per '
+        'choice. The search table runs thirty searches through the live site&rsquo;s own matching '
+        'rule and through B&rsquo;s (<code>r14/harvest/search.py</code>) against the 74 published '
+        'trips. Counts move when trips are re-categorised, so re-derive before the next round.</div>' +
         '<div class="foot">Round thirteen &mdash; decisions 80 and 81 &mdash; was built 29 '
         'September 2026 from Crow&rsquo;s note asking to see the phone tour-page proposal. The '
         'panels are photographs of the DEPLOYED PRODUCTION page <code>swat-website-storefront.'

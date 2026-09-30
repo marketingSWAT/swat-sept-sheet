@@ -1,0 +1,52 @@
+{
+ "Style": {
+  "Backpacking": 7,
+  "Guided small group": 33,
+  "Day tour": 9,
+  "Self-drive": 6,
+  "Private & custom": 4,
+  "Large group": 3,
+  "Rail & cruise": 9,
+  "Winter": 3,
+  "Special event": 0
+ },
+ "Duration": {
+  "A day or less": 15,
+  "Half day": 2,
+  "1 day": 10,
+  "2-3 days": 3,
+  "4-6 days": 19,
+  "7-10 days": 30,
+  "11+ days": 7
+ },
+ "Activity level": {
+  "Easy": 14,
+  "Moderate": 36,
+  "Challenging": 16,
+  "Strenuous": 8
+ },
+ "Destination": {
+  "Alaska": 2,
+  "Arizona": 12,
+  "California": 11,
+  "Canada": 1,
+  "Colorado": 9,
+  "Hawaii": 2,
+  "International": 3,
+  "Montana": 1,
+  "Nevada": 8,
+  "New Mexico": 2,
+  "Oregon": 4,
+  "South Dakota": 3,
+  "Texas": 2,
+  "Utah": 28,
+  "Washington": 1,
+  "Wyoming": 8
+ },
+ "When": {
+  "Spring": 12,
+  "Summer": 14,
+  "Autumn": 20,
+  "Winter": 7
+ }
+}

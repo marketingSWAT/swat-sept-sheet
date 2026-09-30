@@ -207,6 +207,11 @@ ANSWERS = {
               'space&rdquo;). On staging 29 September, not on production'),
     79: ('C', 'on staging 29 September, not on production. The facts strip moved up under '
               'the photo so the columns end together on the pages with less blank space'),
+    # Round thirteen: B and C were built on staging on 29 September, then
+    # rejected once Crow scrolled them, and reverted the same night.
+    80: ('A', '&ldquo;Actually I don&rsquo;t like this, let&rsquo;s keep it as is.&rdquo; B was '
+              'built on staging 29 September and taken back out the same night'),
+    81: ('A', 'kept as is with 80. C was built on staging and taken back out'),
     53: ('Settled', 'in the 28 September walkthrough with Lance: one button '
                     'on the photograph, linked to Destinations, stronger '
                     'wording than &ldquo;Find your tour&rdquo; still to be '

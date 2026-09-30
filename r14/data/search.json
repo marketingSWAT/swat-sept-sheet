@@ -1,0 +1,355 @@
+[
+ {
+  "q": "zion",
+  "today": 18,
+  "smart": 20,
+  "first": "Zion & Bryce Canyon 2-Day Getaway - Park",
+  "firstSlug": "zion-bryce-canyon-2-day-getaway",
+  "words": [
+   "zion"
+  ],
+  "extra": null
+ },
+ {
+  "q": "zion bryce",
+  "today": 0,
+  "smart": 13,
+  "first": "Zion & Bryce Canyon 2-Day Getaway - Park",
+  "firstSlug": "zion-bryce-canyon-2-day-getaway",
+  "words": [
+   "zion",
+   "bryce"
+  ],
+  "extra": null
+ },
+ {
+  "q": "bryce canyon",
+  "today": 13,
+  "smart": 15,
+  "first": "Zion & Bryce Canyon 2-Day Getaway - Park",
+  "firstSlug": "zion-bryce-canyon-2-day-getaway",
+  "words": [
+   "bryce",
+   "canyon"
+  ],
+  "extra": null
+ },
+ {
+  "q": "grand canyon",
+  "today": 10,
+  "smart": 26,
+  "first": "Grand Canyon Traveler",
+  "firstSlug": "grand-canyon-traveler",
+  "words": [
+   "grand",
+   "canyon"
+  ],
+  "extra": null
+ },
+ {
+  "q": "yellowstone winter",
+  "today": 0,
+  "smart": 2,
+  "first": "Yellowstone & Grand Teton Winter Adventure",
+  "firstSlug": "yellowstone-grand-teton-winter-adventure",
+  "words": [
+   "yellowstone",
+   "winter"
+  ],
+  "extra": null
+ },
+ {
+  "q": "yosemitee",
+  "today": 0,
+  "smart": 6,
+  "first": "Yosemite Half Dome Backpacking Trip: Mono Meadows",
+  "firstSlug": "backpacking-yosemite-half-dome-mono-meadows",
+  "words": [
+   "yosemite"
+  ],
+  "extra": null
+ },
+ {
+  "q": "half dome",
+  "today": 3,
+  "smart": 4,
+  "first": "Yosemite Half Dome Backpacking Trip: Mono Meadows",
+  "firstSlug": "backpacking-yosemite-half-dome-mono-meadows",
+  "words": [
+   "half",
+   "dome"
+  ],
+  "extra": null
+ },
+ {
+  "q": "arches from salt lake",
+  "today": 0,
+  "smart": 8,
+  "first": "1 Day Arches & Canyonlands from Salt Lake City",
+  "firstSlug": "1-day-arches-canyonlands-from-salt-lake-city",
+  "words": [
+   "arches",
+   "salt",
+   "lake"
+  ],
+  "extra": null
+ },
+ {
+  "q": "slc",
+  "today": 0,
+  "smart": 22,
+  "first": "1 Day Canyonlands Tour from Salt Lake City",
+  "firstSlug": "1-day-canyonlands-tour-from-salt-lake-city",
+  "words": [
+   "salt",
+   "lake"
+  ],
+  "extra": null
+ },
+ {
+  "q": "vegas",
+  "today": 7,
+  "smart": 12,
+  "first": "Mighty 5 Utah Tour From Las Vegas",
+  "firstSlug": "mighty-5-utah-from-las-vegas",
+  "words": [
+   "las",
+   "vegas"
+  ],
+  "extra": null
+ },
+ {
+  "q": "moab",
+  "today": 2,
+  "smart": 8,
+  "first": "Self-Drive: Moab 6-Day Adventure",
+  "firstSlug": "self-drive-moab-adventure",
+  "words": [
+   "moab"
+  ],
+  "extra": null
+ },
+ {
+  "q": "sedona",
+  "today": 1,
+  "smart": 2,
+  "first": "Self-Drive: Sedona & Grand Canyon",
+  "firstSlug": "self-drive-sedona-grand-canyon",
+  "words": [
+   "sedona"
+  ],
+  "extra": null
+ },
+ {
+  "q": "hiking",
+  "today": 1,
+  "smart": 48,
+  "first": "Cascade Falls Zion National Park Hike",
+  "firstSlug": "cascade-falls-hike",
+  "words": [
+   "hik"
+  ],
+  "extra": null
+ },
+ {
+  "q": "backpacking",
+  "today": 7,
+  "smart": 7,
+  "first": "Rocky Mountain National Park Backpacking Trip",
+  "firstSlug": "backpacking-rocky-mountain-west-side-lakes",
+  "words": [
+   "backpacking"
+  ],
+  "extra": null
+ },
+ {
+  "q": "snowmobile",
+  "today": 1,
+  "smart": 3,
+  "first": "Jackson Hole & Yellowstone Snowmobile Adventure",
+  "firstSlug": "jackson-snowmobile-adventure",
+  "words": [
+   "snowmobile"
+  ],
+  "extra": null
+ },
+ {
+  "q": "river cruise",
+  "today": 1,
+  "smart": 14,
+  "first": "AMA Paris & Normandy River Cruise",
+  "firstSlug": "ama-paris-normandy",
+  "words": [
+   "river",
+   "cruise"
+  ],
+  "extra": null
+ },
+ {
+  "q": "alaska",
+  "today": 2,
+  "smart": 2,
+  "first": "Magnificent Alaska!",
+  "firstSlug": "magnificent-alaska",
+  "words": [
+   "alaska"
+  ],
+  "extra": null
+ },
+ {
+  "q": "northern lights",
+  "today": 1,
+  "smart": 2,
+  "first": "Alaska's Northern Lights Adventure Tour",
+  "firstSlug": "northern-lights-alaska",
+  "words": [
+   "northern",
+   "lights"
+  ],
+  "extra": null
+ },
+ {
+  "q": "mighty five",
+  "today": 0,
+  "smart": 6,
+  "first": "Mighty 5 Utah Tour From Las Vegas",
+  "firstSlug": "mighty-5-utah-from-las-vegas",
+  "words": [
+   "mighty",
+   "5"
+  ],
+  "extra": null
+ },
+ {
+  "q": "route 66",
+  "today": 2,
+  "smart": 4,
+  "first": "Route 66 - Westbound",
+  "firstSlug": "route-66-westbound",
+  "words": [
+   "route",
+   "66"
+  ],
+  "extra": null
+ },
+ {
+  "q": "balloon",
+  "today": 1,
+  "smart": 1,
+  "first": "Balloon Fiesta & Pueblo Cultural Tour",
+  "firstSlug": "albuquerque-balloon-fiesta",
+  "words": [
+   "balloon"
+  ],
+  "extra": null
+ },
+ {
+  "q": "dinosaurs",
+  "today": 1,
+  "smart": 3,
+  "first": "St. George Dinosaurs - Ancient Odysseys",
+  "firstSlug": "st-george-dinosaurs-ancient-odysseys",
+  "words": [
+   "dinosaur"
+  ],
+  "extra": null
+ },
+ {
+  "q": "monument valley",
+  "today": 4,
+  "smart": 16,
+  "first": "Grand Circle Experience: Explore Southwest National Parks",
+  "firstSlug": "grand-circle-experience-tours-grand-canyon-national-park",
+  "words": [
+   "monument",
+   "valley"
+  ],
+  "extra": null
+ },
+ {
+  "q": "hawaii",
+  "today": 2,
+  "smart": 2,
+  "first": "Hawaii Oahu Active Adventure",
+  "firstSlug": "oahu-island-experience",
+  "words": [
+   "hawaii"
+  ],
+  "extra": null
+ },
+ {
+  "q": "christmas markets",
+  "today": 1,
+  "smart": 1,
+  "first": "AMA Waterways: Gems of Southeast Europe Christmas Markets",
+  "firstSlug": "gems-of-southeast-europe-christmas-markets",
+  "words": [
+   "christmas",
+   "market"
+  ],
+  "extra": null
+ },
+ {
+  "q": "october",
+  "today": 0,
+  "smart": 20,
+  "first": "Grand Canyon Traveler",
+  "firstSlug": "grand-canyon-traveler",
+  "words": [],
+  "extra": [
+   "season",
+   "Autumn"
+  ]
+ },
+ {
+  "q": "one day",
+  "today": 1,
+  "smart": 13,
+  "first": "Bryce Canyon 1 Day Tour",
+  "firstSlug": "bryce-canyon-1-day-tour",
+  "words": [],
+  "extra": [
+   "day",
+   true
+  ]
+ },
+ {
+  "q": "day trip from las vegas",
+  "today": 0,
+  "smart": 1,
+  "first": "Bryce Canyon 1 Day Tour From Vegas Or Salt Lake",
+  "firstSlug": "bryce-canyon-1-day-tour-from-vegas-or-salt-lake",
+  "words": [
+   "las",
+   "las",
+   "vegas"
+  ],
+  "extra": [
+   "day",
+   true
+  ]
+ },
+ {
+  "q": "national parks",
+  "today": 9,
+  "smart": 26,
+  "first": "5 Day Jackson Hole & National Parks Tour",
+  "firstSlug": "5-day-jackson-hole-national-parks-tour",
+  "words": [
+   "national",
+   "parks"
+  ],
+  "extra": null
+ },
+ {
+  "q": "family",
+  "today": 0,
+  "smart": 3,
+  "first": "AMA Waterways: Gems of Southeast Europe Christmas Markets",
+  "firstSlug": "gems-of-southeast-europe-christmas-markets",
+  "words": [
+   "family"
+  ],
+  "extra": null
+ }
+]

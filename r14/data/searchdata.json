@@ -1,0 +1,84 @@
+{
+ "zb": {
+  "q": "zion bryce",
+  "slugs": [
+   "zion-bryce-canyon-2-day-getaway",
+   "zion-bryce-canyon-1-day-tour-from-southern-utah",
+   "bryce-canyon-1-day-tour-from-vegas-or-salt-lake",
+   "st-george-dinosaurs-ancient-odysseys",
+   "mighty-5-utah-from-las-vegas",
+   "large-group-tour-utahs-mighty-5-national-parks",
+   "grand-circle-experience-tours-grand-canyon-national-park",
+   "1-day-arches-canyonlands-from-salt-lake-city",
+   "self-drive-canyons",
+   "self-drive-tour-utah-mighty-5",
+   "mighty-5-utah-from-salt-lake-city",
+   "self-drive-best-of-the-southwest",
+   "bryce-canyon-1-day-tour"
+  ]
+ },
+ "y": {
+  "q": "yosemitee",
+  "slugs": [
+   "backpacking-yosemite-half-dome-mono-meadows",
+   "backpacking-yosemite-half-dome-cathedral-lakes",
+   "yosemite-sequoia-california-coast",
+   "backpacking-yosemite-tuolumne-river-guided-trip",
+   "backpacking-yosemite-ten-lakes",
+   "backpacking-yosemite-half-dome-happy-isles"
+  ],
+  "understood": "Showing trips for <b>Yosemite</b>. You typed &ldquo;yosemitee&rdquo;.",
+  "tries": [
+   "Zion and Bryce",
+   "Yellowstone in winter",
+   "A day from Salt Lake",
+   "River cruises",
+   "Backpacking"
+  ]
+ },
+ "ta": {
+  "q": "zion",
+  "places": [
+   [
+    "<mark>Zion</mark> National Park",
+    "National park",
+    "18 trips"
+   ]
+  ],
+  "trips": [
+   [
+    "<mark>Zion</mark> & Bryce Canyon 2-Day Getaway",
+    "2 days",
+    ""
+   ],
+   [
+    "<mark>Zion</mark> & Bryce Canyon 1-Day Tour From Southern Utah",
+    "1 day",
+    ""
+   ],
+   [
+    "<mark>Zion</mark> Park 1-Day Tour",
+    "1 day",
+    ""
+   ],
+   [
+    "<mark>Zion</mark> 3-Day Getaway",
+    "3 days",
+    ""
+   ]
+  ],
+  "styles": [
+   [
+    "Small group tours in <mark>Zion</mark>",
+    "",
+    "9 trips"
+   ],
+   [
+    "Day tours in <mark>Zion</mark>",
+    "",
+    "5 trips"
+   ]
+  ],
+  "all": 20
+ }
+}

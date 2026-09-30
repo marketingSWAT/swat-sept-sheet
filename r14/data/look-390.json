@@ -1,0 +1,173 @@
+{
+ "H": 18048,
+ "aside": {
+  "x": 0,
+  "y": 109,
+  "w": 390,
+  "h": 50
+ },
+ "filters": {
+  "x": 0,
+  "y": 0,
+  "w": 0,
+  "h": 0
+ },
+ "form": {
+  "x": 20,
+  "y": 382,
+  "w": 350,
+  "h": 44
+ },
+ "h1": {
+  "x": 20,
+  "y": 251,
+  "w": 350,
+  "h": 38
+ },
+ "count": "74",
+ "grid": {
+  "x": 20,
+  "y": 458,
+  "w": 350,
+  "h": 15844
+ },
+ "chips": 40,
+ "chip": {
+  "r": "999px",
+  "h": 0,
+  "font": "600 13.5px / 20.25px Inter, \"Inter Fallback\"",
+  "border": "1px solid rgb(214, 225, 233)",
+  "bg": "rgb(255, 255, 255)",
+  "color": "rgb(66, 89, 108)",
+  "pad": "6.72px 15.2px"
+ },
+ "groups": [
+  {
+   "label": "Style",
+   "n": 9,
+   "box": {
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0
+   },
+   "values": [
+    "Backpacking",
+    "Guided small group",
+    "Day tour",
+    "Self-drive",
+    "Private & custom",
+    "Large group",
+    "Rail & cruise",
+    "Winter",
+    "Special event"
+   ]
+  },
+  {
+   "label": "Duration",
+   "n": 7,
+   "box": {
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0
+   },
+   "values": [
+    "A day or less",
+    "Half day",
+    "1 day",
+    "2-3 days",
+    "4-6 days",
+    "7-10 days",
+    "11+ days"
+   ]
+  },
+  {
+   "label": "Activity level",
+   "n": 4,
+   "box": {
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0
+   },
+   "values": [
+    "Easy",
+    "Moderate",
+    "Challenging",
+    "Strenuous"
+   ]
+  },
+  {
+   "label": "Destination",
+   "n": 16,
+   "box": {
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0
+   },
+   "values": [
+    "Alaska",
+    "Arizona",
+    "California",
+    "Canada",
+    "Colorado",
+    "Hawaii",
+    "International",
+    "Montana",
+    "Nevada",
+    "New Mexico",
+    "Oregon",
+    "South Dakota",
+    "Texas",
+    "Utah",
+    "Washington",
+    "Wyoming"
+   ]
+  },
+  {
+   "label": "When",
+   "n": 4,
+   "box": {
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0
+   },
+   "values": [
+    "Spring",
+    "Summer",
+    "Autumn",
+    "Winter"
+   ]
+  }
+ ],
+ "header": {
+  "x": 0,
+  "y": 36,
+  "w": 390,
+  "h": 73
+ },
+ "footer": {
+  "x": 0,
+  "y": 16414,
+  "w": 390,
+  "h": 1634
+ },
+ "cards": [
+  "/tours/1-day-great-salt-lake-and-antelope-island-tour/",
+  "/tours/1-day-great-salt-lake-and-antelope-island-tour/",
+  "/tours/1-day-great-salt-lake-and-antelope-island-tour/#departures",
+  "/tours/bonneville-salt-flats-adventure/",
+  "/tours/bonneville-salt-flats-adventure/",
+  "/tours/bonneville-salt-flats-adventure/#departures",
+  "/tours/salt-lake-antelope-island-dark-sky-experience/",
+  "/tours/salt-lake-antelope-island-dark-sky-experience/",
+  "/tours/salt-lake-antelope-island-dark-sky-experience/#departures",
+  "/tours/snowbird-summer-excursion-day-tour/",
+  "/tours/snowbird-summer-excursion-day-tour/",
+  "/tours/snowbird-summer-excursion-day-tour/#enquire"
+ ],
+ "gridCols": "350px"
+}

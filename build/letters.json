@@ -254,5 +254,17 @@
     "A": "As it ships",
     "B": "Shorter lists",
     "C": "B, plus photo rows"
+  },
+  "82": {
+    "A": "As it ships",
+    "B": "A list with tick boxes",
+    "C": "One bar across the top",
+    "D": "A different control for each question"
+  },
+  "83": {
+    "A": "As it ships",
+    "B": "It understands more",
+    "C": "B, plus suggestions as you type",
+    "D": "B, plus results as you type and ideas to try"
   }
 }
